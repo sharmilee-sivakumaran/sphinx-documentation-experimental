@@ -13,4 +13,4 @@ Experimental repo for trying out auto doc [it is actually semi-auto] using sphin
 
 Output so far [not been able to get the documentation to display, could display only the module list]:
 
-![Screenshot](https://slack-files.com/T02BJ9CRH-F01FHU5TUSV-5f7a608010)
+![Screenshot](https://files.slack.com/files-pri/T02BJ9CRH-F01FHU5TUSV/screen_shot_2020-11-19_at_3.26.17_pm.png?pub_secret=5f7a608010)
