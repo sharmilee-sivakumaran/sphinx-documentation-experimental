@@ -1,0 +1,6 @@
+-e git+git@github.com:FiscalNote/FN-Pillar-Models@0.2.42.1#egg=fn_pillar_models
+
+psycopg2==2.6.1
+SQLAlchemy==1.0.10
+PyYAML==3.12
+jsonpath-ng==1.4.3

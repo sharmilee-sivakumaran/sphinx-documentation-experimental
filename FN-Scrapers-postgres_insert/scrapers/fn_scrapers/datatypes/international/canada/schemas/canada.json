@@ -1,0 +1,229 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Canada doc schema",
+  "description": "Import schema for Canadian Bills",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "unique_bill_id",
+    "title",
+    "bill_number",
+    "parliament",
+    "session",
+    "originating_chamber",
+    "introduction_date",
+    "type",
+    "source_url"
+  ],
+  "properties": {
+    "unique_bill_id": {
+      "description": "REQUIRED, unique external identifier",
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "description": "REQUIRED, the title for the canada bill",
+      "type": "string",
+      "minLength": 1
+    },
+    "short_title": {
+      "description": "the short title for the canada bill",
+      "type": "string",
+      "minLength": 1
+    },
+    "bill_number": {
+      "description": "session-based bill identifier",
+      "type": "string",
+      "minLength": 1
+    },
+    "parliament": {
+      "description": "REQUIRED, parliament identifier",
+      "type": "integer"
+    },
+    "session": {
+      "description": "legislative session",
+      "type": "string",
+      "minLength": 1
+    },
+    "originating_chamber": {
+      "description": "chamber of origin of the bill",
+      "type": "string",
+      "enum": [
+        "senate",
+        "hoc"
+      ]
+    },
+    "introduction_date": {
+      "description": "date of introduction (date of the first action in the action list)",
+      "type": "string",
+      "format": "date"
+    },
+    "current_status": {
+      "description": "last action text",
+      "type": "string",
+      "minLength": 1
+    },
+    "current_status_date": {
+      "description": "date of last action",
+      "type": "string",
+      "format": "date"
+    },
+    "sponsors": {
+      "description": "sponsors for the bill",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "title": "canada sponsor schema",
+        "description": "description of critical sponsor information for Canadian legislation",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "description": "REQUIRED, name of the sponsor",
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "description": "Tile or affiliation of the sponsor",
+            "type": "string",
+            "minLength": 1
+          },
+          "party": {
+            "description": "Party of the sponsor",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "type": {
+      "description": "type of bill",
+      "type": "string",
+      "enum": [
+        "Senate Government Bill",
+        "Senate Private Bill",
+        "Senate Public Bill",
+        "House Government Bill",
+        "Private Member's Bill"
+      ]
+    },
+    "committees": {
+      "description": "committees to which the bill was referred",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "title": "committee schema",
+        "description": "Schema for committee to which the bill was referred",
+        "type": "object",
+        "required": [
+          "name",
+          "chamber"
+        ],
+        "properties": {
+          "name": {
+            "description": "name of the committee",
+            "type": "string",
+            "minLength": 1
+          },
+          "chamber": {
+            "description": "chamber of committee",
+            "type": "string",
+            "enum": [
+              "senate",
+              "hoc"
+            ]
+          }
+        }
+      }
+    },
+    "actions": {
+      "description": "list of actions",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "title": "action schema",
+        "type": "object",
+        "required": [
+          "action_text",
+          "action_date"
+          ],
+        "properties": {
+          "action_text": {
+            "description": "Action taken (for example: 'Introduction and First Reading')",
+            "type": "string",
+            "minLength": 1
+          },
+          "action_date": {
+            "description": "Date of the associated action",
+            "type": "string",
+            "format": "date"
+          },
+          "chamber": {
+            "description": "OPTIONAL, the chamber in which the action took place",
+            "type": "string",
+            "enum": [
+              "senate",
+              "hoc"
+            ]
+          }
+        }
+      }
+    },
+    "attachments": {
+      "description": "OPTIONAL, the attachments for an international document",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+          "type": "object",
+          "title": "Attachment Schema",
+          "description": "international attachment import",
+          "required": [
+            "document_id",
+            "download_id",
+            "order",
+            "process_status"
+          ],
+         "properties": {
+            "document_id" : {
+            "description":"REQUIRED, the document_id for the international document attachment from the document service",
+              "type": "integer",
+              "format": "int32"
+            },
+            "download_id": {
+              "description": "REQUIRED, the download_id of the international document attachment from the document service",
+              "type": "integer",
+              "format": "int32"
+            },
+            "order": {
+              "description": "lists the ordinal count of this document in the scrape, first lowest",
+              "type": "integer",
+              "format": "int32"
+            },
+            "process_status": {
+              "description": "Procedural status associated with this document",
+              "type": "string",
+              "minLength": 1
+            },
+           "publication_date": {
+             "description": "OPTIONAL, date status change occurred/document was made available, in UTC",
+             "type": "string",
+             "format": "date"
+           },
+            "locale": {
+              "description": "ISO locale (language the document is in). Default value is English.",
+              "type": "string"
+            }
+          }
+      }
+    },
+    "source_url": {
+      " description": "URL from which the bill information was scraped",
+      "type": "string",
+      "format": "url"
+    }
+  }
+}

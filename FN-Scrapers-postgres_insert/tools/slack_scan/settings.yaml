@@ -1,0 +1,20 @@
+
+fn_bot: xoxb-332148481859-D6rJumPakEEgfsq4VEOTqvLg
+
+channels:
+  di_events:
+    patterns: 
+      - name: component
+        pattern: "COMPONENT: (.*)"
+      - name: process
+        pattern: "PROCESS NAME: (.*)"
+      - name: event_type
+        pattern: "EVENT TYPE: (.*)"
+      - name: file
+        pattern: "File \"(((?![.]{2,}).)*)\""
+        format: "u'{0}'"
+      - name: line
+        pattern: "'File \"(((?![.]{2,}).)*)\", line (\\d+)"
+        format: "u'{0}#{2}"
+      - name: message
+        pattern: "\\n([^\\n]+)[\\n\\s]+EVENT TYPE"

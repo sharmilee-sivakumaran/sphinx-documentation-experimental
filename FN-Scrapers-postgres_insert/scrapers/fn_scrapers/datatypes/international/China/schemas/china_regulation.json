@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "China regulation doc schema",
+  "description": "Import schema for Chinese Regulations (from LegalMiner)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "external_id",
+    "library"
+  ],
+  "properties": {
+    "external_id": {
+      "type": "string",
+      "description": "LegalMiner gid"
+    },
+    "library": {
+      "type": "string",
+      "description": "legal miner source - used as part of the unique constraint (things like 'CHL')"
+    },
+    "revision_note": {
+      "type": "string"
+    },
+    "partial_failure_note": {
+      "type": "string"
+    },
+    "failure_note": {
+      "type": "string"
+    },
+    "issuing_department": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "name"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ratifying_department": {
+      "title": "metadata_object",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "name"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "scope_of_authority": {
+      "type": "object",
+      "description": "from effectivenessDic",
+      "required": [
+        "code",
+        "name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "issue_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "implementation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "expiration_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "document_number": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "title": "metadata_object",
+        "required": [
+          "code",
+          "name"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "document_type": {
+      "type": "object",
+      "required": [
+        "code",
+        "name"
+      ],
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "type": "object",
+      "required": [
+        "code",
+        "name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "related_items": {
+      "type": "array",
+      "description": "list of GIDs, which map to the external IDs to be linked to",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "document_id": {
+      "type": "integer"
+    },
+    "download_id": {
+      "type": "integer"
+    }
+  }
+}

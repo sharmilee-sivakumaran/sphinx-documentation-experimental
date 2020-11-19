@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+import os
+import sys
+
+SCRIPT = os.path.join(os.path.dirname(__file__), "run-fnscraper-util.py")
+
+# Run the run-fnscraper-util.py script with new arguments:
+# First, we supply the parameter "fnscraper" to tell it we're running
+# it in CLI mode. Then, we pass all of the arguments that we were
+# passed (except for the first parameter which is just the name of this
+# script)
+os.execv(SCRIPT, [SCRIPT, "fnscraper"] + sys.argv[1:])

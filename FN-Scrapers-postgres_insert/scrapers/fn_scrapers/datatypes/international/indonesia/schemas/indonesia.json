@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Indonesia legislation schema",
+  "description": "Import schema for Indonesian legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "session",
+    "source_url"
+  ],
+  "properties": {
+    "session": {
+      "type": "string",
+      "description": "REQUIRED: session of the bill"
+    },
+    "bill_type": {
+      "type": "string",
+      "description": "the type of the bill",
+      "enum": [
+        "Bill",
+        "Cumulative Bill"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "description": "the title of the bill (Judul Ruu)"
+    },
+    "sponsor_chamber": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "properties": {
+          "chamber_name": {
+            "type": "string",
+            "description": "sponsor chamber (Pengusul)"
+          }
+        }
+      }
+    },
+    "source_url": {
+      "type": "string",
+      "description": "source url for the scraped bill"
+    },
+    "sponsors": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "properties": {
+          "sponsor_name": {
+            "type": "string",
+            "description": "name of the sponsor (Pengusul Prolegnas 5 (lima) Tahunan)"
+          }
+        }
+      }
+    },
+    "committees": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "name of the committee (Penugasan Pembahasan)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relative_age": {
+      "type": "string",
+      "description": "relative age of the bill (Status RUU)",
+      "enum": [
+        "Lama",
+        "Baru"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "description": "summary of the bill (Keterangan)"
+    },
+    "introduction_date": {
+      "type": "string",
+      "description": "the introduction date of the bill (Tanggal Pengusulan)",
+      "format": "date"
+    },
+    "last_action": {
+      "type": "string",
+      "description": "the last action of the bill (Posisi RUU)"
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "required": [
+        "external_url",
+        "document_id",
+        "download_id"
+      ],
+      "items": {
+        "properties": {
+          "document_title": {
+            "type": "string",
+            "description": "the title/type of the document, either top-level or for an action document (collapse both lists here)"
+          },
+          "external_url": {
+            "type": "string",
+            "description": "the external url for the document"
+          },
+          "download_id": {
+            "type": "integer"
+          },
+          "document_id": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "properties": {
+          "action_sequence_number": {
+            "type": "integer"
+          },
+          "action_stage": {
+            "type": "string",
+            "description": "the stage of the action (Tahapan)"
+          },
+          "action_text": {
+            "type": "string",
+            "description": "the text of the action (Agenda)"
+          },
+          "action_date": {
+            "type": "string",
+            "description": "the date of the action",
+            "format": "date"
+          }
+        }
+      }
+    }
+  }
+}

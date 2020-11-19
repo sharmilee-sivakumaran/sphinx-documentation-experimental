@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Russia legislation schema",
+  "description": "Import schema for Russian legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bill_type",
+    "session",
+    "bill_number"
+  ],
+  "properties": {
+    "bill_type": {
+      "type": "string",
+      "values": [
+        "Bill",
+        "Draft Resolution",
+        "Legislative Initiative"
+      ]
+    },
+    "session": {
+      "type": "integer"
+    },
+    "bill_number": {
+      "type": "string"
+    },
+    "introduction_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "summary_status": {
+      "type": "string"
+    },
+    "sponsoring_organizations": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "topic_keywords": {
+      "type": "string"
+    },
+    "committees": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "committee_name": {
+            "type": "string"
+          },
+          "committee_type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "title":"russia actions schema",
+        "additionalProperties": false,
+        "properties": {
+          "stage": {
+            "type": "string"
+          },
+          "action_text": {
+            "type": "string"
+          },
+          "action_date": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "title":"russia documents schema",
+        "additionalProperties": false,
+        "properties": {
+          "document_title": {
+            "type": "string"
+          },
+          "published_date": {
+            "type": "string",
+            "format": "date",
+            "description": "comes from the action the document is linked under - all documents for a given action will share that date"
+          },
+          "download_id": {
+            "type": "integer"
+          },
+          "document_id": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

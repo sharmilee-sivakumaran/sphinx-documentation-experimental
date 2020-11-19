@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "chile legislation",
+  "description": "Import of Chilean Legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "id",
+    "source_url"
+  ],
+  "properties": {
+    "session": {
+      "description": "Legislative session, or 'Legislatura' on the bill page",
+      "type": "integer"
+    },
+    "title": {
+      "description": "REQUIRED, title of the bill. 'Titulo' on the BILL LISTING page",
+      "type": "string",
+      "minLength": 1
+    },
+    "introduction_date": {
+      "description": "Date of introduction of the bill. 'Fecha de ingreso' on the bill page",
+      "type": "string",
+      "format": "date"
+    },
+    "summary_status": {
+      "description": "Summarized status of the bill. From 'Estado de Tramitacion' on the BILL LISTING page",
+      "type": "string"
+    },
+    "status": {
+      "description": "Current status of the bill. 'Estado' on the bill page",
+      "type": "string"
+    },
+    "id": {
+      "description": "REQUIRED. External unique identifier. 'N Boletin' on the bill page",
+      "type": "string"
+    },
+    "bill_type": {
+      "description": "Type of bill. 'Initiativa' on the bill page",
+      "type": "string"
+    },
+    "chamber_of_origin": {
+      "description": "Chamber of origin. 'Camara de origen' on the bill page",
+      "type": "string"
+    },
+    "legislative_actions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "title": "legislative action schema",
+        "description": "Legislative action",
+        "type": "object",
+        "properties": {
+          "date": {
+            "description": "Date of the action. 'fecha' on the bill page",
+            "type": "string",
+            "format": "date"
+          },
+          "session": {
+            "description": "Sitting of the legislation. Different form bill-level session. 'Sesion' on the on the bill page",
+            "type": "string"
+          },
+          "stage ": {
+            "description": "type of action. 'etapa' on the on the bill page",
+            "type": "string"
+          },
+          "substage": {
+            "description": "subtype of action, if applicable. 'sub-etapa' on the bill page",
+            "type": "string"
+          },
+          "document_id": {
+            "description": "document_id associated with this action",
+            "type": "integer"
+          },
+          "download_id": {
+            "description": "download_id associated with this action",
+            "type": "integer"
+          },
+          "order": {
+            "description": "order of this item in the array",
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "source_url": {
+      "description": "REQUIRED. Base URL of the bill page",
+      "type": "string",
+      "format": "uri"
+    },
+    "sponsors": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "sponsor_name": {
+          "type": "string"
+        },
+        "sponsor_party": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

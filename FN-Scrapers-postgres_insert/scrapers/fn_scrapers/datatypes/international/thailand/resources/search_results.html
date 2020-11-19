@@ -1,0 +1,1617 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport" />
+	<title>ราชกิจจานุเบกษา</title>
+	<script src="/cdn-cgi/apps/head/g-Ph81BBD4Jgg_477tYu4DFkX-4.js"></script><link rel="shortcut icon" href="http://www.mratchakitcha.soc.go.th/html/./images/icon.ico" type="image/x-icon">
+	<meta name="Keywords" content=""/>
+	<meta name="description" content="" /> 
+  <link rel="shortcut icon" href="http://www.mratchakitcha.soc.go.th/html/./images/favicon.ico" type="image/x-icon">
+  <script src="http://www.mratchakitcha.soc.go.th/html/./js/jquery-latest.min.js" type="text/javascript"></script>
+  
+  <!-- ui -->
+  <link href="http://www.mratchakitcha.soc.go.th/html/./css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="http://www.mratchakitcha.soc.go.th/html/./js/jquery-ui-1.10.4.custom.min.js"></script>
+  
+  <!-- scrollbar -->
+  <link rel="stylesheet" href="http://www.mratchakitcha.soc.go.th/html/./css/tinyscrollbar.css" type="text/css" media="screen"/>
+  <script type="text/javascript" src="http://www.mratchakitcha.soc.go.th/html/./js/jquery.tinyscrollbar.js"></script>
+
+  <!-- fancybox -->
+  <script type="text/javascript" src="http://www.mratchakitcha.soc.go.th/html/./js/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script type="text/javascript" src="http://www.mratchakitcha.soc.go.th/html/./js/source/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="http://www.mratchakitcha.soc.go.th/html/./js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <script type="text/javascript" src="http://www.mratchakitcha.soc.go.th/html/./js/jquery.hoverIntent.js"></script>
+
+  <link href="http://www.mratchakitcha.soc.go.th/html/./css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="http://www.mratchakitcha.soc.go.th/html/./css/layoutStyle.css?v=3" rel="stylesheet" type="text/css" />
+  <link href="http://www.mratchakitcha.soc.go.th/html/./css/respondsive.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+		var focus;
+		$(".searchform [name='title']").focus(function(){
+			focus = $(this);
+		});
+
+		$(".searchform [name='book']").focus(function(){
+			focus = $(this);
+		});
+
+		$(".searchform [name='section']").focus(function(){
+			focus = $(this);
+		});
+
+		$(".operation").click(function(){
+			$(focus).val($(focus).val()+$(this).attr("oper"));
+			$(focus).focus();
+		});
+
+
+//submainmenu
+			function mouseover(){
+				$(this).find(".submenu").fadeIn(500);
+			}   
+			function mouseout(){
+				$(this).find(".submenu").fadeOut(500);
+			}
+			var SubmenuConfig = 
+					{
+					interval: 100,
+					sensitivity: 4,
+					over: mouseover,
+					timeout:50,
+					out: mouseout 
+					};
+				$("#mainmenu li").hoverIntent(SubmenuConfig);
+
+
+				$(function () {
+	
+					$(".datepicker").datepicker({
+            changeMonth: true,
+						changeYear: true,
+            dateFormat: 'dd/mm/yy',
+            //defaultDate:toDay,
+            dayNames: ['อาทิตย์','จันทร์','อังคาร','พุธ','พฤหัสบดี','ศุกร์','เสาร์'],
+						dayNamesMin: ['อา.','จ.','อ.','พ.','พฤ.','ศ.','ส.'],
+						monthNames: ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'],
+						monthNamesShort: ['ม.ค.','ก.พ.','มี.ค.','เม.ย.','พ.ค.','มิ.ย.','ก.ค.','ส.ค.','ก.ย.','ต.ค.','พ.ย.','ธ.ค.'],
+            beforeShow:function(){  
+                if($(this).val()!=""){
+                    var arrayDate=$(this).val().split("/");     
+                    arrayDate[2]=parseInt(arrayDate[2])-543;
+                    $(this).val(arrayDate[0]+"/"+arrayDate[1]+"/"+arrayDate[2]);
+                }
+                setTimeout(function(){
+                    $.each($(".ui-datepicker-year option"),function(j,k){
+                        var textYear=parseInt($(".ui-datepicker-year option").eq(j).val())+543;
+                        $(".ui-datepicker-year option").eq(j).text(textYear);
+                    });             
+                },50);
+            },
+            onChangeMonthYear: function(){
+                setTimeout(function(){
+                    $.each($(".ui-datepicker-year option"),function(j,k){
+                        var textYear=parseInt($(".ui-datepicker-year option").eq(j).val())+543;
+                        $(".ui-datepicker-year option").eq(j).text(textYear);
+                    });             
+                },50);      
+            },
+            onClose:function(){
+                if($(this).val()!="" && $(this).val()==dateBefore){         
+                    var arrayDate=dateBefore.split("/");
+                    arrayDate[2]=parseInt(arrayDate[2])+543;
+                    $(this).val(arrayDate[0]+"/"+arrayDate[1]+"/"+arrayDate[2]);    
+                }       
+            },
+            onSelect: function(dateText, inst){ 
+                dateBefore=$(this).val();
+                var arrayDate=dateText.split("/");
+                arrayDate[2]=parseInt(arrayDate[2])+543;
+                $(this).val(arrayDate[0]+"/"+arrayDate[1]+"/"+arrayDate[2]);
+            }
+          });
+				});
+
+		$(".scrollbox").tinyscrollbar({thumbSize : 30});
+
+        $( "#btnnev-m" ).click(function(){
+     
+          if($( "#nevmobile" ).is(":visible")){
+            $( "#nevmobile").slideUp();
+            $(this).removeClass("shownev");
+          }  
+          else
+          {
+            $( "#nevmobile").slideDown();
+            $(this).addClass("shownev");
+          }
+     
+        });
+        // search
+        $( ".searchtitle" ).click(function(){
+          
+          if($( "#searchsection" ).is(":visible")){
+            $( "#searchsection").slideUp();
+          }  
+          else
+          {
+            $( "#searchsection").slideDown();
+          }
+     
+        });
+
+        $(".docgroup").fancybox({
+          'width'       : '100%',
+          'height'      : '100%',
+          'autoScale'       : false,
+          'transitionIn'    : 'none',
+          'transitionOut'   : 'none',
+          'type'        : 'iframe'
+        });
+
+    });
+</script>
+
+<!-- header -->
+<header id="header">
+  
+  <div class="container clearfix">
+    <a href="http://www.mratchakitcha.soc.go.th/index.html" id="logo"><img src="http://www.mratchakitcha.soc.go.th/html/./images/logo.png"></a>
+
+    <div class="righttop fr">
+      <div id="topsection" class="clearfix">
+	    <ul class="clearfix fr"> 
+          <li style="list-style:none; float:right;">
+            <!--a target="_blabk" href="http://61.19.241.70/rkjfront">ฐานข้อมูลราชกิจจานุเบกษาและการพัฒนากฎหมายอิเล็กทรอนิกส์ (อยู่ระหว่างการทดสอบ)</a -->
+          </li>
+          <br clear="all">
+          <li><a href="http://rkjpublic.soc.go.th/rkj_public/admin/login.php" target="_blank">การส่งเรื่องไปประกาศราชกิจจานุเบกษา</a></li>
+          <li><a href="http://www.publishing.soc.go.th/RKJ/public/index.jsp" target="_blank">สำนักพิมพ์คณะรัฐมนตรีและราชกิจจานุเบกษา</a></li>
+        </ul>
+      </div>
+
+      <br clear="all">
+      <nev id="mainmenu" class="fr">
+        <ul> 
+          <li><a href="http://www.mratchakitcha.soc.go.th/index.html" >หน้าหลัก </a></li>
+          <li><a href="http://www.mratchakitcha.soc.go.th/announce.html" >ประกาศราชกิจจาฯ</a></li>
+          <li>
+			<a href="http://www.mratchakitcha.soc.go.th/rkjnews.html" >ข้อมูลข่าวสาร</a>
+			<div class="submenu">
+              <a href="http://www.mratchakitcha.soc.go.th/history.html">ประวัติราชกิจจานุเบกษา</a>
+              <a href="http://www.mratchakitcha.soc.go.th/evolution.html">วิวัฒนาการราชกิจจานุเบกษา</a>
+              <a href="http://www.mratchakitcha.soc.go.th/howtosend.html">วิธีการจัดส่งเรื่องไปประกาศ</a>
+			</div>
+		  </li>
+          <li><a href="http://www.mratchakitcha.soc.go.th/board.html" >กระดานถามตอบ</a></li>
+          <li><a href="http://www.mratchakitcha.soc.go.th/lawthai.html" >ประมวลกฏหมายไทย</a></li>
+        </ul>
+      </nev>
+      
+      <div id="btnnev-m" class="transtion">
+        <img src="http://www.mratchakitcha.soc.go.th/html/./images/nevmobile.png" alt="">
+      </div>
+
+    </div>
+  </div>
+  
+  <div id="nevmobile">
+    <nev>
+      <ul> 
+        <li><a href="http://www.mratchakitcha.soc.go.th/index.html">หน้าหลัก </a></li>
+        <li><a href="http://www.mratchakitcha.soc.go.th/announce.html">ประกาศราชกิจจา</a></li>
+        <li><a href="http://www.mratchakitcha.soc.go.th/rkjnews.html">ข้อมูลข่าวสาร</a></li>
+        <li><a href="http://www.mratchakitcha.soc.go.th/history.html" class = "level2">ประวัติราชกิจจานุเบกษา</a></li>
+        <li><a href="http://www.mratchakitcha.soc.go.th/evolution.html" class = "level2">วิวัฒนาการราชกิจจานุเบกษา</a></li>
+        <li><a href="http://www.mratchakitcha.soc.go.th/howtosend.html" class = "level2">วิธีการจัดส่งเรื่องไปประกาศ</a></li>
+        <li><a href="http://www.mratchakitcha.soc.go.th/board.html">กระดานถามตอบ</a></li>
+        <li><a href="http://www.mratchakitcha.soc.go.th/lawthai.html">ประมวลกฏหมายไทย</a></li>
+		<li><a href = "http://61.19.241.70/rkjfront" target = "_blabk">ฐานข้อมูลราชกิจจานุเบกษาและการพัฒนากฎหมายอิเล็กทรอนิกส์ (อยู่ระหว่างการทดสอบ)</a></li>
+		<li><a href="http://www.ratchakitcha.soc.go.th/RKJ/pages/login.jsp" target="_blank">การส่งเรื่องไปประกาศราชกิจจานุเบกษา</a></li>
+        <li><a href="http://www.publishing.soc.go.th/RKJ/public/index.jsp" target="_blank">สำนักพิมพ์คณะรัฐมนตรีและราชกิจจานุเบกษา</a></li>
+      </ul>
+    </nev>
+  </div>
+
+</header>
+
+<div id="topsearch">
+  <div class="container clearfix">
+    <span class="searchtitle">ค้นหาราชกิจจานุเบกษา</span>
+  </div>  
+</div>
+
+<!-- searchsection -->
+<div id="searchsection" >
+  <div class="container clearfix">
+    <form class="searchform" action="search_result.php" method = "post">
+      <ul>
+
+        <li>
+          <label>ชื่อเรื่อง(เท่าที่ทราบ) :</label>
+          <input type="text" name = "title" value = "">
+        </li>
+
+        <li>
+          <label>ประเภทราชกิจจานุเบกษา :</label>
+          <select name = "type">
+			<option value="0" selected>ค้นจากทุกประเภท</option>
+            <option value="ก" selected>ประเภท ก</option>
+            <option value="ข" >ประเภท ข</option>
+            <option value="ค" >ประเภท ค</option>
+            <option value="ง" >ประเภท ง</option>
+          </select>
+        </li>
+
+        <li>
+          <label>เล่ม :</label>
+          <input type="text" name = "book" value = "">
+        </li>
+
+        <li>
+          <label>ตอน :</label>
+          <input type="text" name = "section" value = "">
+          <br clear="all">
+          <span class="fr" style = "color:#fff">รวมตอนพิเศษ </span>
+          <input type="checkbox" class="fr" name = "special" value = "1" checked>
+        </li>
+        
+        <li>
+          <label>กำหนดช่วงเวลาการค้นหา :</label>
+          <div class="date datesearchb">
+            <input type="text" class="datepicker" name = "start_date" value = "">
+            <div class="dateicon"></div>
+          </div>
+
+          <span class="between">-</span>
+
+          <div class="date datesearchb">
+            <input type="text" class="datepicker" name = "end_date" value = "">
+            <div class="dateicon"></div>
+          </div>
+        </li>
+
+        <li>
+          <label>ชนิดของเรื่อง :</label>
+          <input type="text" name = "group" value = "">
+          <a href="http://www.mratchakitcha.soc.go.th/docgroup.php" class="typetopic typesearch docgroup"></a>
+        </li>
+        <br clear="all">
+
+		<li class="fullrow">
+           <span oper = " และ " class = "operation">and</span>
+           <span oper = " หรือ " class = "operation">or</span>
+           <span oper = " ไม่ " class = "operation">not</span>
+        </li>
+
+        <li class="endtext m-center">
+          <input type="submit" value="ค้นหา" class="search">
+		  <input type="button" value="ล้างข้อมูล" class="reset" id = "btn-reset">
+        </li>
+
+      </ul>
+    </form>
+  </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+			$("#btn-reset").click(function(){
+					$("[name='title']").val("");
+					$("[name='book']").val("");
+					$("[name='section']").val("");
+					$("[name='start_date']").val("");
+					$("[name='end_date']").val("");
+					$("[name='group']").val("");
+					$("[name='type']").val(0);
+					$("[name='special']").prop("checked",false);
+			});
+		});
+</script>
+<!-- endsearch-->
+<!-- announcehome -->
+<script>
+$(document).ready(function() {
+	$("[name='title']").focus(function(){
+		if($(this).val() == "ชื่อเรื่อง(เท่าที่ทราบ)")
+			$(this).val("");
+	});
+
+	$("[name='title']").blur(function(){
+		if($(this).val() == "")
+			$(this).val("ชื่อเรื่อง(เท่าที่ทราบ)");
+	});
+});
+</script>
+
+<div class="announcehome">
+
+  <div class="container">
+    <h2>ผลการค้นหา</h2>
+    
+    <!-- select type -->
+    <div class="type-a-home shortsearch searchnew clearfix">
+      <h3>ค้นหาอย่างง่าย</h3>
+      <form class="searchform" action="search_result.php" method = "post">
+
+        <div class="input-news">
+          <input type="text" value="ชื่อเรื่อง(เท่าที่ทราบ)" name = "title">
+        </div>
+      
+        <input type="submit" value="ค้นหา" class="search">
+      </form>
+    </div>
+    <!-- end select type -->
+
+    
+  <!-- end container -->
+  <div class="wrapnews">
+    <div class="clearfix">
+      
+      <div class="result">
+
+        <div class="infopage clearfix">
+          <form method = 'get'><input type = 'hidden' value = '' name = 'title'><input type = 'hidden' value = '' name = 'book'><input type = 'hidden' value = '' name = 'section'><input type = 'hidden' value = '1' name = 'special'><input type = 'hidden' value = 'ก' name = 'type'><input type = 'hidden' value = '' name = 'start_date'><input type = 'hidden' value = '' name = 'end_date'><input type = 'hidden' value = '' name = 'group'><input type = 'hidden' value = 'PUBLISHEDDATE' name = 'order'><input type = 'hidden' value = 'DESC' name = 'sort'><span class = 'fl'>หน้าที่ <input type = 'text' name = 'p' value = '1' class = 'page-input'>&nbsp;&nbsp;&nbsp;จากทั้งหมด 446 หน้า แสดงรายการที่ 1 - 100 จากข้อมูลทั้งหมด 44573 รายการ</span></form>        </div>
+
+        <table class="searchresult" cellpadding="0" cellspacing="0">
+          <tr class="headresult">
+            <td width="7%">ลำดับที่</td>
+            <td width="40%"><a href = "?order=DOCTITLE&sort=DESC&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=">ประเภท/ชื่อเรื่อง</a></td>
+            <td width="7%"><a href = "?order=BOOKNO&sort=DESC&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=">เล่ม</a></td>
+            <td width="7%"><a href = "?order=SECTION_NO&sort=DESC&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=">ตอน</a></td>
+            <td width="13%"><a href = "?order=PUBLISHEDDATE&sort=DESC&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=">วันที่ประกาศ</a></td>
+            <td width="10%"><a href = "?order=PAGENO&sort=DESC&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=">หน้า</a></td>
+            <td width="10%">รายละเอียด</td>
+          </tr>
+		          <tr>
+            <td>๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\49.PDF" target = "_blank">ประกาศสำนักนายกรัฐมนตรี เรื่อง การอนุมัติพระราชกำหนดแก้ไขเพิ่มเติมพระราชบัญญัติเรือไทย พุทธศักราช ๒๔๘๑ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๙ ก </td>
+            <td>๒๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๔๙</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\49.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\34.PDF" target = "_blank">ระเบียบคณะกรรมการการเลือกตั้งว่าด้วยผู้ตรวจการเลือกตั้ง พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๙ ก </td>
+            <td>๒๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\34.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\24.PDF" target = "_blank">ระเบียบคณะกรรมการการเลือกตั้งว่าด้วยค่าใช้จ่ายในการฝึกอบรม พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๙ ก </td>
+            <td>๒๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\24.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\19.PDF" target = "_blank">ระเบียบคณะกรรมการตรวจเงินแผ่นดินว่าด้วยการแต่งตั้งคณะอนุกรรมการ การปฏิบัติหน้าที่ การพ้นจากตำแหน่ง และการจ่ายค่าตอบแทนและประโยชน์ตอบแทนอื่น พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๙ ก </td>
+            <td>๒๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๙</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\19.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\6.PDF" target = "_blank">ระเบียบคณะกรรมการตรวจเงินแผ่นดินว่าด้วยการบริหารงานบุคคล พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๙ ก </td>
+            <td>๒๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\6.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\1.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดอุทัยธานี พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๙ ก </td>
+            <td>๒๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\029\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\37.PDF" target = "_blank">ระเบียบคณะกรรมการกองทุนเพื่อการพัฒนาการตรวจเงินแผ่นดิน ว่าด้วยการบริหารจัดการกองทุน และการใช้จ่ายเงินหรือทรัพย์สินของกองทุน พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๘ ก </td>
+            <td>๒๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\37.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\32.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดหนองบัวลำภู พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๘ ก </td>
+            <td>๒๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓๒</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\32.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\26.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดสตูล พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๘ ก </td>
+            <td>๒๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\26.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\20.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดกระบี่ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๘ ก </td>
+            <td>๒๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๐</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\20.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\10.PDF" target = "_blank">กฎกระทรวงให้ใช้บังคับผังเมืองรวมชุมชนกำแพง จังหวัดสตูล พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๘ ก </td>
+            <td>๒๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๐</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\10.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\5.PDF" target = "_blank">กฎกระทรวงกำหนดอัตราค่าธรรมเนียม ลดอัตราค่าธรรมเนียม และยกเว้นค่าธรรมเนียมการจดทะเบียน การขอตรวจเอกสาร การขอสำเนาเอกสารพร้อมคำรับรอง และค่าธรรมเนียมอื่นที่เกี่ยวกับห้างหุ้นส่วนและบริษัทจำกัด พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๘ ก </td>
+            <td>๒๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๕</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\5.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\1.PDF" target = "_blank">กฎกระทรวง ฉบับที่ ๓๓๗ (พ.ศ. ๒๕๖๑) ออกตามความในประมวลรัษฎากร ว่าด้วยการยกเว้นรัษฎากร</a></td>
+            <td>๑๓๕</td>
+            <td>๒๘ ก </td>
+            <td>๒๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\028\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\47.PDF" target = "_blank">พระราชกฤษฎีกากำหนดเขตที่ดินในบริเวณที่ที่จะเวนคืนในท้องที่ตำบลสามเงา ตำบลวังหมัน อำเภอสามเงา และตำบลแม่สลิด อำเภอบ้านตาก จังหวัดตาก พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๗ ก </td>
+            <td>๑๙ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๔๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\47.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\44.PDF" target = "_blank">พระราชบัญญัติการกลับเป็นผู้ประกันตน พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๗ ก </td>
+            <td>๑๙ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๔๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\44.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\29.PDF" target = "_blank">พระราชบัญญัติส่งเสริมและรักษาคุณภาพสิ่งแวดล้อมแห่งชาติ (ฉบับที่ ๒) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๗ ก </td>
+            <td>๑๙ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๙</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\29.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\24.PDF" target = "_blank">พระราชบัญญัติส่งเสริมวิสาหกิจขนาดกลางและขนาดย่อม (ฉบับที่ ๒) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๗ ก </td>
+            <td>๑๙ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\24.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\1.PDF" target = "_blank">พระราชบัญญัติวินัยการเงินการคลังของรัฐ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๗ ก </td>
+            <td>๑๙ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\027\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\37.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๕๐/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๕/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง พลตำรวจโท หรือ นายพงศ์พัฒน์ ฉายาพันธุ์ ผู้ถูกกล่าวหา]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๖ ก </td>
+            <td>๑๘ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\37.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\33.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๕๕/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๔/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายเฟย วิเศษโพธิ์ศรี ผู้ถูกกล่าวหา]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๖ ก </td>
+            <td>๑๘ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓๓</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\33.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\28.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๑๐/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๓/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายวิจิตร ทองอยู่ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๖ ก </td>
+            <td>๑๘ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๘</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\28.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\23.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๘๘/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๒/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายสมชาย แวดีซา ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๖ ก </td>
+            <td>๑๘ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๓</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\23.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\16.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๕๘/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๑/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นางณฐฌา ไม้สนธิ์ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๖ ก </td>
+            <td>๑๘ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\16.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\4.PDF" target = "_blank">กฎกระทรวงการขอและการออกใบอนุญาตจัดตั้งสนามบิน พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๖ ก </td>
+            <td>๑๘ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\4.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\1.PDF" target = "_blank">กฎกระทรวงกำหนดค่าธรรมเนียมการใช้ยานยนตร์บนทางหลวงพิเศษหมายเลข ๗ ตอนกรุงเทพมหานคร -   เมืองพัทยา พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๖ ก </td>
+            <td>๑๘ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\026\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\21.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๕๕/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๙/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายภาวัต ภิรมย์ฤษณ์ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๕ ก </td>
+            <td>๑๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\21.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\16.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๕๔/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๘/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายสมอาจ ใจดี ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๕ ก </td>
+            <td>๑๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\16.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\12.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๕๙/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๗/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายสหัสวรรษ หนูแม่น ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๕ ก </td>
+            <td>๑๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๒</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\12.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๒๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\8.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๕๒/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓๖/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายถาวร ปราบมาลัย ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๕ ก </td>
+            <td>๑๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๘</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\8.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\4.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๘/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๗๒/๒๕๖๐ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายโสภาคย์ ใจต๊ะมา ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๕ ก </td>
+            <td>๑๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\4.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\1.PDF" target = "_blank">กฎกระทรวง ฉบับที่ ๓๓๕ (พ.ศ. ๒๕๖๑) ออกตามความในประมวลรัษฎากรว่าด้วยการยกเว้นรัษฎากร</a></td>
+            <td>๑๓๕</td>
+            <td>๒๕ ก </td>
+            <td>๑๐ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\025\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_6\1.PDF" target = "_blank">ประกาศสำนักนายกรัฐมนตรี เรื่อง การประกาศแผนการปฏิรูปประเทศ [ด้านพลังงาน ด้านการป้องกันและปราบปรามการทุจริตและประพฤติมิชอบ]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๔ ก </td>
+            <td>๐๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_6\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_5\1.PDF" target = "_blank">ประกาศสำนักนายกรัฐมนตรี เรื่อง การประกาศแผนการปฏิรูปประเทศ [ด้านสาธารณสุข ด้านสื่อสารมวลชน เทคโนโลยีสารสนเทศ ด้านสังคม]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๔ ก </td>
+            <td>๐๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_5\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_4\1.PDF" target = "_blank">ประกาศสำนักนายกรัฐมนตรี เรื่อง การประกาศแผนการปฏิรูปประเทศ [ด้านทรัพยากรธรรมชาติและสิ่งแวดล้อม]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๔ ก </td>
+            <td>๐๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_4\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_3\1.PDF" target = "_blank">ประกาศสำนักนายกรัฐมนตรี เรื่อง การประกาศแผนการปฏิรูปประเทศ [ด้านเศรษฐกิจ]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๔ ก </td>
+            <td>๐๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_3\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_2\1.PDF" target = "_blank">ประกาศสำนักนายกรัฐมนตรี เรื่อง การประกาศแผนการปฏิรูปประเทศ [ด้านกฎหมาย ด้านกระบวนการยุติธรรม]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๔ ก </td>
+            <td>๐๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_2\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_1\1.PDF" target = "_blank">ประกาศสำนักนายกรัฐมนตรี เรื่อง การประกาศแผนการปฏิรูปประเทศ [ด้านการเมือง ด้านการบริหารราชการแผ่นดิน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๔ ก </td>
+            <td>๐๖ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\024_1\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\023\9.PDF" target = "_blank">คำวินิจฉัยของศาลรัฐธรรมนูญ คำวินิจฉัยที่ ๑/๒๕๖๑ เรื่อง ประธานสภานิติบัญญัติแห่งชาติส่งความเห็นของสมาชิกสภานิติบัญญัติแห่งชาติ ขอให้ศาลรัฐธรรมนูญวินิจฉัยตามรัฐธรรมนูญ มาตรา ๑๔๘ วรรคหนึ่ง (๑) ประกอบมาตรา ๒๖๓ ว่า ร่างพระราชบัญญัติประกอบรัฐธรรมนูญว่าด้วยการป้องกันและปราบปรามการทุจริต พ.ศ. .... มาตรา ๑๘๕ มีข้อความขัดหรือแย้งต่อรัฐธรรมนูญ หรือไม่</a></td>
+            <td>๑๓๕</td>
+            <td>๒๓ ก </td>
+            <td>๐๕ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๙</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\023\9.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๓๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\023\7.PDF" target = "_blank">กฎกระทรวง ฉบับที่ ๒๙ (พ.ศ. ๒๕๖๑) ออกตามความในพระราชบัญญัติยา พ.ศ. ๒๕๑๐</a></td>
+            <td>๑๓๕</td>
+            <td>๒๓ ก </td>
+            <td>๐๕ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\023\7.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\023\3.PDF" target = "_blank">กฎกระทรวงกำหนดหน้าที่และความรับผิดชอบของผู้ออกแบบ ผู้ควบคุมงาน ผู้ดำเนินการ ผู้ครอบครองอาคาร และเจ้าของอาคาร พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๓ ก </td>
+            <td>๐๕ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\023\3.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\023\1.PDF" target = "_blank">กฎกระทรวงยกเว้นค่าธรรมเนียมการใช้ยานยนตร์บนทางหลวงพิเศษหมายเลข ๗ และทางหลวงพิเศษหมายเลข ๙ ภายในระยะเวลาที่กำหนด พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๓ ก </td>
+            <td>๐๕ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\023\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\50.PDF" target = "_blank">ระเบียบ ก.บ.ศป. ว่าด้วยเบี้ยประชุมกรรมการและอนุกรรมการ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๕๐</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\50.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\44.PDF" target = "_blank">ระเบียบผู้ตรวจการแผ่นดินว่าด้วยเลขาธิการสำนักงานผู้ตรวจการแผ่นดิน พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๔๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\44.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\41.PDF" target = "_blank">กฎกระทรวงยกเลิกการกำหนดอัตราค่าธรรมเนียมคำขออนุญาตเพื่อกลับเข้ามาในราชอาณาจักรอีกตามมาตรา ๓๙ วรรคสอง สำหรับคนต่างด้าวสัญชาติกัมพูชา ลาว และเมียนมา ซึ่งเข้ามาเพื่อทำงานในราชอาณาจักรตามบันทึกความเข้าใจว่าด้วยความร่วมมือด้านการจ้างแรงงาน หรือได้รับอนุญาตให้เข้ามาอยู่ในราชอาณาจักรเป็นกรณีพิเศษ ชนิดใช้ได้ครั้งเดียว เป็นการชั่วคราว พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๔๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\41.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\36.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดระนอง พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\36.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\30.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดพระนครศรีอยุธยา พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓๐</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\30.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\25.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดเพชรบูรณ์ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๒๕</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\25.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\19.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดประจวบคีรีขันธ์ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๙</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\19.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๔๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\14.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดอุตรดิตถ์ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\14.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\9.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดพังงา พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๙</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\9.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\3.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดปัตตานี พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๓</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\3.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\1.PDF" target = "_blank">กฎกระทรวงกำหนดลักษณะของเหรียญกษาปณ์ราคาสิบบาท ห้าบาท สองบาท หนึ่งบาท ห้าสิบสตางค์ ยี่สิบห้าสตางค์ สิบสตางค์ ห้าสตางค์ และหนึ่งสตางค์ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๒ ก </td>
+            <td>๐๔ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\022\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\11.PDF" target = "_blank">ประกาศคณะกรรมการข้าราชการศาลยุติธรรม เรื่อง การจัดทำมาตรฐานกำหนดตำแหน่ง และจัดตำแหน่งข้าราชการศาลยุติธรรมเข้าประเภทตำแหน่ง สายงาน และระดับตำแหน่งตามมาตรฐานกำหนดตำแหน่ง (ฉบับที่ ๖)</a></td>
+            <td>๑๓๕</td>
+            <td>๒๑ ก </td>
+            <td>๐๒ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\11.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\10.PDF" target = "_blank">ประกาศสำนักงานศาลยุติธรรม เรื่อง รายชื่อผู้ได้รับเลือกเป็นกรรมการตุลาการศาลยุติธรรมผู้ทรงคุณวุฒิ</a></td>
+            <td>๑๓๕</td>
+            <td>๒๑ ก </td>
+            <td>๐๒ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑๐</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\10.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\6.PDF" target = "_blank">กฎกระทรวงคุ้มครองแรงงานในงานประมงทะเล (ฉบับที่ ๒) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๑ ก </td>
+            <td>๐๒ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\6.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\4.PDF" target = "_blank">กฎกระทรวง ฉบับที่ ๓๓๖ (พ.ศ. ๒๕๖๑) ออกตามความในประมวลรัษฎากร ว่าด้วยการยกเว้นรัษฎากร</a></td>
+            <td>๑๓๕</td>
+            <td>๒๑ ก </td>
+            <td>๐๒ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\4.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\1.PDF" target = "_blank">กฎกระทรวง ฉบับที่ ๔๖ (พ.ศ. ๒๕๖๑) ออกตามความในพระราชบัญญัติธนาคารออมสิน พ.ศ. ๒๔๘๙ ว่าด้วยการรับฝากเงินออมสิน</a></td>
+            <td>๑๓๕</td>
+            <td>๒๑ ก </td>
+            <td>๐๒ เมษายน พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\021\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\57.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๔๑/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๙/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นางอุบลวดี เหล่าปิ่นกาญจนะ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๕๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\57.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๕๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\53.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๓๖/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๘/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายบุญมี ศรีคำ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๕๓</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\53.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\48.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๘๓/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๗/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายวิฑูรย์ สงครินทร์ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๔๘</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\48.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\44.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๓๖/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๖/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายอำพล เป็ดสุวรรณ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๔๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\44.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\40.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๓๔/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๕/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นางจิตฤดี รักษายศ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๔๐</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\40.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\35.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๓๓/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๔/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายนฤพลธิ์ เสโนฤทธิ์ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๓๕</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\35.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\31.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๓๒/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๓/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายพนัส โพธิ์แก้ว ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๓๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\31.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\25.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๓๑/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๒/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายโอภาส แพพ่วง ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๒๕</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\25.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\21.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๓๐/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๑/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายอาทิตย์ อ่อนคำ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๒๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\21.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\14.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๗๗/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑๐/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายธาริต เพ็งดิษฐ์ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\14.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\12.PDF" target = "_blank">กฎกระทรวงกำหนดอัตราเงินสมทบที่รัฐบาลจ่ายเข้ากองทุนประกันสังคมสำหรับบุคคลซึ่งสมัครเข้าเป็นผู้ประกันตน พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑๒</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\12.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๖๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\6.PDF" target = "_blank">กฎกระทรวงกำหนดบริเวณห้ามก่อสร้าง ดัดแปลง หรือเปลี่ยนการใช้อาคารบางชนิดหรือบางประเภทในพื้นที่บางส่วนในท้องที่จังหวัดตาก พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\6.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\4.PDF" target = "_blank">กฎกระทรวงแบบบัตรประจำตัวเจ้าพนักงานทางหลวงสำหรับทางหลวงชนบท พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\4.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\1.PDF" target = "_blank">กฎกระทรวงแบ่งส่วนราชการสำนักงานคณะกรรมการวิจัยแห่งชาติ (ฉบับที่ ๒) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๒๐ ก </td>
+            <td>๒๘ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\020\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\74.PDF" target = "_blank">พระราชกฤษฎีกากำหนดหลักเกณฑ์และอัตราการจ่ายเงินสมทบ ประเภทของประโยชน์ทดแทนตลอดจนหลักเกณฑ์และเงื่อนไขแห่งสิทธิในการรับประโยชน์ทดแทนของบุคคลซึ่งสมัครเป็นผู้ประกันตน พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๗๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\74.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\71.PDF" target = "_blank">พระราชกฤษฎีกากำหนดคุณสมบัติของบุคคลซึ่งอาจสมัครเข้าเป็นผู้ประกันตน พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๗๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\71.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\68.PDF" target = "_blank">พระราชกฤษฎีกาออกตามความในประมวลรัษฎากรว่าด้วยการยกเว้นรัษฎากร (ฉบับที่ ๖๕๔) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๖๘</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\68.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\63.PDF" target = "_blank">พระราชกฤษฎีกาการได้รับเงินประจำตำแหน่งของข้าราชการทหาร (ฉบับที่ ๓) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๖๓</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\63.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\60.PDF" target = "_blank">พระราชกฤษฎีกากำหนดจำนวน เขตอำนาจ และวันเปิดทำการของศาลแขวง ในจังหวัดภูเก็ต พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๖๐</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\60.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\57.PDF" target = "_blank">พระราชกำหนดแก้ไขเพิ่มเติมพระราชบัญญัติคนเข้าเมือง พ.ศ. ๒๕๒๒ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๕๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\57.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\29.PDF" target = "_blank">พระราชกำหนดการบริหารจัดการการทำงานของคนต่างด้าว (ฉบับที่ ๒) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๒๙</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\29.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๗๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\17.PDF" target = "_blank">พระราชกำหนดแก้ไขเพิ่มเติมพระราชบัญญัติเรือไทย พุทธศักราช ๒๔๘๑ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\17.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\9.PDF" target = "_blank">พระราชบัญญัตินโยบายการกีฬาแห่งชาติ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๙</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\9.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\6.PDF" target = "_blank">พระราชบัญญัติโอนที่ราชพัสดุที่เป็นสาธารณสมบัติของแผ่นดินที่ใช้เพื่อประโยชน์ของแผ่นดินโดยเฉพาะในท้องที่ตำบลกมลาไสย อำเภอกมลาไสย จังหวัดกาฬสินธุ์ให้แก่นางบุญมี ดอนเมือง และนางสวาท ดอนกระสินธุ์ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\6.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\4.PDF" target = "_blank">พระราชบัญญัติเงินคงคลัง (ฉบับที่ ๕) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\4.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\1.PDF" target = "_blank">พระราชบัญญัติการบริหารหนี้สาธารณะ (ฉบับที่ ๔) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๙ ก </td>
+            <td>๒๗ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\019\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\20.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๑๙/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๔/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายฎำริ หงษาพันธ์ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๒๐</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\20.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\16.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๑๘/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๓/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายอภิสิทธิ์ ประสาร ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\16.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\12.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๑๗/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๒/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายภิญโญ ศิริเมือง ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑๒</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\12.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\7.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๗๔/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๑/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง ดาบตำรวจ ธงชัย พืชคูณ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\7.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\6.PDF" target = "_blank">ประกาศคณะกรรมการบริหารศาลยุติธรรม เรื่อง เปลี่ยนแปลงสถานที่ตั้งของศาลแรงงานภาค ๒ (สาขาระยอง)</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\6.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๘๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\5.PDF" target = "_blank">ประกาศคณะกรรมการบริหารศาลยุติธรรม เรื่อง เปลี่ยนแปลงสถานที่ตั้งของศาลเยาวชนและครอบครัวจังหวัดเพชรบูรณ์</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๕</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\5.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\3.PDF" target = "_blank">ระเบียบคณะกรรมการสิทธิมนุษยชนแห่งชาติว่าด้วยเงินค่าตอบแทนพิเศษของข้าราชการสำนักงานคณะกรรมการสิทธิมนุษยชนแห่งชาติ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๓</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\3.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๑</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\1.PDF" target = "_blank">ระเบียบคณะกรรมการสิทธิมนุษยชนแห่งชาติว่าด้วยการกำหนดคุณสมบัติ วิธีการสรรหา และการคัดเลือกเลขาธิการคณะกรรมการสิทธิมนุษยชนแห่งชาติ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๒</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\41.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๒๗/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๙/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายฐาปกรณ์ โรมินทร์ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๔๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\41.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๓</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\36.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๒๕/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๘/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายทรงศักดิ์ เลิศลำหวาน ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๓๖</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\36.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๔</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\32.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๑๕๐/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๗/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายสุรศักดิ์ เตชะนิธิสวัสดิ์ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๓๒</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\32.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๕</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\28.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๒๑/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๖/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายบุญลอด ระดาดาษ ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๒๘</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\28.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๖</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\24.PDF" target = "_blank">คำพิพากษาของศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง เรื่อง การแสดงบัญชีรายการทรัพย์สินและหนี้สิน [คดีหมายเลขดำที่ อม. ๒๒๐/๒๕๖๐ คดีหมายเลขแดงที่ อม. ๕/๒๕๖๑ ระหว่าง คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ ผู้ร้อง นายไพศาล แซ่จึง ผู้คัดค้าน]</a></td>
+            <td>๑๓๕</td>
+            <td>๑๘ ก </td>
+            <td>๒๒ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๒๔</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\018\24.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๗</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\017\1.PDF" target = "_blank">กฎ ก.พ. ว่าด้วยการให้ข้าราชการพลเรือนสามัญได้รับเงินประจำตำแหน่ง (ฉบับที่ ๑๑) พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๗ ก </td>
+            <td>๑๖ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๑</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\017\1.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๘</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\017\7.PDF" target = "_blank">คำวินิจฉัยของศาลรัฐธรรมนูญ คำวินิจฉัยที่ ๓/๒๕๖๐ คณะรัฐมนตรีขอให้ศาลรัฐธรรมนูญวินิจฉัยตามรัฐธรรมนูญ มาตรา ๑๗๘ วรรคห้า ว่า ร่างบันทึกความเข้าใจว่าด้วยการผ่านแดนสินค้าระหว่างกรมศุลกากรแห่งราชอาณาจักรไทย และกรมศุลกากรและสรรพสามิตแห่งราชอาณาจักรกัมพูชา เป็นหนังสือสัญญาเกี่ยวกับการค้าเสรี ตามรัฐธรรมนูญ มาตรา ๑๗๘ วรรคสาม ที่ต้องได้รับความเห็นชอบของรัฐสภาตามรัฐธรรมนูญ มาตรา ๑๗๘ วรรคสอง หรือไม่</a></td>
+            <td>๑๓๕</td>
+            <td>๑๗ ก </td>
+            <td>๑๖ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๗</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\017\7.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๙๙</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\017\3.PDF" target = "_blank">กฎกระทรวงการคัดเลือกกรรมการการแข่งขันทางการค้า พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๗ ก </td>
+            <td>๑๖ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๓</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\017\3.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		          <tr>
+            <td>๑๐๐</td>
+            <td class="aleft"><a class="loadpdf" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\016\5.PDF" target = "_blank">ข้อกำหนดทางจริยธรรมข้าราชการ พนักงานราชการ และลูกจ้างของสำนักงานคณะกรรมการสิทธิมนุษยชนแห่งชาติ พ.ศ. ๒๕๖๑</a></td>
+            <td>๑๓๕</td>
+            <td>๑๖ ก </td>
+            <td>๑๔ มีนาคม พ.ศ. ๒๕๖๑</td>
+            <td>๕</td>
+            <td>
+              <a class="loadpdf" target = "_blank" href = "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561\A\016\5.PDF"><img src="http://www.mratchakitcha.soc.go.th/html/images/pdficon.png"></a>
+              <!-- <a class="copydata" href="http://www.mratchakitcha.soc.go.th/#"><img src="http://www.mratchakitcha.soc.go.th/html/images/copyicon.png"></a> -->
+            </td>
+          </tr>
+		
+        </table>
+        
+         <div class="pagesection fr">
+			<span>หน้า</span><a href = '?p=1&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC' class = 'active'>1</a>
+<a href = '?p=2&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>2</a>
+<a href = '?p=3&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>3</a>
+<a href = '?p=4&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>4</a>
+<a href = '?p=5&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>5</a>
+<a href = '?p=6&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>6</a>
+<a href = '?p=7&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>7</a>
+<a href = '?p=8&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>8</a>
+<a href = '?p=9&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>9</a>
+<a href = '?p=10&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>10</a>
+<a href = '?p=11&title=&book=&special=1&type=ก&section=&start_date=&end_date=&group=&order=PUBLISHEDDATE&sort=DESC'>&gt;&gt;</a>         </div>
+      <!-- endresult -->
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- endannouncehome -->
+<footer id="footer">
+	<div class="container">
+    	<span class="copyright">สงวนลิขสิทธิ์ ตามพระราชบัญญัติลิขสิทธิ์ พ.ศ. ๒๕๔๗</span><br><br>
+		<span class="visitor">จำนวนผู้เข้าชม </span> : <span class = "counter">00070045</span>
+  	</div>
+</footer>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53529251-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

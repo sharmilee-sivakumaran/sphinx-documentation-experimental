@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "India legislation schema",
+  "description": "Import schema for Indian legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "year",
+    "bill_type",
+    "short_title"
+  ],
+  "properties": {
+    "year": {
+      "description": "REQUIRED, Year the bill was put through the process",
+      "type": "integer"
+    },
+    "bill_number": {
+      "description": "number of the bill (may be in non-numeric characters)",
+      "type": "string"
+    },
+    "bill_type": {
+      "description": "REQUIRED, indicates if the bill is a government bill or a private memeber's bill",
+      "type": "string",
+      "enum": [
+        "Government",
+        "Private Member"
+      ]
+    },
+    "short_title": {
+      "description": "REQUIRED, short title of the bill",
+      "type": "string"
+    },
+    "status": {
+      "description": "Current status of the bill",
+      "type": "string"
+    },
+    "bill_versions": {
+      "description": "attachments of the bill",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "title": "Bill version schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "document_id",
+          "download_id",
+          "title",
+          "locale"
+        ],
+        "properties": {
+          "document_id": {
+            "type": "integer"
+          },
+          "download_id": {
+            "type": "integer"
+          },
+          "title": {
+            "description": "title of the document",
+            "type": "string"
+          },
+          "locale": {
+            "description": "language of the document, for localization",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "chamber_of_introduction": {
+      "type": "string",
+      "enum": [
+        "Lok Sabha",
+        "Rajya Sabha"
+      ]
+    },
+    "introduction_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "doc_type_items": {
+      "description": "Government or Private Member-specific members",
+      "oneOf": [
+        {
+          "$ref": "india_government.json"
+        },
+        {
+          "$ref": "india_member.json"
+        }
+      ]
+    }
+  }
+}

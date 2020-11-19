@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "China NEWS doc schema",
+  "description": "Import schema for Chinese NEWS (from LegalMiner)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "external_id",
+    "library"
+  ],
+  "properties": {
+    "external_id": {
+      "type": "string",
+      "description": "LegalMiner gid"
+    },
+    "library": {
+      "type": "string",
+      "description": "legal miner source - should always be NEWS"
+    },
+    "title": {
+      "type": "string"
+    },
+    "issue_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "title": "metadata_object",
+        "required": [
+          "code",
+          "name"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "document_id": {
+      "type": "integer"
+    },
+    "download_id": {
+      "type": "integer"
+    },
+    "source_publication": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}

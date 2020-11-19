@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "UK doc schema",
+  "description": "Import schema for UK Bills",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "session",
+    "short_title",
+    "type",
+    "originating_chamber",
+    "source_url"
+  ],
+  "properties": {
+    "session": {
+      "description": "REQUIRED, session of parliament in which the bill was introduced",
+      "type": "string"
+    },
+    "short_title": {
+      "description": "REQUIRED, the short title for the uk bill",
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "description": "description of the bill",
+      "type": "string"
+    },
+    "type": {
+      "description": "type of bill",
+      "type": "string"
+    },
+    "sponsor": {
+      "description": "list of sponsors",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "description": "REQUIRED, name of sponsor",
+            "type": "string",
+            "minLength": 1
+          },
+          "association": {
+            "description": "REQUIRED, associations of the sponsor (departments, political parties, etc)",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "uniqueItems": true
+    },
+    "originating_chamber": {
+      "description": "chamber of origin of the bill",
+      "type": "string",
+      "enum": [
+        "lords",
+        "commons"
+      ]
+    },
+    "latest_news": {
+      "description": "most recent news for the bill",
+      "type": "string"
+    },
+    "attachments": {
+      "description": "OPTIONAL, the attachments for an international document",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "requiredProperties": [
+          "document",
+          "document_type"
+        ],
+        "properties": {
+          "document": {
+            "$ref": "attachment.json"
+          },
+          "document_type": {
+            "type": "string",
+            "enum": [
+              "bill_text",
+              "act_of_parliament",
+              "delegated_powers_memoranda",
+              "amendment_paper",
+              "briefing_paper",
+              "library_note",
+              "press_note",
+              "selection_of_amendment",
+              "public_bill_committee_and_report_stage_proceeding",
+              "other"
+            ]
+          }
+        }
+      },
+      "uniqueItems": true
+    },
+    "actions": {
+      "description": "OPTIONAL, the attachments for an international document",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+      "type": "object",
+      "properties": {
+        "action_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "action_text": {
+          "type": "string",
+          "description": "like '2nd reading: House of Commons', derived from alt text for the icon for each stage"
+        }
+      },
+      "uniqueItems": true
+    }},
+    "source_url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "China metadata doc schema",
+  "description": "Import schema for Chinese Metadata",
+  "definitions": {
+    "metadata_item": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/metadata_item"
+          }
+        }
+      }
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metadata_type",
+    "metadata_values"
+  ],
+  "properties": {
+    "metadata_type": {
+      "type": "string",
+      "values": [
+        "issue_departments",
+        "ratify_departments",
+        "categories"
+      ]
+    },
+    "metadata_values": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/definitions/metadata_item"
+      }
+    }
+  }
+}

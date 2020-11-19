@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "India government introduced legislation sub schema",
+  "description": "Import schema for Indian government legislation",
+  "type": "object",
+  "required": ["actions"],
+  "properties": {
+    "actions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "action": {
+          "description": "action (header of the table. The same action may appear with multiple dates",
+          "type": "string"
+        },
+        "action_date": {
+          "description": "date of the action",
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "other_documents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "Other Document Schema",
+        "required": ["document_type", "document_id", "download_id", "title"],
+        "additionalProperties": false,
+        "properties": {
+          "document_type": {
+            "type": "string",
+            "enum": [
+              "Debate Proceedings",
+              "Report Proceedings",
+              "Synopsis",
+              "Gazette Notification"
+            ]
+          },
+          "document_id": {
+            "type": "integer"
+          },
+          "download_id": {
+            "type": "integer"
+          },
+          "title": {
+            "description": "title of the document",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

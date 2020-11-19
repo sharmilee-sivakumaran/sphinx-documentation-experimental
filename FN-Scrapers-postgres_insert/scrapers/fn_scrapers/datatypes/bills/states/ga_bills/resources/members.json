@@ -1,0 +1,7223 @@
+[
+    {
+        "DateVacated": "/Date(1503633600000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 137,
+            "Type": 4,
+            "Number": 89
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1050,
+        "Name": {
+            "First": "Stacey",
+            "Last": "Abrams",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 58
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 292,
+            "Type": 3,
+            "Number": 56
+        },
+        "DistrictAddress": {
+            "City": "Alpharetta",
+            "Email": null,
+            "Fax": "4048064385",
+            "Phone": "6786673656",
+            "State": "GA",
+            "Street": "3330 Preston Ridge Rd, Suite 380",
+            "Zip": "30005     "
+        },
+        "LegId": 934,
+        "Name": {
+            "First": "John",
+            "Last": "Albers",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Roswell ",
+        "Id": 754
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 99,
+            "Type": 4,
+            "Number": 66
+        },
+        "DistrictAddress": {
+            "City": "Hiram",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 393",
+            "Zip": "30141     "
+        },
+        "LegId": 1037,
+        "Name": {
+            "First": "Kimberly",
+            "Last": "Alexander",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Hiram",
+        "Id": 806
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 260,
+            "Type": 3,
+            "Number": 24
+        },
+        "DistrictAddress": {
+            "City": "Grovetown",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "Ga",
+            "Street": "160 Louisville Road",
+            "Zip": "30813     "
+        },
+        "LegId": 1246,
+        "Name": {
+            "First": "Lee",
+            "Last": "Anderson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Grovetown",
+        "Id": 723
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 279,
+            "Type": 3,
+            "Number": 43
+        },
+        "DistrictAddress": {
+            "City": "Lithonia",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1026",
+            "Zip": "30058     "
+        },
+        "LegId": 1247,
+        "Name": {
+            "First": "Tonya",
+            "Last": "Anderson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Lithonia",
+        "Id": 807
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 54,
+            "Type": 4,
+            "Number": 42
+        },
+        "DistrictAddress": {
+            "City": "Smyrna",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1385",
+            "Zip": "30081     "
+        },
+        "LegId": 1266,
+        "Name": {
+            "First": "Teri",
+            "Last": "Anulewicz",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Smyrna",
+        "Id": 4915
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 29,
+            "Type": 4,
+            "Number": 23
+        },
+        "DistrictAddress": {
+            "City": "Canton",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 5123",
+            "Zip": "30114     "
+        },
+        "LegId": 1008,
+        "Name": {
+            "First": "Mandi",
+            "Last": "Ballinger",
+            "Middle": "L. ",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Canton",
+        "Id": 808
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 151,
+            "Type": 4,
+            "Number": 103
+        },
+        "DistrictAddress": {
+            "City": "Lawrenceville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": null,
+            "Zip": "30049     "
+        },
+        "LegId": 1059,
+        "Name": {
+            "First": "Timothy",
+            "Last": "Barr",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Lawrenceville",
+        "Id": 809
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 21,
+            "Type": 4,
+            "Number": 15
+        },
+        "DistrictAddress": {
+            "City": "Cartersville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "Ga",
+            "Street": "208 Rd. #2, S.W.",
+            "Zip": "30120     "
+        },
+        "LegId": 891,
+        "Name": {
+            "First": "Paul",
+            "Last": "Battles",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cartersville",
+        "Id": 734
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 96,
+            "Type": 4,
+            "Number": 63
+        },
+        "DistrictAddress": {
+            "City": "Riverdale",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "7042 Galloway Pointe",
+            "Zip": "30296     "
+        },
+        "LegId": 1226,
+        "Name": {
+            "First": "Debra",
+            "Last": "Bazemore",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Riverdale",
+        "Id": 4890
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 257,
+            "Type": 3,
+            "Number": 21
+        },
+        "DistrictAddress": {
+            "City": "Alpharetta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "6786401811",
+            "State": "GA",
+            "Street": "3100 Brierfield Road",
+            "Zip": "30004     "
+        },
+        "LegId": 1132,
+        "Name": {
+            "First": "Brandon",
+            "Last": "Beach",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Alpharetta",
+        "Id": 840
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 98,
+            "Type": 4,
+            "Number": 65
+        },
+        "DistrictAddress": {
+            "City": "Red Oak",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 488",
+            "Zip": "30272     "
+        },
+        "LegId": 630,
+        "Name": {
+            "First": "Sharon",
+            "Last": "Beasley-Teague",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Red Oak",
+        "Id": 63
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 160,
+            "Type": 4,
+            "Number": 112
+        },
+        "DistrictAddress": {
+            "City": "Buckhead",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1471 Morgan Dr.",
+            "Zip": "30625     "
+        },
+        "LegId": 1168,
+        "Name": {
+            "First": "Dave",
+            "Last": "Belton",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Buckhead",
+        "Id": 866
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 142,
+            "Type": 4,
+            "Number": 94
+        },
+        "DistrictAddress": {
+            "City": "Stone Mountain",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "6909 Springbank Way",
+            "Zip": "30087     "
+        },
+        "LegId": 1055,
+        "Name": {
+            "First": "Karen",
+            "Last": "Bennett",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Stone Mountain",
+        "Id": 810
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 193,
+            "Type": 4,
+            "Number": 139
+        },
+        "DistrictAddress": {
+            "City": "Butler",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "133 Railroad Street",
+            "Zip": "31006     "
+        },
+        "LegId": 1092,
+        "Name": {
+            "First": "Patty",
+            "Last": "Bentley",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Butler",
+        "Id": 811
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 37,
+            "Type": 4,
+            "Number": 31
+        },
+        "DistrictAddress": {
+            "City": "Jefferson",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "177 Martin Street",
+            "Zip": "30549     "
+        },
+        "LegId": 608,
+        "Name": {
+            "First": "Tommy",
+            "Last": "Benton",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Jefferson",
+        "Id": 65
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 76,
+            "Type": 4,
+            "Number": 54
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4048140000",
+            "State": "GA",
+            "Street": "809 Peachtree Battle Ave.",
+            "Zip": "30327     "
+        },
+        "LegId": 1177,
+        "Name": {
+            "First": "Beth",
+            "Last": "Beskin",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Atlanta",
+        "Id": 857
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 199,
+            "Type": 4,
+            "Number": 143
+        },
+        "DistrictAddress": {
+            "City": "Macon",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4788030001",
+            "State": "GA",
+            "Street": "P.O. Box 13451",
+            "Zip": "31208     "
+        },
+        "LegId": 1096,
+        "Name": {
+            "First": "James",
+            "Last": "Beverly",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Macon",
+        "Id": 793
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 244,
+            "Type": 3,
+            "Number": 8
+        },
+        "DistrictAddress": {
+            "City": "Valdosta",
+            "Email": null,
+            "Fax": "2295591592",
+            "Phone": "2295597546",
+            "State": "GA",
+            "Street": "5900 Jumping Gully Road",
+            "Zip": "31601     "
+        },
+        "LegId": 1155,
+        "Name": {
+            "First": "Ellis",
+            "Last": "Black",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Valdosta",
+        "Id": 66
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 202,
+            "Type": 4,
+            "Number": 146
+        },
+        "DistrictAddress": {
+            "City": "Bonaire",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P. O. Box 729",
+            "Zip": "31005     "
+        },
+        "LegId": 1196,
+        "Name": {
+            "First": "Shaw",
+            "Last": "Blackmon",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Bonaire",
+        "Id": 1878
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 95,
+            "Type": 4,
+            "Number": 62
+        },
+        "DistrictAddress": {
+            "City": "East Point",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 90787",
+            "Zip": "30364     "
+        },
+        "LegId": 1225,
+        "Name": {
+            "First": "William",
+            "Last": "Boddie",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "East Point",
+        "Id": 4889
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 114,
+            "Type": 4,
+            "Number": 72
+        },
+        "DistrictAddress": {
+            "City": "Peachtree City",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 3457",
+            "Zip": "30269     "
+        },
+        "LegId": 1229,
+        "Name": {
+            "First": "Josh",
+            "Last": "Bonner",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Fayetteville",
+        "Id": 4893
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 264,
+            "Type": 3,
+            "Number": 28
+        },
+        "DistrictAddress": {
+            "City": "Newnan",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7702656100",
+            "State": "GA",
+            "Street": "P.O. Box 1313",
+            "Zip": "30264     "
+        },
+        "LegId": 1248,
+        "Name": {
+            "First": "Matt",
+            "Last": "Brass",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Newnan",
+        "Id": 4907
+    },
+    {
+        "DateVacated": "/Date(1505793600000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 6,
+            "Type": 4,
+            "Number": 4
+        },
+        "DistrictAddress": {
+            "City": "Dalton",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 947",
+            "Zip": "30722-0947"
+        },
+        "LegId": 999,
+        "Name": {
+            "First": "Bruce",
+            "Last": "Broadrick",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dalton",
+        "Id": 812
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 150,
+            "Type": 4,
+            "Number": 102
+        },
+        "DistrictAddress": {
+            "City": "Lawrenceville",
+            "Email": null,
+            "Fax": null,
+            "Phone": "6788959064",
+            "State": "GA",
+            "Street": "PO Box 491355",
+            "Zip": "30049     "
+        },
+        "LegId": 1058,
+        "Name": {
+            "First": "Buzz",
+            "Last": "Brockway",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Lawrenceville",
+        "Id": 773
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 91,
+            "Type": 4,
+            "Number": 61
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": "4043448051",
+            "Phone": null,
+            "State": "GA",
+            "Street": "410 Stone Arbor Court",
+            "Zip": "30331     "
+        },
+        "LegId": 1033,
+        "Name": {
+            "First": "Roger",
+            "Last": "Bruce",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 69
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 191,
+            "Type": 4,
+            "Number": 137
+        },
+        "DistrictAddress": {
+            "City": "Junction City",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7062693630",
+            "State": "GA",
+            "Street": "780 Fielders Mill Road",
+            "Zip": "31812     "
+        },
+        "LegId": 1090,
+        "Name": {
+            "First": "Debbie",
+            "Last": "Buckner",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Junction City",
+        "Id": 71
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 247,
+            "Type": 3,
+            "Number": 11
+        },
+        "DistrictAddress": {
+            "City": "Bainbridge",
+            "Email": null,
+            "Fax": null,
+            "Phone": "2292436267",
+            "State": "GA",
+            "Street": "1500 East Shotwell Street",
+            "Zip": "39819     "
+        },
+        "LegId": 1135,
+        "Name": {
+            "First": "Dean",
+            "Last": "Burke",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Bainbridge",
+        "Id": 841
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 119,
+            "Type": 4,
+            "Number": 77
+        },
+        "DistrictAddress": {
+            "City": "Riverdale",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "7843 Clearview Circle",
+            "Zip": "30296     "
+        },
+        "LegId": 1231,
+        "Name": {
+            "First": "Rhonda",
+            "Last": "Burnough",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Riverdale",
+        "Id": 4895
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 215,
+            "Type": 4,
+            "Number": 159
+        },
+        "DistrictAddress": {
+            "City": "Newington",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "5829 Clyo-Kildare Road",
+            "Zip": "30446     "
+        },
+        "LegId": 1110,
+        "Name": {
+            "First": "Jon",
+            "Last": "Burns",
+            "Middle": "G.",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Newington",
+        "Id": 73
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 291,
+            "Type": 3,
+            "Number": 55
+        },
+        "DistrictAddress": {
+            "City": "Stone Mountain",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "6241 Southland Trace",
+            "Zip": "30087     "
+        },
+        "LegId": 54,
+        "Name": {
+            "First": "Gloria",
+            "Last": "Butler",
+            "Middle": "S.",
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Stone Mountain",
+        "Id": 5
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 26,
+            "Type": 4,
+            "Number": 20
+        },
+        "DistrictAddress": {
+            "City": "Woodstock",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "408 Amber Lane",
+            "Zip": "30189     "
+        },
+        "LegId": 1005,
+        "Name": {
+            "First": "Michael",
+            "Last": "Caldwell",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Woodstock",
+        "Id": 814
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 185,
+            "Type": 4,
+            "Number": 131
+        },
+        "DistrictAddress": {
+            "City": "Thomaston",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1993 S. Earls Road",
+            "Zip": "30286     "
+        },
+        "LegId": 1084,
+        "Name": {
+            "First": "Johnnie",
+            "Last": "Caldwell, Jr.",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Thomaston",
+        "Id": 813
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 82,
+            "Type": 4,
+            "Number": 58
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "Renaissance Pkwy NE",
+            "Zip": "30308     "
+        },
+        "LegId": 1215,
+        "Name": {
+            "First": "Park",
+            "Last": "Cannon",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 4880
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 28,
+            "Type": 4,
+            "Number": 22
+        },
+        "DistrictAddress": {
+            "City": "Woodstock",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1044 Meadow Brook Dr.",
+            "Zip": "30188     "
+        },
+        "LegId": 1164,
+        "Name": {
+            "First": "Wes",
+            "Last": "Cantrell",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Woodstock",
+        "Id": 870
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 6,
+            "Type": 4,
+            "Number": 4
+        },
+        "DistrictAddress": {
+            "City": "Dalton",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1301 W. Morton Drive",
+            "Zip": "30720     "
+        },
+        "LegId": 1264,
+        "Name": {
+            "First": "Kasey",
+            "Last": "Carpenter",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dalton",
+        "Id": 4911
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 64,
+            "Type": 4,
+            "Number": 46
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4045208826",
+            "State": "GA",
+            "Street": "3605 Sandy Plains Road, Suite 240-123",
+            "Zip": "30066     "
+        },
+        "LegId": 1026,
+        "Name": {
+            "First": "John",
+            "Last": "Carson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 795
+    },
+    {
+        "DateVacated": "/Date(1514696400000-0500)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 231,
+            "Type": 4,
+            "Number": 175
+        },
+        "DistrictAddress": {
+            "City": "Valdosta",
+            "Email": null,
+            "Fax": "2292458890",
+            "Phone": "2292451092",
+            "State": "GA",
+            "Street": "PO Box 4930",
+            "Zip": "31604     "
+        },
+        "LegId": 862,
+        "Name": {
+            "First": "Amy",
+            "Last": "Carter",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Valdosta",
+        "Id": 76
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 140,
+            "Type": 4,
+            "Number": 92
+        },
+        "DistrictAddress": {
+            "City": "Lithonia",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 2186",
+            "Zip": "30058     "
+        },
+        "LegId": 1203,
+        "Name": {
+            "First": "Doreen",
+            "Last": "Carter",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Lithonia",
+        "Id": 3877
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 155,
+            "Type": 4,
+            "Number": 107
+        },
+        "DistrictAddress": {
+            "City": "Lilburn",
+            "Email": null,
+            "Fax": "7709318839",
+            "Phone": "7709318033",
+            "State": "GA",
+            "Street": "PO Box 283",
+            "Zip": "30048     "
+        },
+        "LegId": 1062,
+        "Name": {
+            "First": "David",
+            "Last": "Casas",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Lilburn",
+        "Id": 78
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 159,
+            "Type": 4,
+            "Number": 111
+        },
+        "DistrictAddress": {
+            "City": "Locust Grove",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 77",
+            "Zip": "30248     "
+        },
+        "LegId": 1282,
+        "Name": {
+            "First": "Geoff",
+            "Last": "Cauble",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Locust Grove",
+        "Id": 4922
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 153,
+            "Type": 4,
+            "Number": 105
+        },
+        "DistrictAddress": {
+            "City": "Grayson",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1371",
+            "Zip": "30017     "
+        },
+        "LegId": 1061,
+        "Name": {
+            "First": "Joyce",
+            "Last": "Chandler",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Grayson",
+        "Id": 815
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 146,
+            "Type": 4,
+            "Number": 98
+        },
+        "DistrictAddress": {
+            "City": "Buford",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "420 South Hill St.",
+            "Zip": "30518     "
+        },
+        "LegId": 1167,
+        "Name": {
+            "First": "David",
+            "Last": "Clark",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Buford",
+        "Id": 867
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 203,
+            "Type": 4,
+            "Number": 147
+        },
+        "DistrictAddress": {
+            "City": "Warner Robins",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "305 Tarrasa Dr.",
+            "Zip": "30188     "
+        },
+        "LegId": 1176,
+        "Name": {
+            "First": "Heath",
+            "Last": "Clark",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Warner Robins",
+        "Id": 858
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 145,
+            "Type": 4,
+            "Number": 97
+        },
+        "DistrictAddress": {
+            "City": "Duluth",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "3919 Hillside Drive",
+            "Zip": "30096     "
+        },
+        "LegId": 759,
+        "Name": {
+            "First": "Brooks",
+            "Last": "Coleman",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Duluth",
+        "Id": 84
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 103,
+            "Type": 4,
+            "Number": 68
+        },
+        "DistrictAddress": {
+            "City": "Villa Rica",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "206 South Carroll Rd.",
+            "Zip": "30180     "
+        },
+        "LegId": 1228,
+        "Name": {
+            "First": "J.",
+            "Last": "Collins",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Villa Rica",
+        "Id": 4892
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 24,
+            "Type": 4,
+            "Number": 18
+        },
+        "DistrictAddress": {
+            "City": "Carrollton",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "141 Natures Pointe Trail",
+            "Zip": "30117-8371"
+        },
+        "LegId": 939,
+        "Name": {
+            "First": "Kevin",
+            "Last": "Cooke",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Carrollton",
+        "Id": 757
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 18,
+            "Type": 4,
+            "Number": 14
+        },
+        "DistrictAddress": {
+            "City": "Cartersville",
+            "Email": null,
+            "Fax": "7703839170",
+            "Phone": "7703839171",
+            "State": "GA",
+            "Street": "127-A West Main Street",
+            "Zip": "30120     "
+        },
+        "LegId": 938,
+        "Name": {
+            "First": "Christian",
+            "Last": "Coomer",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cartersville",
+        "Id": 756
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 59,
+            "Type": 4,
+            "Number": 43
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": "7709569693",
+            "Phone": "7709568357",
+            "State": "GA",
+            "Street": "1234 Powers Ferry Rd., Suite 104",
+            "Zip": "30067     "
+        },
+        "LegId": 1024,
+        "Name": {
+            "First": "Sharon",
+            "Last": "Cooper",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 86
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 230,
+            "Type": 4,
+            "Number": 174
+        },
+        "DistrictAddress": {
+            "City": "Lake Park",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1484 Ga. Hwy. 135 S.",
+            "Zip": "31636     "
+        },
+        "LegId": 1175,
+        "Name": {
+            "First": "John",
+            "Last": "Corbett",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Lake Park",
+        "Id": 859
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 282,
+            "Type": 3,
+            "Number": 46
+        },
+        "DistrictAddress": {
+            "City": "Athens",
+            "Email": null,
+            "Fax": "7065437731",
+            "Phone": "7065437700",
+            "State": "GA",
+            "Street": "P.O. Box 512",
+            "Zip": "30603     "
+        },
+        "LegId": 839,
+        "Name": {
+            "First": "Bill",
+            "Last": "Cowsert",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Athens",
+        "Id": 9
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 156,
+            "Type": 4,
+            "Number": 108
+        },
+        "DistrictAddress": {
+            "City": "Lilburn",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "5129 Browning Way",
+            "Zip": "30047     "
+        },
+        "LegId": 1238,
+        "Name": {
+            "First": "Clay",
+            "Last": "Cox",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Lilburn",
+        "Id": 87
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 280,
+            "Type": 3,
+            "Number": 44
+        },
+        "DistrictAddress": {
+            "City": "Jonesboro",
+            "Email": null,
+            "Fax": null,
+            "Phone": "6782159971",
+            "State": "GA",
+            "Street": "P.O. Box 1074",
+            "Zip": "30237     "
+        },
+        "LegId": 837,
+        "Name": {
+            "First": "Gail",
+            "Last": "Davenport",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Jonesboro",
+        "Id": 10
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 1,
+            "Type": 4,
+            "Number": 1
+        },
+        "DistrictAddress": {
+            "City": "Lookout Mountain",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "97 Wayside Lane",
+            "Zip": "30750     "
+        },
+        "LegId": 998,
+        "Name": {
+            "First": "John",
+            "Last": "Deffenbaugh",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Lookout Mountain",
+        "Id": 816
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 15,
+            "Type": 4,
+            "Number": 13
+        },
+        "DistrictAddress": {
+            "City": "Rome",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "3 Central Plaza, #360",
+            "Zip": "30161     "
+        },
+        "LegId": 840,
+        "Name": {
+            "First": "Katie",
+            "Last": "Dempsey",
+            "Middle": "M.",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Rome",
+        "Id": 92
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 161,
+            "Type": 4,
+            "Number": 113
+        },
+        "DistrictAddress": {
+            "City": "Conyers",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7706020085",
+            "State": "GA",
+            "Street": "PO Box 1016",
+            "Zip": "30013     "
+        },
+        "LegId": 1066,
+        "Name": {
+            "First": "Pam",
+            "Last": "Dickerson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Conyers",
+        "Id": 771
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 194,
+            "Type": 4,
+            "Number": 140
+        },
+        "DistrictAddress": {
+            "City": "Musella",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4788364362",
+            "State": "GA",
+            "Street": "PO Box 10",
+            "Zip": "31066     "
+        },
+        "LegId": 1093,
+        "Name": {
+            "First": "Robert",
+            "Last": "Dickey",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Musella",
+        "Id": 791
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 63,
+            "Type": 4,
+            "Number": 45
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 681746",
+            "Zip": "30068     "
+        },
+        "LegId": 614,
+        "Name": {
+            "First": "Matt",
+            "Last": "Dollar",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 94
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 120,
+            "Type": 4,
+            "Number": 78
+        },
+        "DistrictAddress": {
+            "City": "Stockbridge",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 131",
+            "Zip": "30281     "
+        },
+        "LegId": 1042,
+        "Name": {
+            "First": "Demetrius",
+            "Last": "Douglas",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Stockbridge",
+        "Id": 817
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 129,
+            "Type": 4,
+            "Number": 85
+        },
+        "DistrictAddress": {
+            "City": "Avondale Estates",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 348",
+            "Zip": "30002     "
+        },
+        "LegId": 1047,
+        "Name": {
+            "First": "Karla",
+            "Last": "Drenner",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Avondale Estates",
+        "Id": 95
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 83,
+            "Type": 4,
+            "Number": 59
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "505 Cherokee Avenue",
+            "Zip": "30312     "
+        },
+        "LegId": 1224,
+        "Name": {
+            "First": "David",
+            "Last": "Dreyer",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 4888
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 35,
+            "Type": 4,
+            "Number": 29
+        },
+        "DistrictAddress": {
+            "City": null,
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": null,
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1222,
+        "Name": {
+            "First": "Matt",
+            "Last": "Dubnik",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Gainesville",
+        "Id": 4886
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 266,
+            "Type": 3,
+            "Number": 30
+        },
+        "DistrictAddress": {
+            "City": "Carrollton",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "106 Champion Drive",
+            "Zip": "30116     "
+        },
+        "LegId": 1133,
+        "Name": {
+            "First": "Mike",
+            "Last": "Dugan",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Carrollton",
+        "Id": 839
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 210,
+            "Type": 4,
+            "Number": 154
+        },
+        "DistrictAddress": {
+            "City": "Albany",
+            "Email": null,
+            "Fax": "2298832188",
+            "Phone": "2298838537",
+            "State": "GA",
+            "Street": "407 S. Slappey Blvd.",
+            "Zip": "31701     "
+        },
+        "LegId": 1105,
+        "Name": {
+            "First": "Winfred",
+            "Last": "Dukes",
+            "Middle": "J",
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Albany",
+        "Id": 96
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 36,
+            "Type": 4,
+            "Number": 30
+        },
+        "DistrictAddress": {
+            "City": "Gillsville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "4495 Bryant Quarter Rd.",
+            "Zip": "30543     "
+        },
+        "LegId": 1015,
+        "Name": {
+            "First": "Emory",
+            "Last": "Dunahoo",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Gainesville",
+        "Id": 797
+    },
+    {
+        "DateVacated": "/Date(1505707200000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 32,
+            "Type": 4,
+            "Number": 26
+        },
+        "DistrictAddress": {
+            "City": "Cumming",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 3483",
+            "Zip": "30028     "
+        },
+        "LegId": 1011,
+        "Name": {
+            "First": "Geoff",
+            "Last": "Duncan",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cumming",
+        "Id": 818
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 209,
+            "Type": 4,
+            "Number": 153
+        },
+        "DistrictAddress": {
+            "City": "Albany",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "521 Honeysuckle Dr.",
+            "Zip": "31705     "
+        },
+        "LegId": 1170,
+        "Name": {
+            "First": "Darrel",
+            "Last": "Ealum",
+            "Middle": "Bush",
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Albany",
+        "Id": 864
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 152,
+            "Type": 4,
+            "Number": 104
+        },
+        "DistrictAddress": {
+            "City": "Dacula",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1656",
+            "Zip": "30019     "
+        },
+        "LegId": 1143,
+        "Name": {
+            "First": "Chuck",
+            "Last": "Efstration",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dacula",
+        "Id": 846
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 48,
+            "Type": 4,
+            "Number": 36
+        },
+        "DistrictAddress": {
+            "City": "Powder Springs",
+            "Email": null,
+            "Fax": "7704372601",
+            "Phone": "7704377536",
+            "State": "GA",
+            "Street": "5584 Black Iron Trail",
+            "Zip": "30127     "
+        },
+        "LegId": 132,
+        "Name": {
+            "First": "Earl",
+            "Last": "Ehrhart",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Powder Springs",
+        "Id": 97
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 164,
+            "Type": 4,
+            "Number": 116
+        },
+        "DistrictAddress": {
+            "City": "Auburn",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1069,
+        "Name": {
+            "First": "Terry",
+            "Last": "England",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Auburn",
+        "Id": 98
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 200,
+            "Type": 4,
+            "Number": 144
+        },
+        "DistrictAddress": {
+            "City": "Dry Branch",
+            "Email": null,
+            "Fax": "4787559046",
+            "Phone": "4787439901",
+            "State": "Ga",
+            "Street": "4511 Old Gordon Road",
+            "Zip": "31020     "
+        },
+        "LegId": 1097,
+        "Name": {
+            "First": "James",
+            "Last": "Epps",
+            "Middle": null,
+            "Nickname": "Bubber"
+        },
+        "Party": 1,
+        "Residence": "Dry Branch",
+        "Id": 733
+    },
+    {
+        "DateVacated": "/Date(1504670400000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 54,
+            "Type": 4,
+            "Number": 42
+        },
+        "DistrictAddress": {
+            "City": "Smyrna",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7707104087",
+            "State": "GA",
+            "Street": "PO Box 2523",
+            "Zip": "30081     "
+        },
+        "LegId": 1023,
+        "Name": {
+            "First": "Stacey",
+            "Last": "Evans",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Smyrna",
+        "Id": 762
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 169,
+            "Type": 4,
+            "Number": 121
+        },
+        "DistrictAddress": {
+            "City": "Harlem",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": null,
+            "Zip": "30814     "
+        },
+        "LegId": 1074,
+        "Name": {
+            "First": "Barry",
+            "Last": "Fleming",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Harlem",
+        "Id": 101
+    },
+    {
+        "DateVacated": "/Date(1503460800000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 275,
+            "Type": 3,
+            "Number": 39
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": null,
+            "Zip": "          "
+        },
+        "LegId": 22,
+        "Name": {
+            "First": "Vincent",
+            "Last": "Fort",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 12
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 178,
+            "Type": 4,
+            "Number": 126
+        },
+        "DistrictAddress": {
+            "City": "Hephzibah",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "2717 Willis Foreman Road",
+            "Zip": "30815     "
+        },
+        "LegId": 1079,
+        "Name": {
+            "First": "Gloria",
+            "Last": "Frazier",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Hephzibah",
+        "Id": 107
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 166,
+            "Type": 4,
+            "Number": 118
+        },
+        "DistrictAddress": {
+            "City": "Athens",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 8101",
+            "Zip": "30603     "
+        },
+        "LegId": 1071,
+        "Name": {
+            "First": "Spencer",
+            "Last": "Frye",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Athens",
+        "Id": 819
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 81,
+            "Type": 4,
+            "Number": 57
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4046560265",
+            "State": "GA",
+            "Street": "668 East Pelham Road",
+            "Zip": "30324     "
+        },
+        "LegId": 623,
+        "Name": {
+            "First": "Pat",
+            "Last": "Gardner",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 109
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 34,
+            "Type": 4,
+            "Number": 28
+        },
+        "DistrictAddress": {
+            "City": "Homer",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 700",
+            "Zip": "30547     "
+        },
+        "LegId": 1013,
+        "Name": {
+            "First": "Dan",
+            "Last": "Gasaway",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Homer",
+        "Id": 820
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 218,
+            "Type": 4,
+            "Number": 162
+        },
+        "DistrictAddress": {
+            "City": null,
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": null,
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1216,
+        "Name": {
+            "First": "Carl",
+            "Last": "Gilliard",
+            "Middle": "Wayne",
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Garden City",
+        "Id": 4881
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 30,
+            "Type": 4,
+            "Number": 24
+        },
+        "DistrictAddress": {
+            "City": "Cumming",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "4450 Gavira Ct.",
+            "Zip": "30040     "
+        },
+        "LegId": 1195,
+        "Name": {
+            "First": "Sheri",
+            "Last": "Gilligan",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cumming",
+        "Id": 879
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 283,
+            "Type": 3,
+            "Number": 47
+        },
+        "DistrictAddress": {
+            "City": "Danielsville",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7066804466",
+            "State": "GA",
+            "Street": "P.O. Box 1136",
+            "Zip": "30633     "
+        },
+        "LegId": 931,
+        "Name": {
+            "First": "Frank",
+            "Last": "Ginn",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Danielsville",
+        "Id": 751
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 117,
+            "Type": 4,
+            "Number": 75
+        },
+        "DistrictAddress": {
+            "City": "Jonesboro",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 216",
+            "Zip": "30236     "
+        },
+        "LegId": 1041,
+        "Name": {
+            "First": "Mike",
+            "Last": "Glanton",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Jonesboro",
+        "Id": 111
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 52,
+            "Type": 4,
+            "Number": 40
+        },
+        "DistrictAddress": {
+            "City": "Smyrna",
+            "Email": null,
+            "Fax": "7703190970",
+            "Phone": null,
+            "State": "GA",
+            "Street": "2372 Simpson Farm Way",
+            "Zip": "30080     "
+        },
+        "LegId": 1021,
+        "Name": {
+            "First": "Rich",
+            "Last": "Golick",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Smyrna",
+        "Id": 112
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 165,
+            "Type": 4,
+            "Number": 117
+        },
+        "DistrictAddress": {
+            "City": "Athens",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "337 S. Milledge Ave., Suite 224",
+            "Zip": "30606     "
+        },
+        "LegId": 1267,
+        "Name": {
+            "First": "Deborah",
+            "Last": "Gonzalez",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Athens",
+        "Id": 4914
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 287,
+            "Type": 3,
+            "Number": 51
+        },
+        "DistrictAddress": {
+            "City": "Dahlonega",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 600",
+            "Zip": "30533     "
+        },
+        "LegId": 932,
+        "Name": {
+            "First": "Steve",
+            "Last": "Gooch",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dahlonega",
+        "Id": 752
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 219,
+            "Type": 4,
+            "Number": 163
+        },
+        "DistrictAddress": {
+            "City": "Savannah",
+            "Email": null,
+            "Fax": null,
+            "Phone": "9122318958",
+            "State": "GA",
+            "Street": "102 Oglethorpe Professional Court Unit 4",
+            "Zip": "31406     "
+        },
+        "LegId": 1114,
+        "Name": {
+            "First": "J. Craig",
+            "Last": "Gordon",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Savannah",
+        "Id": 113
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 100,
+            "Type": 4,
+            "Number": 67
+        },
+        "DistrictAddress": {
+            "City": "Douglasville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "94 Bridge Place",
+            "Zip": "30134     "
+        },
+        "LegId": 1038,
+        "Name": {
+            "First": "Micah",
+            "Last": "Gravley",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Douglasville",
+        "Id": 821
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 207,
+            "Type": 4,
+            "Number": 151
+        },
+        "DistrictAddress": {
+            "City": "Cuthbert",
+            "Email": null,
+            "Fax": "2297322750",
+            "Phone": null,
+            "State": "GA",
+            "Street": "5805 U.S. Highway 82 W.",
+            "Zip": "39840     "
+        },
+        "LegId": 1103,
+        "Name": {
+            "First": "Gerald",
+            "Last": "Greene",
+            "Middle": "E",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cuthbert",
+        "Id": 115
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 10,
+            "Type": 4,
+            "Number": 8
+        },
+        "DistrictAddress": {
+            "City": "Tiger",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "115 Sawmill Lane",
+            "Zip": "30152     "
+        },
+        "LegId": 1220,
+        "Name": {
+            "First": "Matt",
+            "Last": "Gurtler",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Tiger",
+        "Id": 4884
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 122,
+            "Type": 4,
+            "Number": 80
+        },
+        "DistrictAddress": {
+            "City": "Brookhaven",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": null,
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1232,
+        "Name": {
+            "First": "Meagan",
+            "Last": "Hanson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Brookhaven",
+        "Id": 4896
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 252,
+            "Type": 3,
+            "Number": 16
+        },
+        "DistrictAddress": {
+            "City": "Tyrone",
+            "Email": null,
+            "Fax": "4046566484",
+            "Phone": "4046560078",
+            "State": "GA",
+            "Street": "215 Greencastle Road",
+            "Zip": "30290     "
+        },
+        "LegId": 1158,
+        "Name": {
+            "First": "Marty",
+            "Last": "Harbin",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Tyrone",
+        "Id": 850
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 251,
+            "Type": 3,
+            "Number": 15
+        },
+        "DistrictAddress": {
+            "City": "Columbus",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1292",
+            "Zip": "31902     "
+        },
+        "LegId": 39,
+        "Name": {
+            "First": "Ed",
+            "Last": "Harbison",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Columbus",
+        "Id": 17
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 204,
+            "Type": 4,
+            "Number": 148
+        },
+        "DistrictAddress": {
+            "City": "Cordele",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "Ga",
+            "Street": "458 Lakeshore Way",
+            "Zip": "31015     "
+        },
+        "LegId": 1100,
+        "Name": {
+            "First": "Buddy",
+            "Last": "Harden",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cordele",
+        "Id": 724
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 243,
+            "Type": 3,
+            "Number": 7
+        },
+        "DistrictAddress": {
+            "City": "Ocilla",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 798",
+            "Zip": "31774     "
+        },
+        "LegId": 993,
+        "Name": {
+            "First": "Tyler",
+            "Last": "Harper",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Ocilla",
+        "Id": 804
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 154,
+            "Type": 4,
+            "Number": 106
+        },
+        "DistrictAddress": {
+            "City": "Snellville",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4049665804",
+            "State": "GA",
+            "Street": "PO Box 1135",
+            "Zip": "30078     "
+        },
+        "LegId": 958,
+        "Name": {
+            "First": "Brett",
+            "Last": "Harrell",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Snellville",
+        "Id": 776
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 206,
+            "Type": 4,
+            "Number": 150
+        },
+        "DistrictAddress": {
+            "City": "Dublin",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "100 Canterbury Road",
+            "Zip": "31021     "
+        },
+        "LegId": 1102,
+        "Name": {
+            "First": "Matt",
+            "Last": "Hatchett",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dublin",
+        "Id": 781
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 33,
+            "Type": 4,
+            "Number": 27
+        },
+        "DistrictAddress": {
+            "City": "Gainesville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "4710 Jim Hood Road",
+            "Zip": "30506     "
+        },
+        "LegId": 1012,
+        "Name": {
+            "First": "Lee",
+            "Last": "Hawkins",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Gainesville",
+        "Id": 19
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 267,
+            "Type": 3,
+            "Number": 31
+        },
+        "DistrictAddress": {
+            "City": "Bremen",
+            "Email": null,
+            "Fax": "7705376383",
+            "Phone": "7705375234",
+            "State": "GA",
+            "Street": "2225 Cashtown Road",
+            "Zip": "30110     "
+        },
+        "LegId": 717,
+        "Name": {
+            "First": "Bill",
+            "Last": "Heath",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Bremen",
+        "Id": 20
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 132,
+            "Type": 4,
+            "Number": 86
+        },
+        "DistrictAddress": {
+            "City": "Stone Mountain",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "4140 Creek Stone Court",
+            "Zip": "30083     "
+        },
+        "LegId": 1048,
+        "Name": {
+            "First": "Michele",
+            "Last": "Henson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Stone Mountain",
+        "Id": 124
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 277,
+            "Type": 3,
+            "Number": 41
+        },
+        "DistrictAddress": {
+            "City": "Stone Mountain ",
+            "Email": null,
+            "Fax": "6789371672",
+            "Phone": "6789072723",
+            "State": "GA",
+            "Street": "5404 Pheasant Run ",
+            "Zip": "30087     "
+        },
+        "LegId": 506,
+        "Name": {
+            "First": "Steve",
+            "Last": "Henson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Stone Mountain",
+        "Id": 21
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 3,
+            "Type": 4,
+            "Number": 3
+        },
+        "DistrictAddress": {
+            "City": "Ringgold",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1335",
+            "Zip": "30736     "
+        },
+        "LegId": 1218,
+        "Name": {
+            "First": "Dewayne",
+            "Last": "Hill",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Ringgold",
+        "Id": 4882
+    },
+    {
+        "DateVacated": "/Date(1504670400000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 242,
+            "Type": 3,
+            "Number": 6
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "2451 Cumberland Parkway, Ste. 3439",
+            "Zip": "30339     "
+        },
+        "LegId": 1123,
+        "Name": {
+            "First": "Hunter",
+            "Last": "Hill",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Atlanta",
+        "Id": 803
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 240,
+            "Type": 3,
+            "Number": 4
+        },
+        "DistrictAddress": {
+            "City": "Reidsville",
+            "Email": null,
+            "Fax": "9125573522",
+            "Phone": "9125573811",
+            "State": "GA",
+            "Street": "P.O. Box 486",
+            "Zip": "30453     "
+        },
+        "LegId": 17,
+        "Name": {
+            "First": "Jack",
+            "Last": "Hill",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Reidsville",
+        "Id": 22
+    },
+    {
+        "DateVacated": "/Date(1486962000000-0500)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 268,
+            "Type": 3,
+            "Number": 32
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": "7702345378",
+            "Phone": "7705650024",
+            "State": "GA",
+            "Street": "3102 Raines Court",
+            "Zip": "30062     "
+        },
+        "LegId": 718,
+        "Name": {
+            "First": "Judson",
+            "Last": "Hill",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 23
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 143,
+            "Type": 4,
+            "Number": 95
+        },
+        "DistrictAddress": {
+            "City": "Peachtree Corners",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "5425 Peachtree Parkway",
+            "Zip": "30092     "
+        },
+        "LegId": 1235,
+        "Name": {
+            "First": "Scott",
+            "Last": "Hilton",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Peachtree Corners",
+        "Id": 4899
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 217,
+            "Type": 4,
+            "Number": 161
+        },
+        "DistrictAddress": {
+            "City": "Rincon",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "2440 Rincon-Stillwell Rd.",
+            "Zip": "31326     "
+        },
+        "LegId": 1112,
+        "Name": {
+            "First": "Bill",
+            "Last": "Hitchens",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Rincon",
+        "Id": 823
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 235,
+            "Type": 4,
+            "Number": 179
+        },
+        "DistrictAddress": {
+            "City": null,
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": null,
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1245,
+        "Name": {
+            "First": "Don",
+            "Last": "Hogan",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "St. Simon's Island",
+        "Id": 4906
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 123,
+            "Type": 4,
+            "Number": 81
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "2306 Briarcliff Commons",
+            "Zip": "30345     "
+        },
+        "LegId": 1043,
+        "Name": {
+            "First": "Scott",
+            "Last": "Holcomb",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 769
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 181,
+            "Type": 4,
+            "Number": 129
+        },
+        "DistrictAddress": {
+            "City": "Monticello",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 151",
+            "Zip": "31064     "
+        },
+        "LegId": 1082,
+        "Name": {
+            "First": "Susan",
+            "Last": "Holmes",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Monticello",
+        "Id": 780
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 226,
+            "Type": 4,
+            "Number": 170
+        },
+        "DistrictAddress": {
+            "City": "Nashville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "8395 Highway 129",
+            "Zip": "31639     "
+        },
+        "LegId": 789,
+        "Name": {
+            "First": "Penny",
+            "Last": "Houston",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Nashville",
+        "Id": 130
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 174,
+            "Type": 4,
+            "Number": 124
+        },
+        "DistrictAddress": {
+            "City": "Augusta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7067221123",
+            "State": "GA",
+            "Street": "2047B Martin Luther King, Jr. Boulevard",
+            "Zip": "30901     "
+        },
+        "LegId": 1077,
+        "Name": {
+            "First": "Wayne",
+            "Last": "Howard",
+            "Middle": null,
+            "Nickname": "Henry \"Wayne\""
+        },
+        "Party": 0,
+        "Residence": "Augusta",
+        "Id": 131
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 288,
+            "Type": 3,
+            "Number": 52
+        },
+        "DistrictAddress": {
+            "City": "Rome",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "3 Orchard Spring Dr.",
+            "Zip": "30165     "
+        },
+        "LegId": 997,
+        "Name": {
+            "First": "Chuck",
+            "Last": "Hufstetler",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Rome",
+        "Id": 838
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 190,
+            "Type": 4,
+            "Number": 136
+        },
+        "DistrictAddress": {
+            "City": "Columbus",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 6342",
+            "Zip": "319176342 "
+        },
+        "LegId": 1089,
+        "Name": {
+            "First": "Carolyn",
+            "Last": "Hugley",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Columbus",
+        "Id": 133
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 97,
+            "Type": 4,
+            "Number": 64
+        },
+        "DistrictAddress": {
+            "City": "Tyrone",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "100 Commerce Drive, # 1052",
+            "Zip": "30290     "
+        },
+        "LegId": 1227,
+        "Name": {
+            "First": "Derrick",
+            "Last": "Jackson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Tyrone",
+        "Id": 4891
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 238,
+            "Type": 3,
+            "Number": 2
+        },
+        "DistrictAddress": {
+            "City": "Savannah",
+            "Email": null,
+            "Fax": "9122010431",
+            "Phone": "9122337970",
+            "State": "GA",
+            "Street": "1501 Abercorn Street",
+            "Zip": "31401     "
+        },
+        "LegId": 883,
+        "Name": {
+            "First": "Lester",
+            "Last": "Jackson",
+            "Middle": "G.",
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Savannah",
+        "Id": 134
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 180,
+            "Type": 4,
+            "Number": 128
+        },
+        "DistrictAddress": {
+            "City": "Sandersville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "Ga",
+            "Street": "733 Evelyn Street",
+            "Zip": "31082     "
+        },
+        "LegId": 1081,
+        "Name": {
+            "First": "Mack",
+            "Last": "Jackson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Sandersville",
+        "Id": 738
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 271,
+            "Type": 3,
+            "Number": 35
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4046258855",
+            "State": "GA",
+            "Street": "P.O. Box 311225",
+            "Zip": "30331     "
+        },
+        "LegId": 914,
+        "Name": {
+            "First": "Donzella",
+            "Last": "James",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 372
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 13,
+            "Type": 4,
+            "Number": 11
+        },
+        "DistrictAddress": {
+            "City": "Jasper",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "89 Apple Valley Farm Lane",
+            "Zip": "30143     "
+        },
+        "LegId": 1002,
+        "Name": {
+            "First": "Rick",
+            "Last": "Jasperse",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Jasper",
+        "Id": 755
+    },
+    {
+        "DateVacated": "/Date(1512104400000-0500)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 253,
+            "Type": 3,
+            "Number": 17
+        },
+        "DistrictAddress": {
+            "City": "McDonough",
+            "Email": null,
+            "Fax": "6784325133",
+            "Phone": "6784327676",
+            "State": "GA",
+            "Street": "134 Atlanta Street",
+            "Zip": "30253     "
+        },
+        "LegId": 927,
+        "Name": {
+            "First": "Rick",
+            "Last": "Jeffares",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "McDonough",
+        "Id": 747
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 261,
+            "Type": 3,
+            "Number": 25
+        },
+        "DistrictAddress": {
+            "City": "Jackson",
+            "Email": null,
+            "Fax": "7702346752",
+            "Phone": "7707754880",
+            "State": "GA",
+            "Street": "407 East Second St.",
+            "Zip": "30233     "
+        },
+        "LegId": 994,
+        "Name": {
+            "First": "Burt",
+            "Last": "Jones",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Jackson",
+        "Id": 805
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 246,
+            "Type": 3,
+            "Number": 10
+        },
+        "DistrictAddress": {
+            "City": "Decatur",
+            "Email": null,
+            "Fax": "7709647162",
+            "Phone": "7709648888",
+            "State": "GA",
+            "Street": "P.O. Box 370244",
+            "Zip": "30037     "
+        },
+        "LegId": 693,
+        "Name": {
+            "First": "Emanuel",
+            "Last": "Jones",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Decatur",
+        "Id": 28
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 65,
+            "Type": 4,
+            "Number": 47
+        },
+        "DistrictAddress": {
+            "City": "Milton",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "12850 Highway 9Suite 600-356",
+            "Zip": "30004     "
+        },
+        "LegId": 1027,
+        "Name": {
+            "First": "Jan",
+            "Last": "Jones",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Milton",
+        "Id": 142
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 223,
+            "Type": 4,
+            "Number": 167
+        },
+        "DistrictAddress": {
+            "City": "Brunswick",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "139-358 Altama Connector",
+            "Zip": "31525     "
+        },
+        "LegId": 1173,
+        "Name": {
+            "First": "Jeff",
+            "Last": "Jones",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Brunswick",
+        "Id": 861
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 75,
+            "Type": 4,
+            "Number": 53
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4045428683",
+            "State": "GA",
+            "Street": "3246 Amhurst Dr., NW",
+            "Zip": "30318     "
+        },
+        "LegId": 1030,
+        "Name": {
+            "First": "Sheila",
+            "Last": "Jones",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 143
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 31,
+            "Type": 4,
+            "Number": 25
+        },
+        "DistrictAddress": {
+            "City": "Cumming",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "2435 Concord Creek Trail",
+            "Zip": "30041     "
+        },
+        "LegId": 1221,
+        "Name": {
+            "First": "Todd",
+            "Last": "Jones",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "South Forsyth",
+        "Id": 4885
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 139,
+            "Type": 4,
+            "Number": 91
+        },
+        "DistrictAddress": {
+            "City": "Lithonia",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 723",
+            "Zip": "30058     "
+        },
+        "LegId": 1234,
+        "Name": {
+            "First": "Vernon",
+            "Last": "Jones",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Lithonia",
+        "Id": 4898
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 258,
+            "Type": 3,
+            "Number": 22
+        },
+        "DistrictAddress": {
+            "City": "Augusta",
+            "Email": null,
+            "Fax": "7064329180",
+            "Phone": "7063391424",
+            "State": "GA",
+            "Street": "437 Walker Street",
+            "Zip": "30901     "
+        },
+        "LegId": 1160,
+        "Name": {
+            "First": "Harold",
+            "Last": "Jones II",
+            "Middle": "V.",
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Augusta",
+        "Id": 851
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 242,
+            "Type": 3,
+            "Number": 6
+        },
+        "DistrictAddress": {
+            "City": null,
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": null,
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1272,
+        "Name": {
+            "First": "Jennifer",
+            "Last": "Jordan",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": null,
+        "Id": 4918
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 22,
+            "Type": 4,
+            "Number": 16
+        },
+        "DistrictAddress": {
+            "City": "Cedartown",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "836 N. College Drive",
+            "Zip": "30125     "
+        },
+        "LegId": 1004,
+        "Name": {
+            "First": "Trey",
+            "Last": "Kelley",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cedartown",
+        "Id": 825
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 141,
+            "Type": 4,
+            "Number": 93
+        },
+        "DistrictAddress": {
+            "City": "Lithonia",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 630",
+            "Zip": "30058     "
+        },
+        "LegId": 1054,
+        "Name": {
+            "First": "Dar'shun",
+            "Last": "Kendrick",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Lithonia",
+        "Id": 770
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 254,
+            "Type": 3,
+            "Number": 18
+        },
+        "DistrictAddress": {
+            "City": "Macon",
+            "Email": null,
+            "Fax": "4787428720",
+            "Phone": "4787499981",
+            "State": "GA",
+            "Street": "231 Riverside Drive",
+            "Zip": "31201     "
+        },
+        "LegId": 1159,
+        "Name": {
+            "First": "John",
+            "Last": "Kennedy",
+            "Middle": "F.",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Macon",
+        "Id": 852
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 162,
+            "Type": 4,
+            "Number": 114
+        },
+        "DistrictAddress": {
+            "City": "Loganville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 1416",
+            "Zip": "30052     "
+        },
+        "LegId": 1067,
+        "Name": {
+            "First": "Tom",
+            "Last": "Kirby",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Loganville",
+        "Id": 802
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 249,
+            "Type": 3,
+            "Number": 13
+        },
+        "DistrictAddress": {
+            "City": "Americus",
+            "Email": null,
+            "Fax": null,
+            "Phone": "2298549706",
+            "State": "GA",
+            "Street": "P.O. Box 6085",
+            "Zip": "31709     "
+        },
+        "LegId": 1157,
+        "Name": {
+            "First": "Greg",
+            "Last": "Kirk",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Americus",
+        "Id": 853
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 268,
+            "Type": 3,
+            "Number": 32
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4048224719",
+            "State": "GA",
+            "Street": null,
+            "Zip": "30068     "
+        },
+        "LegId": 1260,
+        "Name": {
+            "First": "Kay",
+            "Last": "Kirkpatrick",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 4910
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 184,
+            "Type": 4,
+            "Number": 130
+        },
+        "DistrictAddress": {
+            "City": "Griffin",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1003 East College Street",
+            "Zip": "30224     "
+        },
+        "LegId": 1083,
+        "Name": {
+            "First": "David",
+            "Last": "Knight",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Griffin",
+        "Id": 148
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 231,
+            "Type": 4,
+            "Number": 175
+        },
+        "DistrictAddress": {
+            "City": "Valdosta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 5500",
+            "Zip": "31603     "
+        },
+        "LegId": 1284,
+        "Name": {
+            "First": "John",
+            "Last": "LaHood",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Valdosta",
+        "Id": 4923
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 225,
+            "Type": 4,
+            "Number": 169
+        },
+        "DistrictAddress": {
+            "City": "Douglas",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1156",
+            "Zip": "31534     "
+        },
+        "LegId": 1174,
+        "Name": {
+            "First": "Dominic",
+            "Last": "LaRiccia",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Douglas",
+        "Id": 860
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 239,
+            "Type": 3,
+            "Number": 3
+        },
+        "DistrictAddress": {
+            "City": "Brunswick",
+            "Email": null,
+            "Fax": "9122610463",
+            "Phone": "9122612263",
+            "State": "GA",
+            "Street": "158 Scranton Connector",
+            "Zip": "31525     "
+        },
+        "LegId": 926,
+        "Name": {
+            "First": "William",
+            "Last": "Ligon, Jr.",
+            "Middle": "T.",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Brunswick",
+        "Id": 746
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 147,
+            "Type": 4,
+            "Number": 99
+        },
+        "DistrictAddress": {
+            "City": "Norcross",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 886",
+            "Zip": "30091     "
+        },
+        "LegId": 1236,
+        "Name": {
+            "First": "Brenda",
+            "Last": "Lopez",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Norcross",
+        "Id": 4900
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 172,
+            "Type": 4,
+            "Number": 122
+        },
+        "DistrictAddress": {
+            "City": "Evans",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 86",
+            "Zip": "30809     "
+        },
+        "LegId": 1209,
+        "Name": {
+            "First": "Jodi",
+            "Last": "Lott",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Evans",
+        "Id": 4879
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 262,
+            "Type": 3,
+            "Number": 26
+        },
+        "DistrictAddress": {
+            "City": "Macon",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4782547600",
+            "State": "GA",
+            "Street": "2594 Saratoga Drive",
+            "Zip": "31211     "
+        },
+        "LegId": 995,
+        "Name": {
+            "First": "David",
+            "Last": "Lucas",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Macon",
+        "Id": 157
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 14,
+            "Type": 4,
+            "Number": 12
+        },
+        "DistrictAddress": {
+            "City": "Armuchee",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 122",
+            "Zip": "30105     "
+        },
+        "LegId": 1091,
+        "Name": {
+            "First": "Eddie",
+            "Last": "Lumsden",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Armuchee",
+        "Id": 826
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 144,
+            "Type": 4,
+            "Number": 96
+        },
+        "DistrictAddress": {
+            "City": "Duluth",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "4901 Duncan Wood Drive",
+            "Zip": "30096     "
+        },
+        "LegId": 758,
+        "Name": {
+            "First": "Pedro",
+            "Last": "Marin",
+            "Middle": null,
+            "Nickname": "Pedro \"Pete\""
+        },
+        "Party": 0,
+        "Residence": "Duluth",
+        "Id": 163
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 71,
+            "Type": 4,
+            "Number": 49
+        },
+        "DistrictAddress": {
+            "City": "Alpharetta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "11770 Haynes Bridge RoadSuite 205-544",
+            "Zip": "30004     "
+        },
+        "LegId": 1028,
+        "Name": {
+            "First": "Charles",
+            "Last": "Martin",
+            "Middle": "E.",
+            "Nickname": "Chuck"
+        },
+        "Party": 1,
+        "Residence": "Alpharetta",
+        "Id": 164
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 245,
+            "Type": 3,
+            "Number": 9
+        },
+        "DistrictAddress": {
+            "City": "Lawrenceville",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7703782102",
+            "State": "GA",
+            "Street": "455 Pine Forest Dr",
+            "Zip": "30046     "
+        },
+        "LegId": 1156,
+        "Name": {
+            "First": "P. K.",
+            "Last": "Martin IV",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Lawrenceville",
+        "Id": 854
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 115,
+            "Type": 4,
+            "Number": 73
+        },
+        "DistrictAddress": {
+            "City": "Griffin",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "127 Dunwoody Circle",
+            "Zip": "30223     "
+        },
+        "LegId": 1230,
+        "Name": {
+            "First": "Karen",
+            "Last": "Mathiak",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Griffin",
+        "Id": 4894
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 23,
+            "Type": 4,
+            "Number": 17
+        },
+        "DistrictAddress": {
+            "City": "Dallas",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7703865420",
+            "State": "GA",
+            "Street": "716 Graham Road",
+            "Zip": "30132     "
+        },
+        "LegId": 599,
+        "Name": {
+            "First": "Howard",
+            "Last": "Maxwell",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dallas",
+        "Id": 165
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 39,
+            "Type": 4,
+            "Number": 33
+        },
+        "DistrictAddress": {
+            "City": "Elberton",
+            "Email": null,
+            "Fax": "7062836656",
+            "Phone": null,
+            "State": "GA",
+            "Street": "2835 Washington Highway",
+            "Zip": "30635     "
+        },
+        "LegId": 1017,
+        "Name": {
+            "First": "Tom",
+            "Last": "McCall",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Elberton",
+        "Id": 167
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 148,
+            "Type": 4,
+            "Number": 100
+        },
+        "DistrictAddress": {
+            "City": "Lawrenceville",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4045253559",
+            "State": "GA",
+            "Street": "1032 Flagg Way",
+            "Zip": "30044     "
+        },
+        "LegId": 1142,
+        "Name": {
+            "First": "Dewey",
+            "Last": "McClain",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Lawrenceville",
+        "Id": 845
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 192,
+            "Type": 4,
+            "Number": 138
+        },
+        "DistrictAddress": {
+            "City": "Americus",
+            "Email": null,
+            "Fax": null,
+            "Phone": "2293800325",
+            "State": "GA",
+            "Street": "610 S. Lee Street",
+            "Zip": "31709     "
+        },
+        "LegId": 1241,
+        "Name": {
+            "First": "Bill",
+            "Last": "McGowan",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Americus",
+        "Id": 4904
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 265,
+            "Type": 3,
+            "Number": 29
+        },
+        "DistrictAddress": {
+            "City": "Columbus",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7064429130",
+            "State": "GA",
+            "Street": "P.O. Box 2565",
+            "Zip": "31902     "
+        },
+        "LegId": 929,
+        "Name": {
+            "First": "Joshua",
+            "Last": "McKoon",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Columbus",
+        "Id": 749
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 7,
+            "Type": 4,
+            "Number": 5
+        },
+        "DistrictAddress": {
+            "City": "Calhoun",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": null,
+            "Zip": "          "
+        },
+        "LegId": 596,
+        "Name": {
+            "First": "John",
+            "Last": "Meadows",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Calhoun",
+        "Id": 169
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 77,
+            "Type": 4,
+            "Number": 55
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 42626",
+            "Zip": "30311     "
+        },
+        "LegId": 1194,
+        "Name": {
+            "First": "Marie",
+            "Last": "Metze",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 878
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 276,
+            "Type": 3,
+            "Number": 40
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 88096",
+            "Zip": "30356     "
+        },
+        "LegId": 935,
+        "Name": {
+            "First": "Fran",
+            "Last": "Millar",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Atlanta",
+        "Id": 170
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 285,
+            "Type": 3,
+            "Number": 49
+        },
+        "DistrictAddress": {
+            "City": "Gainesville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "2420 Browns Bridge Road",
+            "Zip": "30504     "
+        },
+        "LegId": 924,
+        "Name": {
+            "First": "Butch",
+            "Last": "Miller",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Gainesville",
+        "Id": 719
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 134,
+            "Type": 4,
+            "Number": 88
+        },
+        "DistrictAddress": {
+            "City": "Stone Mountain",
+            "Email": null,
+            "Fax": "7704658888",
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 88",
+            "Zip": "30086     "
+        },
+        "LegId": 645,
+        "Name": {
+            "First": "Billy",
+            "Last": "Mitchell",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Stone Mountain",
+        "Id": 172
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 212,
+            "Type": 4,
+            "Number": 156
+        },
+        "DistrictAddress": {
+            "City": "Vidalia",
+            "Email": null,
+            "Fax": null,
+            "Phone": "9122930725",
+            "State": "GA",
+            "Street": "1021 J.R. Rollins Road",
+            "Zip": "30474     "
+        },
+        "LegId": 1107,
+        "Name": {
+            "First": "Greg",
+            "Last": "Morris",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Vidalia",
+        "Id": 174
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 32,
+            "Type": 4,
+            "Number": 26
+        },
+        "DistrictAddress": {
+            "City": "Cumming",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "343-A Dahlonega St.",
+            "Zip": "30040     "
+        },
+        "LegId": 1265,
+        "Name": {
+            "First": "Marc",
+            "Last": "Morris",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cumming",
+        "Id": 4912
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 125,
+            "Type": 4,
+            "Number": 83
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "2101 Sugar Creek Falls Drive",
+            "Zip": "30316     "
+        },
+        "LegId": 1045,
+        "Name": {
+            "First": "Howard",
+            "Last": "Mosby",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 175
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 289,
+            "Type": 3,
+            "Number": 53
+        },
+        "DistrictAddress": {
+            "City": "Chickamauga",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7063751776",
+            "State": "GA",
+            "Street": "212 English Avenue",
+            "Zip": "30707     "
+        },
+        "LegId": 311,
+        "Name": {
+            "First": "Jeff",
+            "Last": "Mullis",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Chickamauga",
+        "Id": 31
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 177,
+            "Type": 4,
+            "Number": 125
+        },
+        "DistrictAddress": {
+            "City": "Augusta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 5544",
+            "Zip": "30916     "
+        },
+        "LegId": 1240,
+        "Name": {
+            "First": "Sheila",
+            "Last": "Nelson",
+            "Middle": "Clark",
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Augusta",
+        "Id": 4903
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 173,
+            "Type": 4,
+            "Number": 123
+        },
+        "DistrictAddress": {
+            "City": null,
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": null,
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1239,
+        "Name": {
+            "First": "Mark",
+            "Last": "Newton",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Augusta",
+        "Id": 4902
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 137,
+            "Type": 4,
+            "Number": 89
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "212 Flora Ave. NE",
+            "Zip": "30307     "
+        },
+        "LegId": 1271,
+        "Name": {
+            "First": "Bee",
+            "Last": "Nguyen",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 4917
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 234,
+            "Type": 4,
+            "Number": 178
+        },
+        "DistrictAddress": {
+            "City": "Blackshear",
+            "Email": null,
+            "Fax": null,
+            "Phone": "9128076190",
+            "State": "GA",
+            "Street": "P.O. Box 1174",
+            "Zip": "31516     "
+        },
+        "LegId": 973,
+        "Name": {
+            "First": "Chad",
+            "Last": "Nimmer",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Blackshear",
+        "Id": 790
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 104,
+            "Type": 4,
+            "Number": 69
+        },
+        "DistrictAddress": {
+            "City": "LaGrange",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 991",
+            "Zip": "30241     "
+        },
+        "LegId": 847,
+        "Name": {
+            "First": "Randy",
+            "Last": "Nix",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "LaGrange",
+        "Id": 179
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 124,
+            "Type": 4,
+            "Number": 82
+        },
+        "DistrictAddress": {
+            "City": "Decatur",
+            "Email": null,
+            "Fax": "4043770486",
+            "Phone": "4043770485",
+            "State": "GA",
+            "Street": "150 East Ponce de Leon Avenue, Suite 230",
+            "Zip": "30030     "
+        },
+        "LegId": 1044,
+        "Name": {
+            "First": "Mary",
+            "Last": "Oliver",
+            "Middle": "Margaret",
+            "Nickname": "Mary Margaret"
+        },
+        "Party": 0,
+        "Residence": "Decatur",
+        "Id": 181
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 272,
+            "Type": 3,
+            "Number": 36
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": "4046220486",
+            "Phone": "4045245999",
+            "State": "GA",
+            "Street": "1070 Delaware Avenue SE",
+            "Zip": "30316     "
+        },
+        "LegId": 835,
+        "Name": {
+            "First": "Nan",
+            "Last": "Orrock",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 33
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 278,
+            "Type": 3,
+            "Number": 42
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "774 Springdale Rd NE",
+            "Zip": "30306     "
+        },
+        "LegId": 1163,
+        "Name": {
+            "First": "Elena",
+            "Last": "Parent",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 768
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 198,
+            "Type": 4,
+            "Number": 142
+        },
+        "DistrictAddress": {
+            "City": "Macon",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4787373036",
+            "State": "GA",
+            "Street": "P.O. Box 14056",
+            "Zip": "31203     "
+        },
+        "LegId": 1242,
+        "Name": {
+            "First": "Miriam",
+            "Last": "Paris",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Macon",
+        "Id": 794
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 149,
+            "Type": 4,
+            "Number": 101
+        },
+        "DistrictAddress": {
+            "City": "Lawrenceville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1409 Legrand Circle",
+            "Zip": "30043     "
+        },
+        "LegId": 1237,
+        "Name": {
+            "First": "Sam",
+            "Last": "Park",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Lawrenceville",
+        "Id": 4901
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 214,
+            "Type": 4,
+            "Number": 158
+        },
+        "DistrictAddress": {
+            "City": "Swainsboro",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4782373838",
+            "State": "GA",
+            "Street": "132 Victory Drive",
+            "Zip": "30401     "
+        },
+        "LegId": 1109,
+        "Name": {
+            "First": "Butch",
+            "Last": "Parrish",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Swainsboro",
+        "Id": 183
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 62,
+            "Type": 4,
+            "Number": 44
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7709774426",
+            "State": "GA",
+            "Street": "3167 Sycamore Lane",
+            "Zip": "30066     "
+        },
+        "LegId": 1025,
+        "Name": {
+            "First": "Don",
+            "Last": "Parsons",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 184
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 290,
+            "Type": 3,
+            "Number": 54
+        },
+        "DistrictAddress": {
+            "City": "Dalton ",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7062718212",
+            "State": "GA",
+            "Street": "P.O. Box 1074",
+            "Zip": "30722     "
+        },
+        "LegId": 1259,
+        "Name": {
+            "First": "Chuck ",
+            "Last": "Payne ",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dalton ",
+        "Id": 4909
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 195,
+            "Type": 4,
+            "Number": 141
+        },
+        "DistrictAddress": {
+            "City": "Macon",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4784745633",
+            "State": "GA",
+            "Street": "103 Colony Court",
+            "Zip": "31210     "
+        },
+        "LegId": 1094,
+        "Name": {
+            "First": "Allen",
+            "Last": "Peake",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Macon",
+        "Id": 185
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 222,
+            "Type": 4,
+            "Number": 166
+        },
+        "DistrictAddress": {
+            "City": "Savannah",
+            "Email": null,
+            "Fax": null,
+            "Phone": "9123543680",
+            "State": "GA",
+            "Street": "108 Loyer Lane",
+            "Zip": "31411     "
+        },
+        "LegId": 1172,
+        "Name": {
+            "First": "Jesse",
+            "Last": "Petrea",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Savannah",
+        "Id": 862
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 187,
+            "Type": 4,
+            "Number": 133
+        },
+        "DistrictAddress": {
+            "City": "Fortson",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1595",
+            "Zip": "31808     "
+        },
+        "LegId": 1086,
+        "Name": {
+            "First": "John",
+            "Last": "Pezold",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Columbus",
+        "Id": 828
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 211,
+            "Type": 4,
+            "Number": 155
+        },
+        "DistrictAddress": {
+            "City": "Ashburn",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 607",
+            "Zip": "31714     "
+        },
+        "LegId": 1197,
+        "Name": {
+            "First": "Clay",
+            "Last": "Pirkle",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Ashburn",
+        "Id": 1877
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 38,
+            "Type": 4,
+            "Number": 32
+        },
+        "DistrictAddress": {
+            "City": "Hartwell",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7062066500",
+            "State": "GA",
+            "Street": "3059 Ridge Road",
+            "Zip": "30643     "
+        },
+        "LegId": 1016,
+        "Name": {
+            "First": "Alan",
+            "Last": "Powell",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Hartwell",
+        "Id": 187
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 227,
+            "Type": 4,
+            "Number": 171
+        },
+        "DistrictAddress": {
+            "City": "Camilla",
+            "Email": null,
+            "Fax": null,
+            "Phone": "2293363962",
+            "State": "Ga",
+            "Street": "PO Box 188",
+            "Zip": "31730     "
+        },
+        "LegId": 906,
+        "Name": {
+            "First": "Jay",
+            "Last": "Powell",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Camilla",
+        "Id": 728
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 66,
+            "Type": 4,
+            "Number": 48
+        },
+        "DistrictAddress": {
+            "City": "Roswell",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": null,
+            "Zip": "30075     "
+        },
+        "LegId": 1193,
+        "Name": {
+            "First": "Betty",
+            "Last": "Price",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Roswell",
+        "Id": 877
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 179,
+            "Type": 4,
+            "Number": 127
+        },
+        "DistrictAddress": {
+            "City": "Augusta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7063644230",
+            "State": "GA",
+            "Street": "P.O. Box 14264",
+            "Zip": "30919     "
+        },
+        "LegId": 1144,
+        "Name": {
+            "First": "Brian",
+            "Last": "Prince",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Augusta",
+        "Id": 847
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 205,
+            "Type": 4,
+            "Number": 149
+        },
+        "DistrictAddress": {
+            "City": "Eastman",
+            "Email": null,
+            "Fax": "4783745114",
+            "Phone": "4783744316",
+            "State": "GA",
+            "Street": "PO Box 459",
+            "Zip": "31023     "
+        },
+        "LegId": 1101,
+        "Name": {
+            "First": "Jimmy",
+            "Last": "Pruett",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Eastman",
+        "Id": 188
+    },
+    {
+        "DateVacated": "/Date(1503547200000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 165,
+            "Type": 4,
+            "Number": 117
+        },
+        "DistrictAddress": {
+            "City": "Athens",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "150 E. Washingston Street",
+            "Zip": "30601     "
+        },
+        "LegId": 1070,
+        "Name": {
+            "First": "Regina",
+            "Last": "Quick",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Athens",
+        "Id": 829
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 72,
+            "Type": 4,
+            "Number": 50
+        },
+        "DistrictAddress": {
+            "City": "Johns Creek",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "10945 State Bridge Rd., Suite 401",
+            "Zip": "30022     "
+        },
+        "LegId": 1190,
+        "Name": {
+            "First": "Brad",
+            "Last": "Raffensperger",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Johns Creek",
+        "Id": 875
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 25,
+            "Type": 4,
+            "Number": 19
+        },
+        "DistrictAddress": {
+            "City": "Hiram",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7704399056",
+            "State": "GA",
+            "Street": "391 Quail Ridge Road",
+            "Zip": "30141     "
+        },
+        "LegId": 1189,
+        "Name": {
+            "First": "Paulette",
+            "Last": "Rakestraw",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Hiram",
+        "Id": 874
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 9,
+            "Type": 4,
+            "Number": 7
+        },
+        "DistrictAddress": {
+            "City": "Blue Ridge",
+            "Email": null,
+            "Fax": "7066326193",
+            "Phone": "7066322221",
+            "State": "GA",
+            "Street": "PO Box 188",
+            "Zip": "30513     "
+        },
+        "LegId": 597,
+        "Name": {
+            "First": "David",
+            "Last": "Ralston",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Blue Ridge",
+        "Id": 189
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 43,
+            "Type": 4,
+            "Number": 34
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7704271605",
+            "State": "GA",
+            "Street": "890 Crossfire Ridge",
+            "Zip": "30064     "
+        },
+        "LegId": 1165,
+        "Name": {
+            "First": "Bert",
+            "Last": "Reeves",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 869
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 269,
+            "Type": 3,
+            "Number": 33
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 777",
+            "Zip": "30061     "
+        },
+        "LegId": 1162,
+        "Name": {
+            "First": "Michael 'Doc'",
+            "Last": "Rhett",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Marietta",
+        "Id": 855
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 168,
+            "Type": 4,
+            "Number": 120
+        },
+        "DistrictAddress": {
+            "City": "Greensboro",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1021 Jernigan Lane",
+            "Zip": "30642     "
+        },
+        "LegId": 1191,
+        "Name": {
+            "First": "Trey",
+            "Last": "Rhodes",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Greensboro",
+        "Id": 876
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 8,
+            "Type": 4,
+            "Number": 6
+        },
+        "DistrictAddress": {
+            "City": "Chatsworth",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 2010",
+            "Zip": "30705     "
+        },
+        "LegId": 1219,
+        "Name": {
+            "First": "Jason",
+            "Last": "Ridley",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Chatsworth",
+        "Id": 4883
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 12,
+            "Type": 4,
+            "Number": 10
+        },
+        "DistrictAddress": {
+            "City": "Clarkesville",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7067540706",
+            "State": "GA",
+            "Street": "2403 New Liberty Road",
+            "Zip": "30523     "
+        },
+        "LegId": 981,
+        "Name": {
+            "First": "Terry",
+            "Last": "Rogers",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Clarkesville",
+        "Id": 796
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 157,
+            "Type": 4,
+            "Number": 109
+        },
+        "DistrictAddress": {
+            "City": "McDonough",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1162",
+            "Zip": "30253     "
+        },
+        "LegId": 1064,
+        "Name": {
+            "First": "Roger",
+            "Last": "Rutledge",
+            "Middle": null,
+            "Nickname": "Dale"
+        },
+        "Party": 1,
+        "Residence": "McDonough",
+        "Id": 830
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 208,
+            "Type": 4,
+            "Number": 152
+        },
+        "DistrictAddress": {
+            "City": "Albany",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "423 Martindale Drive",
+            "Zip": "31721     "
+        },
+        "LegId": 784,
+        "Name": {
+            "First": "Ed",
+            "Last": "Rynders",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Albany",
+        "Id": 198
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 87,
+            "Type": 4,
+            "Number": 60
+        },
+        "DistrictAddress": {
+            "City": null,
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": null,
+            "Street": null,
+            "Zip": null
+        },
+        "LegId": 1270,
+        "Name": {
+            "First": "Kim",
+            "Last": "Schofield",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 4916
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 118,
+            "Type": 4,
+            "Number": 76
+        },
+        "DistrictAddress": {
+            "City": "Rex",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "Ga",
+            "Street": "3489 Oak Leaf Court",
+            "Zip": "30273     "
+        },
+        "LegId": 948,
+        "Name": {
+            "First": "Sandra",
+            "Last": "Scott",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Rex",
+        "Id": 766
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 270,
+            "Type": 3,
+            "Number": 34
+        },
+        "DistrictAddress": {
+            "City": "Riverdale",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7709099912",
+            "State": "GA",
+            "Street": "P.O. Box 960008",
+            "Zip": "30274     "
+        },
+        "LegId": 493,
+        "Name": {
+            "First": "Valencia",
+            "Last": "Seay",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Riverdale",
+        "Id": 41
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 47,
+            "Type": 4,
+            "Number": 35
+        },
+        "DistrictAddress": {
+            "City": "Acworth",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4046308452",
+            "State": "GA",
+            "Street": "1555 Boxwood Trace",
+            "Zip": "30102     "
+        },
+        "LegId": 609,
+        "Name": {
+            "First": "Ed",
+            "Last": "Setzler",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Acworth",
+        "Id": 203
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 284,
+            "Type": 3,
+            "Number": 48
+        },
+        "DistrictAddress": {
+            "City": "Duluth",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7704970048",
+            "State": "GA",
+            "Street": "P.O. Box 880",
+            "Zip": "30096     "
+        },
+        "LegId": 380,
+        "Name": {
+            "First": "David",
+            "Last": "Shafer",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Duluth",
+        "Id": 42
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 126,
+            "Type": 4,
+            "Number": 84
+        },
+        "DistrictAddress": {
+            "City": "Decatur",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "2107 N. Decatur Rd., #717",
+            "Zip": "30033-5305"
+        },
+        "LegId": 1233,
+        "Name": {
+            "First": "Renitta",
+            "Last": "Shannon",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Decatur",
+        "Id": 4897
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 233,
+            "Type": 4,
+            "Number": 177
+        },
+        "DistrictAddress": {
+            "City": "Valdosta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "19 Sharper Circle",
+            "Zip": "31601     "
+        },
+        "LegId": 1120,
+        "Name": {
+            "First": "Dexter",
+            "Last": "Sharper",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Valdosta",
+        "Id": 831
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 232,
+            "Type": 4,
+            "Number": 176
+        },
+        "DistrictAddress": {
+            "City": "Lakeland",
+            "Email": null,
+            "Fax": "2294828043",
+            "Phone": "2294823505",
+            "State": "GA",
+            "Street": "39 Valdosta Road",
+            "Zip": "31635     "
+        },
+        "LegId": 969,
+        "Name": {
+            "First": "Jason",
+            "Last": "Shaw",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Lakeland",
+        "Id": 787
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 74,
+            "Type": 4,
+            "Number": 52
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "6300 Powers Ferry Rd, Ste. 600, # 177",
+            "Zip": "30339     "
+        },
+        "LegId": 1223,
+        "Name": {
+            "First": "Deborah",
+            "Last": "Silcox",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Sandy Springs",
+        "Id": 4887
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 248,
+            "Type": 3,
+            "Number": 12
+        },
+        "DistrictAddress": {
+            "City": "Dawson",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "5377 Goose Hollow Road",
+            "Zip": "31742     "
+        },
+        "LegId": 884,
+        "Name": {
+            "First": "Freddie",
+            "Last": "Sims",
+            "Middle": null,
+            "Nickname": "Freddie Powell"
+        },
+        "Party": 0,
+        "Residence": "Dawson",
+        "Id": 209
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 107,
+            "Type": 4,
+            "Number": 70
+        },
+        "DistrictAddress": {
+            "City": "Newnan",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "Eight Evergreen Drive",
+            "Zip": "30263     "
+        },
+        "LegId": 632,
+        "Name": {
+            "First": "Lynn",
+            "Last": "Smith",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Newnan",
+        "Id": 212
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 53,
+            "Type": 4,
+            "Number": 41
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4046529227",
+            "State": "GA",
+            "Street": "2162 Caneridge Drive",
+            "Zip": "30064     "
+        },
+        "LegId": 1022,
+        "Name": {
+            "First": "Michael",
+            "Last": "Smith",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Marietta",
+        "Id": 832
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 188,
+            "Type": 4,
+            "Number": 134
+        },
+        "DistrictAddress": {
+            "City": "Columbus",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 2122",
+            "Zip": "31902-2122"
+        },
+        "LegId": 1087,
+        "Name": {
+            "First": "Richard",
+            "Last": "Smith",
+            "Middle": "H.",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Columbus",
+        "Id": 213
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 189,
+            "Type": 4,
+            "Number": 135
+        },
+        "DistrictAddress": {
+            "City": "Columbus",
+            "Email": null,
+            "Fax": "7066492479",
+            "Phone": "7066492243",
+            "State": "GA",
+            "Street": "PO Box 181",
+            "Zip": "319020120 "
+        },
+        "LegId": 1088,
+        "Name": {
+            "First": "Calvin",
+            "Last": "Smyre",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Columbus",
+        "Id": 216
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 236,
+            "Type": 4,
+            "Number": 180
+        },
+        "DistrictAddress": {
+            "City": "Woodbine",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "28 Yachtsman Court",
+            "Zip": "31569     "
+        },
+        "LegId": 971,
+        "Name": {
+            "First": "Jason",
+            "Last": "Spencer",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Woodbine",
+        "Id": 789
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 221,
+            "Type": 4,
+            "Number": 165
+        },
+        "DistrictAddress": {
+            "City": "Savannah",
+            "Email": null,
+            "Fax": null,
+            "Phone": "9126611733",
+            "State": "Ga",
+            "Street": "PO Box 5485",
+            "Zip": "31414     "
+        },
+        "LegId": 1121,
+        "Name": {
+            "First": "Mickey",
+            "Last": "Stephens",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Savannah",
+        "Id": 743
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 220,
+            "Type": 4,
+            "Number": 164
+        },
+        "DistrictAddress": {
+            "City": "Savannah",
+            "Email": null,
+            "Fax": "9129649699",
+            "Phone": "9125961998",
+            "State": "GA",
+            "Street": "45 Cove Drive",
+            "Zip": "31419     "
+        },
+        "LegId": 686,
+        "Name": {
+            "First": "Ron",
+            "Last": "Stephens",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Savannah",
+        "Id": 219
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 138,
+            "Type": 4,
+            "Number": 90
+        },
+        "DistrictAddress": {
+            "City": "Decatur",
+            "Email": null,
+            "Fax": "4042898303",
+            "Phone": "4042898300",
+            "State": "GA",
+            "Street": "4262 Clausell Court, Suite C",
+            "Zip": "30035     "
+        },
+        "LegId": 1051,
+        "Name": {
+            "First": "Pam",
+            "Last": "Stephenson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Decatur",
+        "Id": 220
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 259,
+            "Type": 3,
+            "Number": 23
+        },
+        "DistrictAddress": {
+            "City": "Waynesboro",
+            "Email": null,
+            "Fax": "4782379211",
+            "Phone": "7065545223",
+            "State": "GA",
+            "Street": "827 N. Liberty Street",
+            "Zip": "30830     "
+        },
+        "LegId": 928,
+        "Name": {
+            "First": "Jesse",
+            "Last": "Stone",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Waynesboro",
+        "Id": 748
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 116,
+            "Type": 4,
+            "Number": 74
+        },
+        "DistrictAddress": {
+            "City": "Ellenwood",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 842",
+            "Zip": "30294     "
+        },
+        "LegId": 1040,
+        "Name": {
+            "First": "Valencia",
+            "Last": "Stovall",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Forest Park",
+        "Id": 834
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 111,
+            "Type": 4,
+            "Number": 71
+        },
+        "DistrictAddress": {
+            "City": "Newnan",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "90-F Glenda Trace",
+            "Zip": "30265     "
+        },
+        "LegId": 1137,
+        "Name": {
+            "First": "David",
+            "Last": "Stover",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Newnan",
+        "Id": 843
+    },
+    {
+        "DateVacated": "/Date(1512104400000-0500)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 159,
+            "Type": 4,
+            "Number": 111
+        },
+        "DistrictAddress": {
+            "City": "McDonough",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1895",
+            "Zip": "30253     "
+        },
+        "LegId": 1065,
+        "Name": {
+            "First": "Brian",
+            "Last": "Strickland",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "McDonough",
+        "Id": 835
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 253,
+            "Type": 3,
+            "Number": 17
+        },
+        "DistrictAddress": {
+            "City": "McDonough",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1895",
+            "Zip": "30253     "
+        },
+        "LegId": 1281,
+        "Name": {
+            "First": "Brian",
+            "Last": "Strickland",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "McDonough",
+        "Id": 835
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 216,
+            "Type": 4,
+            "Number": 160
+        },
+        "DistrictAddress": {
+            "City": "Brooklet",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 187",
+            "Zip": "30415     "
+        },
+        "LegId": 1111,
+        "Name": {
+            "First": "Jan",
+            "Last": "Tankersley",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Brooklet",
+        "Id": 783
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 11,
+            "Type": 4,
+            "Number": 9
+        },
+        "DistrictAddress": {
+            "City": "Dawsonville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1885",
+            "Zip": "30534     "
+        },
+        "LegId": 1001,
+        "Name": {
+            "First": "Kevin",
+            "Last": "Tanner",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dawsonville",
+        "Id": 836
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 2,
+            "Type": 4,
+            "Number": 2
+        },
+        "DistrictAddress": {
+            "City": "Chickamauga",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4236057328",
+            "State": "GA",
+            "Street": "P.O. Box 750",
+            "Zip": "30707     "
+        },
+        "LegId": 1151,
+        "Name": {
+            "First": "Steve",
+            "Last": "Tarvin",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Chickamauga",
+        "Id": 849
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 274,
+            "Type": 3,
+            "Number": 38
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "121-A State Capitol",
+            "Zip": "30334     "
+        },
+        "LegId": 19,
+        "Name": {
+            "First": "Horacena",
+            "Last": "Tate",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 47
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 229,
+            "Type": 4,
+            "Number": 173
+        },
+        "DistrictAddress": {
+            "City": "Thomasville",
+            "Email": null,
+            "Fax": "2292259945",
+            "Phone": "2292259943",
+            "State": "GA",
+            "Street": "PO Box 6580",
+            "Zip": "31758     "
+        },
+        "LegId": 968,
+        "Name": {
+            "First": "Darlene",
+            "Last": "Taylor",
+            "Middle": "K.",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Thomasville",
+        "Id": 786
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 121,
+            "Type": 4,
+            "Number": 79
+        },
+        "DistrictAddress": {
+            "City": "Dunwoody",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "4926 Four Oaks Court",
+            "Zip": "30360     "
+        },
+        "LegId": 949,
+        "Name": {
+            "First": "Tom",
+            "Last": "Taylor",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Dunwoody",
+        "Id": 767
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 49,
+            "Type": 4,
+            "Number": 37
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 670051",
+            "Zip": "30066     "
+        },
+        "LegId": 1019,
+        "Name": {
+            "First": "Sam",
+            "Last": "Teasley",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 761
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 78,
+            "Type": 4,
+            "Number": 56
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": null,
+            "Zip": "30314     "
+        },
+        "LegId": 1032,
+        "Name": {
+            "First": "Mable",
+            "Last": "Thomas",
+            "Middle": null,
+            "Nickname": "\"Able\" Mable"
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 224
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 51,
+            "Type": 4,
+            "Number": 39
+        },
+        "DistrictAddress": {
+            "City": "Austell",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 564",
+            "Zip": "30168     "
+        },
+        "LegId": 1166,
+        "Name": {
+            "First": "Erica",
+            "Last": "Thomas",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Austell",
+        "Id": 868
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 250,
+            "Type": 3,
+            "Number": 14
+        },
+        "DistrictAddress": {
+            "City": "White",
+            "Email": null,
+            "Fax": null,
+            "Phone": "4046601165",
+            "State": "GA",
+            "Street": "25 Hawks Branch Lane",
+            "Zip": "30184-3244"
+        },
+        "LegId": 1141,
+        "Name": {
+            "First": "Bruce",
+            "Last": "Thompson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "White",
+        "Id": 844
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 241,
+            "Type": 3,
+            "Number": 5
+        },
+        "DistrictAddress": {
+            "City": "Tucker",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "6320 Glenbrook Drive",
+            "Zip": "30084     "
+        },
+        "LegId": 726,
+        "Name": {
+            "First": "Curt",
+            "Last": "Thompson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Tucker",
+        "Id": 50
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 255,
+            "Type": 3,
+            "Number": 19
+        },
+        "DistrictAddress": {
+            "City": "Vidalia ",
+            "Email": null,
+            "Fax": null,
+            "Phone": "9125373030",
+            "State": "GA",
+            "Street": "404 Durden Street",
+            "Zip": "30474     "
+        },
+        "LegId": 1249,
+        "Name": {
+            "First": "Blake",
+            "Last": "Tillery",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Vidalia ",
+        "Id": 4908
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 273,
+            "Type": 3,
+            "Number": 37
+        },
+        "DistrictAddress": {
+            "City": "Marietta",
+            "Email": null,
+            "Fax": "7704242777",
+            "Phone": "7704242700",
+            "State": "GA",
+            "Street": "139 Midway Road",
+            "Zip": "30064     "
+        },
+        "LegId": 930,
+        "Name": {
+            "First": "Lindsey",
+            "Last": "Tippins",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Marietta",
+        "Id": 750
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 186,
+            "Type": 4,
+            "Number": 132
+        },
+        "DistrictAddress": {
+            "City": "Luthersville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "128 North Main Street",
+            "Zip": "30251     "
+        },
+        "LegId": 1169,
+        "Name": {
+            "First": "Robert",
+            "Last": "Trammell",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Luthersville",
+        "Id": 865
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 27,
+            "Type": 4,
+            "Number": 21
+        },
+        "DistrictAddress": {
+            "City": "Holly Springs",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "508 Blue Ridge Terrace",
+            "Zip": "30114     "
+        },
+        "LegId": 1136,
+        "Name": {
+            "First": "Scot",
+            "Last": "Turner",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Holly Springs",
+        "Id": 842
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 281,
+            "Type": 3,
+            "Number": 45
+        },
+        "DistrictAddress": {
+            "City": "Buford",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 508",
+            "Zip": "30518     "
+        },
+        "LegId": 510,
+        "Name": {
+            "First": "Renee",
+            "Last": "Unterman",
+            "Middle": "S",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Buford",
+        "Id": 53
+    },
+    {
+        "DateVacated": "/Date(1505707200000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 87,
+            "Type": 4,
+            "Number": 60
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. 162972",
+            "Zip": "30321     "
+        },
+        "LegId": 989,
+        "Name": {
+            "First": "Keisha",
+            "Last": "Waites",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 801
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 256,
+            "Type": 3,
+            "Number": 20
+        },
+        "DistrictAddress": {
+            "City": "Perry",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1110 Washington Street",
+            "Zip": "31069     "
+        },
+        "LegId": 1208,
+        "Name": {
+            "First": "Lawrence",
+            "Last": "Walker III",
+            "Middle": null,
+            "Nickname": "Larry"
+        },
+        "Party": 1,
+        "Residence": "Perry",
+        "Id": 4878
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 167,
+            "Type": 4,
+            "Number": 119
+        },
+        "DistrictAddress": {
+            "City": "Watkinsville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1030 Daniell Ct.",
+            "Zip": "30677     "
+        },
+        "LegId": 1268,
+        "Name": {
+            "First": "Jonathan",
+            "Last": "Wallace",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Watkinsville",
+        "Id": 4913
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 237,
+            "Type": 3,
+            "Number": 1
+        },
+        "DistrictAddress": {
+            "City": "Savannah",
+            "Email": null,
+            "Fax": null,
+            "Phone": "9125275100",
+            "State": "GA",
+            "Street": "1326 Eisenhower Drive #2",
+            "Zip": "31406     "
+        },
+        "LegId": 1154,
+        "Name": {
+            "First": "Ben",
+            "Last": "Watson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Savannah",
+        "Id": 784
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 228,
+            "Type": 4,
+            "Number": 172
+        },
+        "DistrictAddress": {
+            "City": "Moultrie",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 3914",
+            "Zip": "31776     "
+        },
+        "LegId": 1119,
+        "Name": {
+            "First": "Sam",
+            "Last": "Watson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Moultrie",
+        "Id": 837
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 158,
+            "Type": 4,
+            "Number": 110
+        },
+        "DistrictAddress": {
+            "City": "McDonough",
+            "Email": null,
+            "Fax": "6785834888",
+            "Phone": "7709573937",
+            "State": "GA",
+            "Street": "PO Box 2871",
+            "Zip": "30253     "
+        },
+        "LegId": 959,
+        "Name": {
+            "First": "Andrew",
+            "Last": "Welch",
+            "Middle": "J.",
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "McDonough",
+        "Id": 777
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 213,
+            "Type": 4,
+            "Number": 157
+        },
+        "DistrictAddress": {
+            "City": "Glennville",
+            "Email": null,
+            "Fax": null,
+            "Phone": "9122370145",
+            "State": "GA",
+            "Street": "P.O. Box 27",
+            "Zip": "30427     "
+        },
+        "LegId": 1171,
+        "Name": {
+            "First": "Bill",
+            "Last": "Werkheiser",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Glennville",
+        "Id": 863
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 50,
+            "Type": 4,
+            "Number": 38
+        },
+        "DistrictAddress": {
+            "City": "Powder Springs",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7708919736",
+            "State": "GA",
+            "Street": "2777 Carrick Court",
+            "Zip": "30127     "
+        },
+        "LegId": 1020,
+        "Name": {
+            "First": "David",
+            "Last": "Wilkerson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Austell",
+        "Id": 760
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 286,
+            "Type": 3,
+            "Number": 50
+        },
+        "DistrictAddress": {
+            "City": "Toccoa",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7068861898",
+            "State": "GA",
+            "Street": "P.O. Box 2227",
+            "Zip": "30577     "
+        },
+        "LegId": 986,
+        "Name": {
+            "First": "John",
+            "Last": "Wilkinson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Toccoa",
+        "Id": 799
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 73,
+            "Type": 4,
+            "Number": 51
+        },
+        "DistrictAddress": {
+            "City": "Sandy Springs",
+            "Email": null,
+            "Fax": "7704817111",
+            "Phone": "7704817110",
+            "State": "GA",
+            "Street": "755 River Gate Drive",
+            "Zip": "30350     "
+        },
+        "LegId": 1029,
+        "Name": {
+            "First": "Wendell",
+            "Last": "Willard",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Sandy Springs",
+        "Id": 229
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 133,
+            "Type": 4,
+            "Number": 87
+        },
+        "DistrictAddress": {
+            "City": "Avondale Estates",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "PO Box 436",
+            "Zip": "30002     "
+        },
+        "LegId": 1049,
+        "Name": {
+            "First": "Earnest",
+            "Last": "Williams",
+            "Middle": null,
+            "Nickname": "\"Coach\""
+        },
+        "Party": 0,
+        "Residence": "Avondale Estates",
+        "Id": 231
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 224,
+            "Type": 4,
+            "Number": 168
+        },
+        "DistrictAddress": {
+            "City": "Midway",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "9041 East Oglethorpe Highway",
+            "Zip": "31320     "
+        },
+        "LegId": 1117,
+        "Name": {
+            "First": "Al",
+            "Last": "Williams",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Midway",
+        "Id": 230
+    },
+    {
+        "DateVacated": "/Date(1503892800000-0400)/",
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 167,
+            "Type": 4,
+            "Number": 119
+        },
+        "DistrictAddress": {
+            "City": "Watkinsville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 1365",
+            "Zip": "30677     "
+        },
+        "LegId": 1072,
+        "Name": {
+            "First": "Chuck",
+            "Last": "Williams",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Watkinsville",
+        "Id": 792
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 263,
+            "Type": 3,
+            "Number": 27
+        },
+        "DistrictAddress": {
+            "City": "Cumming",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "3482 Keith Bridge Rd Ste 310",
+            "Zip": "30041     "
+        },
+        "LegId": 1161,
+        "Name": {
+            "First": "Michael",
+            "Last": "Williams",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Cumming",
+        "Id": 856
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 275,
+            "Type": 3,
+            "Number": 39
+        },
+        "DistrictAddress": {
+            "City": "Atlanta",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "P.O. Box 92386",
+            "Zip": "30314     "
+        },
+        "LegId": 1273,
+        "Name": {
+            "First": "Nikema ",
+            "Last": "Williams",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 0,
+        "Residence": "Atlanta",
+        "Id": 4919
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 201,
+            "Type": 4,
+            "Number": 145
+        },
+        "DistrictAddress": {
+            "City": "Milledgeville",
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "State": "GA",
+            "Street": "1670 N. Jefferson Street",
+            "Zip": "31061     "
+        },
+        "LegId": 1243,
+        "Name": {
+            "First": "Rick",
+            "Last": "Williams",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Milledgeville",
+        "Id": 4905
+    },
+    {
+        "DateVacated": null,
+        "District": {
+            "Coverage": null,
+            "Post": null,
+            "Id": 163,
+            "Type": 4,
+            "Number": 115
+        },
+        "DistrictAddress": {
+            "City": "Monroe",
+            "Email": null,
+            "Fax": null,
+            "Phone": "7702672566",
+            "State": "GA",
+            "Street": "PO Box 430",
+            "Zip": "30655     "
+        },
+        "LegId": 1068,
+        "Name": {
+            "First": "Bruce",
+            "Last": "Williamson",
+            "Middle": null,
+            "Nickname": null
+        },
+        "Party": 1,
+        "Residence": "Monroe",
+        "Id": 778
+    }
+]

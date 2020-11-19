@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Mexico doc schema",
+  "description": "Import schema for Mexican Bills",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "session",
+    "introduction_date"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Titulo de la Iniciativa, REQUIRED"
+    },
+    "legislature": {
+      "type": "string",
+      "description": "legislatura"
+    },
+    "bill_type": {
+      "type": "string",
+      "values": [
+        "Iniciativa",
+        "Minuta"
+      ]
+    },
+    "session": {
+      "type": "string",
+      "description": "Ano Legislativo + Periodo"
+    },
+    "introduction_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha de Presentacion"
+    },
+    "chamber_of_origin": {
+      "type": "string",
+      "description": "Camara de Origen"
+    },
+    "bill_subtype": {
+      "type": "string",
+      "description": "Tipo de Iniciativa o Minuta"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Sinopsis"
+    },
+    "authors": {
+      "type": "string",
+      "description": "Autor"
+    },
+    "sponsors": {
+      "type": "array",
+      "description": "Proponentes",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "committees": {
+      "type": "array",
+      "description": "Turno",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_status": {
+      "type": "string",
+      "description": "Estado Actual"
+    },
+    "senate_approval_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Aprobacion en el Senado"
+    },
+    "house_approval_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Aprobacion Camara de Diputados"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "document": {
+      "type": "object",
+      "title": "Bill Document Schema",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "download_id",
+        "document_title"
+      ],
+      "properties": {
+        "document_id" : {
+          "type": "integer"
+        },
+        "download_id": {
+          "type": "integer"
+        },
+        "document_title": {
+          "type": "string",
+          "description": "bill_type + bill_number. On bill document page, GACETA: LXIII/3PPO-38/76717"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+slack:
+  webhook: https://hooks.slack.com/services/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
+
+network:
+  docservice_host: http://fn-document-service-d01:8080
+  s3_bucket: fn-document-service-dev
+  s3_endpoint: s3.amazonaws.com
+
+websites:
+  - name: 2018 Legislative Session Calendar
+    url: http://www.ncsl.org/documents/ncsl/2018_Session_Calendar.pdf

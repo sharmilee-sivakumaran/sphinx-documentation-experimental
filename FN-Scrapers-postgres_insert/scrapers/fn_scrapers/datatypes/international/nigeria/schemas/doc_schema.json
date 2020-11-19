@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Nigeria doc schema",
+  "description": "Import schema for Nigeria Bills",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "date"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "parliament": {
+      "type": "integer"
+    },
+    "session": {
+      "type": "integer"
+    },
+    "chamber_of_origin": {
+      "type": "string",
+      "enum": [
+        "Senate",
+        "House of Representatives"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "document_id": {
+      "type": "integer"
+    },
+    "download_id": {
+      "type": "integer"
+    }
+  }
+}

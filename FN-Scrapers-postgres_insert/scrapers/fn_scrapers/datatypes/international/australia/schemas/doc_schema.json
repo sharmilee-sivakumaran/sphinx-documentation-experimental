@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Australian doc schema",
+  "description": "Import schema for Australian Bills",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "unique_bill_id",
+    "attachments",
+    "title",
+    "status",
+    "parliament_number",
+    "originating_chamber",
+    "type",
+    "actions"
+  ],
+  "properties": {
+    "unique_bill_id": {
+      "description": "REQUIRED, unique external identifier. Part of the bill page URL",
+      "type": "string",
+      "minLength": 1
+    },
+    "attachments": {
+      "description": "REQUIRED, the attachments for an international document. Prioritize PDF=>Word=>HTML, but only 1 per stage. From the 'Text of Bill' side panel",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "./attachment.json"
+      },
+      "uniqueItems": true
+    },
+    "title": {
+      "description": "REQUIRED, the title for the australia bill",
+      "type": "string",
+      "minLength": 1
+    },
+    "bill_number": {
+      "description": "parliament-number-based bill identifier",
+      "type": "string",
+      "minLength": 1
+    },
+    "introduction_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_action_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "sponsor": {
+      "description": "name of the sponsor of the document. Not always present",
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "description": "bill status",
+      "type": "string",
+      "minLength": 1
+    },
+    "parliament_number": {
+      "description": "legislative session",
+      "type": "string",
+      "minLength": 1
+    },
+    "portfolio": {
+      "description": "portfolio",
+      "type": "string",
+      "minLength": 1
+    },
+    "originating_chamber": {
+      "description": "chamber of origin of the bill",
+      "type": "string",
+      "enum": [
+        "senate",
+        "hor"
+      ]
+    },
+    "type": {
+      "description": "type of bill",
+      "type": "string",
+      "enum": [
+        "Government",
+        "Private"
+      ]
+    },
+    "source_url": {
+      "description": "REQUIRED, Permalink (where available, temporary link otherwise) to the bill",
+      "type": "string",
+      "format": "uri"
+    },
+    "actions": {
+      "description": "REQUIRED, list of actions taken on this bill",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "action.json"
+
+      }
+    }
+  }
+}

@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed 
+    xmlns="http://www.w3.org/2005/Atom" 
+    xmlns:leg="http://www.legislation.gov.uk/namespaces/legislation" 
+    xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata" 
+    xmlns:theme="http://www.legislation.gov.uk/namespaces/theme" 
+    xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" 
+    xmlns:parameters="http://a9.com/-/spec/opensearch/extensions/parameters/1.0/">
+    <id>http://www.legislation.gov.uk/ukdsi/data.feed</id>
+    <link rel="self" type="application/atom+xml" href="http://www.legislation.gov.uk/ukdsi/data.feed"/>
+    <updated>2018-05-21T19:13:20.287735+01:00</updated>
+    <title>Search Results</title>
+    <openSearch:Query role="request" leg:type="ukdsi"></openSearch:Query>
+    <openSearch:itemsPerPage>20</openSearch:itemsPerPage>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <leg:page>1</leg:page>
+    <leg:morePages>12</leg:morePages>
+    <leg:facets>
+        <leg:facetTypes remove="http://www.legislation.gov.uk/all/data.feed">
+            <leg:facetType type="UnitedKingdomDraftStatutoryInstrument" href="http://www.legislation.gov.uk/ukdsi/data.feed" value="3569"/>
+        </leg:facetTypes>
+        <leg:facetYears>
+            <leg:facetYear year="2018" href="http://www.legislation.gov.uk/ukdsi/2018/data.feed" total="136"/>
+            <leg:facetYear year="2017" href="http://www.legislation.gov.uk/ukdsi/2017/data.feed" total="185"/>
+            <leg:facetYear year="2016" href="http://www.legislation.gov.uk/ukdsi/2016/data.feed" total="162"/>
+            <leg:facetYear year="2015" href="http://www.legislation.gov.uk/ukdsi/2015/data.feed" total="290"/>
+            <leg:facetYear year="2014" href="http://www.legislation.gov.uk/ukdsi/2014/data.feed" total="337"/>
+            <leg:facetYear year="2013" href="http://www.legislation.gov.uk/ukdsi/2013/data.feed" total="240"/>
+            <leg:facetYear year="2012" href="http://www.legislation.gov.uk/ukdsi/2012/data.feed" total="191"/>
+            <leg:facetYear year="2011" href="http://www.legislation.gov.uk/ukdsi/2011/data.feed" total="198"/>
+            <leg:facetYear year="2010" href="http://www.legislation.gov.uk/ukdsi/2010/data.feed" total="227"/>
+            <leg:facetYear year="2009" href="http://www.legislation.gov.uk/ukdsi/2009/data.feed" total="226"/>
+            <leg:facetYear year="2008" href="http://www.legislation.gov.uk/ukdsi/2008/data.feed" total="216"/>
+            <leg:facetYear year="2007" href="http://www.legislation.gov.uk/ukdsi/2007/data.feed" total="166"/>
+            <leg:facetYear year="2006" href="http://www.legislation.gov.uk/ukdsi/2006/data.feed" total="169"/>
+            <leg:facetYear year="2005" href="http://www.legislation.gov.uk/ukdsi/2005/data.feed" total="166"/>
+            <leg:facetYear year="2004" href="http://www.legislation.gov.uk/ukdsi/2004/data.feed" total="135"/>
+            <leg:facetYear year="2003" href="http://www.legislation.gov.uk/ukdsi/2003/data.feed" total="114"/>
+            <leg:facetYear year="2002" href="http://www.legislation.gov.uk/ukdsi/2002/data.feed" total="93"/>
+            <leg:facetYear year="2001" href="http://www.legislation.gov.uk/ukdsi/2001/data.feed" total="96"/>
+            <leg:facetYear year="2000" href="http://www.legislation.gov.uk/ukdsi/2000/data.feed" total="71"/>
+            <leg:facetYear year="1999" href="http://www.legislation.gov.uk/ukdsi/1999/data.feed" total="70"/>
+            <leg:facetYear year="1998" href="http://www.legislation.gov.uk/ukdsi/1998/data.feed" total="81"/>
+        </leg:facetYears>
+        <leg:facetHundreds/>
+        <leg:facetSubjectsInitials>
+            <leg:facetSubjectInitial initial="a" total="49" href="http://www.legislation.gov.uk/ukdsi/a/data.feed"/>
+            <leg:facetSubjectInitial initial="b" total="96" href="http://www.legislation.gov.uk/ukdsi/b/data.feed"/>
+            <leg:facetSubjectInitial initial="c" total="638" href="http://www.legislation.gov.uk/ukdsi/c/data.feed"/>
+            <leg:facetSubjectInitial initial="d" total="207" href="http://www.legislation.gov.uk/ukdsi/d/data.feed"/>
+            <leg:facetSubjectInitial initial="e" total="385" href="http://www.legislation.gov.uk/ukdsi/e/data.feed"/>
+            <leg:facetSubjectInitial initial="f" total="158" href="http://www.legislation.gov.uk/ukdsi/f/data.feed"/>
+            <leg:facetSubjectInitial initial="g" total="50" href="http://www.legislation.gov.uk/ukdsi/g/data.feed"/>
+            <leg:facetSubjectInitial initial="h" total="88" href="http://www.legislation.gov.uk/ukdsi/h/data.feed"/>
+            <leg:facetSubjectInitial initial="i" total="413" href="http://www.legislation.gov.uk/ukdsi/i/data.feed"/>
+            <leg:facetSubjectInitial initial="j" total="15" href="http://www.legislation.gov.uk/ukdsi/j/data.feed"/>
+            <leg:facetSubjectInitial initial="l" total="442" href="http://www.legislation.gov.uk/ukdsi/l/data.feed"/>
+            <leg:facetSubjectInitial initial="m" total="47" href="http://www.legislation.gov.uk/ukdsi/m/data.feed"/>
+            <leg:facetSubjectInitial initial="n" total="252" href="http://www.legislation.gov.uk/ukdsi/n/data.feed"/>
+            <leg:facetSubjectInitial initial="o" total="25" href="http://www.legislation.gov.uk/ukdsi/o/data.feed"/>
+            <leg:facetSubjectInitial initial="p" total="443" href="http://www.legislation.gov.uk/ukdsi/p/data.feed"/>
+            <leg:facetSubjectInitial initial="r" total="291" href="http://www.legislation.gov.uk/ukdsi/r/data.feed"/>
+            <leg:facetSubjectInitial initial="s" total="309" href="http://www.legislation.gov.uk/ukdsi/s/data.feed"/>
+            <leg:facetSubjectInitial initial="t" total="273" href="http://www.legislation.gov.uk/ukdsi/t/data.feed"/>
+            <leg:facetSubjectInitial initial="u" total="8" href="http://www.legislation.gov.uk/ukdsi/u/data.feed"/>
+            <leg:facetSubjectInitial initial="v" total="19" href="http://www.legislation.gov.uk/ukdsi/v/data.feed"/>
+            <leg:facetSubjectInitial initial="w" total="23" href="http://www.legislation.gov.uk/ukdsi/w/data.feed"/>
+            <leg:headings>
+                <leg:heading Value="NORTHERN IRELAND"/>
+                <leg:heading Value="INCOME TAX"/>
+                <leg:heading Value="HEALTH CARE AND ASSOCIATED PROFESSIONS"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENGLAND"/>
+                <leg:heading Value="LIMITED LIABILITY PARTNERSHIPS"/>
+                <leg:heading Value="TERMS AND CONDITIONS OF EMPLOYMENT"/>
+                <leg:heading Value="Oil Taxation"/>
+                <leg:heading Value="TRANSPORT, ENGLAND"/>
+                <leg:heading Value="INFRASTRUCTURE PLANNING"/>
+                <leg:heading Value="TRANSPORT"/>
+                <leg:heading Value="CRIMINAL LAW, ENGLAND AND WALES"/>
+                <leg:heading Value="ELECTRICITY"/>
+                <leg:heading Value="GAS"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND"/>
+                <leg:heading Value="ANIMALS, ENGLAND"/>
+                <leg:heading Value="CRIMINAL LAW"/>
+                <leg:heading Value="HOUSING"/>
+                <leg:heading Value="PROCEEDS OF CRIME"/>
+                <leg:heading Value="EMPLOYMENT AND TRAINING"/>
+                <leg:heading Value="DEFENCE"/>
+                <leg:heading Value="LEGAL SERVICES, ENGLAND AND WALES"/>
+                <leg:heading Value="EXTRADITION"/>
+                <leg:heading Value="CIVIL AVIATION"/>
+                <leg:heading Value="CONSUMER PROTECTION, ENGLAND AND WALES"/>
+                <leg:heading Value="SOCIAL SECURITY"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING, ENGLAND"/>
+                <leg:heading Value="ROAD TRAFFIC"/>
+                <leg:heading Value="BUILDING SOCIETIES"/>
+                <leg:heading Value="Pensions"/>
+                <leg:heading Value="Constitutional Law"/>
+                <leg:heading Value="Devolution, Wales"/>
+                <leg:heading Value="Referendums"/>
+                <leg:heading Value="Representation Of The People"/>
+                <leg:heading Value="INVESTIGATORY POWERS"/>
+                <leg:heading Value="PATENTS"/>
+                <leg:heading Value="ENERGY, ENGLAND"/>
+                <leg:heading Value="HOUSING, ENGLAND"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE"/>
+                <leg:heading Value="INSOLVENCY"/>
+                <leg:heading Value="CLIMATE CHANGE LEVY"/>
+                <leg:heading Value="HUMAN TISSUE"/>
+                <leg:heading Value="AGE-RELATED PAYMENTS"/>
+                <leg:heading Value="WATER INDUSTRY, ENGLAND AND WALES"/>
+                <leg:heading Value="STATISTICS BOARD"/>
+                <leg:heading Value="ELECTRICITY, ENGLAND AND WALES"/>
+                <leg:heading Value="COUNTRYSIDE, ENGLAND"/>
+                <leg:heading Value="COMMUNITY INFRASTRUCTURE LEVY, ENGLAND AND WALES"/>
+                <leg:heading Value="EMPLOYMENT"/>
+                <leg:heading Value="TRADE UNIONS"/>
+                <leg:heading Value="INTERNATIONAL DEVELOPMENT"/>
+                <leg:heading Value="CRIMINAL LAW, NORTHERN IRELAND"/>
+                <leg:heading Value="Civil Contingencies"/>
+                <leg:heading Value="PENSIONS"/>
+                <leg:heading Value="IMMIGRATION"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC"/>
+                <leg:heading Value="REGULATORY REFORM"/>
+                <leg:heading Value="CORPORATION TAX"/>
+                <leg:heading Value="CONSTITUTIONAL LAW"/>
+                <leg:heading Value="DEVOLUTION, SCOTLAND"/>
+                <leg:heading Value="WATER SUPPLY"/>
+                <leg:heading Value="Council Tax, England"/>
+                <leg:heading Value="ECCLESIASTICAL LAW, ENGLAND AND WALES"/>
+                <leg:heading Value="Social Security, Northern Ireland"/>
+                <leg:heading Value="DEVOLUTION, WALES"/>
+                <leg:heading Value="CIVIL AVIATION, SCOTLAND"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, SCOTLAND"/>
+                <leg:heading Value="REHABILITATION OF OFFENDERS, ENGLAND AND WALES"/>
+                <leg:heading Value="Town And Country Planning, England"/>
+                <leg:heading Value="Investigatory Powers"/>
+                <leg:heading Value="TAXES"/>
+                <leg:heading Value="ATOMIC ENERGY AND RADIOACTIVE SUBSTANCES"/>
+                <leg:heading Value="NUCLEAR SECURITY"/>
+                <leg:heading Value="LICENSING (MARINE)"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION"/>
+                <leg:heading Value="COUNTY COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="FAMILY LAW"/>
+                <leg:heading Value="EUROPEAN UNION"/>
+                <leg:heading Value="URBAN DEVELOPMENT"/>
+                <leg:heading Value="Companies"/>
+                <leg:heading Value="CINEMAS AND FILM"/>
+                <leg:heading Value="PUBLIC SERVICE PENSIONS"/>
+                <leg:heading Value="PREVENTION AND SUPPRESSION OF TERRORISM"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC BODIES"/>
+                <leg:heading Value="LORD CHANCELLOR"/>
+                <leg:heading Value="TRANSFER OF FUNCTIONS"/>
+                <leg:heading Value="TAX CREDITS"/>
+                <leg:heading Value="FIRE AND RESCUE SERVICES, ENGLAND"/>
+                <leg:heading Value="CHILD TRUST FUNDS"/>
+                <leg:heading Value="PUBLIC PASSENGER TRANSPORT"/>
+                <leg:heading Value="POLICE, ENGLAND AND WALES"/>
+                <leg:heading Value="European Union"/>
+                <leg:heading Value="CAPITAL GAINS TAX"/>
+                <leg:heading Value="INHERITANCE TAX"/>
+                <leg:heading Value="VALUE ADDED TAX"/>
+                <leg:heading Value="GOVERNMENT RESOURCES AND ACCOUNTS"/>
+                <leg:heading Value="POLICE"/>
+                <leg:heading Value="PARLIAMENT"/>
+                <leg:heading Value="LICENCES AND LICENSING"/>
+                <leg:heading Value="DEVOLUTION, ENGLAND"/>
+                <leg:heading Value="REFERENDUMS"/>
+                <leg:heading Value="TRIBUNALS AND INQUIRIES"/>
+                <leg:heading Value="JUDICIAL APPOINTMENTS AND DISCIPLINE"/>
+                <leg:heading Value="MARRIAGE, SCOTLAND"/>
+                <leg:heading Value="CIVIL PARTNERSHIP, SCOTLAND"/>
+                <leg:heading Value="JUDICATURE, NORTHERN IRELAND"/>
+                <leg:heading Value="JUSTICE, NORTHERN IRELAND"/>
+                <leg:heading Value="European Communities"/>
+                <leg:heading Value="EQUALITY"/>
+                <leg:heading Value="VETERINARY SURGEONS"/>
+                <leg:heading Value="OFFENDER MANAGEMENT"/>
+                <leg:heading Value="Social Security"/>
+                <leg:heading Value="Terms And Conditions Of Employment"/>
+                <leg:heading Value="CONSUMER PROTECTION"/>
+                <leg:heading Value="BUILDING AND BUILDINGS"/>
+                <leg:heading Value="EMPLOYMENT AND TRAINIING"/>
+                <leg:heading Value="Electronic Communications"/>
+                <leg:heading Value="LICENSES AND LICENSING"/>
+                <leg:heading Value="EMPLOYMENT AGENCIES, ETC."/>
+                <leg:heading Value="COUNTRYSIDE AGENCY"/>
+                <leg:heading Value="REGIONAL DEVELOPMENT AGENCIES"/>
+                <leg:heading Value="URBAN REGENERATION AGENCY"/>
+                <leg:heading Value="DEVELOPMENT COMMISSION"/>
+                <leg:heading Value="BETTING, GAMING AND LOTTERIES"/>
+                <leg:heading Value="european communities"/>
+                <leg:heading Value="MARRIAGE"/>
+                <leg:heading Value="CIVIL PARTNERSHIP"/>
+                <leg:heading Value="Competition"/>
+                <leg:heading Value="Taxes"/>
+                <leg:heading Value="EDUCATION, ENGLAND"/>
+                <leg:heading Value="REGULATORY REFORM, ENGLAND"/>
+                <leg:heading Value="ENERGY"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND AND WALES"/>
+                <leg:heading Value="Representation of the people"/>
+                <leg:heading Value="DANGEROUS DRUGS"/>
+                <leg:heading Value="CLIMATE CHANGE"/>
+                <leg:heading Value="SOCIAL CARE, ENGLAND"/>
+                <leg:heading Value="PUBLIC HEALTH, ENGLAND"/>
+                <leg:heading Value="EXCISE"/>
+                <leg:heading Value="BANKS AND BANKING"/>
+                <leg:heading Value="FINANCIAL SERVICES AND MARKETS"/>
+                <leg:heading Value="ANIMALS, ENGLAND AND WALES"/>
+                <leg:heading Value="Prisons, England And Wales"/>
+                <leg:heading Value="MOBILE HOMES, ENGLAND"/>
+                <leg:heading Value="COPYRIGHT"/>
+                <leg:heading Value="RIGHTS IN PERFORMANCES"/>
+                <leg:heading Value="REGULATORY REFORM, ENGLAND AND WALES"/>
+                <leg:heading Value="PROVISION OF SERVICES"/>
+                <leg:heading Value="EDUCATION, ENGLAND AND WALES"/>
+                <leg:heading Value="EDUCATION, SCOTLAND"/>
+                <leg:heading Value="FREEDOM OF INFORMATION"/>
+                <leg:heading Value="Capital Gains Tax"/>
+                <leg:heading Value="Corporation Tax"/>
+                <leg:heading Value="Income Tax"/>
+                <leg:heading Value="COMPANIES"/>
+                <leg:heading Value="betting, Gaming and lotteries"/>
+                <leg:heading Value="FEES AND CHARGES"/>
+                <leg:heading Value="SUPREME COURT OF ENGLAND AND WALES"/>
+                <leg:heading Value="COUNTY COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="MAGISTRATES' COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="STAMP DUTY"/>
+                <leg:heading Value="NATIONALITY"/>
+                <leg:heading Value="CHARITIES"/>
+                <leg:heading Value="TERRORISM"/>
+                <leg:heading Value="COMMUNICATIONS"/>
+                <leg:heading Value="INSURANCE"/>
+                <leg:heading Value="SOCIAL SECURITY, NORTHERN IRELAND"/>
+                <leg:heading Value="CONTRACTING OUT, ENGLAND"/>
+                <leg:heading Value="Tribunals And Inquiries, England And Wales"/>
+                <leg:heading Value="Tribunals And Inquiries, Northern Ireland"/>
+                <leg:heading Value="Immigration"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, ENGLAND AND WALES"/>
+                <leg:heading Value="PROBATION"/>
+                <leg:heading Value="EUROPEAN COMMUNITIES"/>
+                <leg:heading Value="COAST PROTECTION, ENGLAND"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, ENGLAND"/>
+                <leg:heading Value="FLOOD RISK MANAGEMENT, ENGLAND"/>
+                <leg:heading Value="Local Government, England"/>
+                <leg:heading Value="WATER, SCOTLAND"/>
+                <leg:heading Value="RATING AND VALUATION"/>
+                <leg:heading Value="CONSUMER CREDIT"/>
+                <leg:heading Value="Criminal Law, England And Wales"/>
+                <leg:heading Value="PETROLEUM REVENUE TAX"/>
+                <leg:heading Value="Rehabilitation Of Offenders, England And Wales"/>
+                <leg:heading Value="PROFESSIONS SUPPLEMENTARY TO MEDICINE"/>
+                <leg:heading Value="DEREGULATION"/>
+                <leg:heading Value="DISCLOSURE OF INFORMATION"/>
+                <leg:heading Value="MARINE POLLUTION"/>
+                <leg:heading Value="OPEN SPACES"/>
+                <leg:heading Value="POLITICAL PARTIES"/>
+                <leg:heading Value="investigatory powers"/>
+                <leg:heading Value="BROADCASTING"/>
+                <leg:heading Value="RATING AND VALUATION, ENGLAND"/>
+                <leg:heading Value="RACE RELATIONS"/>
+                <leg:heading Value="Serious Organised Crime Agency"/>
+                <leg:heading Value="AUDITORS"/>
+                <leg:heading Value="OFFICIAL STATISTICS"/>
+                <leg:heading Value="Countryside, England"/>
+                <leg:heading Value="WATER INDUSTRY, ENGLAND"/>
+                <leg:heading Value="HEALTH AND SAFETY"/>
+                <leg:heading Value="POSTAL SERVICES"/>
+                <leg:heading Value="CANALS AND INLAND WATERWAYS"/>
+                <leg:heading Value="HIGHWAYS, ENGLAND"/>
+                <leg:heading Value="Local Government, England And Wales"/>
+                <leg:heading Value="Regulatory Reform"/>
+                <leg:heading Value="HALLMARK"/>
+                <leg:heading Value="CHILDCARE"/>
+                <leg:heading Value="PAYMENT SCHEME"/>
+                <leg:heading Value="GOVERNMENT TRADING FUNDS"/>
+                <leg:heading Value="SEXUAL ORIENTATION DISCRIMINATION"/>
+                <leg:heading Value="Police, England And Wales"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, ENGLAND AND WALES"/>
+                <leg:heading Value="PROTECTION OF VULNERABLE ADULTS, ENGLAND AND WALES"/>
+                <leg:heading Value="SENIOR COURTS OF ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC HEALTH, ENGLAND AND WALES"/>
+                <leg:heading Value="ELECTRONIC COMMUNICATIONS"/>
+                <leg:heading Value="International Immunities And Privileges"/>
+                <leg:heading Value="ENTERPRISE, ENGLAND AND WALES"/>
+                <leg:heading Value="SAVING GATEWAY ACCOUNTS"/>
+                <leg:heading Value="EDUCATION ENGLAND"/>
+                <leg:heading Value="INTERNATIONAL IMMUNITIES AND PRIVILEGES"/>
+                <leg:heading Value="Northern Ireland"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, NORTHERN IRELAND"/>
+                <leg:heading Value="RURAL AFFAIRS, ENGLAND AND WALES"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, ENGLAND AND WALES"/>
+                <leg:heading Value="ENVIRONMENTAL protection, england"/>
+                <leg:heading Value="CINEMAS AND FILMS"/>
+                <leg:heading Value="JUDGMENTS, ENGLAND AND WALES"/>
+                <leg:heading Value="FAMILY LAW, ENGLAND AND WALES"/>
+                <leg:heading Value="EMPLOYMENT TRIBUNALS"/>
+                <leg:heading Value="COMPETITION"/>
+                <leg:heading Value="JUSTICES OF THE PEACE, ENGLAND AND WALES"/>
+                <leg:heading Value="INDUSTRIAL DEVELOPMENT"/>
+                <leg:heading Value="LEGAL SERVICES"/>
+                <leg:heading Value="Education, England"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS"/>
+                <leg:heading Value="POLICE, NORTHERN IRELAND"/>
+                <leg:heading Value="CONTRACTING OUT"/>
+                <leg:heading Value="DATA PROTECTION"/>
+                <leg:heading Value="PASSPORTS"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, ENGLAND AND WALES"/>
+                <leg:heading Value="BUSINESS NAMES"/>
+                <leg:heading Value="SOCIAL SERVICES"/>
+                <leg:heading Value="FIRE AND RESCUE SERVICES"/>
+                <leg:heading Value="PETROLEUM"/>
+                <leg:heading Value="DEVOLUTION"/>
+                <leg:heading Value="london government"/>
+                <leg:heading Value="FRIENDLY SOCIETIES"/>
+                <leg:heading Value="INDUSTRIAL AND PROVIDENT SOCIETIES"/>
+                <leg:heading Value="Building Societies"/>
+                <leg:heading Value="LICENCES AND LICENSING, ENGLAND AND WALES"/>
+                <leg:heading Value="SUPREME COURT OF THE UNITED KINGDOM"/>
+                <leg:heading Value="Legal Services, England And Wales"/>
+                <leg:heading Value="Public Health, England And Wales"/>
+                <leg:heading Value="Social Care, England And Wales"/>
+                <leg:heading Value="BETTING, GAMING AND LOTTERIES, ENGLAND AND WALES"/>
+                <leg:heading Value="Defence"/>
+                <leg:heading Value="WEIGHTS AND MEASURES"/>
+                <leg:heading Value="CHARITIES, ENGLAND AND WALES"/>
+                <leg:heading Value="TRIBUNALS AND INQUIRIES, ENGLAND"/>
+                <leg:heading Value="SAVINGS BANKS"/>
+                <leg:heading Value="SECURITY INDUSTRY"/>
+                <leg:heading Value="taxes"/>
+                <leg:heading Value="ENTERPRISE"/>
+                <leg:heading Value="IDENTITY CARDS"/>
+                <leg:heading Value="CONTRACTING OUT, ENGLAND AND WALES"/>
+                <leg:heading Value="MODERN SLAVERY"/>
+                <leg:heading Value="INDUSTRIAL ORGANISATION AND DEVELOPMENT"/>
+                <leg:heading Value="INSURANCE PREMIUM TAX"/>
+                <leg:heading Value="Electricity, England And Wales"/>
+                <leg:heading Value="NATIONAL LOTTERY"/>
+                <leg:heading Value="Banks And Banking"/>
+                <leg:heading Value="Weights And Measures"/>
+                <leg:heading Value="STAMP DUTY RESERVE TAX"/>
+                <leg:heading Value="LOCAL GOVERNMENT"/>
+                <leg:heading Value="Energy"/>
+                <leg:heading Value="CHANNEL TUNNEL"/>
+                <leg:heading Value="GENDER RECOGNITION"/>
+                <leg:heading Value="prevention and SUppression of terrorism"/>
+                <leg:heading Value="IMMIGRATION, ENGLAND AND WALES"/>
+                <leg:heading Value="LEGAL SERVICES COMMISSION, ENGLAND AND WALES"/>
+                <leg:heading Value="MENTAL CAPACITY, ENGLAND"/>
+                <leg:heading Value="Prevention And Suppression Of Terrorism"/>
+                <leg:heading Value="DISABLED PERSONS, ENGLAND AND WALES"/>
+                <leg:heading Value="PESTICIDES"/>
+                <leg:heading Value="MENTAL HEALTH"/>
+                <leg:heading Value="HOVERCRAFT"/>
+                <leg:heading Value="criminal law: england and wales"/>
+                <leg:heading Value="Industrial Development"/>
+                <leg:heading Value="REHABILITATION OF OFFENDERS, ENGLANDANDWALES"/>
+                <leg:heading Value="LIBRARIES"/>
+                <leg:heading Value="HUMAN FERTILISATION AND EMBRYOLOGY"/>
+                <leg:heading Value="PRISONS"/>
+                <leg:heading Value="PARTNERSHIP"/>
+                <leg:heading Value="BANKS AND BANKING, SCOTLAND"/>
+                <leg:heading Value="IMMIGRATION AND NATIONALITY"/>
+                <leg:heading Value="COPORATION TAX"/>
+                <leg:heading Value="Freedom Of Information"/>
+                <leg:heading Value="HOUSING, ENGLAND AND WALES"/>
+                <leg:heading Value="HOUSING, NORTHERN IRELAND"/>
+                <leg:heading Value="Climate Change Levy"/>
+                <leg:heading Value="LEGAL PROFESSION, ENGLAND AND WALES"/>
+                <leg:heading Value="PROBATION, ENGLAND AND WALES"/>
+                <leg:heading Value="INTERNATIONAL MONETARY FUND"/>
+                <leg:heading Value="POLITICAL PARTIES, NORTHERN IRELAND"/>
+                <leg:heading Value="DUCHY OF LANCASTER"/>
+                <leg:heading Value="DEVOLUTION, NORTHERN IRELAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, NORTHERN IRELAND"/>
+                <leg:heading Value="COUNCIL TAX, ENGLAND"/>
+                <leg:heading Value="LOCAL GOVERNMENT, WALES"/>
+                <leg:heading Value="WATER INDUSTRY"/>
+                <leg:heading Value="OFFICIAL SECRETS"/>
+                <leg:heading Value="REVENUE AND CUSTOMS"/>
+                <leg:heading Value="education, england"/>
+                <leg:heading Value="PROCEEDS OF CRIME, NORTHERN IRELAND"/>
+                <leg:heading Value="ENERGY CONSERVATION"/>
+                <leg:heading Value="RIGHTS OF THE SUBJECT, ENGLAND AND WALES"/>
+                <leg:heading Value="HUMAN RIGHTS"/>
+                <leg:heading Value="income tax"/>
+                <leg:heading Value="corporation tax"/>
+                <leg:heading Value="capital gains tax"/>
+                <leg:heading Value="SERIOUS ORGANISED CRIME AGENCY"/>
+                <leg:heading Value="CONTRACTS"/>
+                <leg:heading Value="ANIMALS"/>
+                <leg:heading Value="CONTRACTING OUT, WALES"/>
+                <leg:heading Value="CENSUS, ENGLAND AND WALES"/>
+                <leg:heading Value="Family Proceedings"/>
+                <leg:heading Value="Supreme Court Of England And Wales"/>
+                <leg:heading Value="County Courts, England And Wales"/>
+                <leg:heading Value="Magistrates’ Courts, England And Wales"/>
+                <leg:heading Value="Legal Services Commission, England And Wales"/>
+                <leg:heading Value="STATISTICS, ENGLAND"/>
+                <leg:heading Value="IMMIGRATION, NORTHERN IRELAND"/>
+                <leg:heading Value="REVENUE AND CUSTOMS, ENGLAND AND WALES"/>
+                <leg:heading Value="REVENUE AND CUSTOMS, NORTHERN IRELAND"/>
+                <leg:heading Value="RATING AND VALUATION (ENGLAND)"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, ENGLAND"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, WALES"/>
+                <leg:heading Value="Petroleum Revenue Tax"/>
+                <leg:heading Value="STAMP DUTY LAND TAX"/>
+                <leg:heading Value="Government Trading Funds"/>
+                <leg:heading Value="ENGLAND"/>
+                <leg:heading Value="NUCLEAR ENERGY"/>
+                <leg:heading Value="PUBLIC SERVICES REFORM"/>
+                <leg:heading Value="public health, england and wales"/>
+                <leg:heading Value="AGRICULTURE"/>
+                <leg:heading Value="PROTECTION OF VULNERABLE ADULTS"/>
+                <leg:heading Value="DEBT MANAGEMENT AND RELIEF"/>
+                <leg:heading Value="PARTNERSHIPS"/>
+                <leg:heading Value="Senior Courts Of England And Wales County Courts, England And Wales"/>
+                <leg:heading Value="PUBLIC FINANCE AND ACCOUNTABILITY"/>
+                <leg:heading Value="Corporation tax"/>
+                <leg:heading Value="FINANCIAL SERVICES"/>
+                <leg:heading Value="MERCHANT SHIPPING"/>
+                <leg:heading Value="DISABLED PERSONS"/>
+                <leg:heading Value="ROAD TRAFFIC, ENGLAND AND WALES"/>
+                <leg:heading Value="Children And Young Persons, England"/>
+                <leg:heading Value="Inheritance Tax"/>
+                <leg:heading Value="Value Added Tax"/>
+                <leg:heading Value="FLOOD RISK MANAGEMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="Identity Cards"/>
+                <leg:heading Value="Public Passenger Transport, England And Wales"/>
+                <leg:heading Value="Betting, Gaming And Lotteries"/>
+                <leg:heading Value="FAMILY PROCEEDINGS"/>
+                <leg:heading Value="FAMILY COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="CHILD SUPPORT"/>
+                <leg:heading Value="CO-OPERATIVE SOCIETIES"/>
+                <leg:heading Value="COMMUNITY BENEFIT SOCIETIES"/>
+                <leg:heading Value="CREDIT UNIONS"/>
+                <leg:heading Value="public health"/>
+                <leg:heading Value="VIDEO RECORDINGS"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, ENGLAND"/>
+                <leg:heading Value="dangerous drugs"/>
+                <leg:heading Value="Child Trust Funds"/>
+                <leg:heading Value="OLYMPIC GAMES AND PARALYMPIC GAMES"/>
+                <leg:heading Value="Official Statistics"/>
+                <leg:heading Value="Charities, England And Wales"/>
+                <leg:heading Value="LEGAL SERVICES COMMISSION, NORTHERN IRELAND"/>
+                <leg:heading Value="URBAN DEVELOPMENT, (ENGLAND)"/>
+                <leg:heading Value="Energy Conservation"/>
+                <leg:heading Value="England And Wales"/>
+                <leg:heading Value="PostAL SERVICES"/>
+                <leg:heading Value="TAXES, NORTHERN IRELAND"/>
+                <leg:heading Value="EXPORT AND INVESTMENT GUARANTEES"/>
+                <leg:heading Value="PROCEEDS OF CRIME, ENGLAND AND WALES"/>
+                <leg:heading Value="CHILD TRUST FUNDS, NORTHERN IRELAND"/>
+                <leg:heading Value="ENERGY CONSERVATION, ENGLAND AND WALES"/>
+                <leg:heading Value="COUNTY COURTS"/>
+                <leg:heading Value="MAGISTRATES’ COURTS"/>
+                <leg:heading Value="TRANSPORT AND WORKS, ENGLAND"/>
+                <leg:heading Value="CUSTOMS"/>
+                <leg:heading Value="Environmental Protection"/>
+                <leg:heading Value="PUBLIC PASSENGER TRANSPORT, ENGLAND"/>
+                <leg:heading Value="Data Protection"/>
+                <leg:heading Value="defence"/>
+                <leg:heading Value="RIVER, SCOTLAND"/>
+                <leg:heading Value="RIVER, ENGLAND AND WALES"/>
+                <leg:heading Value="TRIBUNALS AND INQUIRIES, ENGLAND AND WALES"/>
+                <leg:heading Value="LOCAL government, england"/>
+                <leg:heading Value="fees and charges"/>
+                <leg:heading Value="Broadcasting"/>
+                <leg:heading Value="SEA FISHERIES"/>
+                <leg:heading Value="Justice And Security"/>
+                <leg:heading Value="ROAD TRAFFIC, ENGLAND"/>
+                <leg:heading Value="PUBLIC SERVICE PENSIONS, ENGLAND AND WALES"/>
+                <leg:heading Value="MINISTERS OF THE CROWN"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, NORTHERN IRELAND"/>
+                <leg:heading Value="London government"/>
+                <leg:heading Value="PUBLIC HEALTH"/>
+                <leg:heading Value="immigration"/>
+                <leg:heading Value="HEALTH CARE AND ASSOCIATED PROFESSSIONS"/>
+                <leg:heading Value="CONSTRUCTION, ENGLAND AND WALES"/>
+                <leg:heading Value="REFERENDUM"/>
+                <leg:heading Value="Transport"/>
+                <leg:heading Value="NATIONAL CRIME AGENCY"/>
+                <leg:heading Value="CONSTRUCTION, ENGLAND"/>
+                <leg:heading Value="Environmental Protection, England And Wales"/>
+                <leg:heading Value="WATER, ENGLAND"/>
+                <leg:heading Value="ANIMAL WELFARE, ENGLAND"/>
+                <leg:heading Value="Tribunals And Inquiries"/>
+                <leg:heading Value="Representation Of The People, Scotland"/>
+                <leg:heading Value="Coroners, England And Wales"/>
+                <leg:heading Value="TREASURE"/>
+                <leg:heading Value="Animals, England"/>
+                <leg:heading Value="OLYMPIC GAMES AND PARALYMPIC GAMES, ENGLAND"/>
+                <leg:heading Value="MAGISTRATES’ COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="Open Spaces"/>
+                <leg:heading Value="EDUCATION, NORTHERN IRELAND"/>
+                <leg:heading Value="ENGLAND ANDWALES"/>
+                <leg:heading Value="SECURITY INDUSTRY, ENGLAND AND WALES"/>
+                <leg:heading Value="COURT OF SESSION"/>
+                <leg:heading Value="SHERIFF COURT"/>
+                <leg:heading Value="CIVIL PROCEEDINGS"/>
+                <leg:heading Value="ECCLESIASTICAL LAW, ENGLAND"/>
+                <leg:heading Value="Mobile Homes, England"/>
+                <leg:heading Value="SCIENTIFIC RESEARCH"/>
+                <leg:heading Value="IMMIGRATION AND ASYLUM"/>
+                <leg:heading Value="Climate Change"/>
+                <leg:heading Value="BANKRUPTCY"/>
+                <leg:heading Value="ROAD TRAFFIC, WALES"/>
+                <leg:heading Value="Mental Capacity, England"/>
+                <leg:heading Value="SAVINGS ACCOUNTS"/>
+                <leg:heading Value="OIL TAX"/>
+                <leg:heading Value="DAMAGES (ENGLAND AND WALES)"/>
+                <leg:heading Value="DAMAGES (NORTHERN IRELAND)"/>
+                <leg:heading Value="CIVIL CONTINGENCIES"/>
+                <leg:heading Value="Electricity"/>
+                <leg:heading Value="Gas"/>
+                <leg:heading Value="FORESTRY"/>
+                <leg:heading Value="LONDON GOVERNMENT"/>
+                <leg:heading Value="FAMILY LAW, NORTHERN IRELAND"/>
+                <leg:heading Value="prevention and suppression of terrorism"/>
+                <leg:heading Value="THE COUNTY COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="LAND REGISTRATION, ENGLAND AND WALES"/>
+                <leg:heading Value="FINANCIAL SERVICES AND MARKETS, ENGLAND AND WALES"/>
+                <leg:heading Value="Duchy Of Lancaster"/>
+                <leg:heading Value="The Anonymous Registration (Northern Ireland) Order 2014"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS AND MARRIAGES, ETC. ENGLAND AND WALES"/>
+                <leg:heading Value="Housing, England"/>
+                <leg:heading Value="HIGHWAYS, ENGLAND AND WALES"/>
+                <leg:heading Value="SOFT DRINKS INDUSTRY LEVY"/>
+                <leg:heading Value="Community Infrastructure Levy, England And Wales"/>
+                <leg:heading Value="PUBLIC HEALTH, SCOTLAND"/>
+                <leg:heading Value="PUBLIC HEALTH, NORTHERN IRELAND"/>
+                <leg:heading Value="Family Provision"/>
+                <leg:heading Value="HUMAN TISSUE, ENGLAND AND WALES"/>
+                <leg:heading Value="HUMAN TISSUE, NORTHERN IRELAND"/>
+                <leg:heading Value="DEREGULATION, ENGLAND AND WALES"/>
+                <leg:heading Value="INTELLECTUAL PROPERTY"/>
+                <leg:heading Value="DENTISTS"/>
+                <leg:heading Value="Housing"/>
+                <leg:heading Value="magistrates’ courts, england and wales"/>
+                <leg:heading Value="children and young persons, england and wales"/>
+                <leg:heading Value="TELECOMMUNICATIONS"/>
+                <leg:heading Value="PRISONS, ENGLAND AND WALES"/>
+                <leg:heading Value="COMMONS, ENGLAND"/>
+                <leg:heading Value="National Lottery"/>
+                <leg:heading Value="NATIONAL ELECTION EXPENDITURE"/>
+                <leg:heading Value="AVIATION SECURITY"/>
+                <leg:heading Value="social security"/>
+                <leg:heading Value="PUBLIC BODIES, ENGLAND AND WALES"/>
+                <leg:heading Value="IMMIGRATION, SCOTLAND"/>
+                <leg:heading Value="PREVENTION OF CRUELTY, ENGLAND"/>
+                <leg:heading Value="CROWN PROCEEDINGS"/>
+                <leg:heading Value="INSIDER DEALING"/>
+                <leg:heading Value="RIVER, ENGLAND"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES, ETC., ENGLAND AND WALES"/>
+                <leg:heading Value="DOGS, ENGLAND"/>
+                <leg:heading Value="SOCIAL CARE"/>
+                <leg:heading Value="betting, gaming and lotteries"/>
+                <leg:heading Value="CROWN"/>
+                <leg:heading Value="AGRICULTURAL EMPLOYMENT"/>
+                <leg:heading Value="TRADE MARKS"/>
+                <leg:heading Value="Equality"/>
+                <leg:heading Value="Family Law"/>
+                <leg:heading Value="Fiscal Responsibility"/>
+                <leg:heading Value="Human Fertilisation And Embryology"/>
+                <leg:heading Value="Local Government, England and Wales"/>
+                <leg:heading Value="NORTHERN IRELAND EQUALITY"/>
+                <leg:heading Value="TRADE DESCRIPTIONS"/>
+                <leg:heading Value="ACQUISITION OF LAND, ENGLAND AND WALES"/>
+                <leg:heading Value="ELECTRICITY, GAS"/>
+                <leg:heading Value="CURRENCY AND BANK NOTES"/>
+                <leg:heading Value="MEDICINES"/>
+                <leg:heading Value="DISABLED PERSONS, ENGLAND"/>
+                <leg:heading Value="Devolution, Scotland"/>
+                <leg:heading Value="JUDGMENTS, NORTHERN IRELAND"/>
+                <leg:heading Value="CHARGING ORDERS"/>
+                <leg:heading Value="NATIONAL DEBT"/>
+                <leg:heading Value="Licences And Licensing"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE"/>
+                <leg:heading Value="International Criminal Court"/>
+                <leg:heading Value="Representation Of The People, Northern Ireland"/>
+                <leg:heading Value="Nationality"/>
+                <leg:heading Value="Representation of the People"/>
+                <leg:heading Value="BANK LEVY"/>
+                <leg:heading Value="AGRICULTURE, ENGLAND"/>
+                <leg:heading Value="REHABILITATION OF OFFENDERS,"/>
+                <leg:heading Value="ENGLAND AND WALES"/>
+                <leg:heading Value="supreme court of england and wales"/>
+                <leg:heading Value="county courts, england and wales"/>
+                <leg:heading Value="Partnerships"/>
+                <leg:heading Value="proceeds of crime"/>
+                <leg:heading Value="financial services"/>
+                <leg:heading Value="northern ireland"/>
+                <leg:heading Value="LEGAL AID AND ADVICE"/>
+                <leg:heading Value="SEX DISCRIMINATION"/>
+                <leg:heading Value="URBAN DEVELOPMENT, ENGLAND"/>
+                <leg:heading Value="Commons, England"/>
+                <leg:heading Value="POLICE, ENGLAND"/>
+                <leg:heading Value="PUBLIC SERVICE PENSIONS, ENGLAND"/>
+                <leg:heading Value="REHABILITATION OF OFFENDERS"/>
+                <leg:heading Value="RELIGION OR BELIEF DISCRIMINATION"/>
+                <leg:heading Value="CONSUMER"/>
+                <leg:heading Value="INSURANCE BROKERS REGISTRATION COUNCIL"/>
+                <leg:heading Value="DESIGNS"/>
+                <leg:heading Value="Financial Services And Markets"/>
+                <leg:heading Value="Oil Tax"/>
+                <leg:heading Value="LICENCES AND LICENSING, ENGLAND"/>
+                <leg:heading Value="TOURISM"/>
+                <leg:heading Value="INSOLVENCY ENGLAND AND WALES"/>
+                <leg:heading Value="INFRASTRUCTURE PLANNING, ENGLAND"/>
+                <leg:heading Value="MENTAL CAPACITY, ENGLAND AND WALES"/>
+                <leg:heading Value="FEES AND CHARGES, ENGLAND AND WALES"/>
+                <leg:heading Value="LOCAL GOVERNMENT, SCOTLAND"/>
+                <leg:heading Value="SPORTS GROUNDS AND SPORTING EVENTS, ENGLAND AND WALES"/>
+                <leg:heading Value="DEVELOPMENT COMMISSION, (ENGLAND AND WALES)"/>
+                <leg:heading Value="International Monetary Fund"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING, ENGLAND AND WALES"/>
+                <leg:heading Value="Terms and conditions of employment"/>
+                <leg:heading Value="PUBLIC PROCUREMENT"/>
+                <leg:heading Value="NON-DOMESTIC RATING, ENGLAND"/>
+                <leg:heading Value="LANDLORD AND TENANT, ENGLAND"/>
+                <leg:heading Value="COMPENSATION"/>
+                <leg:heading Value="SUPREME COURT OF NORTHERN IRELAND"/>
+                <leg:heading Value="CONSTITUTION"/>
+                <leg:heading Value="ARMS AND AMMUNITION"/>
+                <leg:heading Value="criminal law"/>
+                <leg:heading Value="police"/>
+                <leg:heading Value="LEGAL AID, ENGLAND AND WALES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, SCOTLAND"/>
+                <leg:heading Value="FAMILY PROCEEDINGS, ENGLAND AND WALES"/>
+                <leg:heading Value="BRITISH NATIONALITY"/>
+                <leg:heading Value="Housing, England and Wales"/>
+                <leg:heading Value="Dangerous Drugs"/>
+                <leg:heading Value="COUNCIL TAX, ENGLAND AND WALES"/>
+                <leg:heading Value="LANDLORD AND TENANT, ENGLAND AND WALES"/>
+                <leg:heading Value="AGGREGATES LEVY"/>
+                <leg:heading Value="CUSTOMS AND EXCISE"/>
+                <leg:heading Value="LANDFILL TAX"/>
+                <leg:heading Value="Insolvency"/>
+                <leg:heading Value="Parliament"/>
+                <leg:heading Value="EMPLOYMENT AND TRAINING, ENGLAND"/>
+                <leg:heading Value="Criminal Law, Northern Ireland"/>
+                <leg:heading Value="Local Loans"/>
+                <leg:heading Value="WASTE, ENGLAND AND WALES"/>
+                <leg:heading Value="PREVENTION AND SUPRESSION OF TERRORISM"/>
+                <leg:heading Value="SENIOR COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="Employment Tribunals"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, NORTHERN IRELAND"/>
+                <leg:heading Value="PROTECTION OF VULNERABLE ADULTS, NORTHERN IRELAND"/>
+                <leg:heading Value="petroleum revenue tax"/>
+                <leg:heading Value="Betting, gaming and lotteries"/>
+                <leg:heading Value="DEFAMATION, ENGLAND AND WALES"/>
+                <leg:heading Value="CRIMINAL PROCEDURE"/>
+                <leg:heading Value="FOOD"/>
+            </leg:headings>
+        </leg:facetSubjectsInitials>
+    </leg:facets>
+    <link rel="first" type="application/atom+xml" href="http://www.legislation.gov.uk/ukdsi/data.feed"/>
+    <link rel="next" type="application/atom+xml" href="http://www.legislation.gov.uk/ukdsi/data.feed?page=2"/>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111168523</id>
+        <title>The Cash Ratio Deposits (Value Bands and Ratios) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111168523"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111168523"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168523/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168523/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168523/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168523/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168523/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168523/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-04-17T00:59:59+01:00</updated>
+        <published>2018-04-16T16:03:38.08953+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111168523"/>
+        <ukm:Subject Value="BANKS AND BANKING"/>
+        <category term="BANKS AND BANKING"/>
+        <summary>Schedule 2 to the Bank of England Act 1998 (c.11) makes provision concerning the maintenance by certain institutions of cash ratio deposits with the Bank of England (“the Bank”). The institutions covered by these arrangements are those defined as “deposit-takers” by section 17(7) of, and paragraph 1(1A) to (1C) of Schedule 2 to, that Act. The Bank is empowered by paragraph 3 of that Schedule to give such an institution a call notice specifying an amount the institution is expected to have on deposit with the Bank during a specified period. Under paragraph 4 of that Schedule, the depositable amount is to be calculated by multiplying so much of an institution’s average liability base as falls into each of the different value bands by the ratio applicable to that band, and adding up these amounts.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111168141</id>
+        <title>The Dorset (Structural Changes) (Modification of the Local Government and Public Involvement in Health Act 2007) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111168141"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111168141"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168141/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168141/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168141/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168141/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168141/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168141/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-04-04T00:59:59+01:00</updated>
+        <published>2018-04-03T03:02:55.211405+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111168141"/>
+        <ukm:Subject Value="LOCAL GOVERNMENT, ENGLAND"/>
+        <category term="LOCAL GOVERNMENT, ENGLAND"/>
+        <summary>These Regulations modify provisions related to structural changes in the Local Government and Public Involvement in Health Act 2007 (“the 2007 Act”) as they apply to Bournemouth, Dorset and Poole.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111167038</id>
+        <title>The Combined Authorities (Borrowing) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111167038"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111167038"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167038/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167038/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167038/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167038/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167038/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167038/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-03-23T00:59:59+01:00</updated>
+        <published>2018-03-12T12:41:49.960825+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111167038"/>
+        <ukm:Subject Value="LOCAL GOVERNMENT, ENGLAND"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/565">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Combined Authorities (Borrowing) Regulations 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="565"/>
+            <ukm:ISBN Value="9780111169223"/>
+        </ukm:SupersededBy>
+        <category term="LOCAL GOVERNMENT, ENGLAND"/>
+        <summary>These Regulations provide for mayoral combined authorities to borrow money for a purpose relevant to all of their functions.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111166314</id>
+        <title>The Land Registry Trading Fund (Extension and Amendment) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111166314"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111166314"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166314/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166314/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166314/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166314/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166314/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166314/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-03-01T00:59:59+01:00</updated>
+        <published>2018-02-28T04:03:40.298299+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111166314"/>
+        <ukm:Subject Value="GOVERNMENT TRADING FUNDS"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/424">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Land Registry Trading Fund (Extension and Amendment) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="424"/>
+            <ukm:ISBN Value="9780111167892"/>
+        </ukm:SupersededBy>
+        <category term="GOVERNMENT TRADING FUNDS"/>
+        <summary>This Order extends and amends, as from the day after the day on which it is made, the scope of the Land Registry Trading Fund Order 1993, which established the Land Registry Trading Fund with effect from 1st April 1993.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111168684</id>
+        <title>The Double Taxation Relief and International Tax Enforcement (Ukraine) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111168684"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111168684"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168684/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168684/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168684/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168684/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168684/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168684/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-04-24T00:59:59+01:00</updated>
+        <published>2018-04-23T09:48:54.054025+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111168684"/>
+        <ukm:Subject Value="CAPITAL GAINS TAX"/>
+        <ukm:Subject Value="CORPORATION TAX"/>
+        <ukm:Subject Value="INCOME TAX"/>
+        <category term="CAPITAL GAINS TAX"/>
+        <category term="CORPORATION TAX"/>
+        <category term="INCOME TAX"/>
+        <summary>The Schedule to the Order contains a Protocol (“the amending Protocol”) which amends a convention between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of Ukraine (“the Convention”). The Convention was scheduled to the Double Taxation Relief (Taxes on Income) (Ukraine) Order 1993 (S.I. 1993/1803). The Order brings the amending Protocol into effect.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111160824</id>
+        <title>The Terrorism Act 2000 (Code of Practice for Authorised Officers) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111160824"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111160824"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160824/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160824/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160824/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160824/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160824/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160824/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2017-10-24T00:59:59+01:00</updated>
+        <published>2017-10-23T16:38:34.594302+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111160824"/>
+        <ukm:Subject Value="PREVENTION AND SUPPRESSION OF TERRORISM"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/81">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Terrorism Act 2000 (Code of Practice for Authorised Officers) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="81"/>
+            <ukm:ISBN Value="9780111164716"/>
+        </ukm:SupersededBy>
+        <category term="PREVENTION AND SUPPRESSION OF TERRORISM"/>
+        <summary>This Order brings into operation on 31st January 2018 a revised code of practice made under paragraph 7 of Schedule 14 to the Terrorism Act 2000 (c. 11) (“the Act”) in connection with the exercise by authorised officers of functions conferred on them by Schedule 1 to the Anti-terrorism, Crime and Security Act 2001(c. 24) (“the 2001 Act”).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111165751</id>
+        <title>The Finance Act 2003, Part 3 (Amendment) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111165751"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111165751"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165751/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165751/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165751/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165751/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165751/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165751/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-02-22T00:59:59+01:00</updated>
+        <published>2018-02-21T13:57:05.711907+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111165751"/>
+        <ukm:Subject Value="CUSTOMS"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/ukdsi/2018/9780111166710">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Finance Act 2003, Part 3 (Amendment) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:ISBN Value="9780111166710"/>
+        </ukm:SupersededBy>
+        <category term="CUSTOMS"/>
+        <summary>This Order amends Part 3 of the Finance Act 2003 (c.14) (“FA2003”). Part 3 makes provision for and in connection with a penalty scheme in relation to taxes and duties on importation and exportation.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111164372</id>
+        <title>The Soft Drinks Industry Levy (Enforcement) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111164372"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111164372"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111164372/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111164372/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111164372/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111164372/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111164372/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111164372/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-01-16T00:59:59+01:00</updated>
+        <published>2018-01-15T12:38:34.345051+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111164372"/>
+        <ukm:Subject Value="SOFT DRINKS INDUSTRY LEVY"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/264">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Soft Drinks Industry Levy (Enforcement) Regulations 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="264"/>
+            <ukm:ISBN Value="9780111166543"/>
+        </ukm:SupersededBy>
+        <category term="SOFT DRINKS INDUSTRY LEVY"/>
+        <summary>The Regulations concern enforcement in relation to soft drinks industry levy introduced by Part 2 of the Finance Act 2017 (c. 10).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111167533</id>
+        <title>The Transport Levying Bodies (Amendment) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111167533"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111167533"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167533/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167533/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167533/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167533/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167533/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111167533/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-03-21T00:59:59+01:00</updated>
+        <published>2018-03-20T04:04:41.609456+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111167533"/>
+        <ukm:Subject Value="LOCAL GOVERNMENT, ENGLAND" Subtitle="FINANCE"/>
+        <category term="LOCAL GOVERNMENT, ENGLAND;FINANCE"/>
+        <summary>These Regulations further amend the Transport Levying Bodies Regulations 1992 (“the 1992 Regulations”) in consequence of the establishment of the Cambridgeshire and Peterborough Combined Authority under Part 6 of the Local Democracy, Economic Development and Construction Act 2009.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111163603</id>
+        <title>The Investigatory Powers (Interception by Businesses etc. for Monitoring and Record-keeping Purposes) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111163603"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111163603"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163603/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163603/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163603/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163603/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163603/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163603/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2017-12-21T00:59:59+01:00</updated>
+        <published>2017-12-20T04:04:41.377536+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111163603"/>
+        <ukm:Subject Value="INVESTIGATORY POWERS"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/356">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Investigatory Powers (Interception by Businesses etc. for Monitoring and Record-keeping Purposes) Regulations 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="356"/>
+            <ukm:ISBN Value="9780111167274"/>
+        </ukm:SupersededBy>
+        <category term="INVESTIGATORY POWERS"/>
+        <summary>Section 3 of the Investigatory Powers Act 2016 (c. 25) (“the Act”) makes it an offence if a person intentionally intercepts a communication in the course of its transmission by means of a telecommunication system without lawful authority. Chapter 2 of Part 2 of the Act provides a number of ways in which the interception of communications may have lawful authority. They include section 46(1) of the Act, which gives the Secretary of State the power to make regulations authorising conduct which appears to the Secretary of State to constitute a legitimate practice reasonably required for the purpose, in connection with the carrying on of any relevant activities, of the monitoring or keeping a record of certain communications. “Relevant activities” are defined in section 46(4) of the Act, and include any business.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111160879</id>
+        <title>The Criminal Finances Act 2017 (Consequential Amendment) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111160879"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111160879"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160879/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160879/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160879/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160879/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160879/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160879/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2017-10-24T00:59:59+01:00</updated>
+        <published>2017-10-23T16:38:14.509345+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111160879"/>
+        <ukm:Subject Value="PROCEEDS OF CRIME"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/80">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Criminal Finances Act 2017 (Consequential Amendment) Regulations 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="80"/>
+            <ukm:ISBN Value="9780111164709"/>
+        </ukm:SupersededBy>
+        <category term="PROCEEDS OF CRIME"/>
+        <summary>These Regulations are made under section 54(1) of the Criminal Finances Act 2017 (c. 22)(“CFA”), and make a consequential amendment to section 278(7)(a) of the Proceeds of Crime Act 2002 (c. 29)(“POCA”).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111163597</id>
+        <title>The Investigatory Powers (Review of Notices and Technical Advisory Board) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111163597"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111163597"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163597/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163597/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163597/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163597/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163597/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163597/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-01-12T00:59:59+01:00</updated>
+        <published>2017-12-20T04:04:31.360164+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111163597"/>
+        <ukm:Subject Value="INVESTIGATORY POWERS"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/354">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Investigatory Powers (Review of Notices and Technical Advisory Board) Regulations 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="354"/>
+            <ukm:ISBN Value="9780111167250"/>
+        </ukm:SupersededBy>
+        <category term="INVESTIGATORY POWERS"/>
+        <summary>Section 90(1) of the Investigatory Powers Act 2016 (c. 25) (“the Act”) provides that a person to whom a retention notice has been given may refer that notice back to the Secretary of State for review. Section 257(1) of the Act similarly makes provision that a person to whom a national security notice or technical capability notice has been given may refer that notice to the Secretary of State for review. Regulation 2 sets out the period within which, and the circumstances in which, a person given such a notice may refer it back to the Secretary of State for review. Regulation 3 provides for the membership of the Technical Advisory Board (the Board) which must be consulted by the Secretary of State before deciding a review.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111163009</id>
+        <title>The European Parliamentary Elections Act 2002 (Amendment) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111163009"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111163009"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163009/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163009/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163009/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163009/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163009/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163009/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-01-12T00:59:59+01:00</updated>
+        <published>2017-12-18T00:00:00+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111163009"/>
+        <ukm:Subject Value="REPRESENTATION OF THE PEOPLE"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/107">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The European Parliamentary Elections Act 2002 (Amendment) Regulations 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="107"/>
+            <ukm:ISBN Value="9780111165027"/>
+        </ukm:SupersededBy>
+        <category term="REPRESENTATION OF THE PEOPLE"/>
+        <summary>These Regulations amend the European Parliamentary Elections Act 2002 (c.68) to enable regulations to make provision for vacant seats in Great Britain and Gibraltar to be filled in additional ways in certain circumstances.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111168967</id>
+        <title>The Torbay (Electoral Changes) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111168967"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111168967"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168967/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168967/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168967/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168967/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168967/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168967/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-02T00:59:59+01:00</updated>
+        <published>2018-05-01T14:50:46.388631+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111168967"/>
+        <ukm:Subject Value="LOCAL GOVERNMENT, ENGLAND"/>
+        <category term="LOCAL GOVERNMENT, ENGLAND"/>
+        <summary>This Order makes changes to electoral arrangements for the borough of Torbay following recommendations made by the Local Government Boundary Commission for England. The area of the borough remains unchanged. The changes made by this Order apply in respect of local government elections held on and after the ordinary day of election of councillors in 2019.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111166109</id>
+        <title>The First-tier Tribunal and Upper Tribunal (Composition of Tribunal) (Amendment) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111166109"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111166109"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166109/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166109/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166109/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166109/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166109/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166109/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-02-24T00:59:59+01:00</updated>
+        <published>2018-02-23T11:16:03.206328+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111166109"/>
+        <ukm:Subject Value="TRIBUNALS AND INQUIRIES"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/606">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The First-tier Tribunal and Upper Tribunal (Composition of Tribunal) (Amendment) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="606"/>
+            <ukm:ISBN Value="9780111169513"/>
+        </ukm:SupersededBy>
+        <category term="TRIBUNALS AND INQUIRIES"/>
+        <summary>This Order amends the First-tier Tribunal and Upper Tribunal (Composition of Tribunal) Order 2008/2835 (the 2008 Order).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111160831</id>
+        <title>The Proceeds of Crime Act 2002 (Search, Seizure and Detention of Property: Code of Practice) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111160831"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111160831"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160831/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160831/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160831/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160831/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160831/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111160831/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2017-11-17T00:59:59+01:00</updated>
+        <published>2017-10-23T16:38:24.45776+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111160831"/>
+        <ukm:Subject Value="PROCEEDS OF CRIME, ENGLAND AND WALES"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/82">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Proceeds of Crime Act 2002 (Search, Seizure and Detention of Property: Code of Practice) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="82"/>
+            <ukm:ISBN Value="9780111164747"/>
+        </ukm:SupersededBy>
+        <category term="PROCEEDS OF CRIME, ENGLAND AND WALES"/>
+        <summary>This Order brings into operation on 31st January 2018 a revised code of practice made under section 47S of the Proceeds of Crime Act 2002 (c.29) (“the 2002 Act”) in connection with the carrying out by appropriate officers in England and Wales of the functions conferred by virtue of sections 47C to 47H of the 2002 Act, the carrying out by senior officers of their functions under section 47G of the Act and the detention of property under or by virtue of sections 41A, 44A and 47J to 47P of the Act.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111165928</id>
+        <title>The West Berkshire (Electoral Changes) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111165928"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111165928"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165928/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165928/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165928/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165928/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165928/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111165928/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-02-27T00:59:59+01:00</updated>
+        <published>2018-02-26T14:37:50.564048+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111165928"/>
+        <ukm:Subject Value="LOCAL GOVERNMENT, ENGLAND"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/536">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The West Berkshire (Electoral Changes) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="536"/>
+            <ukm:ISBN Value="9780111169032"/>
+        </ukm:SupersededBy>
+        <category term="LOCAL GOVERNMENT, ENGLAND"/>
+        <summary>This Order makes changes to electoral arrangements for the district of West Berkshire following recommendations made by the Local Government Boundary Commission for England. The area of the district remains unchanged. The changes made by this Order apply in respect of local government elections held on and after the ordinary day of election of councillors in 2019.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111168097</id>
+        <title>The Double Taxation Relief (Switzerland) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111168097"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111168097"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168097/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168097/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168097/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168097/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168097/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111168097/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-03-29T00:59:59+01:00</updated>
+        <published>2018-03-28T16:02:32.822297+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111168097"/>
+        <ukm:Subject Value="CAPITAL GAINS TAX"/>
+        <ukm:Subject Value="CORPORATION TAX"/>
+        <ukm:Subject Value="INCOME TAX"/>
+        <category term="CAPITAL GAINS TAX"/>
+        <category term="CORPORATION TAX"/>
+        <category term="INCOME TAX"/>
+        <summary>The Schedule to the Order contains a Protocol (“the amending Protocol”) which further amends a convention between the Government of the United Kingdom of Great Britain and Northern Ireland and the Swiss Federal Council (“the Convention”).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111163719</id>
+        <title>The Legal Services Act 2007 (Appeals from Licensing Authority Decisions) (General Council of the Bar) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111163719"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111163719"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163719/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163719/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163719/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163719/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163719/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111163719/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2017-12-20T00:59:59+01:00</updated>
+        <published>2017-12-19T16:33:17.068585+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111163719"/>
+        <ukm:Subject Value="LEGAL SERVICES, ENGLAND AND WALES"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/457">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Legal Services Act 2007 (Appeals from Licensing Authority Decisions) (General Council of the Bar) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="457"/>
+            <ukm:ISBN Value="9780111168318"/>
+        </ukm:SupersededBy>
+        <category term="LEGAL SERVICES, ENGLAND AND WALES"/>
+        <summary>This Order makes provision under section 80 of the Legal Services Act 2007 (c. 29) (“the 2007 Act”) for the First-tier Tribunal to hear and determine appeals from decisions made by the General Council of the Bar, in its capacity as a licensing authority. Licensing authorities regulate licensed bodies under the provisions of Part 5 of the 2007 Act (alternative business structures). The decisions are those which are appealable under Part 5 of the 2007 Act or the General Council of the Bar’s own licensing rules. Section 83 of the 2007 Act defines licensing rules as rules about the licensing and regulation of licensed bodies.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/ukdsi/2018/9780111166710</id>
+        <title>The Finance Act 2003, Part 3 (Amendment) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/ukdsi/2018/9780111166710"/>
+        <link href="http://www.legislation.gov.uk/ukdsi/2018/9780111166710"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166710/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166710/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166710/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166710/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166710/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/ukdsi/2018/9780111166710/contents" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-03-06T00:59:59+01:00</updated>
+        <published>2018-03-05T15:27:02.637723+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:ISBN Value="9780111166710"/>
+        <ukm:Subject Value="CUSTOMS"/>
+        <ukm:SupersededBy URI="http://www.legislation.gov.uk/id/uksi/2018/461">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Finance Act 2003, Part 3 (Amendment) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:Number Value="461"/>
+            <ukm:ISBN Value="9780111168349"/>
+        </ukm:SupersededBy>
+        <ukm:Supersedes URI="http://www.legislation.gov.uk/id/ukdsi/2018/9780111165751">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Finance Act 2003, Part 3 (Amendment) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:ISBN Value="9780111165751"/>
+        </ukm:Supersedes>
+        <category term="CUSTOMS"/>
+        <summary>This Order amends Part 3 of the Finance Act 2003 (c.14) (“FA2003”). Part 3 makes provision for and in connection with a penalty scheme in relation to taxes and duties on importation and exportation.</summary>
+    </entry>
+</feed>

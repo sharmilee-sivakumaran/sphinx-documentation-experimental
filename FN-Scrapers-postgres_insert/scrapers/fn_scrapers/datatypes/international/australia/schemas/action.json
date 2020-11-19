@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "action",
+  "description": "Schema for action(event) of bill",
+  "type": "object",
+  "properties": {
+    "action": {
+      "description": "Action taken (for example: 'Introduction and First Reading')",
+      "type": "string",
+      "minLength": 1
+    },
+    "action_date": {
+      "description": "Date of the associated action",
+      "type": "string",
+      "format": "date"
+    },
+    "chamber": {
+      "description": "OPTIONAL, the chamber in which the action took place",
+      "type": "string",
+      "enum": [
+        "senate",
+        "hor"
+      ]
+    },
+    "order": {
+      "description": "Where this action falls in the list actions, first lowest",
+      "type": "integer",
+      "format": "int32"
+    }
+  },
+  "required": [
+    "action",
+    "action_date",
+    "order"
+  ]
+}

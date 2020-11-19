@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "germany",
+  "description": "Germany legislation schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "printed_copy_number",
+    "published_date"
+  ],
+  "properties": {
+    "title": {
+      "description": "Title of the document",
+      "type": "string"
+    },
+    "printed_copy_number": {
+      "description": "Drucksache Nr., including slashes/other characters",
+      "type": "string"
+    },
+    "copy_date": {
+      "description": "date, immediately following printed_copy_number",
+      "type": "string",
+      "format": "date"
+    },
+    "published_date": {
+      "description": "Veröffentlicht am",
+      "type": "string",
+      "format": "date"
+    },
+    "legislation_type": {
+      "description": "Typ, type of document",
+      "type": "string"
+    },
+    "interested_party": {
+      "description": "Urheber",
+      "type": "string"
+    },
+    "authors": {
+      "description": "Autoren",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "document": {
+      "$ref": "attachment.json"
+    },
+    "source_url": {
+      "description": "url of the legislation",
+      "type": "string"
+    }
+  }
+}

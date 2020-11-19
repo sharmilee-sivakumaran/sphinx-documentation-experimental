@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "EU Preparatory Act/Legislation schema",
+  "description": "EU PA/L Information",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_type",
+    "celex",
+    "title",
+    "source_url"
+  ],
+  "properties": {
+    "celex": {
+      "description": "REQUIRED, the external/CELEX id of the document",
+      "type": "string",
+      "minLength": 10
+    },
+    "source_type": {
+      "type": "string",
+      "description": "Legislation if CELEX starts with 3, PrepAct if CELEX starts with 5",
+      "values": [
+        "PrepAct",
+        "Legislation"
+      ]
+    },
+    "title": {
+      "description": "REQUIRED, title of the document",
+      "type": "string",
+      "minLength": 1
+    },
+    "document_reference_id": {
+      "type": "string",
+      "description": "refers to 'Document ID' in the ticket [INT-21]"
+    },
+    "authors": {
+      "description": "REQUIRED, authors of the document",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "file_type": {
+      "type": "string"
+    },
+    "publication_date": {
+      "description": "REQUIRED, date the EURLEX document was published",
+      "type": "string",
+      "format": "datetime"
+    },
+    "eurovoc_descriptors": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "status": {
+      "type": "string",
+      "description": "'In Force' if in force (for legislation), skip otherwise"
+    },
+    "source_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_id": {
+      "type": "integer",
+      "description": "Try HTML, if absent, PDF. If no English document, skip entirely"
+    },
+    "download_id": {
+      "type": "integer"
+    },
+    "procedure_title": {
+      "description": "title of the associated legislative procedure",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

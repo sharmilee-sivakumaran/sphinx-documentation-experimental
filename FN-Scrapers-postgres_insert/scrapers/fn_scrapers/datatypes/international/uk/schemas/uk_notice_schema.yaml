@@ -1,0 +1,61 @@
+
+$schema: http://json-schema.org/draft-04/schema#
+title: uk_notice_schema
+description: ""
+type: object
+additionalProperties: False
+required:
+    - feedId
+    - schemaId
+    - documentUrl
+    - documentId
+    - downloadId
+properties:
+  schemaId:
+    description: REQUIRED, Schema ID
+    type: string
+    minLength: 1
+  feedId:
+    description: REQUIRED, Feed ID
+    type: string
+    minLength: 1
+  documentUrl:
+    path: $.document_url
+    type: string
+  ingestFunction:
+    type: integer
+  documentId:
+    path: $.document_id
+    type: integer
+  downloadId:
+    path: $.download_id
+    type: integer
+  # fileId:
+  #   description: ""
+  #   type: integer
+  documentMetadata:
+    path: $
+    type: object
+    additionalProperties: False
+    properties:
+      title:
+          type: string
+          minLength: 1
+      publication_date:
+          type: string
+          format: date
+      notice_type:
+          type: string
+          minLength: 1
+      notice_id:
+          type: string
+          minLength: 1
+      publication_name:
+          type: string
+          minLength: 1
+      source_url:
+          type: string
+          minLength: 1
+      document_title:
+          type: string
+          minLength: 1

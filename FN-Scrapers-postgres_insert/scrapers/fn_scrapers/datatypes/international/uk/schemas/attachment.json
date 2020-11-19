@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "attachment",
+  "description": "international attachment import",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_id",
+    "download_id",
+    "order",
+    "process_status"
+  ],
+ "properties": {
+    "document_id" : {
+    "description":"REQUIRED, the document_id for the international document attachment from the document service",
+      "type": "integer",
+      "minLength": 1
+    },
+    "download_id": {
+      "description": "REQUIRED, the download_id of the international document attachment from the document service",
+      "type": "integer",
+      "format": "int32"
+    },
+    "order": {
+      "description": "lists the ordinal count of this document in the scrape, first lowest",
+      "type": "integer",
+      "format": "int32"
+    },
+    "process_status": {
+      "description": "Procedural status associated with this document",
+      "type": "string",
+      "minLength": 1
+    },
+   "publication_date": {
+     "description": "OPTIONAL, date status change occurred/document was made available, in UTC",
+     "type": "string",
+     "format": "date"
+   }
+  }
+}

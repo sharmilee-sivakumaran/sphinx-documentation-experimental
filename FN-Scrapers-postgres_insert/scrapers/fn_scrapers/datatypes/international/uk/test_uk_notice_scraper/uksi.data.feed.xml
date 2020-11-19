@@ -1,0 +1,2186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed 
+    xmlns="http://www.w3.org/2005/Atom" 
+    xmlns:leg="http://www.legislation.gov.uk/namespaces/legislation" 
+    xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata" 
+    xmlns:theme="http://www.legislation.gov.uk/namespaces/theme" 
+    xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" 
+    xmlns:parameters="http://a9.com/-/spec/opensearch/extensions/parameters/1.0/">
+    <id>http://www.legislation.gov.uk/uksi/data.feed</id>
+    <link rel="self" type="application/atom+xml" href="http://www.legislation.gov.uk/uksi/data.feed"/>
+    <updated>2018-05-21T22:40:35.516575+01:00</updated>
+    <title>Search Results</title>
+    <openSearch:Query role="request" leg:type="uksi"></openSearch:Query>
+    <openSearch:itemsPerPage>20</openSearch:itemsPerPage>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <leg:page>1</leg:page>
+    <leg:morePages>12</leg:morePages>
+    <leg:facets>
+        <leg:facetTypes remove="http://www.legislation.gov.uk/all/data.feed">
+            <leg:facetType type="UnitedKingdomStatutoryInstrument" href="http://www.legislation.gov.uk/uksi/data.feed" value="78437"/>
+            <leg:facetType type="WelshStatutoryInstrument" href="http://www.legislation.gov.uk/wsi/data.feed" value="4512"/>
+            <leg:facetType type="NorthernIrelandOrderInCouncil" href="http://www.legislation.gov.uk/nisi/data.feed" value="624"/>
+        </leg:facetTypes>
+        <leg:facetYears>
+            <leg:facetYear year="2018" href="http://www.legislation.gov.uk/uksi/2018/data.feed" total="585"/>
+            <leg:facetYear year="2017" href="http://www.legislation.gov.uk/uksi/2017/data.feed" total="1290"/>
+            <leg:facetYear year="2016" href="http://www.legislation.gov.uk/uksi/2016/data.feed" total="1243"/>
+            <leg:facetYear year="2015" href="http://www.legislation.gov.uk/uksi/2015/data.feed" total="2059"/>
+            <leg:facetYear year="2014" href="http://www.legislation.gov.uk/uksi/2014/data.feed" total="3485"/>
+            <leg:facetYear year="2013" href="http://www.legislation.gov.uk/uksi/2013/data.feed" total="3291"/>
+            <leg:facetYear year="2012" href="http://www.legislation.gov.uk/uksi/2012/data.feed" total="3327"/>
+            <leg:facetYear year="2011" href="http://www.legislation.gov.uk/uksi/2011/data.feed" total="3131"/>
+            <leg:facetYear year="2010" href="http://www.legislation.gov.uk/uksi/2010/data.feed" total="2967"/>
+            <leg:facetYear year="2009" href="http://www.legislation.gov.uk/uksi/2009/data.feed" total="2008"/>
+            <leg:facetYear year="2008" href="http://www.legislation.gov.uk/uksi/2008/data.feed" total="1664"/>
+            <leg:facetYear year="2007" href="http://www.legislation.gov.uk/uksi/2007/data.feed" total="1854"/>
+            <leg:facetYear year="2006" href="http://www.legislation.gov.uk/uksi/2006/data.feed" total="1776"/>
+            <leg:facetYear year="2005" href="http://www.legislation.gov.uk/uksi/2005/data.feed" total="1875"/>
+            <leg:facetYear year="2004" href="http://www.legislation.gov.uk/uksi/2004/data.feed" total="1803"/>
+            <leg:facetYear year="2003" href="http://www.legislation.gov.uk/uksi/2003/data.feed" total="1844"/>
+            <leg:facetYear year="2002" href="http://www.legislation.gov.uk/uksi/2002/data.feed" total="1955"/>
+            <leg:facetYear year="2001" href="http://www.legislation.gov.uk/uksi/2001/data.feed" total="2285"/>
+            <leg:facetYear year="2000" href="http://www.legislation.gov.uk/uksi/2000/data.feed" total="1865"/>
+            <leg:facetYear year="1999" href="http://www.legislation.gov.uk/uksi/1999/data.feed" total="1974"/>
+            <leg:facetYear year="1998" href="http://www.legislation.gov.uk/uksi/1998/data.feed" total="1826"/>
+            <leg:facetYear year="1997" href="http://www.legislation.gov.uk/uksi/1997/data.feed" total="1840"/>
+            <leg:facetYear year="1996" href="http://www.legislation.gov.uk/uksi/1996/data.feed" total="2073"/>
+            <leg:facetYear year="1995" href="http://www.legislation.gov.uk/uksi/1995/data.feed" total="1871"/>
+            <leg:facetYear year="1994" href="http://www.legislation.gov.uk/uksi/1994/data.feed" total="1850"/>
+            <leg:facetYear year="1993" href="http://www.legislation.gov.uk/uksi/1993/data.feed" total="1884"/>
+            <leg:facetYear year="1992" href="http://www.legislation.gov.uk/uksi/1992/data.feed" total="1923"/>
+            <leg:facetYear year="1991" href="http://www.legislation.gov.uk/uksi/1991/data.feed" total="1765"/>
+            <leg:facetYear year="1990" href="http://www.legislation.gov.uk/uksi/1990/data.feed" total="1647"/>
+            <leg:facetYear year="1989" href="http://www.legislation.gov.uk/uksi/1989/data.feed" total="1536"/>
+            <leg:facetYear year="1988" href="http://www.legislation.gov.uk/uksi/1988/data.feed" total="1558"/>
+            <leg:facetYear year="1987" href="http://www.legislation.gov.uk/uksi/1987/data.feed" total="1468"/>
+            <leg:facetYear year="1986" href="http://www.legislation.gov.uk/uksi/1986/data.feed" total="1291"/>
+            <leg:facetYear year="1985" href="http://www.legislation.gov.uk/uksi/1985/data.feed" total="1221"/>
+            <leg:facetYear year="1984" href="http://www.legislation.gov.uk/uksi/1984/data.feed" total="1141"/>
+            <leg:facetYear year="1983" href="http://www.legislation.gov.uk/uksi/1983/data.feed" total="1123"/>
+            <leg:facetYear year="1982" href="http://www.legislation.gov.uk/uksi/1982/data.feed" total="1103"/>
+            <leg:facetYear year="1981" href="http://www.legislation.gov.uk/uksi/1981/data.feed" total="1117"/>
+            <leg:facetYear year="1980" href="http://www.legislation.gov.uk/uksi/1980/data.feed" total="1212"/>
+            <leg:facetYear year="1979" href="http://www.legislation.gov.uk/uksi/1979/data.feed" total="984"/>
+            <leg:facetYear year="1978" href="http://www.legislation.gov.uk/uksi/1978/data.feed" total="1077"/>
+            <leg:facetYear year="1977" href="http://www.legislation.gov.uk/uksi/1977/data.feed" total="1182"/>
+            <leg:facetYear year="1976" href="http://www.legislation.gov.uk/uksi/1976/data.feed" total="1139"/>
+            <leg:facetYear year="1975" href="http://www.legislation.gov.uk/uksi/1975/data.feed" total="1419"/>
+            <leg:facetYear year="1974" href="http://www.legislation.gov.uk/uksi/1974/data.feed" total="1293"/>
+            <leg:facetYear year="1973" href="http://www.legislation.gov.uk/uksi/1973/data.feed" total="1269"/>
+            <leg:facetYear year="1972" href="http://www.legislation.gov.uk/uksi/1972/data.feed" total="1100"/>
+            <leg:facetYear year="1971" href="http://www.legislation.gov.uk/uksi/1971/data.feed" total="192"/>
+            <leg:facetYear year="1970" href="http://www.legislation.gov.uk/uksi/1970/data.feed" total="1008"/>
+            <leg:facetYear year="1969" href="http://www.legislation.gov.uk/uksi/1969/data.feed" total="99"/>
+            <leg:facetYear year="1968" href="http://www.legislation.gov.uk/uksi/1968/data.feed" total="96"/>
+            <leg:facetYear year="1967" href="http://www.legislation.gov.uk/uksi/1967/data.feed" total="78"/>
+            <leg:facetYear year="1966" href="http://www.legislation.gov.uk/uksi/1966/data.feed" total="71"/>
+            <leg:facetYear year="1965" href="http://www.legislation.gov.uk/uksi/1965/data.feed" total="113"/>
+            <leg:facetYear year="1964" href="http://www.legislation.gov.uk/uksi/1964/data.feed" total="71"/>
+            <leg:facetYear year="1963" href="http://www.legislation.gov.uk/uksi/1963/data.feed" total="68"/>
+            <leg:facetYear year="1962" href="http://www.legislation.gov.uk/uksi/1962/data.feed" total="74"/>
+            <leg:facetYear year="1961" href="http://www.legislation.gov.uk/uksi/1961/data.feed" total="58"/>
+            <leg:facetYear year="1960" href="http://www.legislation.gov.uk/uksi/1960/data.feed" total="47"/>
+            <leg:facetYear year="1959" href="http://www.legislation.gov.uk/uksi/1959/data.feed" total="51"/>
+            <leg:facetYear year="1958" href="http://www.legislation.gov.uk/uksi/1958/data.feed" total="40"/>
+            <leg:facetYear year="1957" href="http://www.legislation.gov.uk/uksi/1957/data.feed" total="30"/>
+            <leg:facetYear year="1956" href="http://www.legislation.gov.uk/uksi/1956/data.feed" total="40"/>
+            <leg:facetYear year="1955" href="http://www.legislation.gov.uk/uksi/1955/data.feed" total="28"/>
+            <leg:facetYear year="1954" href="http://www.legislation.gov.uk/uksi/1954/data.feed" total="30"/>
+            <leg:facetYear year="1953" href="http://www.legislation.gov.uk/uksi/1953/data.feed" total="19"/>
+            <leg:facetYear year="1952" href="http://www.legislation.gov.uk/uksi/1952/data.feed" total="29"/>
+            <leg:facetYear year="1951" href="http://www.legislation.gov.uk/uksi/1951/data.feed" total="30"/>
+            <leg:facetYear year="1950" href="http://www.legislation.gov.uk/uksi/1950/data.feed" total="28"/>
+            <leg:facetYear year="1949" href="http://www.legislation.gov.uk/uksi/1949/data.feed" total="34"/>
+            <leg:facetYear year="1948" href="http://www.legislation.gov.uk/uksi/1948/data.feed" total="46"/>
+        </leg:facetYears>
+        <leg:facetHundreds/>
+        <leg:facetSubjectsInitials>
+            <leg:facetSubjectInitial initial="" total="283" href="http://www.legislation.gov.uk/uksi/data.feed" value="283"/>
+            <leg:facetSubjectInitial initial="a" total="2462" href="http://www.legislation.gov.uk/uksi/a/data.feed"/>
+            <leg:facetSubjectInitial initial="b" total="1038" href="http://www.legislation.gov.uk/uksi/b/data.feed"/>
+            <leg:facetSubjectInitial initial="c" total="7131" href="http://www.legislation.gov.uk/uksi/c/data.feed"/>
+            <leg:facetSubjectInitial initial="d" total="1508" href="http://www.legislation.gov.uk/uksi/d/data.feed"/>
+            <leg:facetSubjectInitial initial="e" total="6373" href="http://www.legislation.gov.uk/uksi/e/data.feed"/>
+            <leg:facetSubjectInitial initial="f" total="2463" href="http://www.legislation.gov.uk/uksi/f/data.feed"/>
+            <leg:facetSubjectInitial initial="g" total="321" href="http://www.legislation.gov.uk/uksi/g/data.feed"/>
+            <leg:facetSubjectInitial initial="h" total="3890" href="http://www.legislation.gov.uk/uksi/h/data.feed"/>
+            <leg:facetSubjectInitial initial="i" total="3169" href="http://www.legislation.gov.uk/uksi/i/data.feed"/>
+            <leg:facetSubjectInitial initial="j" total="258" href="http://www.legislation.gov.uk/uksi/j/data.feed"/>
+            <leg:facetSubjectInitial initial="l" total="4784" href="http://www.legislation.gov.uk/uksi/l/data.feed"/>
+            <leg:facetSubjectInitial initial="m" total="2237" href="http://www.legislation.gov.uk/uksi/m/data.feed"/>
+            <leg:facetSubjectInitial initial="n" total="5292" href="http://www.legislation.gov.uk/uksi/n/data.feed"/>
+            <leg:facetSubjectInitial initial="o" total="552" href="http://www.legislation.gov.uk/uksi/o/data.feed"/>
+            <leg:facetSubjectInitial initial="p" total="4784" href="http://www.legislation.gov.uk/uksi/p/data.feed"/>
+            <leg:facetSubjectInitial initial="r" total="4077" href="http://www.legislation.gov.uk/uksi/r/data.feed"/>
+            <leg:facetSubjectInitial initial="s" total="5004" href="http://www.legislation.gov.uk/uksi/s/data.feed"/>
+            <leg:facetSubjectInitial initial="t" total="3464" href="http://www.legislation.gov.uk/uksi/t/data.feed"/>
+            <leg:facetSubjectInitial initial="u" total="373" href="http://www.legislation.gov.uk/uksi/u/data.feed"/>
+            <leg:facetSubjectInitial initial="v" total="689" href="http://www.legislation.gov.uk/uksi/v/data.feed"/>
+            <leg:facetSubjectInitial initial="w" total="832" href="http://www.legislation.gov.uk/uksi/w/data.feed"/>
+            <leg:facetSubjectInitial initial="y" total="45" href="http://www.legislation.gov.uk/uksi/y/data.feed"/>
+            <leg:facetSubjectInitial initial="z" total="4" href="http://www.legislation.gov.uk/uksi/z/data.feed"/>
+            <leg:headings>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, ENGLAND AND WALES"/>
+                <leg:heading Value="ROAD TRAFFIC"/>
+                <leg:heading Value="PLANT BREEDERS' RIGHTS"/>
+                <leg:heading Value="FAMILY LAW"/>
+                <leg:heading Value="CAPITAL GAINS TAX"/>
+                <leg:heading Value="CORPORATION TAX"/>
+                <leg:heading Value="CRIMINAL LAW"/>
+                <leg:heading Value="SEA FISHERIES"/>
+                <leg:heading Value="EDUCATION, ENGLAND"/>
+                <leg:heading Value="MEDICINES"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="CHANGES IN LOCAL GOVERNMENT AREAS"/>
+                <leg:heading Value="DISCLOSURE OF INFORMATION"/>
+                <leg:heading Value="OFFICIAL STATISTICS"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS &amp; MARRIAGES, ETC"/>
+                <leg:heading Value="STATISTICS BOARD"/>
+                <leg:heading Value="EDUCATION, ENGLAND AND WALES"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, SCOTLAND"/>
+                <leg:heading Value="COPYRIGHT"/>
+                <leg:heading Value="SOCIAL SECURITY"/>
+                <leg:heading Value="HOUSING, ENGLAND AND WALES"/>
+                <leg:heading Value="HOUSING, SCOTLAND"/>
+                <leg:heading Value="EQUALITY"/>
+                <leg:heading Value="CLIMATE CHANGE LEVY"/>
+                <leg:heading Value="TRANSPORT"/>
+                <leg:heading Value="ELECTRICITY"/>
+                <leg:heading Value="PREVENTION AND SUPPRESSION OF TERRORISM"/>
+                <leg:heading Value="CONTRACTING OUT"/>
+                <leg:heading Value="CUSTOMS AND EXCISE"/>
+                <leg:heading Value="CHRONICALLY SICK AND DISABLED PERSONS"/>
+                <leg:heading Value="DISTRESS, ENGLAND AND WALES"/>
+                <leg:heading Value="TRADE MARKS"/>
+                <leg:heading Value="MARINE POLLUTION"/>
+                <leg:heading Value="MAGISTRATES’ COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="MERCHANT SHIPPING"/>
+                <leg:heading Value="PROCEEDS OF CRIME, ENGLAND AND WALES"/>
+                <leg:heading Value="CRIMINAL LAW, ENGLAND AND WALES"/>
+                <leg:heading Value="SENIOR COURTS OF ENGLAND AND WALES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND AND WALES"/>
+                <leg:heading Value="WATER SUPPLY, SCOTLAND"/>
+                <leg:heading Value="PENSIONS"/>
+                <leg:heading Value="CIVIL AVIATION"/>
+                <leg:heading Value="EUROPEAN COMMUNITIES"/>
+                <leg:heading Value="FOOD"/>
+                <leg:heading Value="EDUCATION"/>
+                <leg:heading Value="ANTI-SOCIAL BEHAVIOUR, ENGLAND AND WALES"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, WALES"/>
+                <leg:heading Value="DEFENCE"/>
+                <leg:heading Value="HIGHWAYS, ENGLAND AND WALES"/>
+                <leg:heading Value="EUROPEAN UNION"/>
+                <leg:heading Value="PLANT HEALTH, ENGLAND"/>
+                <leg:heading Value="EDUCATION, SCOTLAND"/>
+                <leg:heading Value="AGRICULTURE"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE"/>
+                <leg:heading Value="MENTAL HEALTH, ENGLAND AND WALES"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENGLAND"/>
+                <leg:heading Value="POLICE, ENGLAND AND WALES"/>
+                <leg:heading Value="TRANSPORT AND WORKS"/>
+                <leg:heading Value="LOCAL GOVERNMENT, SCOTLAND"/>
+                <leg:heading Value="HOUSING, ENGLAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE ENGLAND AND WALES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, SCOTLAND"/>
+                <leg:heading Value="GAS"/>
+                <leg:heading Value="COMPETITION"/>
+                <leg:heading Value="CONSUMER PROTECTION"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, ENGLAND"/>
+                <leg:heading Value="NORTHERN IRELAND"/>
+                <leg:heading Value="LONDON GOVERNMENT"/>
+                <leg:heading Value="BETTING, GAMING AND LOTTERIES"/>
+                <leg:heading Value="FAMILY PROCEEDINGS"/>
+                <leg:heading Value="FAMILY COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="RIGHTS IN PERFORMANCES"/>
+                <leg:heading Value="WATER, ENGLAND AND WALES"/>
+                <leg:heading Value="FINANCIAL SERVICES AND MARKETS"/>
+                <leg:heading Value="INSOLVENCY"/>
+                <leg:heading Value="PUBLIC HEALTH, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC HEALTH, SCOTLAND"/>
+                <leg:heading Value="PUBLIC HEALTH, NORTHERN IRELAND"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, ENGLAND AND WALES"/>
+                <leg:heading Value="INVESTIGATORY POWERS"/>
+                <leg:heading Value="PLANT HEALTH"/>
+                <leg:heading Value="LOCAL GOVERNMENT, WALES"/>
+                <leg:heading Value="TRANSPORT AND WORKS, ENGLAND"/>
+                <leg:heading Value="TRANSPORT, ENGLAND"/>
+                <leg:heading Value="PETROLEUM"/>
+                <leg:heading Value="FIREWORKS"/>
+                <leg:heading Value="HEALTH AND SAFETY"/>
+                <leg:heading Value="OVERSEAS TERRITORIES"/>
+                <leg:heading Value="EXTRADITION"/>
+                <leg:heading Value="HIGHWAYS, ENGLAND"/>
+                <leg:heading Value="COUNTY COURTS"/>
+                <leg:heading Value="INDUSTRIAL DEVELOPMENT"/>
+                <leg:heading Value="CUSTOMS &amp; EXCISE"/>
+                <leg:heading Value="TAX CREDITS"/>
+                <leg:heading Value="WILDLIFE"/>
+                <leg:heading Value="MAGISTRATES' COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="CLEAN AIR, ENGLAND"/>
+                <leg:heading Value="UNITED NATIONS"/>
+                <leg:heading Value="SAVINGS BANKS"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE,ENGLAND AND WALES"/>
+                <leg:heading Value="ECCLESIASTICAL LAW, ENGLAND"/>
+                <leg:heading Value="HEALTH CARE AND ASSOCIATED PROFESSIONS"/>
+                <leg:heading Value="CARIBBEAN AND NORTH ATLANTIC TERRITORIES"/>
+                <leg:heading Value="MEDICAL PROFESSION"/>
+                <leg:heading Value="ANIMALS"/>
+                <leg:heading Value="FOREIGN COMPENSATION"/>
+                <leg:heading Value="ENERGY CONSERVATION"/>
+                <leg:heading Value="RIVER, SCOTLAND"/>
+                <leg:heading Value="HEALTH AND PERSONAL SOCIAL SERVICES, NORTHERN IRELAND"/>
+                <leg:heading Value="ELECTRONIC COMMUNICATIONS"/>
+                <leg:heading Value="TRIBUNALS"/>
+                <leg:heading Value="FIRE AND RESCUE SERVICES, ENGLAND"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, ENGLAND"/>
+                <leg:heading Value="COPORATION TAX"/>
+                <leg:heading Value="INCOME TAX"/>
+                <leg:heading Value="RATING AND VALUATION, ENGLAND"/>
+                <leg:heading Value="ENERGY"/>
+                <leg:heading Value="PROBATION"/>
+                <leg:heading Value="ANTARCTICA"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING ENGLAND AND WALES"/>
+                <leg:heading Value="INSURANCE"/>
+                <leg:heading Value="SEEDS"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING, ENGLAND AND WALES"/>
+                <leg:heading Value="LEGAL SERVICES COMMISSION, ENGLAND AND WALES"/>
+                <leg:heading Value="VALUE ADDED TAX"/>
+                <leg:heading Value="INDUSTRIAL TRAINING"/>
+                <leg:heading Value="FOOD, ENGLAND"/>
+                <leg:heading Value="VETERINARY SURGEONS"/>
+                <leg:heading Value="ROAD TRAFFIC, ENGLAND AND WALES"/>
+                <leg:heading Value="TELECOMMUNICATIONS"/>
+                <leg:heading Value="PROCEEDS OF CRIME, NORTHERN IRELAND"/>
+                <leg:heading Value="BUILDING SOCIETIES"/>
+                <leg:heading Value="REGIONAL DEVELOPMENT"/>
+                <leg:heading Value="ROAD TRAFFIC, ENGLAND"/>
+                <leg:heading Value="COAL INDUSTRY"/>
+                <leg:heading Value="SOCIAL CARE, ENGLAND"/>
+                <leg:heading Value="OFFSHORE INSTALLATIONS"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION"/>
+                <leg:heading Value="DATA PROTECTION"/>
+                <leg:heading Value="MONOPOLIES AND MERGERS"/>
+                <leg:heading Value="TERMS AND CONDITIONS OF EMPLOYMENT"/>
+                <leg:heading Value="TRADE UNIONS"/>
+                <leg:heading Value="CONSTITUTIONAL LAW"/>
+                <leg:heading Value="COMPANIES"/>
+                <leg:heading Value="OPTICIANS"/>
+                <leg:heading Value="FEES AND CHARGES"/>
+                <leg:heading Value="BANKS AND BANKING"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, ENGLAND AND WALES"/>
+                <leg:heading Value="PROTECTION OF VULNERABLE ADULTS, ENGLAND AND WALES"/>
+                <leg:heading Value="INSOLVENCY, SCOTLAND"/>
+                <leg:heading Value="EVIDENCE"/>
+                <leg:heading Value="ENTERPRISE ZONES"/>
+                <leg:heading Value="PUBLIC BODIES"/>
+                <leg:heading Value="IMMIGRATION"/>
+                <leg:heading Value="COMMUNITY CHARGES, SCOTLAND"/>
+                <leg:heading Value="LICENSING (LIQUOR)"/>
+                <leg:heading Value="ECCLESIASTICAL LAW"/>
+                <leg:heading Value="LANDLORD AND TENANT, SCOTLAND"/>
+                <leg:heading Value="GOVERNMENT TRADING FUNDS"/>
+                <leg:heading Value="INTERNATIONAL CRIMINAL COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="INTERNATIONAL CRIMINAL COURT, NORTHERN IRELAND"/>
+                <leg:heading Value="FINANCIAL SERVICES"/>
+                <leg:heading Value="HARBOURS, DOCKS, PIERS AND FERRIES"/>
+                <leg:heading Value="CHANNEL TUNNEL"/>
+                <leg:heading Value="NATIONAL LOTTERY"/>
+                <leg:heading Value="GENDER RECOGNITION"/>
+                <leg:heading Value="AUSTRALIA"/>
+                <leg:heading Value="REHABILITATION OF OFFENDERS, ENGLAND AND WALES"/>
+                <leg:heading Value="CUSTOMS"/>
+                <leg:heading Value="SHERIFF COURT, SCOTLAND"/>
+                <leg:heading Value="LAND DRAINAGE, ENGLAND"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS AND MARRIAGES, ETC., ENGLAND AND WALES"/>
+                <leg:heading Value="DISABLED PERSONS"/>
+                <leg:heading Value="JUSTICES OF THE PEACE, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC PASSENGER TRANSPORT"/>
+                <leg:heading Value="PARLIAMENT"/>
+                <leg:heading Value="HIGH COURT OF JUSTICIARY, SCOTLAND"/>
+                <leg:heading Value="SUMMARY JURISDICTION, SCOTLAND"/>
+                <leg:heading Value="HOUSING"/>
+                <leg:heading Value="FAMILY LAW, ENGLAND AND WALES"/>
+                <leg:heading Value="POSTAL SERVICES"/>
+                <leg:heading Value="PUBLIC PROCUREMENT"/>
+                <leg:heading Value="LANDFILL TAX"/>
+                <leg:heading Value="ATOMIC ENERGY AND RADIOACTIVE SUBSTANCES"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING, ENGLAND"/>
+                <leg:heading Value="INSOLVENCY, ENGLAND AND WALES"/>
+                <leg:heading Value="PIPE-LINES"/>
+                <leg:heading Value="SUPREME COURT OF ENGLAND AND WALES"/>
+                <leg:heading Value="TRIBUNALS AND INQUIRIES"/>
+                <leg:heading Value="PUBLIC SERVICE PENSIONS, ENGLAND AND WALES"/>
+                <leg:heading Value="DEVOLUTION, SCOTLAND"/>
+                <leg:heading Value="FRIENDLY, ETC., SOCIETIES"/>
+                <leg:heading Value="MINISTERS OF THE CROWN"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS"/>
+                <leg:heading Value="TRIBUNALS AND INQUIRIES, ENGLAND"/>
+                <leg:heading Value="INFRASTRUCTURE PLANNING"/>
+                <leg:heading Value="WATER INDUSTRY, ENGLAND AND WALES"/>
+                <leg:heading Value="NEW TOWNS"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS,MARRIAGES, ETC. ENGLAND AND WALES"/>
+                <leg:heading Value="BROADCASTING"/>
+                <leg:heading Value="COUNCIL TAX, SCOTLAND"/>
+                <leg:heading Value="PENSIONS, ENGLAND AND WALES"/>
+                <leg:heading Value="SPORTS GROUNDS AND SPORTING EVENTS, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC SERVICE PENSIONS, ENGLAND"/>
+                <leg:heading Value="SUPREME COURT OF NORTHERN IRELAND"/>
+                <leg:heading Value="COUNTY COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="MAGISTRATES COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="COURTS-MARTIAL (APPEALS)"/>
+                <leg:heading Value="DAMAGES, ENGLAND AND WALES"/>
+                <leg:heading Value="DAMAGES, NORTHERN IRELAND"/>
+                <leg:heading Value="LAND DRAINAGE"/>
+                <leg:heading Value="SUPREME COURT OF JUDICATURE, ENGLAND AND WALES"/>
+                <leg:heading Value="REVENUE AND CUSTOMS"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE"/>
+                <leg:heading Value="POLICE"/>
+                <leg:heading Value="MAGISTRATES' COURTS"/>
+                <leg:heading Value="EMPLOYMENT TRIBUNALS, SCOTLAND"/>
+                <leg:heading Value="CHARITIES, ENGLAND AND WALES"/>
+                <leg:heading Value="TAXES"/>
+                <leg:heading Value="CONTROL OF FUEL AND ELECTRICITY"/>
+                <leg:heading Value="CONSUMER CREDIT"/>
+                <leg:heading Value="COMMUNITY CHARGES, ENGLAND AND WALES"/>
+                <leg:heading Value="COUNCIL TAX, ENGLAND AND WALES"/>
+                <leg:heading Value="RATING AND VALUATION"/>
+                <leg:heading Value="METROPOLITAN AND CITY POLICE DISTRICTS"/>
+                <leg:heading Value="CABS"/>
+                <leg:heading Value="NATURAL ENVIRONMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="NATURAL ENVIRONMENT, NORTHERN IRELAND"/>
+                <leg:heading Value="RIGHTS OF WAY, ENGLAND"/>
+                <leg:heading Value="REGULATORY REFORM"/>
+                <leg:heading Value="TRANSPORT, ENGLAND AND WALES"/>
+                <leg:heading Value="TRANSPORT, NORTHERN IRELAND"/>
+                <leg:heading Value="COURT OF SESSION, SCOTLAND"/>
+                <leg:heading Value="ANIMALS, WALES"/>
+                <leg:heading Value="FRIENDLY SOCIETIES"/>
+                <leg:heading Value="URBAN DEVELOPMENT, ENGLAND"/>
+                <leg:heading Value="IRON AND STEEL"/>
+                <leg:heading Value="DEVOLUTION, WALES"/>
+                <leg:heading Value="URBAN DEVELOPMENT"/>
+                <leg:heading Value="DEREGULATION"/>
+                <leg:heading Value="EDUCATION, WALES"/>
+                <leg:heading Value="INTERNATIONAL IMMUNITIES AND PRIVILEGES"/>
+                <leg:heading Value="FAMILY PROCEEDINGS, ENGLAND AND WALES"/>
+                <leg:heading Value="SMALLHOLDINGS AND ALLOTMENTS"/>
+                <leg:heading Value="INTELLECTUAL PROPERTY"/>
+                <leg:heading Value="PUBLIC HEALTH"/>
+                <leg:heading Value="NURSES, MIDWIVES AND HEALTH VISITORS"/>
+                <leg:heading Value="STAMP DUTY"/>
+                <leg:heading Value="STAMP DUTY RESERVE TAX"/>
+                <leg:heading Value=""/>
+                <leg:heading Value="YOUNG OFFENDER INSTITUTIONS, ENGLAND AND WALES"/>
+                <leg:heading Value="EMPLOYMENT AND TRAINING"/>
+                <leg:heading Value="FREEDOM OF INFORMATION"/>
+                <leg:heading Value="EMPLOYMENT"/>
+                <leg:heading Value="FIRE SERVICES"/>
+                <leg:heading Value="CO-OPERATIVE SOCIETIES"/>
+                <leg:heading Value="COMMUNITY BENEFIT SOCIETIES"/>
+                <leg:heading Value="SOCIAL CARE"/>
+                <leg:heading Value="BRITISH NATIONALITY"/>
+                <leg:heading Value="PILOTAGE"/>
+                <leg:heading Value="WATER, ENGLAND"/>
+                <leg:heading Value="EDUCATION, NORTHERN IRELAND"/>
+                <leg:heading Value="HOVERCRAFT"/>
+                <leg:heading Value="BETTING, GAMING AND LOTTERIES, ENGLAND AND WALES"/>
+                <leg:heading Value="FUGITIVE CRIMINAL"/>
+                <leg:heading Value="MERCHANT SHIPPING SAFETY"/>
+                <leg:heading Value="SUPREME COURT OF JUDICATURE, ENGLAND"/>
+                <leg:heading Value="DOCTORS"/>
+                <leg:heading Value="INHERITANCE TAX"/>
+                <leg:heading Value="DISTRESS"/>
+                <leg:heading Value="MENTAL HEALTH"/>
+                <leg:heading Value="LANDLORD AND TENANT, ENGLAND AND WALES"/>
+                <leg:heading Value="AGRICULTURE, ENGLAND"/>
+                <leg:heading Value="DIPLOMATIC AND INTERNATIONAL IMMUNITIES AND PRIVILEGES"/>
+                <leg:heading Value="SCIENTIFIC RESEARCH"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING"/>
+                <leg:heading Value="LANDLORD AND TENANT, ENGLAND"/>
+                <leg:heading Value="VIDEO RECORDINGS"/>
+                <leg:heading Value="PROFESSIONAL QUALIFICATIONS"/>
+                <leg:heading Value="ROADS AND BRIDGES, SCOTLAND"/>
+                <leg:heading Value="DISABLED PERSONS TRANSPORT"/>
+                <leg:heading Value="CRIMINAL LAW, NORTHERN IRELAND"/>
+                <leg:heading Value="RIVER, ENGLAND AND WALES RIVER, SCOTLAND"/>
+                <leg:heading Value="PATENTS"/>
+                <leg:heading Value="COUNTY COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="AGRICULTURE HORTICULTURE"/>
+                <leg:heading Value="CRIMINAL LAW, SCOTLAND"/>
+                <leg:heading Value="LEGAL SERVICES"/>
+                <leg:heading Value="LEGAL PROFESSION"/>
+                <leg:heading Value="NOTARIES PUBLIC"/>
+                <leg:heading Value="DESIGNS"/>
+                <leg:heading Value="BRITISH TECHNOLOGY"/>
+                <leg:heading Value="TELEGRAPHS"/>
+                <leg:heading Value="CRIMINAL LAW, ENGLAND"/>
+                <leg:heading Value="LOCAL GOVERNMENT ENGLAND AND WALES"/>
+                <leg:heading Value="ANIMAL HEALTH"/>
+                <leg:heading Value="HUMAN RIGHTS"/>
+                <leg:heading Value="PESTICIDES"/>
+                <leg:heading Value="SOCIAL SECURITY, ENGLAND AND WALES"/>
+                <leg:heading Value="FORESTRY, ENGLAND AND WALES"/>
+                <leg:heading Value="LEGAL SERVICES, ENGLAND AND WALES"/>
+                <leg:heading Value="OVERSEAS DEVELOPMENT AND CO-OPERATION"/>
+                <leg:heading Value="DENTISTS"/>
+                <leg:heading Value="BUILDING AND BUILDINGS, ENGLAND AND WALES"/>
+                <leg:heading Value="CINEMAS AND FILMS"/>
+                <leg:heading Value="HALLMARK"/>
+                <leg:heading Value="TRIBUNALS AND INQUIRIES, ENGLAND AND WALES"/>
+                <leg:heading Value="EMPLOYMENT TRIBUNALS,ENGLAND AND WALES"/>
+                <leg:heading Value="CHILD SUPPORT"/>
+                <leg:heading Value="IDENTITY CARDS"/>
+                <leg:heading Value="CIVIL PARTNERSHIP"/>
+                <leg:heading Value="VISITING FORCES"/>
+                <leg:heading Value="SOCIAL SECURITY, NORTHERN IRELAND"/>
+                <leg:heading Value="TAXES, NORTHERN IRELAND"/>
+                <leg:heading Value="SALE OF GOODS"/>
+                <leg:heading Value="WATER RESOURCES, ENGLAND AND WALES"/>
+                <leg:heading Value="EXCISE"/>
+                <leg:heading Value="RECOVERY OF TAXES"/>
+                <leg:heading Value="PUBLIC RECORDS"/>
+                <leg:heading Value="MAGISTRATES COURTS"/>
+                <leg:heading Value="JUDGMENTS"/>
+                <leg:heading Value="CROFTERS, COTTARS AND SMALL LANDHOLDERS"/>
+                <leg:heading Value="OLYMPIC GAMES AND PARALYMPIC GAMES"/>
+                <leg:heading Value="SPORTS GROUNDS AND SPORTING EVENTS"/>
+                <leg:heading Value="SECURITY INDUSTRY, ENGLAND AND WALES"/>
+                <leg:heading Value="DANGEROUS DRUGS"/>
+                <leg:heading Value="LAND SETTLEMENT, NORTHERN IRELAND"/>
+                <leg:heading Value="WEIGHTS AND MEASURES"/>
+                <leg:heading Value="OVERSEAS AID"/>
+                <leg:heading Value="INSIDER DEALING"/>
+                <leg:heading Value="COMMON"/>
+                <leg:heading Value="JUDICIAL COMMITTEE"/>
+                <leg:heading Value="STATISTICS OF TRADE"/>
+                <leg:heading Value="LANDLORD AND TENANT"/>
+                <leg:heading Value="ARBITRATION"/>
+                <leg:heading Value="INSURANCE PREMIUM TAX"/>
+                <leg:heading Value="POLICE, WALES"/>
+                <leg:heading Value="MINES AND QUARRIES"/>
+                <leg:heading Value="SEX DISCRIMINATION"/>
+                <leg:heading Value="RECIPROCAL AGREEMENTS"/>
+                <leg:heading Value="COUNTRYSIDE, ENGLAND"/>
+                <leg:heading Value="DISTRIBUTION OF GERMAN ENEMY PROPERTY"/>
+                <leg:heading Value="LICENCES AND LICENSING"/>
+                <leg:heading Value="COMMON, ENGLAND"/>
+                <leg:heading Value="FAIR TRADING"/>
+                <leg:heading Value="CRIMINAL LAW, ENGLAND AND WALES CRIMINAL LAW, SCOTLAND"/>
+                <leg:heading Value="POULTRY"/>
+                <leg:heading Value="BUSINESS NAMES"/>
+                <leg:heading Value="EMPLOYMENT AND TRAINING, ENGLAND"/>
+                <leg:heading Value="TARTANS"/>
+                <leg:heading Value="NEW FOREST"/>
+                <leg:heading Value="INTERNATIONAL DEVELOPMENT"/>
+                <leg:heading Value="SPECIAL ROADS"/>
+                <leg:heading Value="ANIMALS, ENGLAND"/>
+                <leg:heading Value="SENIOR COURTS OF ENGLAND AND WALES COUNTY COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="BUILDING AND BUILDINGS"/>
+                <leg:heading Value="POISONS"/>
+                <leg:heading Value="PROCEEDS OF CRIME"/>
+                <leg:heading Value="CHARITIES"/>
+                <leg:heading Value="CIVIL PARTNERSHIP, ENGLAND AND WALES"/>
+                <leg:heading Value="SOCIAL CARE, ENGLAND AND WALES"/>
+                <leg:heading Value="HEARING AID COUNCIL"/>
+                <leg:heading Value="NATIONAL ASSISTANCE SERVICES"/>
+                <leg:heading Value="CLEAN AIR"/>
+                <leg:heading Value="REFERENDUMS"/>
+                <leg:heading Value="PUBLIC HEALTH, ENGLAND"/>
+                <leg:heading Value="OUTER SPACE"/>
+                <leg:heading Value="POLICE, ENGLAND"/>
+                <leg:heading Value="BANKS AND BANKING, ENGLAND AND WALES"/>
+                <leg:heading Value="CANALS AND INLAND WATERWAYS, ENGLAND"/>
+                <leg:heading Value="MAINTENANCE OF DEPENDANTS"/>
+                <leg:heading Value="ANNUAL TAX ON ENVELOPED DWELLINGS"/>
+                <leg:heading Value="AGRICULTURE, NORTHERN IRELAND"/>
+                <leg:heading Value="NATIONALITY"/>
+                <leg:heading Value="SUGAR"/>
+                <leg:heading Value="SECURITIES"/>
+                <leg:heading Value="HARBOURS, DOCKS, PIERS AND FERRIES, ENGLAND"/>
+                <leg:heading Value="PRISONS, ENGLAND AND WALES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES, ETC."/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC, ENGLAND AND WALES"/>
+                <leg:heading Value="ANIMALS, ENGLAND AND WALES"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, ENGLAND AND WALES"/>
+                <leg:heading Value="ANCIENT MONUMENTS"/>
+                <leg:heading Value="MARRIAGE, ENGLAND AND WALES"/>
+                <leg:heading Value="FOOD, ENGLAND AND WALES"/>
+                <leg:heading Value="STAMP DUTY LAND TAX"/>
+                <leg:heading Value="CHILDRENANDYOUNGPERSONS,NORTHERN IRELAND"/>
+                <leg:heading Value="INTELLIGENCE SERVICES"/>
+                <leg:heading Value="INDUSTRIAL TRIBUNALS"/>
+                <leg:heading Value="COAST PROTECTION"/>
+                <leg:heading Value="CONSULAR RELATIONS"/>
+                <leg:heading Value="PENSIONS, ENGLAND"/>
+                <leg:heading Value="CHILD TRUST FUNDS, NORTHERN IRELAND"/>
+                <leg:heading Value="OSTEOPATHS"/>
+                <leg:heading Value="CONTRACTS"/>
+                <leg:heading Value="SECURE TRAINING CENTRES, ENGLAND AND WALES"/>
+                <leg:heading Value="ENERGY CONSERVATION, ENGLAND"/>
+                <leg:heading Value="NUCLEAR SECURITY"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND AND SCOTLAND"/>
+                <leg:heading Value="SEA FISHERIES, ENGLAND"/>
+                <leg:heading Value="COUNTRYSIDE"/>
+                <leg:heading Value="LAND REGISTRATION, ENGLAND AND WALES"/>
+                <leg:heading Value="JUSTICES OF THE PEACE, ENGLAND, AND WALES"/>
+                <leg:heading Value="TRADE DESCRIPTIONS"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, NORTHERN IRELAND"/>
+                <leg:heading Value="CHEMICAL WEAPONS"/>
+                <leg:heading Value="RIVER, ENGLAND AND WALES"/>
+                <leg:heading Value="SALMON AND FRESHWATER FISHERIES"/>
+                <leg:heading Value="INDUSTRIAL ORGANISATION AND DEVELOPMENT"/>
+                <leg:heading Value="LIMITED LIABILITY PARTNERSHIPS"/>
+                <leg:heading Value="PUBLIC OFFICE"/>
+                <leg:heading Value="GOVERNORS OF DOMINIONS, ETC"/>
+                <leg:heading Value="CHILDCARE"/>
+                <leg:heading Value="PAYMENT SCHEME"/>
+                <leg:heading Value="ELECTRICITY, ENGLAND AND WALES"/>
+                <leg:heading Value="HUMAN FERTILISATION AND EMBRYOLOGY"/>
+                <leg:heading Value="ESTATE AGENTS"/>
+                <leg:heading Value="SEA FISHERIES, NORTHERN IRELAND"/>
+                <leg:heading Value="FOOD COMPOSITION"/>
+                <leg:heading Value="ACQUISITION OF LAND, ENGLAND AND WALES"/>
+                <leg:heading Value="SEEDS, ENGLAND"/>
+                <leg:heading Value="SEEDS, SCOTLAND"/>
+                <leg:heading Value="SEA FISHERIES, ENGLAND AND WALES"/>
+                <leg:heading Value="CORONERS"/>
+                <leg:heading Value="TREASURE"/>
+                <leg:heading Value="PROFESSIONS SUPPLEMENTARY TO MEDICINE"/>
+                <leg:heading Value="HORTICULTURE"/>
+                <leg:heading Value="LOCAL GOVERNMENT"/>
+                <leg:heading Value="PRICES"/>
+                <leg:heading Value="CLIMATE CHANGE"/>
+                <leg:heading Value="AGRICULTURE LIVESTOCK INDUSTRIES"/>
+                <leg:heading Value="OPEN SPACES"/>
+                <leg:heading Value="MARRIAGE"/>
+                <leg:heading Value="UNIVERSITIES AND COLLEGES"/>
+                <leg:heading Value="FACTORIES"/>
+                <leg:heading Value="POWERS OF ATTORNEY"/>
+                <leg:heading Value="DANGEROUS DRUGS, ENGLAND AND WALES"/>
+                <leg:heading Value="DANGEROUS DRUGS, SCOTLAND"/>
+                <leg:heading Value="COMMUNITY RESTRICTIONS"/>
+                <leg:heading Value="DIPLOMATIC SERVICE"/>
+                <leg:heading Value="WALES"/>
+                <leg:heading Value="CRIMINAL LAW, ENGLAND AND WALES CRIMINAL LAW, NORTHERN IRELAND"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING, SCOTLAND"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING, WALES"/>
+                <leg:heading Value="CULTURAL OBJECTS"/>
+                <leg:heading Value="CHIROPRACTORS"/>
+                <leg:heading Value="WATER, SCOTLAND"/>
+                <leg:heading Value="SUPREME COURT OF THE UNITED KINGDOM"/>
+                <leg:heading Value="AIRCRAFT AND SHIPBUILDING INDUSTRIES"/>
+                <leg:heading Value="FINANCE"/>
+                <leg:heading Value="IMMIGRATION, ENGLAND"/>
+                <leg:heading Value="RESTRICTIVE TRADE PRACTICES"/>
+                <leg:heading Value="SECURITY INDUSTRY"/>
+                <leg:heading Value="LEGAL SERVICE COMMISSION, ENGLAND AND WALES"/>
+                <leg:heading Value="COMMONS, ENGLAND"/>
+                <leg:heading Value="HONG KONG"/>
+                <leg:heading Value="CLERK OF THE CROWN IN CHANCERY"/>
+                <leg:heading Value="PUBLIC ORDER"/>
+                <leg:heading Value="PENSION"/>
+                <leg:heading Value="DAMAGES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES, ETC, ENGLAND AND WALES"/>
+                <leg:heading Value="INDUSTRIAL ASSURANCE"/>
+                <leg:heading Value="LAND REGISTRATION, SCOTLAND"/>
+                <leg:heading Value="REGISTERS AND RECORDS, SCOTLAND"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, WALES"/>
+                <leg:heading Value="MENTAL HEALTH, ENGLAND"/>
+                <leg:heading Value="LEGAL PROFESSION, ENGLAND AND WALES"/>
+                <leg:heading Value="SUPREME COURT OF ENGLAND AND WALES COUNTY COURTS"/>
+                <leg:heading Value="FAMILY LAW, SCOTLAND"/>
+                <leg:heading Value="NATIONAL CRIME AGENCY"/>
+                <leg:heading Value="TRACTORS"/>
+                <leg:heading Value="TRUSTEES"/>
+                <leg:heading Value="SECURITY SERVICE"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND AND WALES NATIONAL HEALTH SERVICE, SCOTLAND"/>
+                <leg:heading Value="LEGAL SERVICES COMMISSION, ENGLANDANDWALES"/>
+                <leg:heading Value="FORESTRY"/>
+                <leg:heading Value="NATIONAL INSURANCE"/>
+                <leg:heading Value="AGGREGATES LEVY"/>
+                <leg:heading Value="COMPENSATION"/>
+                <leg:heading Value="ELECTORAL COMMISSION"/>
+                <leg:heading Value="EMPLOYMENT TRIBUNALS"/>
+                <leg:heading Value="TERRITORIAL SEA"/>
+                <leg:heading Value="FIRE PRECAUTIONS"/>
+                <leg:heading Value="SAFETY"/>
+                <leg:heading Value="FISH FARMING"/>
+                <leg:heading Value="COAST PROTECTION, ENGLAND AND WALES"/>
+                <leg:heading Value="FLOOD RISK MANAGEMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC AUDIT"/>
+                <leg:heading Value="SERIOUS CRIME PREVENTION ORDERS"/>
+                <leg:heading Value="DANGEROUS DRUGS, ENGLAND, SCOTLAND"/>
+                <leg:heading Value="PUBLIC PASSENGER TRANSPORT, ENGLAND"/>
+                <leg:heading Value="PACIFIC ISLANDS"/>
+                <leg:heading Value="TAXES NORTHERN IRELAND"/>
+                <leg:heading Value="MENTAL CAPACITY, ENGLAND"/>
+                <leg:heading Value="COINAGE"/>
+                <leg:heading Value="CONSTABULARY, IRELAND"/>
+                <leg:heading Value="NATIONAL DEBT"/>
+                <leg:heading Value="EVIDENCE, ENGLAND AND WALES"/>
+                <leg:heading Value="POLITICAL PARTIES"/>
+                <leg:heading Value="CABLE PROGRAMME SERVICES"/>
+                <leg:heading Value="PROTECTION OF WRECKS"/>
+                <leg:heading Value="PESTS"/>
+                <leg:heading Value="COMPANIES, ENGLAND AND WALES"/>
+                <leg:heading Value="PORT HEALTH AUTHORITIES, ENGLAND"/>
+                <leg:heading Value="FISHERIES, ENGLAND AND WALES"/>
+                <leg:heading Value="RIVERS, ENGLAND AND WALES"/>
+                <leg:heading Value="CONSULAR RIGHTS AND PRIVILEGES"/>
+                <leg:heading Value="CONSUMER PROTECTION, ENGLAND AND WALES"/>
+                <leg:heading Value="NUCLEAR ENERGY"/>
+                <leg:heading Value="COMMONWEALTH TELEGRAPHS"/>
+                <leg:heading Value="AGRICULTURE, ENGLAND AND WALES"/>
+                <leg:heading Value="GOVERNMENT RESOURCES AND ACCOUNTS"/>
+                <leg:heading Value="CONTINENTAL SHELF"/>
+                <leg:heading Value="FISH FARMING, ENGLAND"/>
+                <leg:heading Value="OFFICIAL SECRETS"/>
+                <leg:heading Value="ECCLESIASTICAL LAW, ENGLAND AND WALES"/>
+                <leg:heading Value="MODERN SLAVERY, ENGLAND AND WALES"/>
+                <leg:heading Value="SOCIAL SERVICES, ENGLAND AND WALES"/>
+                <leg:heading Value="MUSEUMS AND GALLERIES"/>
+                <leg:heading Value="PROTECTION OF VULNERABLE ADULTS"/>
+                <leg:heading Value="COMMUNITY CHARGE, ENGLAND AND WALES"/>
+                <leg:heading Value="ENERGY CONSERVATION, ENGLAND AND WALES"/>
+                <leg:heading Value="HEALTH AND SAFETY CINEMATOGRAPHS AND CINEMATOGRAPH FILMS"/>
+                <leg:heading Value="ARMS AND AMMUNITION"/>
+                <leg:heading Value="DOGS"/>
+                <leg:heading Value="SOCIAL SERVICES, ENGLAND"/>
+                <leg:heading Value="REGULATORY REFORM, ENGLAND AND WALES"/>
+                <leg:heading Value="RACE RELATIONS"/>
+                <leg:heading Value="CONSULTANT LOBBYING"/>
+                <leg:heading Value="CIVIL CONTINGENCIES"/>
+                <leg:heading Value="DOGS, ENGLAND"/>
+                <leg:heading Value="JUVENILE COURTS AND OFFENDERS"/>
+                <leg:heading Value="LICENSED CONVEYANCING"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS &amp; MARRIAGES, ETC., ENGLAND AND WALES"/>
+                <leg:heading Value="WATER RESOURCES, ENGLAND"/>
+                <leg:heading Value="PRISONS"/>
+                <leg:heading Value="NURSES AND MIDWIVES"/>
+                <leg:heading Value="SUPERANNUATION"/>
+                <leg:heading Value="PIPE–LINES"/>
+                <leg:heading Value="CHILD TRUST FUNDS"/>
+                <leg:heading Value="PUBLIC AUDIT, ENGLAND AND WALES"/>
+                <leg:heading Value="PREVENTION AND SUPRESSION OF TERRORISM"/>
+                <leg:heading Value="COUNTRYSIDE AGENCY"/>
+                <leg:heading Value="REGIONAL DEVELOPMENT AGENCIES"/>
+                <leg:heading Value="URBAN REGENERATION AGENCY"/>
+                <leg:heading Value="DEVELOPMENT COMMISSION"/>
+                <leg:heading Value="TERRORISM"/>
+                <leg:heading Value="COUNCIL TAX, ENGLAND"/>
+                <leg:heading Value="PUBLIC PASSENGER VEHICLES"/>
+                <leg:heading Value="HEALTH AND SAFETY, ENGLAND AND WALES"/>
+                <leg:heading Value="OATHS"/>
+                <leg:heading Value="REGISTRATION OF POLITICAL PARTIES"/>
+                <leg:heading Value="NATIONAL ELECTION EXPENDITURE"/>
+                <leg:heading Value="OFFICERS AND OFFICES"/>
+                <leg:heading Value="PENSIONS AND SOCIAL SECURITY"/>
+                <leg:heading Value="REVENUE AND CUSTOMS, ENGLAND AND WALES"/>
+                <leg:heading Value="LIBRARIES"/>
+                <leg:heading Value="HUMAN TISSUE"/>
+                <leg:heading Value="JUSTICES OF THE PEACE"/>
+                <leg:heading Value="COMMUNITY CHARGES, ENGLAND"/>
+                <leg:heading Value="CONTRACTING OUT, ENGLAND"/>
+                <leg:heading Value="LICENSING (MARINE)"/>
+                <leg:heading Value="MARINE MANAGEMENT"/>
+                <leg:heading Value="CREDIT UNIONS"/>
+                <leg:heading Value="TAX CREDITS, ENGLAND"/>
+                <leg:heading Value="LAND DRAINAGE AND IMPROVEMENT OF LAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLANDAND WALES"/>
+                <leg:heading Value="WATER, ENGLAND AND WALES WATER SUPPLY, SCOTLAND"/>
+                <leg:heading Value="ACQUISITION OF LAND"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES, ETC. ENGLAND AND WALES"/>
+                <leg:heading Value="EMPLOYMENT AND TRAINING, ENGLAND AND WALES"/>
+                <leg:heading Value="HOUSING ENGLAND AND WALES"/>
+                <leg:heading Value="HOUSING SCOTLAND"/>
+                <leg:heading Value="PUBLIC SERVICES REFORM"/>
+                <leg:heading Value="AUDITORS"/>
+                <leg:heading Value="ENGLAND AND WALES"/>
+                <leg:heading Value="CIVIL AVIATION FUGITIVE CRIMINAL"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC., ENGLAND AND WALES"/>
+                <leg:heading Value="DEFENCE OF THE REALM"/>
+                <leg:heading Value="ENGLAND"/>
+                <leg:heading Value="NATIONAL ASSISTANCE SERVICES, ENGLAND"/>
+                <leg:heading Value="PRISONERS"/>
+                <leg:heading Value="WATER INDUSTRY, ENGLAND"/>
+                <leg:heading Value="IMMIGRATION AND ASYLUM"/>
+                <leg:heading Value="GENEVA CONVENTIONS"/>
+                <leg:heading Value="SUMMER TIME"/>
+                <leg:heading Value="NATIONAL TRANSPORT"/>
+                <leg:heading Value="MATRIMONIAL CAUSES"/>
+                <leg:heading Value="CIVIL AVIATION, ENGLAND"/>
+                <leg:heading Value="MENTAL CAPACITY, ENGLAND AND WALES"/>
+                <leg:heading Value="PETROLEUM REVENUE TAX"/>
+                <leg:heading Value="SHOPS AND OFFICES"/>
+                <leg:heading Value="CIVIL DEFENCE"/>
+                <leg:heading Value="PUBLIC FINANCE AND ACCOUNTABILITY"/>
+                <leg:heading Value="PROTECTION OF WRECKS, ENGLAND"/>
+                <leg:heading Value="CEREALS MARKETING"/>
+                <leg:heading Value="POWERS OF ATTORNEY, ENGLAND AND WALES"/>
+                <leg:heading Value="PROVISION OF SERVICES"/>
+                <leg:heading Value="LANDS TRIBUNAL"/>
+                <leg:heading Value="JUDGMENTS, ENGLAND AND WALES"/>
+                <leg:heading Value="FAMILY LAW, NORTHERN IRELAND"/>
+                <leg:heading Value="EUROPEAN PARLIAMENT"/>
+                <leg:heading Value="CRIMINAL PROCEDURE, ENGLAND AND WALES CRIMINAL PROCEDURE, SCOTLAND"/>
+                <leg:heading Value="UNSOLICITED GOODS AND SERVICES"/>
+                <leg:heading Value="INDUSTRIAL AND PROVIDENT SOCIETIES"/>
+                <leg:heading Value="PESTICIDES, ENGLAND AND WALES"/>
+                <leg:heading Value="HARBOURS, DOCKS, PIERS AND FERRIES, ENGLAND AND WALES"/>
+                <leg:heading Value="PREVENTION OF NUCLEAR PROLIFERATION"/>
+                <leg:heading Value="CONTAMINATION OF FOOD"/>
+                <leg:heading Value="PUBLIC SERVICE PENSIONS"/>
+                <leg:heading Value="COMMERCIAL PROPERTY"/>
+                <leg:heading Value="WILDLIFE, ENGLAND AND WALES"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, ENGLAND"/>
+                <leg:heading Value="CONSTRUCTION, ENGLAND AND WALES"/>
+                <leg:heading Value="HORTICULTURE, ENGLAND AND WALES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES, ETC"/>
+                <leg:heading Value="COMPENSATION (DEFENCE)"/>
+                <leg:heading Value="ELECTROMAGNETIC COMPATIBILITY"/>
+                <leg:heading Value="RATING AND VALUATION WATER SUPPLY, SCOTLAND"/>
+                <leg:heading Value="HIGHWAYS, ENGLAND ANDWALES"/>
+                <leg:heading Value="RIGHTS OF THE SUBJECT"/>
+                <leg:heading Value="PASSPORTS"/>
+                <leg:heading Value="LAND DRAINAGE, ENGLAND AND WALES"/>
+                <leg:heading Value="IMMIGRATION, SCOTLAND"/>
+                <leg:heading Value="LICENCES AND LICENSING, SCOTLAND"/>
+                <leg:heading Value="EMPLOYMENT AGENCIES, ETC."/>
+                <leg:heading Value="PARTNERSHIP"/>
+                <leg:heading Value="LAND SETTLEMENT, IRELAND"/>
+                <leg:heading Value="SHELLFISH"/>
+                <leg:heading Value="RESERVE AND AUXILARY FORCE"/>
+                <leg:heading Value="STAMP DUTY, NORTHERN IRELAND"/>
+                <leg:heading Value="ROAD TRAFFIC SPECIAL ROADS"/>
+                <leg:heading Value="RATING AND VALUATION (ENGLAND)"/>
+                <leg:heading Value="FIRE AND RESCUE SERVICES, WALES"/>
+                <leg:heading Value="SUCCESSION, SCOTLAND"/>
+                <leg:heading Value="CHANNEL ISLANDS"/>
+                <leg:heading Value="HEALTH PROFESSIONS"/>
+                <leg:heading Value="MODERN SLAVERY"/>
+                <leg:heading Value="HIGHWAYS., ENGLAND AND WALES"/>
+                <leg:heading Value="YOUNG OFFENDER INSTITUTIONS ENGLAND AND WALES"/>
+                <leg:heading Value="LANDLORD AND TENANT ENGLAND AND WALES"/>
+                <leg:heading Value="LOCALGOVERNMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="ENFORCEMENT"/>
+                <leg:heading Value="ENFORCEMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="LEGAL PROFESSION, NORTHERN IRELAND"/>
+                <leg:heading Value="ACQUISITION OF LAND, ENGLAND"/>
+                <leg:heading Value="SOUTH ATLANTIC TERRITORIES"/>
+                <leg:heading Value="NATIONAL ASSISTANCE, ENGLAND"/>
+                <leg:heading Value="SPORTS GROUNDS AND SPORTING EVENTS, ENGLAND"/>
+                <leg:heading Value="TRADING WITH THE ENEMY"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, NORTHERN IRELAND"/>
+                <leg:heading Value="BROADS AUTHORITY"/>
+                <leg:heading Value="BORROWING AND SECURITIES"/>
+                <leg:heading Value="PRIVATE LEGISLATION PROCEDURE, SCOTLAND"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC."/>
+                <leg:heading Value="TRUSTEES, ENGLAND AND WALES"/>
+                <leg:heading Value="POLITICAL PARTIES, NORTHERN IRELAND"/>
+                <leg:heading Value="MEDICAL PROFESSION, ENGLAND AND WALES"/>
+                <leg:heading Value="MEDICAL PROFESSION, NORTHERN IRELAND"/>
+                <leg:heading Value="INTERNATIONAL MONETARY FUND"/>
+                <leg:heading Value="BUDGET RESPONSIBILITY"/>
+                <leg:heading Value="HUMAN TISSUE, ENGLAND AND WALES"/>
+                <leg:heading Value="HUMAN TISSUE, NORTHERN IRELAND"/>
+                <leg:heading Value="TRUSTS"/>
+                <leg:heading Value="DEVELOPMENT BOARD FOR RURAL WALES"/>
+                <leg:heading Value="FINANCIAL SERVICES ACT"/>
+                <leg:heading Value="BRITISH OVERSEAS TERRITORIES"/>
+                <leg:heading Value="PARLIAMENTARY COMMISSIONER"/>
+                <leg:heading Value="BUILDING AND BUILDINGS, ENGLAND"/>
+                <leg:heading Value="SCOTTISH LAND COURT"/>
+                <leg:heading Value="PENSIONS, NORTHERN IRELAND"/>
+                <leg:heading Value="ARCHITECTS"/>
+                <leg:heading Value="LAND CHARGES"/>
+                <leg:heading Value="HUMAN RIGHTS AND EQUAL OPPORTUNITIES"/>
+                <leg:heading Value="WATER RESOURCES"/>
+                <leg:heading Value="TONNAGE TAX"/>
+                <leg:heading Value="CONTRACTS, ENGLAND AND WALES"/>
+                <leg:heading Value="CONTRACTS, NORTHERN IRELAND"/>
+                <leg:heading Value="CHARGING ORDERS"/>
+                <leg:heading Value="POLICE, ENGLAND &amp; WALES"/>
+                <leg:heading Value="ROAD TRAFFIC, WALES"/>
+                <leg:heading Value="CRIMINAL LAW, WALES"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, WALES"/>
+                <leg:heading Value="EXTRADITION, ENGLAND AND WALES"/>
+                <leg:heading Value="EXTRADITION, NORTHERN IRELAND"/>
+                <leg:heading Value="CENSUS, ENGLAND AND WALES"/>
+                <leg:heading Value="WATER INDUSTRY, ENGLAND &amp; WALES"/>
+                <leg:heading Value="IMMIGRATION, ENGLAND AND WALES"/>
+                <leg:heading Value="IMMIGRATION, NORTHERN IRELAND"/>
+                <leg:heading Value="REVENUE AND CUSTOMS, NORTHERN IRELAND"/>
+                <leg:heading Value="LANDFILL TAX, ENGLAND AND WALES"/>
+                <leg:heading Value="LANDFILL TAX, NORTHERN IRELAND"/>
+                <leg:heading Value="JUDICIAL APPOINTMENTS AND DISCIPLINE"/>
+                <leg:heading Value="INTERNATIONAL CRIMINAL COURT"/>
+                <leg:heading Value="TRANSPORT AND WORKS, ENGLAND AND WALES"/>
+                <leg:heading Value="CANALS AND INLAND WATERWAYS, ENGLAND AND WALES"/>
+                <leg:heading Value="BANKS AND BANKING, SCOTLAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND ANDWALES"/>
+                <leg:heading Value="PUBLIC HEALTH, ENGLAND AND WALES PUBLIC HEALTH, SCOTLAND"/>
+                <leg:heading Value="SUPREME COURT OF JUDICATURE, ENGLAND COUNTY COURTS NORTHERN IRELAND"/>
+                <leg:heading Value="SHERIFF, ENGLAND AND WALES"/>
+                <leg:heading Value="PREVENTION OF CRUELTY"/>
+                <leg:heading Value="DECIMAL CURRENCY"/>
+                <leg:heading Value="BANKRUPTCY, SCOTLAND"/>
+                <leg:heading Value="CORONERS, ENGLAND AND WALES"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, ENGLAND WALES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC. ABROAD"/>
+                <leg:heading Value="SENIOR COURTS OF ENGLAND AND WALES COUNTY COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="ELECTRICITY, SCOTLAND"/>
+                <leg:heading Value="EXPORT AND INVESTMENT GUARANTEES"/>
+                <leg:heading Value="EMPLOYMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC RECORDS, ENGLAND AND WALES"/>
+                <leg:heading Value="PROTECTION OF TRADING INTERESTS"/>
+                <leg:heading Value="DISABLED PERSONS, SCOTLAND"/>
+                <leg:heading Value="OFFSHORE INSTALLATIONS, ENGLAND"/>
+                <leg:heading Value="ELECTRICITY, ENGLAND"/>
+                <leg:heading Value="LEGAL AID AND ADVICE,ENGLAND AND WALES"/>
+                <leg:heading Value="OVERSEAS SERVICE"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES, ETC., (ENGLAND AND WALES)"/>
+                <leg:heading Value="PHARMACISTS"/>
+                <leg:heading Value="HOUSING, NORTHERN IRELAND"/>
+                <leg:heading Value="INSOLVENCY PRACTITIONERS"/>
+                <leg:heading Value="CORONERS, ENGLAND"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, ENGLANDAND WALES"/>
+                <leg:heading Value="COMPENSATION, ENGLAND"/>
+                <leg:heading Value="CRIMINAL PROCEDURE, ENGLAND AND WALES CRIMINAL PROCEDURE, SCOTLAND CRIMINAL PROCEDURE, NORTHERN IRELAND"/>
+                <leg:heading Value="COMPANIES BUSINESS NAMES"/>
+                <leg:heading Value="PETROLEUM, ENGLAND AND WALES"/>
+                <leg:heading Value="PLANT HEALTH SEEDS"/>
+                <leg:heading Value="SEX DISCRIMINATION NURSES, MIDWIVES AND HEALTH VISITORS"/>
+                <leg:heading Value="PUBLIC ORDER, NORTHERN IRELAND"/>
+                <leg:heading Value="PROBATION, ENGLAND AND WALES"/>
+                <leg:heading Value="TRUSTS OF LAND"/>
+                <leg:heading Value="TRANSPORT, SCOTLAND"/>
+                <leg:heading Value="CENSUS"/>
+                <leg:heading Value="CROWN AGENTS FOR OVERSEA GOVERNMENTS AND ADMINISTRATIONS"/>
+                <leg:heading Value="CIVIL PARTNERSHIP, NORTHERN IRELAND"/>
+                <leg:heading Value="RESERVE AND AUXILIARY FORCES"/>
+                <leg:heading Value="GOVERNMENT ANNUITIES"/>
+                <leg:heading Value="MOBILE HOMES, ENGLAND"/>
+                <leg:heading Value="CINEMA AND FILMS"/>
+                <leg:heading Value="PETROLEUM GAS"/>
+                <leg:heading Value="ADMINISTRATION OF ESTATES"/>
+                <leg:heading Value="POWERS OF ENTRY IN RELATION TO CONSULAR OFFICES"/>
+                <leg:heading Value="CRIMINAL PROCEDURE, ENGLAND AND WALES"/>
+                <leg:heading Value="AGRICULTURE, SCOTLAND"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, NORTHERN IRELAND"/>
+                <leg:heading Value="TOURISM"/>
+                <leg:heading Value="CANALS AND INLAND WATERWAYS"/>
+                <leg:heading Value="PLANT BREEDERS' RIGHTS AND SEEDS"/>
+                <leg:heading Value="THE NATIONAL HEALTH SERVICE, ENGLAND"/>
+                <leg:heading Value="AGRICULTURAL EMPLOYMENT"/>
+                <leg:heading Value="EMERGENCY POWERS"/>
+                <leg:heading Value="RIVER SCOTLAND"/>
+                <leg:heading Value="MAGISTRATES’ COURTS"/>
+                <leg:heading Value="CINEMAS AND FILM"/>
+                <leg:heading Value="HIGHWAYS ENGLAND AND WALES"/>
+                <leg:heading Value="ROAD TRAFFIC, SCOTLAND"/>
+                <leg:heading Value="TRUSTS, ENGLAND AND WALES"/>
+                <leg:heading Value="DEEP SEA MINING"/>
+                <leg:heading Value="PIPELINES"/>
+                <leg:heading Value="HOUSING, ENGLAND AND WALES HOUSING, SCOTLAND RATING AND VALUATION LOCAL GOVERNMENT, ENGLAND AND WALES LOCAL GOVERNMENT, SCOTLAND"/>
+                <leg:heading Value="OIL TAX"/>
+                <leg:heading Value="PRESUMPTION OF DEATH"/>
+                <leg:heading Value="COMMERCIAL AGENTS"/>
+                <leg:heading Value="CURRENCY AND BANK NOTES"/>
+                <leg:heading Value="PUBLIC PROCUREMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC PROCUREMENT, NORTHERN IRELAND"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, SCOTLAND"/>
+                <leg:heading Value="BORROWING CONTROL"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES, ETC., ENGLAND AND WALES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND AND WALES NATIONAL HEALTH SERVICE, SCOTLAND SOCIAL SECURITY"/>
+                <leg:heading Value="HEALTH CARE AND ASSOCIATED PROFESSIONS SOCIAL SERVICES, ENGLAND"/>
+                <leg:heading Value="PENSIONS AND COMPENSATION"/>
+                <leg:heading Value="ANTI-SOCIAL BEHAVIOUR, ENGLAND"/>
+                <leg:heading Value="DERELICT LAND"/>
+                <leg:heading Value="HEALTH AND SAFETY FACTORIES"/>
+                <leg:heading Value="ANIMALS, NORTHERN IRELAND"/>
+                <leg:heading Value="ANATOMY"/>
+                <leg:heading Value="HEALTH AND SAFETY EXPLOSIVES"/>
+                <leg:heading Value="CONSTRUCTION CONTRACTS"/>
+                <leg:heading Value="MERCHANDISE MARKS"/>
+                <leg:heading Value="CIVIL PROCEEDINGS"/>
+                <leg:heading Value="HONG KONG ADMINISTRATION OF ESTATES"/>
+                <leg:heading Value="PENSIONS, SCOTLAND"/>
+                <leg:heading Value="CHANGES IN LOCAL GOVERNMENT AREA"/>
+                <leg:heading Value="DESIGNATION"/>
+                <leg:heading Value="SOLICITORS"/>
+                <leg:heading Value="INJURIES IN WAR COMPENSATION"/>
+                <leg:heading Value="WILDLIFE COUNTRYSIDE"/>
+                <leg:heading Value="LORD CHIEF JUSTICE"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS AND MARRIAGES ETC., ENGLAND AND WALES"/>
+                <leg:heading Value="FARRIERS REGISTRATION COUNCIL"/>
+                <leg:heading Value="FLOOD RISK MANAGEMENT, ENGLAND"/>
+                <leg:heading Value="PRIVATE SECURITY"/>
+                <leg:heading Value="DEVOLUTION, ENGLAND"/>
+                <leg:heading Value="PUBLIC PASSENGER TRANSPORT, ENGLAND AND WALES"/>
+                <leg:heading Value="PITCAIRN ISLANDS"/>
+                <leg:heading Value="DISABLED PERSONS, ENGLAND"/>
+                <leg:heading Value="DOGS, ENGLAND AND WALES"/>
+                <leg:heading Value="TRANSFER OF NEGOTIABLE INSTRUMENTS"/>
+                <leg:heading Value="WELSH LANGUAGE"/>
+                <leg:heading Value="SEAL FISHERIES"/>
+                <leg:heading Value="NATIONAL LOTTERY BETTING, GAMING AND LOTTERIES"/>
+                <leg:heading Value="HOUSE OF LORDS"/>
+                <leg:heading Value="NURSES, MIDWIVES AND HEALTH VISITORS, ENGLAND AND WALES"/>
+                <leg:heading Value="DEVOLUTION, ENGLAND AND WALES"/>
+                <leg:heading Value="MATRIMONIAL HOMES AND PROPERTY"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, NORTHERNIRELAND"/>
+                <leg:heading Value="PROTECTION OF VULNERABLE ADULTS, NORTHERN IRELAND"/>
+                <leg:heading Value="PROCEDURE"/>
+                <leg:heading Value="ARMORIAL BEARINGS, ENSIGNS AND FLAGS"/>
+                <leg:heading Value="DEFAMATION"/>
+                <leg:heading Value="HEALTH SERVICES"/>
+                <leg:heading Value="COMMUNITY INFRASTRUCTURE LEVY, ENGLAND AND WALES"/>
+                <leg:heading Value="YOUNG OFFENDERS INSTITUTIONS, ENGLAND AND WALES"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING, ENGLANDAND WALES"/>
+                <leg:heading Value="WAGES COUNCILS"/>
+                <leg:heading Value="HILL LANDS"/>
+                <leg:heading Value="FISHERIES, ENGLAND"/>
+                <leg:heading Value="ROYAL NAVY"/>
+                <leg:heading Value="LIVESTOCK INDUSTRIES"/>
+                <leg:heading Value="SERIOUS ORGANISED CRIME AGENCY"/>
+                <leg:heading Value="JUDGES"/>
+                <leg:heading Value="SHIPBUILDING INDUSTRY"/>
+                <leg:heading Value="PRIVATE INTERNATIONAL LAW"/>
+                <leg:heading Value="PROTECTION OF VULNERABLE ADULTS, ENGLANDANDWALES"/>
+                <leg:heading Value="TRADES DESCRIPTIONS"/>
+                <leg:heading Value="ISLE OF MAN"/>
+                <leg:heading Value="POST OFFICE"/>
+                <leg:heading Value="FIRE PRECAUTIONS, ENGLAND"/>
+                <leg:heading Value="TERMS AND CONDITIONS OF EMPLOYMENT, SCOTLAND"/>
+                <leg:heading Value="TERMS AND CONDITIONS OF EMPLOYMENT, NORTHERN IRELAND"/>
+                <leg:heading Value="FOOD AND DRUGS"/>
+                <leg:heading Value="LOCAL LOANS"/>
+                <leg:heading Value="COMMONHOLD, ENGLAND AND WALES"/>
+                <leg:heading Value="JUSTICES OF THE PEACE, NORTHERN IRELAND"/>
+                <leg:heading Value="INSOLVENCY ENGLAND AND WALES"/>
+                <leg:heading Value="BANKRUPTCY"/>
+                <leg:heading Value="TORTS, ENGLAND AND WALES"/>
+                <leg:heading Value="HEALTH AND PERSONAL SOCIAL SERVICES,NORTHERN IRELAND"/>
+                <leg:heading Value="EUROPEAN COMMUNITIES, ENGLAND"/>
+                <leg:heading Value="SOUTHERN RHODESIA"/>
+                <leg:heading Value="FIRE AND RESCUE SERVICES"/>
+                <leg:heading Value="FEES"/>
+                <leg:heading Value="BANKS AND BANKING ENGLAND AND WALES"/>
+                <leg:heading Value="THE CARAVAN SITES"/>
+                <leg:heading Value="POLICE, NORTHERN IRELAND"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS SOCIAL WELFARE SERVICES PUBLIC HEALTH, ENGLAND AND WALES"/>
+                <leg:heading Value="HEALTH AND SAFETY SHOPS AND OFFICES"/>
+                <leg:heading Value="COAST PROTECTION, ENGLAND"/>
+                <leg:heading Value="NATURE CONSERVATION"/>
+                <leg:heading Value="PENSIONABLE EMPLOYMENT"/>
+                <leg:heading Value="BANKING"/>
+                <leg:heading Value="UNIVERSITY AND COLLEGES"/>
+                <leg:heading Value="SUPREME COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="ADAPTATION OF ENACTMENTS"/>
+                <leg:heading Value="CRIMINAL PROCEDURE, NORTHERN IRELAND"/>
+                <leg:heading Value="SPORTS GROUNDS"/>
+                <leg:heading Value="SOCIAL WORK, SCOTLAND"/>
+                <leg:heading Value="RAILWAYS"/>
+                <leg:heading Value="ANIMAL HEALTH, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC, HEALTH, ENGLAND AND WALES"/>
+                <leg:heading Value="CHRISTMAS DAY TRADING"/>
+                <leg:heading Value="BEE DISEASES"/>
+                <leg:heading Value="PUBLIC HEALTH ENGLAND"/>
+                <leg:heading Value="SUPREME COURT OF JUDICATURE OF NORTHERN IRELAND"/>
+                <leg:heading Value="NATIONAL ASSISTANCE"/>
+                <leg:heading Value="OPEN SPACES, ENGLAND AND WALES"/>
+                <leg:heading Value="FISHERIES"/>
+                <leg:heading Value="ENTERPRISE, ENGLAND AND WALES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS &amp; MARRIAGES, ETC."/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC., NORTHERN IRELAND"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS,"/>
+                <leg:heading Value="MARRIAGES, ETC."/>
+                <leg:heading Value="RATING AND VAUATION, ENGLAND"/>
+                <leg:heading Value="NURSES MIDWIVES AND HEALTH VISITORS, ENGLAND"/>
+                <leg:heading Value="DOUBLE TAXATION RELIEF"/>
+                <leg:heading Value="UNIVERSITIES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE,~ ENGLAND AND WALES"/>
+                <leg:heading Value="RIVER, ENGLAND"/>
+                <leg:heading Value="FUEL AND ELECTRICITY CONTROL"/>
+                <leg:heading Value="RIGHTS OF WAY"/>
+                <leg:heading Value="SCRAP METAL DEALERS"/>
+                <leg:heading Value="6. ROUMANIA"/>
+                <leg:heading Value="COMSUMER PROTECTION, ENGLAND AND WALES"/>
+                <leg:heading Value="MANUFACTURING UNDERTAKINGS"/>
+                <leg:heading Value="CIVIL PROCEEDINGS, ENGLAND AND WALES"/>
+                <leg:heading Value="LAND"/>
+                <leg:heading Value="ENEMY TERRITORY CESSATION (JAPAN)"/>
+                <leg:heading Value="HIGHWAYS"/>
+                <leg:heading Value="JUDICATURE, NORTHERN IRELAND"/>
+                <leg:heading Value="JUSTICE, NORTHERN IRELAND"/>
+                <leg:heading Value="DERELICT LAND, ENGLAND"/>
+                <leg:heading Value="INSOLVENCY, NORTHERN IRELAND"/>
+                <leg:heading Value="EDUCATION, UNITED KINGDOM"/>
+                <leg:heading Value="HOUSING, ENGLAND WALES"/>
+                <leg:heading Value="REHABILITATION OF OFFENDERS"/>
+                <leg:heading Value="THE NATIONAL HEALTH SERVICE ENGLAND AND WALES"/>
+                <leg:heading Value="CRIMINAL PROCEDURE"/>
+                <leg:heading Value="PLANT HEALTH, SCOTLAND"/>
+                <leg:heading Value="NEW TOWNS ENGLAND AND WALES"/>
+                <leg:heading Value="LORD CHANCELLOR"/>
+                <leg:heading Value="BANK LEVY"/>
+                <leg:heading Value="EDUCATION ENGLAND"/>
+                <leg:heading Value="HIGH COURT OF JUSTICIARY"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, ENGLAND AND WALES"/>
+                <leg:heading Value="BRITISH TRANSPORT COMMISSION"/>
+                <leg:heading Value="CRIMINAL PROCEDURE, ENGLAND AND WALES CRIMINAL PROCEDURE, NORTHERN IRELAND"/>
+                <leg:heading Value="PLANT BREEDERS' RIGHTS, ENGLAND"/>
+                <leg:heading Value="PLANT BREEDERS' RIGHTS, NORTHERN IRELAND"/>
+                <leg:heading Value="CHARTERED ASSOCIATIONS"/>
+                <leg:heading Value="SAVING GATEWAY ACCOUNTS"/>
+                <leg:heading Value="MAINTENANCE OF DEPENDENTS"/>
+                <leg:heading Value="SHERIFF COURT SCOTLAND"/>
+                <leg:heading Value="WATER RESOURCES, SCOTLAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND AND"/>
+                <leg:heading Value="JUDICIAL INDEPENDENCE"/>
+                <leg:heading Value="SMOKE"/>
+                <leg:heading Value="PEACE TREATIES"/>
+                <leg:heading Value="PUBLIC SECTOR INFORMATION"/>
+                <leg:heading Value="LOCAL GOVERNMENT (ENGLAND AND WALES)"/>
+                <leg:heading Value="WATER"/>
+                <leg:heading Value="HARBOUR, DOCKS, PIERS AND FERRIES"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING, ENGLAND &amp; WALES"/>
+                <leg:heading Value="PORT HEALTH AUTHORITIES,ENGLAND AND WALES"/>
+                <leg:heading Value="DEEDS OF ARRANGEMENT"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS AND MARRIAGES ENGLAND AND WALES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC., CIVIL PARTNERSHIP, ENGLAND AND WALES"/>
+                <leg:heading Value="JUDICIAL APPOINTMENTS AND REMOVALS, NORTHERN IRELAND"/>
+                <leg:heading Value="EUROPEAN COMMUNITIES, WALES"/>
+                <leg:heading Value="ANGUILLA"/>
+                <leg:heading Value="ENERGY, ENGLAND"/>
+                <leg:heading Value="CIVIL AVIATION, SCOTLAND"/>
+                <leg:heading Value="COMMON AGRICULTURAL POLICY"/>
+                <leg:heading Value="TITHE ENGLAND"/>
+                <leg:heading Value="CONSTRUCTION, ENGLAND"/>
+                <leg:heading Value="LAND AUTHORITY FOR WALES"/>
+                <leg:heading Value="FRIENDLY SOCIETIES, NORTHERN IRELAND"/>
+                <leg:heading Value="COURT OF SESSION"/>
+                <leg:heading Value="SHERIFF COURT"/>
+                <leg:heading Value="CUSTOMS AND EXCISE, ENGLAND AND WALES"/>
+                <leg:heading Value="CUSTOMS AND EXCISE, NORTHERN IRELAND"/>
+                <leg:heading Value="LANDMINES"/>
+                <leg:heading Value="LAND REGISTRATION"/>
+                <leg:heading Value="CONSERVATION OF SEA FISH"/>
+                <leg:heading Value="WILDLIFE, ENGLAND"/>
+                <leg:heading Value="AGRICULTURE CEREALS MARKETING"/>
+                <leg:heading Value="MULTILATERAL INVESTMENT GUARANTEE AGENCY1"/>
+                <leg:heading Value="TITHES"/>
+                <leg:heading Value="LEGAL SERVICES COMMISSION, NORTHERN IRELAND"/>
+                <leg:heading Value="SOCIAL SERVICES"/>
+                <leg:heading Value="RIGHTS OF THE SUBJECT, ENGLAND AND WALES"/>
+                <leg:heading Value="FREEDOM OF INFORMATION, ENGLAND AND WALES"/>
+                <leg:heading Value="FREEDOM OF INFORMATION, NORTHERN IRELAND"/>
+                <leg:heading Value="HEALTHCARE AND ASSOCIATED PROFESSIONS"/>
+                <leg:heading Value="CONSTITUTIONAL LAW, WALES"/>
+                <leg:heading Value="RESIDENTIAL AND OTHER ESTABLISHMENTS, SCOTLAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE,~ENGLAND AND WALES"/>
+                <leg:heading Value="HEALTH AND SAFETY MINES AND QUARRIES"/>
+                <leg:heading Value="NUCLEAR SAFEGUARDS"/>
+                <leg:heading Value="LICENCES AND LICENSING, ENGLAND"/>
+                <leg:heading Value="COURT OF JUDICATURE, NORTHERN IRELAND"/>
+                <leg:heading Value="COUNTY COURTS, NORTHERN IRELAND"/>
+                <leg:heading Value="MAGISTRATES’ COURTS, NORTHERN IRELAND"/>
+                <leg:heading Value="DUMPING AT SEA"/>
+                <leg:heading Value="SECURITY INDUSTRY, NORTHERN IRELAND"/>
+                <leg:heading Value="COMPOSITION AND LABELLING"/>
+                <leg:heading Value="LEGAL SERVICES COMMISSION,ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC BODIES, ENGLAND AND WALES"/>
+                <leg:heading Value="LORD CHIEF JUSTICE OF NORTHERN IRELAND"/>
+                <leg:heading Value="STATUTORY ORDERS (SPECIAL PROCEDURE)"/>
+                <leg:heading Value="LOCAL ROAD TRAFFIC"/>
+                <leg:heading Value="EXPLOSIVES"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, ENGLANDANDWALES"/>
+                <leg:heading Value="WHALING INDUSTRY"/>
+                <leg:heading Value="THE RACE RELATIONS ACT"/>
+                <leg:heading Value="DEATH DUTIES"/>
+                <leg:heading Value="JUSTICES OF THE PEACE, ENGLAND AND"/>
+                <leg:heading Value="EXCHEQUER"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS SOCIAL SECURITY SOCIAL WORK, SCOTLAND"/>
+                <leg:heading Value="CREMATION, ENGLAND AND WALES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE,"/>
+                <leg:heading Value="NATURE CONSERVATION, ENGLAND AND WALES"/>
+                <leg:heading Value="FOOD, SCOTLAND"/>
+                <leg:heading Value="FIRE SERVICES, ENGLAND AND WALES"/>
+                <leg:heading Value="SUPREME COURT OF ENGLAND &amp; WALES"/>
+                <leg:heading Value="SPORTING GROUNDS AND SPORTING EVENTS"/>
+                <leg:heading Value="PORT HEALTH AUTHORITIES, ENGLAND AND WALES"/>
+                <leg:heading Value="IMMIGRATON"/>
+                <leg:heading Value="CONTRACTING OUT, ENGLAND AND WALES"/>
+                <leg:heading Value="CONSTITUTIONAL LAW DEVOLUTION, WALES"/>
+                <leg:heading Value="YOUNG OFFENDERS' INSTITUTIONS, SCOTLAND"/>
+                <leg:heading Value="CAR TAX"/>
+                <leg:heading Value="DISABLED PERSONS EDUCATION, ENGLAND AND WALES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, NORTHERN IRELAND"/>
+                <leg:heading Value="LANDS TRIBUNAL, ENGLAND AND WALES"/>
+                <leg:heading Value="LICENCES AND LICENSING, ENGLAND AND WALES"/>
+                <leg:heading Value="YOUNG OFFENDERS INSTITUTIONS, SCOTLAND"/>
+                <leg:heading Value="INFRASTRUCTURE PLANNING, ENGLAND"/>
+                <leg:heading Value="INTERNATIONAL SALE OF GOODS"/>
+                <leg:heading Value="CIVIL AVIATION, ENGLAND AND WALES"/>
+                <leg:heading Value="TITHE, ENGLAND"/>
+                <leg:heading Value="HEALTH AND SAFETY, NORTHERN IRELAND"/>
+                <leg:heading Value="FAMILY PROVISION"/>
+                <leg:heading Value="ACQUISITION OF LAND COMPENSATION"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS LOCAL AUTHORITY SOCIAL SERVICES NATIONAL ASSISTANCE SERVICES NATIONAL HEALTH SERVICE, ENGLAND AND WALES NATIONAL HEALTH SERVICE, SCOTLAND PUBLIC HEALTH, ENGLAND AND WALES PUBLIC HEALTH, SCOTLAND RESIDENTIAL AND OTHER ESTABLISHMENTS, SCOTLAND SOCIAL SECURITY SOCIAL WORK, SCOTLAND"/>
+                <leg:heading Value="SUMMARY JURISIDCTION, SCOTLAND"/>
+                <leg:heading Value="PUBLIC PASSENGER TRANSPORT,ENGLAND AND WALES"/>
+                <leg:heading Value="TORTS"/>
+                <leg:heading Value="LOCAL AUTHORITIES, ACCESS TO INFORMATION"/>
+                <leg:heading Value="COURTS-MARTIAL APPEALS"/>
+                <leg:heading Value="DISABLED PERSONS, ENGLAND AND WALES"/>
+                <leg:heading Value="PREVENTION OF CRUELTY, ENGLAND"/>
+                <leg:heading Value="PROFESSIONS COMPLEMENTARY TO DENTISTRY"/>
+                <leg:heading Value="FINLAND"/>
+                <leg:heading Value="SUPREME COURT OF ENGLAND AND WALES COUNTY COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE SCOTLAND"/>
+                <leg:heading Value="LEGAL SERVICES COMMISSION, ENGLANDAND WALES"/>
+                <leg:heading Value="REFERENDUM"/>
+                <leg:heading Value="RURAL AFFAIRS, ENGLAND AND WALES"/>
+                <leg:heading Value="TERMS AND CONDITIONS OF EMPLOYMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="FOOD COMPOSITION AND LABELLING"/>
+                <leg:heading Value="SOCIAL WELFARE SERVICES"/>
+                <leg:heading Value="INDIVIDUALS, ENGLAND AND WALES"/>
+                <leg:heading Value="SPECIAL PARLIAMENTARY PROCEDURE"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENLAND AND WALES"/>
+                <leg:heading Value="ENERGY, ENGLAND AND WALES"/>
+                <leg:heading Value="INSOLVENCY, ENGLAND &amp; WALES"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, ENGLAND &amp; WALES"/>
+                <leg:heading Value="SUPREME COURT OF ENGLAND AND WALES COUNTY COURTS LICENSED CONVEYANCING"/>
+                <leg:heading Value="YOUTH COURTS AND OFFENDERS"/>
+                <leg:heading Value="SOFT DRINKS INDUSTRY LEVY"/>
+                <leg:heading Value="HOUSING, ENGLAND AND WALES HOUSING, SCOTLAND"/>
+                <leg:heading Value="CRIMINAL LAW (ENGLAND AND WALES)"/>
+                <leg:heading Value="YOUTH CUSTODY CENTRES"/>
+                <leg:heading Value="LANDFILL TAX, ENGLAND"/>
+                <leg:heading Value="COUNTRYSIDE, ENGLAND AND WALES"/>
+                <leg:heading Value="TRIBUNALS, ENGLAND AND WALES"/>
+                <leg:heading Value="MEDICAL PROFESSION, ENGLAND"/>
+                <leg:heading Value="JUSTICES OF THE PEACE (ENGLAND AND WALES)"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC. NORTHERN IRELAND"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION, SCOTLAND"/>
+                <leg:heading Value="MERCHANT SHIPPING CIVIL AVIATION"/>
+                <leg:heading Value="(9) FIRE PRECAUTIONS AND RESCUE"/>
+                <leg:heading Value="ENEMY TERRITORY CESSATION (GERMANY)"/>
+                <leg:heading Value="MASTERS AND SEAMEN"/>
+                <leg:heading Value="COPYRIGHT RIGHTS IN PERFORMANCES"/>
+                <leg:heading Value="WATER, ENGLAND AND WALES WATER SUPPLY, SCOTLAND WATER, NORTHERN IRELAND"/>
+                <leg:heading Value="WATER INDUSTRY"/>
+                <leg:heading Value="TRANSPORT AND WORKS ENGLAND"/>
+                <leg:heading Value="INSOLVENCY COMPANIES"/>
+                <leg:heading Value="AUXILIARY FORCES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICES, ENGLAND"/>
+                <leg:heading Value="HUMAN RIGHTS, ENGLAND AND WALES"/>
+                <leg:heading Value="SUPREME COURT OF JUDICATURE, ENGLAND PROCEDURE"/>
+                <leg:heading Value="LOCAL, GOVERNMENT, SCOTLAND"/>
+                <leg:heading Value="HEALTH AND SAFETY AGRICULTURE"/>
+                <leg:heading Value="JUDGMENTS, NORTHERN IRELAND"/>
+                <leg:heading Value="TRANSFER OF FUNCTIONS"/>
+                <leg:heading Value="PUBLIC PROCUREMENT, ENGLAND"/>
+                <leg:heading Value="COUNTY COURTS SUPREME COURT OF ENGLAND AND WALES"/>
+                <leg:heading Value="PLANT HEALTH, ENGLAND AND WALES"/>
+                <leg:heading Value="PROTECTION OF VULNERABLE ADULTS, ENGLAND"/>
+                <leg:heading Value="OVERSEAS RESOURCES DEVELOPMENT"/>
+                <leg:heading Value="ZIMBABWE"/>
+                <leg:heading Value="ZOOS, ENGLAND AND WALES"/>
+                <leg:heading Value="MARINE POLLUTION, ENGLAND AND WALES"/>
+                <leg:heading Value="DIVERTED PROFITS TAX"/>
+                <leg:heading Value="CROWN"/>
+                <leg:heading Value="ARMS CONTROL"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENGLAND AND WALES LONDON GOVERNMENT"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS, ENGLANDANDWALES"/>
+                <leg:heading Value="SOCIAL SECURITY HOUSING, ENGLAND AND WALES HOUSING, SCOTLAND"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES, ETC ENGLAND AND WALES"/>
+                <leg:heading Value="JURIES, ENGLAND AND WALES"/>
+                <leg:heading Value="THE TRADING WITH THE ENEMY"/>
+                <leg:heading Value="HIGHWAYS (ENGLAND AND WALES)"/>
+                <leg:heading Value="CRIMINAL LAW, ENGLAND AND WALES,"/>
+                <leg:heading Value="REVENUE AND CUSTOMS, SCOTLAND"/>
+                <leg:heading Value="NATIONAL CRIME AGENCY, NORTHERN IRELAND"/>
+                <leg:heading Value="DELICT"/>
+                <leg:heading Value="MEDICAL PROFESSION, ENGLAND, WALES AND SCOTLAND"/>
+                <leg:heading Value="ENTERPRISE"/>
+                <leg:heading Value="WATER SUPPLY"/>
+                <leg:heading Value="MAGISTRATES` COURTS"/>
+                <leg:heading Value="CONTRACT"/>
+                <leg:heading Value="HEALTH AND SAFETY ATOMIC ENERGY AND RADIOACTIVE SUBSTANCES"/>
+                <leg:heading Value="REPESENTATION OF THE PEOPLE"/>
+                <leg:heading Value="REHABILITATION OF OFFENDERS, ENGLANDANDWALES"/>
+                <leg:heading Value="CINEMATOGRAPHS AND CINEMATOGRAPH FILMS"/>
+                <leg:heading Value="COMMUNITY INFRASTRUCTURE LEVY"/>
+                <leg:heading Value="MARRIAGE, SCOTLAND"/>
+                <leg:heading Value="CIVIL PARTNERSHIP, SCOTLAND"/>
+                <leg:heading Value="PROCEEDS OF CRIME, SCOTLAND"/>
+                <leg:heading Value="FOOD SAFETY"/>
+                <leg:heading Value="INQUIRIES"/>
+                <leg:heading Value="FEES AND CHARGES, ENGLAND AND WALES"/>
+                <leg:heading Value="DEREGULATION, ENGLAND AND WALES"/>
+                <leg:heading Value="PROCEEDS OF CRIME, ENGLAND AND WALES PROCEEDS OF CRIME, NORTHERN IRELAND"/>
+                <leg:heading Value="WASTE, ENGLAND AND WALES"/>
+                <leg:heading Value="WATER SUPPLY, ENGLAND AND WALES WATER SUPPLY, SCOTLAND"/>
+                <leg:heading Value="SHELLFISH, ENGLAND"/>
+                <leg:heading Value="DEBT MANAGEMENT AND RELIEF, ENGLAND AND WALES"/>
+                <leg:heading Value="MENTAL CAPACITY, ENGLAND &amp; WALES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, MARRIAGES ETC"/>
+                <leg:heading Value="LANDLORD AND TENANT ENGLAND"/>
+                <leg:heading Value="LICENSING (ALCOHOL), ENGLAND AND WALES"/>
+                <leg:heading Value="LICENSING (ALCOHOL), NORTHERN IRELAND"/>
+                <leg:heading Value="POLICE, SCOTLAND"/>
+                <leg:heading Value="SIAM"/>
+                <leg:heading Value="LOCAL GOVERNMEMT, ENGLAND."/>
+                <leg:heading Value="PUBLIC PASSENGER TRANSPORT, ENGLANDAND WALES"/>
+                <leg:heading Value="DEVOLUTION"/>
+                <leg:heading Value="SCOTTISH PARLIAMENTARY STANDARDS COMMISSIONER"/>
+                <leg:heading Value="FUGITIVE CRIMINAL PREVENTION AND SUPPRESSION OF TERRORISM"/>
+                <leg:heading Value="YOUTH COURTS AND OFFENDERS, ENGLAND AND WALES"/>
+                <leg:heading Value="CONTRACTING OUT, WALES"/>
+                <leg:heading Value="WATER SUPPLY, ENGLAND AND WALES"/>
+                <leg:heading Value="DEVOLUTION, NORTHERN IRELAND"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS MATRIMONIAL CAUSES"/>
+                <leg:heading Value="CHEVENING ESTATE"/>
+                <leg:heading Value="PLANT BREEDER' RIGHTS"/>
+                <leg:heading Value="EQUAL OPPORTUNITIES AND HUMAN RIGHTS"/>
+                <leg:heading Value="TEINDS"/>
+                <leg:heading Value="LAND CHARGES, ENGLAND AND WALES"/>
+                <leg:heading Value="TRINIDAD AND TOBAGO"/>
+                <leg:heading Value="DETENTION CENTRES"/>
+                <leg:heading Value="SOCIAL SECURITY, ENGLAND"/>
+                <leg:heading Value="SOCIAL CARE, ENGLAND,"/>
+                <leg:heading Value="FOOD, ENGLAND AND SCOTLAND"/>
+                <leg:heading Value="SEA FISHERIES NORTHERN IRELAND"/>
+                <leg:heading Value="EDUCATION, ENGLAND AND WALES LOCAL GOVERNMENT, ENGLAND AND WALES"/>
+                <leg:heading Value="JURIES"/>
+                <leg:heading Value="TRANSPORT ENGLAND"/>
+                <leg:heading Value="SUPREME COURT OF ENGLAND AND WALES MAGISTRATES' COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="BEE DISEASES, ENGLAND"/>
+                <leg:heading Value="INTERNATIONAL IMMUNITIES AND PRIVILEGES, ENGLAND AND WALES"/>
+                <leg:heading Value="PRISONS, SCOTLAND"/>
+                <leg:heading Value="SOCIAL SECURITY TERMS AND CONDITIONS OF EMPLOYMENT"/>
+                <leg:heading Value="COMMUNITY LAND"/>
+                <leg:heading Value="FAMILY PROCEEDINGS, ENGLAND &amp; WALES"/>
+                <leg:heading Value="MENTAL CAPACITY"/>
+                <leg:heading Value="INCOME-TAX"/>
+                <leg:heading Value="WIRELESS TELEGRAPHY"/>
+                <leg:heading Value="PENSION SCHEMES"/>
+                <leg:heading Value="PLANT HEATH"/>
+                <leg:heading Value="BURIAL, ENGLAND AND WALES"/>
+                <leg:heading Value="STATUTORY INSTRUMENTS"/>
+                <leg:heading Value="TERM AND CONDITIONS OF EMPLOYMENT"/>
+                <leg:heading Value="HIGHWAYS, WALES"/>
+                <leg:heading Value="RIGHTS IN DATABASES"/>
+                <leg:heading Value="FINANCIAL SERVICES COMPANIES"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, ENGLAND ANDWALES"/>
+                <leg:heading Value="CUSTODIAN"/>
+                <leg:heading Value="TERMS AND CONDITIONS OF EMPLOYMENT SOCIAL SECURITY"/>
+                <leg:heading Value="TAX CREDITS, SCOTLAND"/>
+                <leg:heading Value="HOUSING, ENGLAND AND WALES HOUSING, SCOTLAND TOWN AND COUNTRY PLANNING, ENGLAND AND WALES TOWN AND COUNTRY PLANNING, SCOTLAND URBAN DEVELOPMENT"/>
+                <leg:heading Value="JUDICIAL COMMITTEE PROCEDURE"/>
+                <leg:heading Value="EQUAL OPPORTUNITIES"/>
+                <leg:heading Value="BETTING AND GAMING"/>
+                <leg:heading Value="MARRIAGE, NORTHERN IRELAND"/>
+                <leg:heading Value="MERCHANT SHIPING"/>
+                <leg:heading Value="CRIMINAL JURISDICTION"/>
+                <leg:heading Value="TRIBUNALS AND INQUIRIES, WALES"/>
+                <leg:heading Value="POLITICAL PARTIES, ENGLAND AND WALES"/>
+                <leg:heading Value="AIR NAVIGATION"/>
+                <leg:heading Value="CRIMINAL PROCEDURE, ENGLAND AND WALES MAGISTRATES COURTS"/>
+                <leg:heading Value="HEALTH CARE AND ASSOCIATED PROFESSIONS DENTISTS"/>
+                <leg:heading Value="LAND CHARGES, ENGLAND"/>
+                <leg:heading Value="BUILDING AND BUILDINGS ENGLAND AND WALES"/>
+                <leg:heading Value="CRIMINAL LAW, ENGLAND AND WALES AND NORTHERN IRELAND"/>
+                <leg:heading Value="DEFAMATION, ENGLAND AND WALES"/>
+                <leg:heading Value="ORDNANCE FACTORIES AND MILITARY SERVICES"/>
+                <leg:heading Value="AFRICA"/>
+                <leg:heading Value="SOCIAL WORK, ENGLAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, WALES"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE, NORTHERNIRELAND"/>
+                <leg:heading Value="INSURANCE INDUSTRIAL ASSURANCE"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION,ENGLAND AND WALES"/>
+                <leg:heading Value="FARRIERS"/>
+                <leg:heading Value="PROTECTION OF TRADING INTERESTS JUDGMENTS"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE,WALES"/>
+                <leg:heading Value="GENDER RECOGNITION, ENGLAND AND WALES"/>
+                <leg:heading Value="GENDER RECOGNITION, NORTHERN IRELAND"/>
+                <leg:heading Value="LICENCES AND LICENSING, WALES"/>
+                <leg:heading Value="LEGAL AID AND ADVICE"/>
+                <leg:heading Value="CHARITIES, NORTHERN IRELAND"/>
+                <leg:heading Value="TERRITORIAL WATERS"/>
+                <leg:heading Value="TAXES AND DUTIES"/>
+                <leg:heading Value="EQUALITY, ENGLAND"/>
+                <leg:heading Value="CARIBBEAN AND NORTH ATLANTIC"/>
+                <leg:heading Value="TERRITORIES"/>
+                <leg:heading Value="EXEMPTION"/>
+                <leg:heading Value="BETTING, GAMES AND LOTTERIES"/>
+                <leg:heading Value="DEVELOPMENT COMMISSION, (ENGLAND AND WALES)"/>
+                <leg:heading Value="COMMUNITY CHARGES SCOTLAND"/>
+                <leg:heading Value="TRANSFER OF NEGOTIABLE INSTRUMENTS, ETC"/>
+                <leg:heading Value="FRIENDLY SOCIETIES INDUSTRIAL AND PROVIDENT SOCIETIES"/>
+                <leg:heading Value="FIRE AND RESCUE SERVICES, ENGLAND AND SCOTLAND"/>
+                <leg:heading Value="PENSIONS, ENGLAND AND SCOTLAND"/>
+                <leg:heading Value="LEGAL PROFESSION, ENGLAND AND WALES AND NORTHERN IRELAND"/>
+                <leg:heading Value="OLYMPIC GAMES AND PARALYMPIC GAMES, ENGLAND"/>
+                <leg:heading Value="LOCAL AUTHORITY"/>
+                <leg:heading Value="PRIVATE SECURITY, ENGLAND AND WALES"/>
+                <leg:heading Value="SUPREME COURT OF NORTHERN IRELAND CONSTITUTION"/>
+                <leg:heading Value="PORT HEALTH AUTHORITIES ENGLAND AND WALES"/>
+                <leg:heading Value="ENVIRONMENTAL PROTECTION,"/>
+                <leg:heading Value="PREVENTION AND SUPPRESSION OF TERRORISM, ENGLAND"/>
+                <leg:heading Value="RACE RELATIONS, ENGLAND AND WALES"/>
+                <leg:heading Value="RACE RELATIONS, SCOTLAND"/>
+                <leg:heading Value="INVESTIGATORY POWERS, ENGLAND AND WALES"/>
+                <leg:heading Value="AGRICULTURAL WAGES"/>
+                <leg:heading Value="CRIMINAL LAW, NORTHERN IRELAND,"/>
+                <leg:heading Value="CRIMINAL LAW, ENGLAND &amp; WALES"/>
+                <leg:heading Value="ENEMY TERRITORY CESSATION (FRANCE)"/>
+                <leg:heading Value="SHERIFF, ENGLAND"/>
+                <leg:heading Value="EDUCATION, ENGLAND AND WALES EDUCATION, SCOTLAND EDUCATION, NORTHERN IRELAND"/>
+                <leg:heading Value="SOCIAL SECURITY HOUSING, ENGLAND AND WALES HOUSING, SCOTLAND RATING AND VALUATION"/>
+                <leg:heading Value="PUBLIC HEALTH, ENGLAND &amp; WALES"/>
+                <leg:heading Value="PUBLIC HEALTH, SCOTLAND PUBLIC"/>
+                <leg:heading Value="HEALTH, NORTHERN IRELAND"/>
+                <leg:heading Value="BUILDING SOCIETIES, SCOTLAND"/>
+                <leg:heading Value="MAGISTRATES' COURT"/>
+                <leg:heading Value="PUBLIC PASSSENGER TRANSPORT, ENGLAND"/>
+                <leg:heading Value="ROAD VEHICLES"/>
+                <leg:heading Value="CHANGES IN LOCAL GOVERNMENT"/>
+                <leg:heading Value="NATURAL ENVIRONMENT"/>
+                <leg:heading Value="REFERENDUMS, WALES"/>
+                <leg:heading Value="CIVIL SERVICE"/>
+                <leg:heading Value="HUNGARY"/>
+                <leg:heading Value="OPTICIANS, ENGLAND"/>
+                <leg:heading Value="BROADCASTING CABLE PROGRAMME SERVICES"/>
+                <leg:heading Value="PLANT BREEDERS’ RIGHTS"/>
+                <leg:heading Value="AQUACULTURE, ENGLAND AND WALES"/>
+                <leg:heading Value="PENSION SCHEMES AND ENACTMENTS"/>
+                <leg:heading Value="LAND, ENGLAND"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, ENGLAND AND WALES LEGAL PROFESSION LICENSED CONVEYANCING"/>
+                <leg:heading Value="EQUALITY, ENGLAND AND WALES"/>
+                <leg:heading Value="SOCIAL SECURITY, ENGLAND AND WALES AND NORTHERN IRELAND"/>
+                <leg:heading Value="CIVIL PARTNERSHIP, ENGLAND AND SCOTLAND"/>
+                <leg:heading Value="INTERNATIONAL TRIBUNALS"/>
+                <leg:heading Value="INVENTIONS"/>
+                <leg:heading Value="FISHERY LIMITS"/>
+                <leg:heading Value="THE PUBLIC PASSENGER TRANSPORT, ENGLAND"/>
+                <leg:heading Value="BANK PAYROLL TAX"/>
+                <leg:heading Value="REGULATION OF CHARITIES, SCOTLAND"/>
+                <leg:heading Value="HEALTH CARE AND ASSOCIATED PROFESSIONS, SCOTLAND"/>
+                <leg:heading Value="NURSES AND MIDWIVES, SCOTLAND"/>
+                <leg:heading Value="VALUED ADDED TAX"/>
+                <leg:heading Value="HOUSING, ENGLAND &amp; WALES"/>
+                <leg:heading Value="CONSTITUTIONAL LAWD"/>
+                <leg:heading Value="CONSTITUTION"/>
+                <leg:heading Value="TREASURY SOLICITOR"/>
+                <leg:heading Value="COMPTROLLER AND AUDITOR GENERAL"/>
+                <leg:heading Value="COUNTRYSIDE, SCOTLAND"/>
+                <leg:heading Value="OVERSEAS DEVELOPMENT AND CO-OPERATION1"/>
+                <leg:heading Value="LEGAL SERVICES, SCOTLAND"/>
+                <leg:heading Value="TITLE CONDITIONS, SCOTLAND"/>
+                <leg:heading Value="POST OFFICE TELECOMMUNICATIONS"/>
+                <leg:heading Value="SOCIAL SECURITY, WALES"/>
+                <leg:heading Value="SCOTTISH PUBLIC SERVICES OMBUDSMAN"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE ENGLAND"/>
+                <leg:heading Value="VINEGAR-MAKERS"/>
+                <leg:heading Value="COURT MARTIAL (APPEALS)"/>
+                <leg:heading Value="RADIOACTIVE SUBSTANCES, NORTHERN IRELAND"/>
+                <leg:heading Value="MILK AND DAIRIES"/>
+                <leg:heading Value="MEDICINES FEES AND CHARGES"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND AND WALES SOCIAL SECURITY"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENGLAND AND WALES LONDON GOVERNMENT HOUSING, ENGLAND AND WALES"/>
+                <leg:heading Value="ATOMIC ENERGY AND RADIOACTIVE SUBSTANCES, ENGLAND AND WALES"/>
+                <leg:heading Value="CHILDREN AND YOUNG PEOPLE, ENGLAND"/>
+                <leg:heading Value="ARBITRATION COUNTY COURTS MATRIMONIAL CAUSES SUPREME COURT OF ENGLAND AND WALES SUPREME COURT OF NORTHERN IRELAND"/>
+                <leg:heading Value="INDUSTRIAL DEVELOPMENT MANUFACTURING UNDERTAKINGS"/>
+                <leg:heading Value="REQUISITIONED LAND AND WAR WORKS"/>
+                <leg:heading Value="NATIONAL HEALTH SEVICE, ENGLAND"/>
+                <leg:heading Value="SOCIAL CARE, SCOTLAND"/>
+                <leg:heading Value="PUBLIC HEALTH, ENGLAND AND WALES PUBLIC HEALTH, SCOTLAND PUBLIC HEALTH, NORTHERN IRELAND"/>
+                <leg:heading Value="ROADS, SCOTLAND"/>
+                <leg:heading Value="RADIOACTIVE SUBSTANCES, ENGLAND AND WALES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS &amp; MARRIAGES ETC., ENGLAND AND WALES"/>
+                <leg:heading Value="SUSTAINABLE DEVELOPMENT, NORTHERN IRELAND"/>
+                <leg:heading Value="CORN CROPS"/>
+                <leg:heading Value="TAX CREDITS, NORTHERN IRELAND"/>
+                <leg:heading Value="DESIGNATION (COLONIES)"/>
+                <leg:heading Value="NURSES, MIDWIVES AND HEALTH VISTORS"/>
+                <leg:heading Value="GAS, ENGLAND"/>
+                <leg:heading Value="NATINAL HEALTH SERVICE, ENGLAND AND WALES"/>
+                <leg:heading Value="DUCHY OF LANCASTER"/>
+                <leg:heading Value="RENTS AND RENTCHARGES"/>
+                <leg:heading Value="PENSIONS, WALES"/>
+                <leg:heading Value="TOWN &amp; COUNTRY PLANNING, ENGLAND AND WALES"/>
+                <leg:heading Value="HORTICULTURE, ENGLAND"/>
+                <leg:heading Value="WASTE, ENGLAND"/>
+                <leg:heading Value="RHODESIA AND NYASALAND FEDERATION"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE, ENGLAND &amp; WALES"/>
+                <leg:heading Value="THEATRES"/>
+                <leg:heading Value="BUILDINGS AND BUILDINGS, ENGLAND AND WALES"/>
+                <leg:heading Value="SOCIAL CARE ENGLAND"/>
+                <leg:heading Value="CHILDREN AND YOUNG PERSONS,ENGLAND AND WALES"/>
+                <leg:heading Value="MEDIATION"/>
+                <leg:heading Value="CLUSTER MUNITIONS"/>
+                <leg:heading Value="SOCAL SECURITY"/>
+                <leg:heading Value="PETROLEUM CONTINENTAL SHELF OFFSHORE INSTALLATIONS"/>
+                <leg:heading Value="NATIONAL HEATH SERVICE, ENGLAND"/>
+                <leg:heading Value="GENOCIDE"/>
+                <leg:heading Value="REGULATORY REFORM, ENGLAND"/>
+                <leg:heading Value="INFRASTRUCTURE PLANNING, ENGLAND AND WALES"/>
+                <leg:heading Value="MOBILE HOMES"/>
+                <leg:heading Value="RELIEFS AND REDUCED DUTIES (CUSTOMS)"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, ENGLANDANDWALES"/>
+                <leg:heading Value="CORONERS, WALES"/>
+                <leg:heading Value="LOCAL AUTHORITIES, ENGLAND"/>
+                <leg:heading Value="NATIONAL SECURITY"/>
+                <leg:heading Value="JUSTICE"/>
+                <leg:heading Value="CENSUS, ENGLAND"/>
+                <leg:heading Value="MARKET STANDARDS"/>
+                <leg:heading Value="NATIONAL HERITAGE"/>
+                <leg:heading Value="LICENSING (ALCOHOL)"/>
+                <leg:heading Value="COIN"/>
+                <leg:heading Value="PUBLIC HEALTH, WALES"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS,MARRIAGES, ETC."/>
+                <leg:heading Value="YOUNG OFFENDERS INSTITUTIONS"/>
+                <leg:heading Value="ELECTRICITY PIPE-LINES"/>
+                <leg:heading Value="MATRIMONIAL CAUSES, ENGLAND AND WALES"/>
+                <leg:heading Value="CHILDRENANDYOUNGPERSONS,ENGLAND"/>
+                <leg:heading Value="FINANCIAL SERVICES AND MARKETS, SCOTLAND"/>
+                <leg:heading Value="OFFSHOREINSTALLATIONS"/>
+                <leg:heading Value="SCOTTISH COURT SERVICE"/>
+                <leg:heading Value="LOCAL GOVERNMENT,ENGLAND AND WALES"/>
+                <leg:heading Value="EDUCATION, ENGLAND AND WALES SEX DISCRIMINATION"/>
+                <leg:heading Value="CONTEMPT OF COURT, ENGLAND AND WALES"/>
+                <leg:heading Value="YOUNG OFFENDER INSTITUTIONS, ENGLAND AND WALES"/>
+                <leg:heading Value="2. FINLAND"/>
+                <leg:heading Value="LOCAL AUTHORITY SOCIAL SERVICES"/>
+                <leg:heading Value="COOPERATIVE SOCIETIES"/>
+                <leg:heading Value="RADIOACTIVE SUBSTANCES"/>
+                <leg:heading Value="MARINE POLLUTION, ENGLAND"/>
+                <leg:heading Value="CAPITAL TRANSFER TAX"/>
+                <leg:heading Value="BUILDING SOCIETIES, ENGLAND AND WALES"/>
+                <leg:heading Value="NATIONALISATION"/>
+                <leg:heading Value="HEALTH SERVICES, ENGLAND"/>
+                <leg:heading Value="CIVIL AVIATION, NORTHERN IRELAND"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, ENGLAND AND WALES"/>
+                <leg:heading Value="SCOTCH WHISKY"/>
+                <leg:heading Value="FAMILY PROCEEDINGS (ENGLAND AND WALES)"/>
+                <leg:heading Value="CRIMINAL JUSTICE"/>
+                <leg:heading Value="THE BRITISH NATIONALITY"/>
+                <leg:heading Value="LEGAL SERVICES COMMISION, ENGLAND AND WALES"/>
+                <leg:heading Value="FAMILY ALLOWANCES"/>
+                <leg:heading Value="NATIONAL INSURANCE (INDUSTRIAL INJURIES)"/>
+                <leg:heading Value="AGRICULTURAL EMPLOYMENT, ENGLAND"/>
+                <leg:heading Value="TERMS AND CONDITIONS OF EMPLOYMENT, ENGLAND"/>
+                <leg:heading Value="TELECOMUNICATIONS"/>
+                <leg:heading Value="SPECIAL PROVISIONS"/>
+                <leg:heading Value="WORKMEN'S COMPENSATION"/>
+                <leg:heading Value="STATISTICS BOARD, ENGLAND"/>
+                <leg:heading Value="HIGHWAYS ENGLAND"/>
+                <leg:heading Value="POLICE FIRE SERVICES"/>
+                <leg:heading Value="SOCIAL SECURITY INDUSTRIAL TRIBUNALS"/>
+                <leg:heading Value="INTERNATIONAL IMMUNITIES AND PRIVILEGES, NORTHERN IRELAND"/>
+                <leg:heading Value="TERMS AND CONDITION OF EMPLOYMENT, ENGLAND"/>
+                <leg:heading Value="ATTENDANCE CENTRES"/>
+                <leg:heading Value="SHIPS AND SHIPOWNERS"/>
+                <leg:heading Value="LEGAL AID, ENGLAND AND WALES"/>
+                <leg:heading Value="AGRICULTURE, WALES"/>
+                <leg:heading Value="POSTAL SERVICES, NORTHERN IRELAND"/>
+                <leg:heading Value="OFFENDER MANAGEMENT"/>
+                <leg:heading Value="WATER, ENGLAND &amp; WALES"/>
+                <leg:heading Value="CROWN PROCEEDINGS"/>
+                <leg:heading Value="TRAINING COMMISSION"/>
+                <leg:heading Value="SENIOR COURTS, ENGLAND AND WALES"/>
+                <leg:heading Value="PERPETUITIES AND ACCUMULATIONS, ENGLAND AND WALES"/>
+                <leg:heading Value="PUBLIC HEALTH ENGLAND AND WALES AND SCOTLAND"/>
+                <leg:heading Value="COMMONS, ENGLAND AND WALES"/>
+                <leg:heading Value="MUSEUMS AND GALLERIES HISTORIC BUILDINGS AND MONUMENTS COMMISSION"/>
+                <leg:heading Value="FOOD HYGIENE"/>
+                <leg:heading Value="FINANCIAL SERVICES AND MARKETS, ENGLAND AND WALES"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENGLAND AND WALES POLICE, ENGLAND AND WALES"/>
+                <leg:heading Value="POLLUTION"/>
+                <leg:heading Value="PENSIONS (NORTHERN IRELAND)"/>
+                <leg:heading Value="JUDICIAL RETIREMENT"/>
+                <leg:heading Value="LOCAL GOVERNMENT (ENGLAND)"/>
+                <leg:heading Value="HOUSING, ENGLAND ANDWALES"/>
+                <leg:heading Value="SAVINGS ACCOUNTS"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS, AND MARRIAGES, ETC., ENGLAND AND WALES"/>
+                <leg:heading Value="INDIVIDUALS, ENGLAND &amp; WALES"/>
+                <leg:heading Value="TRIBUNALS AND INQUIRIES, NORTHERN IRELAND"/>
+                <leg:heading Value="REGISTRATION OF BIRTHS, DEATHS AND MARRIAGES, ETC. ENGLAND AND WALES"/>
+                <leg:heading Value="BIOLOGICAL WEAPONS"/>
+                <leg:heading Value="CONSUMER PROTECTION, ENGLAND"/>
+                <leg:heading Value="SEA FISH INDUSTRY"/>
+                <leg:heading Value="INDUSTRIAL ASSURANCE INSURANCE"/>
+                <leg:heading Value="LONDON GOVERNMENT PENSIONS"/>
+                <leg:heading Value="ALDERNEY"/>
+                <leg:heading Value="HARBOURS, DOCKS, PIERS AND FERRIES, NORTHERN IRELAND"/>
+                <leg:heading Value="AGE-RELATED PAYMENTS"/>
+                <leg:heading Value="LOCAL GOVERNMENT, ENGLAND AND WALES LONDON GOVERNMENT PUBLIC HEALTH, ENGLAND AND WALES"/>
+                <leg:heading Value="2. REGULATIONS"/>
+                <leg:heading Value="PLANT BREEDERS' RIGHTS SEEDS"/>
+                <leg:heading Value="REPRESENTATION OF THE PEOPLE,"/>
+                <leg:heading Value="EDUCATION, ENGLAND AND WALES POLICE FIRE SERVICES CIVIL DEFENCE TRANSPORT"/>
+                <leg:heading Value="DEBT MANAGEMENT AND RELIEF"/>
+                <leg:heading Value="FIRE AND RESCUE SERVICES, ENGLAND AND WALES"/>
+                <leg:heading Value="LITIGANTS IN PERSON"/>
+                <leg:heading Value="INDUSTRIAL ORGANISATION ANDDEVELOPMENT"/>
+                <leg:heading Value="LOCAL GOVERNMENT FINANCE, ENGLAND"/>
+                <leg:heading Value="VETERINARY SURGEONS, ENGLAND AND WALES"/>
+                <leg:heading Value="VETERINARY SURGEONS, SCOTLAND"/>
+                <leg:heading Value="GAS PETROLEUM CONTINENTAL SHELF PIPE-LINES"/>
+                <leg:heading Value="ENFORCEMENT OF CIVIL PENALTIES, ENGLAND"/>
+                <leg:heading Value="STREET TRADING, ENGLAND AND WALES"/>
+                <leg:heading Value="TAX CREDITS, CHILDREN"/>
+                <leg:heading Value="EQUAL OPORTUNITIES"/>
+                <leg:heading Value="AGRICULTURAL MARKETING"/>
+                <leg:heading Value="SUCCESSION"/>
+                <leg:heading Value="LEGAL AID AND ADVICE, ENGLAND"/>
+                <leg:heading Value="LOCAL GOVERNMENT (SCOTLAND, ENGLAND AND WALES)"/>
+                <leg:heading Value="TOWN AND COUNTRY PLANNING (ENGLAND)"/>
+                <leg:heading Value="MANORIAL INCIDENTS AND RECORDS"/>
+                <leg:heading Value="COUNTY COURTS (ENGLAND AND WALES)"/>
+                <leg:heading Value="SHERIFF, SCOTLAND"/>
+                <leg:heading Value="NATIONAL HEALTH SERVICE ENGLAND AND WALES,"/>
+                <leg:heading Value="DANGEROUS DRUGS, ENGLAND"/>
+                <leg:heading Value="JUSTICES OF THE PEACE, ENGLAND"/>
+                <leg:heading Value="ROAD TRAFFIC TRANSPORT"/>
+                <leg:heading Value="BETTING, GAMING AND LOTTERIES, WALES"/>
+                <leg:heading Value="RESALE PRICES"/>
+                <leg:heading Value="CIVL AVIATION"/>
+                <leg:heading Value="BULGARIA"/>
+                <leg:heading Value="INDIVIDUALS"/>
+                <leg:heading Value="DEEDS"/>
+                <leg:heading Value="ROAD SAFETY"/>
+                <leg:heading Value="ASSOCIATED STATES"/>
+                <leg:heading Value="RENTS AND RENTCHARGES, ENGLAND"/>
+                <leg:heading Value="SEA FISHERIES, WALES"/>
+            </leg:headings>
+        </leg:facetSubjectsInitials>
+    </leg:facets>
+    <link rel="first" type="application/atom+xml" href="http://www.legislation.gov.uk/uksi/data.feed"/>
+    <link rel="next" type="application/atom+xml" href="http://www.legislation.gov.uk/uksi/data.feed?page=2"/>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/wsi/2018/605</id>
+        <title type="xhtml">
+            <div 
+                xmlns="http://www.w3.org/1999/xhtml">
+                <span xml:lang="en">The Public Health (Wales) Act 2017 (Commencement No. 3) Order 2018</span> / 
+                <span xml:lang="cy">Gorchymyn Deddf Iechyd y Cyhoedd (Cymru) 2017 (Cychwyn Rhif 3) 2018</span>
+            </div>
+        </title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/wsi/2018/605"/>
+        <link href="http://www.legislation.gov.uk/wsi/2018/605/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/605/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/605/made/welsh/data.xml" hreflang="cy" title="XML - Cymru"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/wsi/2018/605/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/wsi/2018/605/made/welsh/data.rdf" hreflang="cy" title="RDF/XML - Cymru"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/wsi/2018/605/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/wsi/2018/605/made/welsh/data.akn" hreflang="cy" title="AKN - Cymru"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/wsi/2018/605/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/wsi/2018/605/made/welsh/data.xht" hreflang="cy" title="HTML snippet - Cymru"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/wsi/2018/605/made/data.pdf" title="PDF"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/wsi/2018/605/made/welsh/data.pdf" hreflang="cy" title="PDF - Cymru"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/605/contents/made" title="Table of Contents"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/605/contents/made/welsh" hreflang="cy" title="Table of Contents - Cymru"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-21T22:40:35.516575+01:00</updated>
+        <published>2018-05-18T10:42:36.316239+01:00</published>
+        <ukm:DocumentMainType Value="WelshStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="605"/>
+        <ukm:ISBN Value="9780348202410"/>
+        <ukm:AlternativeNumber Category="Cy" Value="116"/>
+        <ukm:AlternativeNumber Category="C" Value="48"/>
+        <ukm:AlternativeNumber Category="W" Value="116"/>
+        <ukm:CreationDate Date="2018-05-17"/>
+        <ukm:Subject Value="PUBLIC HEALTH, WALES"/>
+        <category term="PUBLIC HEALTH, WALES"/>
+        <category term="IECHYD Y CYHOEDD, CYMRU"/>
+        <summary type="xhtml">
+            <div 
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p xml:lang="en">This Order made by the Welsh Ministers brings into force specified provisions of the Public Health (Wales) Act 2017 (“the Act”).</p>
+                <p xml:lang="cy">Mae’r Gorchymyn hwn, sydd wedi ei wneud gan Weinidogion Cymru, yn dwyn i rym ddarpariaethau penodedig o Ddeddf Iechyd y Cyhoedd (Cymru) 2017 (“y Ddeddf”).</p>
+            </div>
+        </summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/606</id>
+        <title>The First-tier Tribunal and Upper Tribunal (Composition of Tribunal) (Amendment) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/606"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/606/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/606/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/606/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/606/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/606/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/606/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/606/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-21T22:40:35.516575+01:00</updated>
+        <published>2018-05-18T16:39:30.211558+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="606"/>
+        <ukm:ISBN Value="9780111169513"/>
+        <ukm:CreationDate Date="2018-05-17"/>
+        <ukm:Subject Value="TRIBUNALS AND INQUIRIES"/>
+        <ukm:Supersedes URI="http://www.legislation.gov.uk/id/ukdsi/2018/9780111166109">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The First-tier Tribunal and Upper Tribunal (Composition of Tribunal) (Amendment) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:ISBN Value="9780111166109"/>
+        </ukm:Supersedes>
+        <category term="TRIBUNALS AND INQUIRIES"/>
+        <summary>This Order amends the First-tier Tribunal and Upper Tribunal (Composition of Tribunal) Order 2008/2835 (the 2008 Order).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/598</id>
+        <title>The Passenger Name Record Data and Miscellaneous Amendments Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/598"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/598/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/598/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/598/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/598/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/598/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/598/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/598/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-21T22:40:35.516575+01:00</updated>
+        <published>2018-05-21T03:02:03.427782+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="598"/>
+        <ukm:ISBN Value="9780111169476"/>
+        <ukm:CreationDate Date="2018-05-16"/>
+        <ukm:Subject Value="CRIMINAL LAW"/>
+        <ukm:Subject Value="DATA PROTECTION"/>
+        <category term="CRIMINAL LAW"/>
+        <category term="DATA PROTECTION"/>
+        <summary>These Regulations implement, in part, the requirements of Directive (EU) 2016/681 of the European Parliament and of the Council of 27 April 2016 on the use of passenger name record (PNR) data for the prevention, detection, investigation and prosecution of terrorist offences and serious crime (“the Directive”).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/597</id>
+        <title>The Trade Secrets (Enforcement, etc.) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/597"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/597/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/597/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/597/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/597/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/597/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/597/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/597/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-19T00:59:59+01:00</updated>
+        <published>2018-05-18T12:13:00.199196+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="597"/>
+        <ukm:ISBN Value="9780111169469"/>
+        <ukm:CreationDate Date="2018-05-15"/>
+        <ukm:Subject Value="INTELLECTUAL PROPERTY"/>
+        <category term="INTELLECTUAL PROPERTY"/>
+        <summary>These Regulations implement provisions of Directive (EU) 2016/943 of the European Parliament and of the Council of 8 June 2016 on the protection of undisclosed know-how and business information (trade secrets) against their unlawful acquisition, use and disclosure (OJ L157, 15.6.2017, p.1) (“the Directive”). A number of the provisions of the Directive, in particular the provisions in Chapter II and Articles 6, 7 and 16, have been implemented in the United Kingdom by the principles of common law and equity relating to breach of confidence in confidential information, and by statute and court rules. These Regulations address those areas where gaps occur or where the implementation of the provisions of the Directive in the United Kingdom, across its jurisdictions, may be made more transparent and coherent.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/599</id>
+        <title>The Education (Postgraduate Doctoral Degree Loans and the Education (Student Loans) (Repayment) (Amendment) (No. 2) etc.) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/599"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/599/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/599/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/599/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/599/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/599/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/599/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/599/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-21T22:40:35.516575+01:00</updated>
+        <published>2018-05-21T12:11:32.351156+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="599"/>
+        <ukm:ISBN Value="9780111169483"/>
+        <ukm:CreationDate Date="2018-05-15"/>
+        <ukm:Subject Value="EDUCATION"/>
+        <category term="EDUCATION"/>
+        <summary>These Regulations provide for the making of loans to eligible students in connection with postgraduate doctoral degree courses that begin on or after 1st August 2018. These Regulations amend the Education (Student Loans) (Repayment) Regulations 2009 (S.I. 2009/470), the Education (Student Support) Regulations 2011 (S.I. 2011/1986) and the Education (Postgraduate Master’s Degree Loans) Regulations 2016 (S.I. 2016/606).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/593</id>
+        <title>The Enterprise Act 2002 (Turnover Test) (Amendment) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/593"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/593/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/593/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/593/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/593/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/593/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/593/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/593/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-16T00:59:59+01:00</updated>
+        <published>2018-05-14T18:04:08.365782+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="593"/>
+        <ukm:ISBN Value="9780111169384"/>
+        <ukm:CreationDate Date="2018-05-14"/>
+        <ukm:Subject Value="COMPETITION"/>
+        <category term="COMPETITION"/>
+        <summary>This Order amends section 23 of the Enterprise Act 2002 (c. 40) (the Act) which sets out the criteria for a merger to be a “relevant merger situation”, thereby qualifying it for investigation by the Competition and Markets Authority. The Secretary of State has the power under section 42 of the Act to intervene in a “relevant merger situation” on the grounds of specified public interest considerations, where appropriate.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/591</id>
+        <title>The Common Agricultural Policy (Control and Enforcement, Cross-Compliance, Scrutiny of Transactions and Appeals) (Amendment) (England) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/591"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/591/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/591/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/591/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/591/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/591/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/591/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/591/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-15T00:59:59+01:00</updated>
+        <published>2018-05-14T14:22:37.155016+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="591"/>
+        <ukm:ISBN Value="9780111169360"/>
+        <ukm:CreationDate Date="2018-05-14"/>
+        <ukm:Subject Value="AGRICULTURE, ENGLAND"/>
+        <category term="AGRICULTURE, ENGLAND"/>
+        <summary>These Regulations amend the Common Agricultural Policy (Control and Enforcement, Cross-Compliance, Scrutiny of Transactions and Appeals) Regulations 2014 (S.I. 2014/3263) (“the Control Regulations”) in reliance on the derogation provided for in Article 1 of Commission Implementing Regulation (EU) 2018/701 derogating from Implementing Regulation (EU) No 809/2014 as regards the final date of submission of the single application, aid applications or payment claims, the final date for notification of amendments to the single application or payment claim and the final date for applications for allocation of payment entitlements under the basic payment scheme for the year 2018 (OJ No. L 118, 14.5.2018, p. 5).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/578</id>
+        <title>The Enterprise Act 2002 (Share of Supply Test) (Amendment) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/578"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/578/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/578/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/578/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/578/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/578/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/578/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/578/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-21T22:40:35.516575+01:00</updated>
+        <published>2018-05-16T03:00:30.736012+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="578"/>
+        <ukm:ISBN Value="9780111169391"/>
+        <ukm:CreationDate Date="2018-05-14"/>
+        <ukm:Subject Value="COMPETITION"/>
+        <ukm:Supersedes URI="http://www.legislation.gov.uk/id/ukdsi/2018/9780111167441">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Enterprise Act 2002 (Share of Supply Test) (Amendment) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:ISBN Value="9780111167441"/>
+        </ukm:Supersedes>
+        <category term="COMPETITION"/>
+        <summary>This Order amends section 23 of the Enterprise Act 2002 (c. 40) (the Act) which sets out the criteria for a merger to be a “relevant merger situation”, thereby qualifying it for investigation by the Competition and Markets Authority. The Secretary of State has the power under section 42 of the Act to intervene in a “relevant merger situation” on the grounds of specified public interest considerations, where appropriate.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/571</id>
+        <title>The Network Rail (Kings Mill No. 1 Level Crossing) (Land Acquisition and Closure) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/571"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/571/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/571/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/571/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/571/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/571/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/571/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/571/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-18T00:59:59+01:00</updated>
+        <published>2018-05-17T03:01:34.058923+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="571"/>
+        <ukm:ISBN Value="9780111169414"/>
+        <ukm:CreationDate Date="2018-05-14"/>
+        <ukm:Subject Value="TRANSPORT AND WORKS, ENGLAND"/>
+        <ukm:Subject Value="TRANSPORT ENGLAND"/>
+        <category term="TRANSPORT AND WORKS, ENGLAND"/>
+        <category term="TRANSPORT ENGLAND"/>
+        <summary>This Order confers powers on Network Rail to acquire compulsorily land and rights in land required in connection with the construction and maintenance of a new, ramped bridleway bridge over the Nottingham to Worksop railway at Mansfield, which development has been separately authorised by a grant of planning permission under Part III of the Town and Country Planning Act 1990 (c. 8) from Ashfield District Council in the county of Nottinghamshire. The Order also confers powers of temporary use of land in connection with that development and the right to oversail certain land with cranes.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/587</id>
+        <title>The Criminal Legal Aid (Amendment) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/587"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/587/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/587/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/587/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/587/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/587/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/587/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/587/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-16T00:59:59+01:00</updated>
+        <published>2018-05-15T03:04:11.82586+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="587"/>
+        <ukm:ISBN Value="9780111169353"/>
+        <ukm:CreationDate Date="2018-05-10"/>
+        <ukm:Subject Value="LEGAL AID AND ADVICE, ENGLAND AND WALES"/>
+        <category term="LEGAL AID AND ADVICE, ENGLAND AND WALES"/>
+        <summary>These Regulations amend the Criminal Legal Aid (General) Regulations 2013 (S.I. 2013/9) (the “General Regulations”) and the Criminal Legal Aid (Financial Resources) Regulations 2013 (S.I. 2013/471) (the “Financial Resources Regulations”).</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/592</id>
+        <title>The Road Vehicles (Construction and Use) (Amendment) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/592"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/592/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/592/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/592/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/592/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/592/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/592/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/592/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-17T00:59:59+01:00</updated>
+        <published>2018-05-16T16:10:38.386717+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="592"/>
+        <ukm:ISBN Value="9780111169377"/>
+        <ukm:CreationDate Date="2018-05-10"/>
+        <ukm:Subject Value="ROAD TRAFFIC"/>
+        <category term="ROAD TRAFFIC"/>
+        <summary>Regulation 110 of the Road Vehicles (Construction and Use) Regulations 1986 (“the 1986 Regulations”) prohibits the use, while driving a motor vehicle, of hand-held mobile telephones or other hand-held devices, when performing an interactive communication function.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/574</id>
+        <title>The Silvertown Tunnel Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/574"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/574/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/574/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/574/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/574/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/574/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/574/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/574/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-18T00:59:59+01:00</updated>
+        <published>2018-05-17T03:01:04.790258+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="574"/>
+        <ukm:ISBN Value="9780111169407"/>
+        <ukm:CreationDate Date="2018-05-10"/>
+        <ukm:Subject Value="INFRASTRUCTURE PLANNING"/>
+        <category term="INFRASTRUCTURE PLANNING"/>
+        <summary>This Order authorises Transport for London to construct, operate and maintain the Silvertown Tunnel. This is a new road tunnel linking the areas north and south of the river Thames in London between the Greenwich Peninsula and Silvertown.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/wsi/2018/576</id>
+        <title type="xhtml">
+            <div 
+                xmlns="http://www.w3.org/1999/xhtml">
+                <span xml:lang="en">The Firefighters’ Pension Scheme (Wales) (Amendment) Regulations 2018</span> / 
+                <span xml:lang="cy">Rheoliadau Cynllun Pensiwn y Diffoddwyr Tân (Cymru) (Diwygio) 2018</span>
+            </div>
+        </title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/wsi/2018/576"/>
+        <link href="http://www.legislation.gov.uk/wsi/2018/576/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/576/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/576/made/welsh/data.xml" hreflang="cy" title="XML - Cymru"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/wsi/2018/576/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/wsi/2018/576/made/welsh/data.rdf" hreflang="cy" title="RDF/XML - Cymru"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/wsi/2018/576/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/wsi/2018/576/made/welsh/data.akn" hreflang="cy" title="AKN - Cymru"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/wsi/2018/576/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/wsi/2018/576/made/welsh/data.xht" hreflang="cy" title="HTML snippet - Cymru"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/wsi/2018/576/made/data.pdf" title="PDF"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/wsi/2018/576/made/welsh/data.pdf" hreflang="cy" title="PDF - Cymru"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/576/contents/made" title="Table of Contents"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/576/contents/made/welsh" hreflang="cy" title="Table of Contents - Cymru"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-12T00:59:59+01:00</updated>
+        <published>2018-05-11T03:02:34.46051+01:00</published>
+        <ukm:DocumentMainType Value="WelshStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="576"/>
+        <ukm:ISBN Value="9780348202380"/>
+        <ukm:AlternativeNumber Category="Cy" Value="103"/>
+        <ukm:AlternativeNumber Category="W" Value="103"/>
+        <ukm:CreationDate Date="2018-05-09"/>
+        <ukm:Subject Value="PUBLIC SERVICE PENSIONS, WALES"/>
+        <category term="PUBLIC SERVICE PENSIONS, WALES"/>
+        <category term="PENSIYNAU GWASANAETHAU CYHOEDDUS, CYMRU"/>
+        <summary type="xhtml">
+            <div 
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p xml:lang="en">These Regulations amend the Firefighters’ Pension Scheme (Wales) Regulations 2015 (“the 2015 Regulations”) which established a scheme for the payment of pensions and other benefits to firefighters in Wales from 1 April 2015.</p>
+                <p xml:lang="cy">Mae’r Rheoliadau hyn yn diwygio Rheoliadau Cynllun Pensiwn y Diffoddwyr Tân (Cymru) 2015 (“Rheoliadau 2015”) a oedd yn sefydlu cynllun ar gyfer talu pensiynau a buddion eraill i ddiffoddwyr tân yng Nghymru o 1 Ebrill 2015 ymlaen.</p>
+            </div>
+        </summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/wsi/2018/577</id>
+        <title type="xhtml">
+            <div 
+                xmlns="http://www.w3.org/1999/xhtml">
+                <span xml:lang="en">The Firefighters’ Pension Schemes and Compensation Scheme (Wales) (Amendment) Order 2018</span> / 
+                <span xml:lang="cy">Gorchymyn Cynlluniau Pensiwn a Chynllun Digolledu’r Diffoddwyr Tân (Cymru) (Diwygio) 2018</span>
+            </div>
+        </title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/wsi/2018/577"/>
+        <link href="http://www.legislation.gov.uk/wsi/2018/577/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/577/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/577/made/welsh/data.xml" hreflang="cy" title="XML - Cymru"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/wsi/2018/577/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/wsi/2018/577/made/welsh/data.rdf" hreflang="cy" title="RDF/XML - Cymru"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/wsi/2018/577/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/wsi/2018/577/made/welsh/data.akn" hreflang="cy" title="AKN - Cymru"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/wsi/2018/577/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/wsi/2018/577/made/welsh/data.xht" hreflang="cy" title="HTML snippet - Cymru"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/wsi/2018/577/made/data.pdf" title="PDF"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/wsi/2018/577/made/welsh/data.pdf" hreflang="cy" title="PDF - Cymru"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/577/contents/made" title="Table of Contents"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/wsi/2018/577/contents/made/welsh" hreflang="cy" title="Table of Contents - Cymru"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-15T00:59:59+01:00</updated>
+        <published>2018-05-11T03:02:55.294906+01:00</published>
+        <ukm:DocumentMainType Value="WelshStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="577"/>
+        <ukm:ISBN Value="9780348202397"/>
+        <ukm:AlternativeNumber Category="Cy" Value="104"/>
+        <ukm:AlternativeNumber Category="W" Value="104"/>
+        <ukm:CreationDate Date="2018-05-09"/>
+        <ukm:Subject Value="FIRE AND RESCUE SERVICES, WALES"/>
+        <ukm:Subject Value="PENSIONS, WALES"/>
+        <category term="FIRE AND RESCUE SERVICES, WALES"/>
+        <category term="PENSIONS, WALES"/>
+        <category term="GWASANAETHAU TÂN AC ACHUB, CYMRU"/>
+        <category term="PENSIYNAU, CYMRU"/>
+        <summary type="xhtml">
+            <div 
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p xml:lang="en">This Order amends the Firefighters’ Pension (Wales) Scheme (set out in Schedule 2 to the Firemen’s Pension Scheme Order 1992) as it has effect in Wales (“the 1992 Scheme”); the New Firefighters’ Pension Scheme (Wales) (set out in Schedule 1 to the Firefighters’ Pension Scheme (Wales) Order 2007); the Firefighters’ Compensation Scheme (Wales) (set out in Schedule 1 to the Firefighters’ Compensation Scheme (Wales) Order 2007) (“the 2007 Compensation Scheme”) and the Firefighters’ Pension (Wales) Scheme (Amendment and Transitional Provisions) Order 2016.</p>
+                <p xml:lang="cy">Mae’r Gorchymyn hwn yn diwygio Cynllun Pensiwn y Dynion Tân (Cymru) (a nodir yn Atodlen 2 i Orchymyn Cynllun Pensiwn y Dynion Tân 1992) fel y mae’n cael effaith yng Nghymru (“Cynllun 1992”); Cynllun Pensiwn Newydd y Diffoddwyr Tân (Cymru) (a nodir yn Atodlen 1 i Orchymyn Cynllun Pensiwn y Diffoddwyr Tân (Cymru) 2007); Cynllun Digolledu’r Diffoddwyr Tân (Cymru) (a nodir yn Atodlen 1 i Orchymyn Cynllun Digolledu’r Diffoddwyr Tân (Cymru) 2007) (“Cynllun Digolledu 2007”) a Gorchymyn Cynllun Pensiwn y Dynion Tân (Cymru) (Diwygio a Darpariaethau Trosiannol) 2016.</p>
+            </div>
+        </summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/586</id>
+        <title>The Licensing Act 2003 (Royal Wedding Licensing Hours) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/586"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/586/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/586/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/586/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/586/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/586/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/586/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/586/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-12T00:59:59+01:00</updated>
+        <published>2018-05-11T10:36:23.47323+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="586"/>
+        <ukm:ISBN Value="9780111169346"/>
+        <ukm:CreationDate Date="2018-05-09"/>
+        <ukm:Subject Value="LICENCES AND LICENSING"/>
+        <ukm:Supersedes URI="http://www.legislation.gov.uk/id/ukdsi/2018/9780111167625">
+            <dc:title 
+                xmlns:dc="http://purl.org/dc/elements/1.1/">The Licensing Act 2003 (Royal Wedding Licensing Hours) Order 2018
+            </dc:title>
+            <ukm:DocumentMainType Value="UnitedKingdomDraftStatutoryInstrument"/>
+            <ukm:Year Value="2018"/>
+            <ukm:ISBN Value="9780111167625"/>
+        </ukm:Supersedes>
+        <category term="LICENCES AND LICENSING"/>
+        <summary>This Order is made under section 172 of the Licensing Act 2003 (c.17) and marks the occasion of the marriage of His Royal Highness Prince Henry of Wales and Miss Rachel Meghan Markle on 19th May 2018.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/575</id>
+        <title>The Environment, Food and Rural Affairs (Miscellaneous Amendments) (England) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/575"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/575/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/575/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/575/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/575/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/575/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/575/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/575/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-12T00:59:59+01:00</updated>
+        <published>2018-05-11T12:37:10.762405+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="575"/>
+        <ukm:ISBN Value="9780111169308"/>
+        <ukm:CreationDate Date="2018-05-08"/>
+        <ukm:Subject Value="AGRICULTURE, ENGLAND" Subtitle="LIVESTOCK INDUSTRIES"/>
+        <ukm:Subject Value="ANIMALS, ENGLAND" Subtitle="ANIMAL HEALTH, ANIMAL WELFARE"/>
+        <ukm:Subject Value="COAST PROTECTION, ENGLAND"/>
+        <ukm:Subject Value="ENVIRONMENTAL PROTECTION, ENGLAND"/>
+        <ukm:Subject Value="FLOOD RISK MANAGEMENT, ENGLAND"/>
+        <ukm:Subject Value="FOOD, ENGLAND"/>
+        <ukm:Subject Value="HORTICULTURE, ENGLAND"/>
+        <ukm:Subject Value="PLANT HEALTH, ENGLAND"/>
+        <ukm:Subject Value="SEA FISHERIES, ENGLAND" Subtitle="CONSERVATION OF SEA FISH"/>
+        <ukm:Subject Value="SEEDS, ENGLAND"/>
+        <ukm:Subject Value="WASTE, ENGLAND"/>
+        <ukm:Subject Value="WATER, ENGLAND"/>
+        <ukm:Subject Value="WATER RESOURCES, ENGLAND"/>
+        <category term="AGRICULTURE, ENGLAND;LIVESTOCK INDUSTRIES"/>
+        <category term="ANIMALS, ENGLAND;ANIMAL HEALTH, ANIMAL WELFARE"/>
+        <category term="COAST PROTECTION, ENGLAND"/>
+        <category term="ENVIRONMENTAL PROTECTION, ENGLAND"/>
+        <category term="FLOOD RISK MANAGEMENT, ENGLAND"/>
+        <category term="FOOD, ENGLAND"/>
+        <category term="HORTICULTURE, ENGLAND"/>
+        <category term="PLANT HEALTH, ENGLAND"/>
+        <category term="SEA FISHERIES, ENGLAND;CONSERVATION OF SEA FISH"/>
+        <category term="SEEDS, ENGLAND"/>
+        <category term="WASTE, ENGLAND"/>
+        <category term="WATER, ENGLAND"/>
+        <category term="WATER RESOURCES, ENGLAND"/>
+        <summary>These Regulations make amendments in relation to England to a number of pieces of secondary legislation within the remit of the Department for Environment, Food and Rural Affairs.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/572</id>
+        <title>The National Grid (Richborough Connection Project) (Correction) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/572"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/572/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/572/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/572/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/572/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/572/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/572/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/572/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-11T00:59:59+01:00</updated>
+        <published>2018-05-10T03:01:52.376898+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="572"/>
+        <ukm:ISBN Value="9780111169278"/>
+        <ukm:CreationDate Date="2018-05-04"/>
+        <ukm:Subject Value="INFRASTRUCTURE PLANNING"/>
+        <category term="INFRASTRUCTURE PLANNING"/>
+        <summary>This Order corrects correctable errors in the National Grid (Richborough Connection Project) Development Consent Order 2017 (S.I. 2017 No. 817), a development consent order made under the Planning Act 2008 (c. 29), following a request under paragraph 1(5)(a) of Schedule 4 to that Act.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/570</id>
+        <title>The Hornsea Two Offshore Wind Farm (Amendment) (No. 2) Order 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/570"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/570/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/570/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/570/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/570/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/570/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/570/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/570/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-10T00:59:59+01:00</updated>
+        <published>2018-05-09T03:03:34.783571+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="570"/>
+        <ukm:ISBN Value="9780111169254"/>
+        <ukm:CreationDate Date="2018-05-04"/>
+        <ukm:Subject Value="INFRASTRUCTURE PLANNING"/>
+        <category term="INFRASTRUCTURE PLANNING"/>
+        <summary>This Order amends The Hornsea Two Offshore Wind Farm Order 2016, a development consent order under the Planning Act 2008, following an application made in accordance with the Infrastructure Planning (Changes to, and Revocation of, Development Consent Orders) Regulations 2011 for non-material changes under paragraph 2 of Schedule 6 to the Planning Act 2008. The Order reduces from 6 to 3 the permitted number authorised offshore HVAC collector substations and expands the permitted size of the platform for each of those substations.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/567</id>
+        <title>The Neighbourhood Planning Act 2017 (Commencement No. 5) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/567"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/567/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/567/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/567/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/567/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/567/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/567/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/567/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-09T00:59:59+01:00</updated>
+        <published>2018-05-08T03:01:39.855894+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="567"/>
+        <ukm:ISBN Value="9780111169247"/>
+        <ukm:AlternativeNumber Category="C" Value="46"/>
+        <ukm:CreationDate Date="2018-05-03"/>
+        <ukm:Subject Value="TOWN AND COUNTRY PLANNING, ENGLAND"/>
+        <category term="TOWN AND COUNTRY PLANNING, ENGLAND"/>
+        <summary>These Regulations partially bring into force section 14 of the Neighbourhood Planning Act 2017 (c. 20) (“the 2017 Act”) on 1st October 2018.</summary>
+    </entry>
+    <entry>
+        <id>http://www.legislation.gov.uk/id/uksi/2018/566</id>
+        <title>The Town and Country Planning (Pre-commencement Conditions) Regulations 2018</title>
+        <link rel="self" href="http://www.legislation.gov.uk/id/uksi/2018/566"/>
+        <link href="http://www.legislation.gov.uk/uksi/2018/566/made"/>
+        <link rel="alternate" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/566/made/data.xml" title="XML"/>
+        <link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2018/566/made/data.rdf" title="RDF/XML"/>
+        <link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2018/566/made/data.akn" title="AKN"/>
+        <link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2018/566/made/data.xht" title="HTML snippet"/>
+        <link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2018/566/made/data.pdf" title="PDF"/>
+        <link rel="http://purl.org/dc/terms/tableOfContents" type="application/xml" href="http://www.legislation.gov.uk/uksi/2018/566/contents/made" title="Table of Contents"/>
+        <author>
+            <name/>
+        </author>
+        <updated>2018-05-09T00:59:59+01:00</updated>
+        <published>2018-05-08T12:15:59.556289+01:00</published>
+        <ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+        <ukm:Year Value="2018"/>
+        <ukm:Number Value="566"/>
+        <ukm:ISBN Value="9780111169230"/>
+        <ukm:CreationDate Date="2018-05-03"/>
+        <ukm:Subject Value="TOWN AND COUNTRY PLANNING, ENGLAND"/>
+        <category term="TOWN AND COUNTRY PLANNING, ENGLAND"/>
+        <summary>Section 100ZA of the Town and Country Planning Act 1990 (the 1990 Act), which was inserted by section 14 of the Neighbourhood Planning Act 2017, provides that planning permission for the development of land may not be granted subject to a pre-commencement condition (as defined in section 100ZA(8) of the 1990 Act) without the written agreement of the applicant to the terms of the condition. This requirement is subject to such exclusions as may be prescribed by the Secretary of State (see section 100ZA(6)).</summary>
+    </entry>
+</feed>

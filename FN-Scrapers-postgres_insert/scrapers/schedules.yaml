@@ -1,0 +1,891 @@
+---
+### International Scrapers
+
+- scraper_name: Argentina_GazetteDocScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 16h
+
+- scraper_name: ARGENTINADocScraper
+  scraper_args: ["--type", "diputados", "--type", "senado"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: AUBillScraper
+  scraper_args: ["--parliament", "45"]
+  scheduling_period: 24h
+  max_expected_duration: 3h
+  cooldown_duration: 4h
+
+- scraper_name: ChinaMetadataScraper
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: ChinaNewsScraper
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: ChinaRegScraper
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: CanadaDocScraper
+  scraper_args: ["--parliament", "42"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: Canada_GazetteDocScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 1h
+  cooldown_duration: 16h
+
+- scraper_name: ChileRegNoticeScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 1h
+  cooldown_duration: 16h
+
+- scraper_name: FRANCEregulationnoticescraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 1h
+  cooldown_duration: 16h
+
+- scraper_name: GERMANYDocScraper
+  scraper_args: ["--startdate", "24.10.2017", "--enddate", "24.10.2020", "--parliament", "19"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: GermanyRegNoticeScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 6h
+  cooldown_duration: 16h
+
+- scraper_name: UKDocScraper
+  scraper_args: ["--startyear", "2017", "--endyear", "2019"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: UKNoticeScraper
+  scheduling_period: 24h
+  max_expected_duration: 1h
+  cooldown_duration: 16h
+
+- scraper_name: MexicoRegNoticeScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 16h
+
+- scraper_name: Peru_GazetteDocScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 16h
+
+- scraper_name: SWITZERLANDDocScraper
+  scraper_args: ["--startyear", "2017"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: FRANCESENATDocScraper
+  scraper_args: ["--session", "2017-2018"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: FRANCEASSEMBLEEDocScraper
+  scraper_args: ["--parliament", "15"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: ChileDocScraper
+  scraper_args: ["--search-term", "11"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: ColombiaCamaraDocScraper
+  scraper_args: ["--search-term", ""]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: ColombiaSenadoDocScraper
+  scraper_args: ["--session", "2017-2018", "--search-term", ""]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: ColombiaGazatteScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 6h
+  cooldown_duration: 16h
+
+- scraper_name: IndiaDocScraper
+  scraper_args: ["--search-term", "", "--year-range", "2016-2017"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: IndiaRegNoticeScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 8h
+  cooldown_duration: 16h
+
+- scraper_name: IndonesiaDocScraper
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: IndonesiaRegNoticeScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 8h
+  cooldown_duration: 16h
+
+- scraper_name: MexicoDocScraper
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: PERUDocScraper
+  scraper_args: ["--year", "2016"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: BrazilCamaraDocScraper
+  scraper_args: ["--year", "2017"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: BrazilSenadoDocScraper
+  scraper_args: ["--year", "2017"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: BrazilRegNoticeScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 8h
+  cooldown_duration: 16h
+
+- scraper_name: EU_MEPsDocScraper
+  scraper_args: []
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: EU_Prep_legDocScraper
+  scraper_args: ["recently", "--days", "10"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: EU_legislativeDocScraper
+  scraper_args: ["recently", "--days", "10"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: RUSSIADocScraper
+  scraper_args: ["--types", "bill,7", "resolution,7", "legislative,all"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 24h
+
+- scraper_name: RussiaRegNoticeScraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 16h
+
+- scraper_name: SWITZERLANDregulationnoticescraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 1h
+  cooldown_duration: 16h
+
+- scraper_name: ThailandDocScraper
+  scheduling_period: 72h
+  max_expected_duration: 12h
+  cooldown_duration: 24h
+
+- scraper_name: THAILANDregulationnoticescraper
+  scraper_args: ["--kraken"]
+  scheduling_period: 24h
+  max_expected_duration: 1h
+  cooldown_duration: 16h
+
+# NOTE: The Ukraine scraper can only handle the 8th convocation of parliament.
+- scraper_name: UkraineDocScraper
+  scheduling_period: 72h
+  max_expected_duration: 2d
+  cooldown_duration: 24h
+
+### Federal Research Docs Scrapers
+
+- scraper_name: CBOScraper
+  cron_schedule: "0 4 * * *"
+  cron_max_schedule_duration: 4h
+  tz: America/New_York
+  max_expected_duration: 2d
+
+- scraper_name: GAOScraper
+  cron_schedule: "0 4 * * *"
+  cron_max_schedule_duration: 4h
+  tz: America/New_York
+  max_expected_duration: 2d
+
+# We kick off this scraper at 1am UTC since the data that we
+# scrape is uploaded to an S3 bucket at midnight UTC. So, we might
+# as well attempt to scrape it soon afterwards.
+- scraper_name: DearColleagueScraper
+  cron_schedule: "0 1 * * *"
+  cron_max_schedule_duration: 4h
+  tz: UTC
+  max_expected_duration: 2d
+
+# We scrape the last 90 days of data, since its not clear how long it
+# takes for a CRS report to be published until it shows up on
+# everycrsreport.com. 90 days seems like it is likely to be a safe
+# amount of time - while still allowing us to avoid scraping reports
+# that are years old.
+- scraper_name: CRSScraper
+  scraper_args: ["--scrape-limit-days", "90"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 4h
+
+- scraper_name: CommitteeTranscriptScraper
+  cron_schedule: "0 6 * * *"
+  cron_max_schedule_duration: 4h
+  tz: America/New_York
+  max_expected_duration: 2d
+
+### State Legislation Scrapers
+
+- scraper_name: AKBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 18h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: ALBillScraper
+  scraper_args: ["--sessions", "20182018r"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: AZBillScraper
+  scraper_args: ["--sessions", "20182018r", "20182018ss1"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+# According to the FAQ at https://leginfo.legislature.ca.gov/, the website
+# is updated at 4 AM and 9 PM (presumably both CA time).
+# The scraper is expected to take about 5 hours for each run. So, if it starts at
+# 9:15 PM, it will finish, generally, by 2:15 AM. However, if it takes the full 7h 45m
+# its allowed, it won't finish until 5 AM - past the 4:15 AM next start time. This
+# isn't a big deal - the scraper should kick off immediately again, and, as long
+# as it finishes by noon (7h 45m hours past 4:15 AM), we won't enter an ERROR state.
+# NOTE: We add in the extra 15 minute delay to try to make sure the site actually
+# has updated before we start scraping. We use the 7h 45m max_scheduler_duration so
+# that we can say that we expect to be fully up-to-date by noon CA time (3 PM Eastern)
+# since that is a nice, round number to report on for latency purposes.
+- scraper_name: CABillScraper
+  scraper_args: ["--sessions", "20172018r", "--concurrency", "6"]
+  cron_schedule: "15 4,21 * * *"
+  cron_max_schedule_duration: 10h
+  tz: America/Los_Angeles
+  max_expected_duration: 2d
+
+- scraper_name: COBillScraper
+  scraper_args: ["--sessions", "20182018r"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: DCBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: DEBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: FLBillScraper
+  scraper_args: ["--sessions", "20182018r", "--concurrency", "3"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: GABillScraper
+  scraper_args: ["--sessions", "20172018r", "--concurrency", "6"]
+  tz: America/New_York
+  # GA has told use that they update their site between midnight
+  # and 2am. So, we want to kick off at 2AM. Unfortunately, they
+  # start blocking us at 5am and the scraper takes much longer than
+  # 3 hours to run. So, we actually need to kick off as soon as
+  # we are allowed to in order to be able to get a full run in,
+  # even though this means that we may be scraping data just before
+  # it gets updated.
+  cron_schedule: "30 2,20 * * *"
+  cron_max_schedule_duration: 8h
+  # GA blocks us from 8PM to 5AM EST
+  blackout_periods:
+    - start: "05:00:00"
+      end: "20:00:00"
+  max_expected_duration: 2d
+
+- scraper_name: HIBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: IABillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: IDBillScraper
+  scraper_args: ["--sessions", "20182018r"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: ILBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: INBillScraper
+  scraper_args: ["--sessions", "20182018r", "20182018ss1"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: KSBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 48h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: KYBillScraper
+  scraper_args: ["--sessions", "20182018r"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: MABillScraper
+  scraper_args: ["--sessions", "20172018r", "--concurrency", "6"]
+  scheduling_period: 36h
+  # We're currently blocked on these servers
+  exclude_nodes:
+    - fn-pillar-scraper-p02.prod.fiscalnote.com
+    - fn-pillar-scraper-s02.staging.fiscalnote.com
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: MDBillScraper
+  scraper_args: ["--sessions", "20182018r"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: MEBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: MIBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: MOBillScraper
+  scraper_args: ["--sessions", "20182018r", "20182018ss1"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: MSBillScraper
+  scraper_args: ["--sessions", "20182018r", "20182018ss1"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: NCBillScraper
+  scraper_args: ["--sessions", "20172018r", "20172018ss1", "20172018ss2"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: NEBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 24h
+  ## Currently blocked on p02 and p03 servers
+  exclude_nodes:
+    - fn-pillar-scraper-p02.prod.fiscalnote.com
+    - fn-pillar-scraper-p03.prod.fiscalnote.com
+    - fn-pillar-scraper-p04.prod.fiscalnote.com
+    - fn-pillar-scraper-s02.staging.fiscalnote.com
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: NJBillScraper
+  scraper_args: ["--sessions", "20182019r"]
+  scheduling_period: 18h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: NMBillScraper
+  scraper_args: ["--sessions", "20182018r"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: NHBillScraper
+  scraper_args: ["-s", "20172018r"]
+  tz: America/New_York
+  cron_schedule: "0 21 * * *"
+  cron_max_schedule_duration: 8h
+  # NH doesn't like us scraping during the day, so,
+  # black out 6AM to 9PM
+  blackout_periods:
+    - start: "06:00:00"
+      end: "21:00:00"
+  # We're currently blocked from some servers - so,
+  # don't attempt to run on them
+  exclude_nodes:
+    - fn-pillar-scraper-p01.prod.fiscalnote.com
+  max_expected_duration: 2d
+
+- scraper_name: NYBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  exclude_nodes:
+    - fn-pillar-scraper-p01.prod.fiscalnote.com
+    - fn-pillar-scraper-p02.prod.fiscalnote.com
+    - fn-pillar-scraper-p04.prod.fiscalnote.com
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: OHBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: PABillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 12h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: RIBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 24h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: SCBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 18h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: SDBillScraper
+  scraper_args: ["--sessions", "20182018r"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: TNBillScraper
+  scraper_args: ["--sessions", "20172018r"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: UTBillScraper
+  scraper_args: ["--sessions", "20182018r", "20182018ss1"]
+  scheduling_period: 18h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: VABillScraper
+  scraper_args: ["--sessions", "20182019r", "20182019ss1", "--concurrency", "3"]
+  scheduling_period: 48h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: VTBillScraper
+  scraper_args: ["--sessions", "20172018r", "20172018ss1"]
+  scheduling_period: 36h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: WABillScraper
+  scraper_args: ["--sessions", "20172018r", "--concurrency", "3"]
+  scheduling_period: 48h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: WIBillScraper
+  scraper_args: ["--sessions", "20172018r", "20172018ss4", "20172018ss3"]
+  scheduling_period: 18h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+- scraper_name: WVBillScraper
+  scraper_args: ["--sessions", "20182018r", "20182018ss1"]
+  scheduling_period: 18h
+  max_expected_duration: 2d
+  cooldown_duration: 1h
+
+### State Regulation Scrapers
+
+- scraper_name: DCNoticeScraper
+  scheduling_period: 12h
+  max_expected_duration: 1h
+  cooldown_duration: 10h
+
+- scraper_name: MDNoticeScraper
+  scheduling_period: 12h
+  max_expected_duration: 1h
+  cooldown_duration: 10h
+
+- scraper_name: NHNoticeScraper
+  tz: America/New_York
+  cron_schedule: "0 21 * * *"
+  cron_max_schedule_duration: 8h
+  # NH doesn't like us scraping during the day, so,
+  # black out 6AM to 9PM
+  blackout_periods:
+    - start: "06:00:00"
+      end: "21:00:00"
+  # We're currently blocked from some servers - so,
+  # don't attempt to run on them
+  exclude_nodes:
+    - fn-pillar-scraper-p01.prod.fiscalnote.com
+  max_expected_duration: 2d
+
+- scraper_name: RINoticeScraper
+  # RI finishes up very quickly, around 35 mins, and the website can post
+  # notices multiple times during a day. So the scheduling setting a scheduling
+  # period of 12h with a cooldown of 5, so that it does run multiple times
+  # during a day but not too frequently.
+  scheduling_period: 12h
+  max_expected_duration: 6h
+  cooldown_duration: 5h
+
+- scraper_name: WANoticeScraper
+  scheduling_period: 12h
+  max_expected_duration: 1h
+  cooldown_duration: 10h
+
+### Event Scrapers
+
+- scraper_name: AKEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: ALEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: AREventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: AZEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: CAEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: COEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: CTEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: DCEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: DEEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: FLEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: GAEventScraper
+  tz: America/New_York
+  # GA doesn't like us scraping during the day, so,
+  # black out 5AM to 8PM
+  cron_schedule: "0 0,3,20 * * *"
+  cron_max_schedule_duration: 2h
+  blackout_periods:
+    - start: "05:00:00"
+      end: "20:00:00"
+  max_expected_duration: 2h
+
+- scraper_name: HIEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: IAEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: IDEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: ILEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: INEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: KSEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: KYEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: LAEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: MAEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: MDEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: MEEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: MIEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: MNEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: MOEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: NCEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: NDEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: NEEventScraper
+  tz: America/New_York
+  exclude_nodes:
+    - fn-pillar-scraper-p04.prod.fiscalnote.com
+    - fn-pillar-scraper-p02.prod.fiscalnote.com
+    - fn-pillar-scraper-p03.prod.fiscalnote.com
+    - fn-pillar-scraper-s02.staging.fiscalnote.com
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: NHEventScraper
+  tz: America/New_York
+  # NH doesn't like us scraping during the day, so,
+  # black out 6AM to 9PM
+  cron_schedule: "0 1,4,21 * * *"
+  cron_max_schedule_duration: 2h
+  blackout_periods:
+    - start: "06:00:00"
+      end: "21:00:00"
+  # We're currently blocked from some servers - so,
+  # don't attempt to run on them
+  exclude_nodes:
+    - fn-pillar-scraper-p01.prod.fiscalnote.com
+  max_expected_duration: 2h
+
+- scraper_name: NJEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 2h
+
+- scraper_name: NMEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: NVEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: NYEventScraper
+  tz: America/New_York
+  exclude_nodes:
+    - fn-pillar-scraper-p01.prod.fiscalnote.com
+    - fn-pillar-scraper-p02.prod.fiscalnote.com
+    - fn-pillar-scraper-p04.prod.fiscalnote.com
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: OHEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: OKEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: OREventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: PAEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: RIEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: SCEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: SDEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: TNEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: TXEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: USEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: UTEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: VAEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: VTEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: WAEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: WIEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: WVEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h
+
+- scraper_name: WYEventScraper
+  scheduling_period: 8h
+  max_expected_duration: 2h
+  cooldown_duration: 6h

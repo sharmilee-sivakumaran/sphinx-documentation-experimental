@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "colombia",
+  "description": "Colombian Legislation schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "session",
+    "source_url",
+    "source_chamber"
+  ],
+  "properties": {
+    "short_title": {
+      "type": "string"
+    },
+    "camara_id": {
+      "type": "string",
+      "description": "REQUIRED, (#)*/YYYYC"
+    },
+    "senado_id": {
+      "type": "string",
+      "description": "OPTIONAL, (#)*/YYYYS"
+    },
+    "session": {
+      "type": "string",
+      "description": "REQUIRED, YYYY-YYYY"
+    },
+    "year": {
+      "type": "integer",
+      "description": "extracted from camara_id or senado_id, as the digits between the '/' and the C or S"
+    },
+    "source_chamber": {
+      "type": "string",
+      "description": "bills scraped from the Camara website (camara.gov.co) should have value [lower]. From Senado should be [upper]",
+      "values": [
+        "lower",
+        "upper"
+      ]
+    },
+    "legislature": {
+      "type": "string",
+      "description": "From Cuatrenio - Senado-source only."
+    },
+    "bill_type": {
+      "type": "string",
+      "values": [
+        "Ley Ordinaria",
+        "Acto Legislativo",
+        "Ley Estatutuarias",
+        "Ley Organica"
+      ]
+    },
+    "source_url": {
+      "type": "string",
+      "format": "url"
+    },
+    "short_status": {
+      "type": "string",
+      "description": "Estado Actual"
+    },
+    "full_status": {
+      "type": "string",
+      "description": "Observaciones"
+    },
+    "chamber_of_origin": {
+      "type": "string",
+      "value": [
+        "lower",
+        "upper"
+      ],
+      "description": "where this bill started, NOT ALWAYS the same as source_chamber"
+    },
+    "title": {
+      "type": "string"
+    },
+    "camara_filing_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "senate_filing_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "authors": {
+      "type": "array",
+      "description": "Capital Case All Names, and split on [',' ';' 'new-line' 'H.R.' 'HR' 'H.S.' 'HS']",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "committees": {
+      "type": "array",
+      "description": "Comision",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "document_id": {
+      "description": "document service field",
+      "type": "integer"
+    },
+    "download_id": {
+      "description": "document service field",
+      "type": "integer"
+    },
+    "document_title": {
+      "description": "text of the document link",
+      "type": "string"
+    },
+    "summary": {
+      "description": "Resumen",
+      "type": "string"
+    }
+  }
+}

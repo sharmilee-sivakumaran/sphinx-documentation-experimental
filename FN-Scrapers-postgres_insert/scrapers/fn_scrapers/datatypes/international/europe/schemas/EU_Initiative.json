@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "EU Commission Initiatives schema",
+  "description": "EU Commission initiatives",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reference_id"
+  ],
+  "properties": {
+    "short_title": {
+      "type": "string"
+    },
+    "full_title": {
+      "type": "string"
+    },
+    "reference_id": {
+      "type": "string"
+    },
+    "initiative_type": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "feedback_period_start_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "feedback_period_end_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "url"
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "title": "eu commision initiative document schema",
+        "required": [
+          "document_id"
+        ],
+        "properties": {
+          "document_id": {
+            "type": "integer"
+          },
+          "download_id": {
+            "type": "integer"
+          },
+          "document_title": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "International regulation-notice schema",
+  "description": "Import schema for int'l reg notices",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "country"
+  ],
+  "properties": {
+    "country": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "notice_type": {
+      "type": "string"
+    },
+    "departments": {
+      "type": "array",
+      "description": "list of sets of departments. Depts with subdepts should be in the same top-level array, and different top-level depts should lead up their own arrays (top of hierarchy)",
+      "minItems": 1,
+      "items": {
+          "type":"object",
+          "title": "department schema",
+          "required": [
+            "department_name",
+            "department_hierarchy"
+          ],
+          "properties": {
+            "department_name": {
+              "type": "string"
+            },
+            "department_hierarchy": {
+              "type": "integer",
+              "description": "index of the heirarchy - used to nest sub-departments arbitrarily deep. Indices shoud be unique in a payload"
+          }
+        }
+      }
+    },
+    "notice_id": {
+      "type": "string"
+    },
+    "publication_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "publication_name": {
+      "type": "string"
+    },
+    "publication_issue": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "document_id": {
+      "type": "integer"
+    },
+    "download_id": {
+      "type": "integer"
+    },
+    "document_title": {
+      "type": "string"
+    }
+  }
+}

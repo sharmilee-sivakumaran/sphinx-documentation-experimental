@@ -1,0 +1,5 @@
+{
+  "client": {
+    "disable_rate_limiting": true
+  }
+}

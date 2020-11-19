@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "chile_legislation",
+  "description": "Import of Chilean Legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "registration_number",
+    "title",
+    "session"
+  ],
+  "properties": {
+    "registration_number": {
+      "type": "string"
+    },
+    "registration_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "session": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "proponent": {
+      "type": "string"
+    },
+    "sponsors": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "committees": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "title" : "ukraine committees schema",
+        "type": "object",
+        "required": [
+          "committee_name",
+          "committee_type"
+        ],
+        "properties": {
+          "committee_name": {
+            "type": "string"
+          },
+          "committee_type": {
+            "type": "string",
+            "values": [
+              "Primary",
+              "Secondary"
+            ]
+          }
+        }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "title" : "ukraine document schema",
+        "type": "object",
+        "required": [
+          "document_id",
+          "download_id"
+        ],
+        "properties": {
+          "document_id": {
+            "type": "integer"
+          },
+          "download_id": {
+            "type": "integer"
+          },
+          "document_title": {
+            "type": "string"
+          },
+          "document_type": {
+            "type": "string",
+          	"values": [
+              "Bill Text",
+              "Working Document"
+            ]
+          }
+        }
+      }
+    },
+    "status": {
+      "type": "string"
+    },
+    "actions": {
+       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "title":"ukraine action schema",
+        "properties": {
+          "action_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "action_text": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

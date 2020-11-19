@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="/rssonate/getFeed/rss.xsl" ?>
+    <rss version="2.0">
+        <channel>
+            <title>
+                <![CDATA[Proposed Rules & Regs Search]]>
+            </title>
+            <link>
+            <![CDATA[HTTP://rss.sos.ri.gov/rssonate/getFeed/?feed=getProposedByKeyword&SORT=date&KEYWORD=%25&limit_start=0&ORDER=desc&BOOLSEARCH=0&INCSUPER=0&AGENCY=ALL&limit=10&INCREPEALS=0&INCEXPIRED=0]]>
+            </link>
+            <description>
+                <![CDATA[Proposed Rules & Regulations search by keyword]]>
+            </description>
+            <webMaster>
+                <![CDATA[publicinfo@sos.ri.gov]]>
+            </webMaster>
+            <pubDate>
+                <![CDATA[Wed, 06 Jun 2018 16:36:12 -0400]]>
+            </pubDate>
+            <item>
+                <title>
+                    <![CDATA[Elevator Safety Code ]]>
+                </title>
+                <link>
+                <![CDATA[http://sos.ri.gov/documents/archives/regdocs/holding/DLT/Notice and Reg Elevators.pdf]]>
+                </link>
+                <description>
+                    <![CDATA[<B>ERLID Number</B>: 9939
+<BR><B>Agency</B>: Labor and Training, Department of, <i>Occupational Safety Division</i>
+<BR><B>Type of Filing</B>:Amendment 
+<BR><B>Comment period ends</B>: 07/06/2018
+
+<BR><B>Status</B>: Proposed<br>  Supersedes  
+ <A HREF="http://sos.ri.gov/rules/index.php?page=details&erlid=6713">6713</A>  <br> | |  <A HREF="http://sos.ri.gov/documents/archives/regdocs/released/pdf/DLT/Notice and Reg Elevators.pdf">View Regulation</A> | 
+<BR><BR>
+<BR></p>]]>
+                </description>
+                <author>
+                    <![CDATA[publicinfo@sos.ri.gov]]>
+                </author>
+                <pubDate>
+                    <![CDATA[2018-06-06 13:44:30]]>
+                </pubDate>
+            </item>
+            <item>
+                <title>
+                    <![CDATA[Health Professional Loan Repayment Program (216-RICR-20-15-1) ]]>
+                </title>
+                <link>
+                <![CDATA[http://sos.ri.gov/documents/archives/regdocs/holding/DOH/2018.06.06_HPLR_PC_Notice_FULL.pdf]]>
+                </link>
+                <description>
+                    <![CDATA[<B>ERLID Number</B>: 9938
+<BR><B>Agency</B>: Health, Department of <i></i>
+<BR><B>Type of Filing</B>:Amendment 
+<BR><B>Comment period ends</B>: 07/09/2018
+
+<BR><B>Status</B>: Proposed<br>  Supersedes  
+ <A HREF="http://sos.ri.gov/rules/index.php?page=details&erlid=154">154</A>  <br> | |  <A HREF="http://sos.ri.gov/documents/archives/regdocs/released/pdf/DOH/2018.06.06_HPLR_PC_Notice_FULL.pdf">View Regulation</A> | 
+<BR><BR>
+<BR></p>]]>
+                </description>
+                <author>
+                    <![CDATA[publicinfo@sos.ri.gov]]>
+                </author>
+                <pubDate>
+                    <![CDATA[2018-06-06 11:10:38]]>
+                </pubDate>
+            </item>
+        </channel>
+    </rss>

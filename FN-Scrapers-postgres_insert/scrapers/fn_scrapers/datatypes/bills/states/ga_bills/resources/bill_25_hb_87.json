@@ -1,0 +1,315 @@
+{
+    "ActVetoNumber": "47",
+    "Authors": [
+        {
+            "Id": 172217,
+            "MemberDescription": "Raffensperger, Brad 50th",
+            "MemberId": 875,
+            "Sequence": 1,
+            "Type": 5
+        },
+        {
+            "Id": 172229,
+            "MemberDescription": "Williamson, Bruce 115th",
+            "MemberId": 778,
+            "Sequence": 2,
+            "Type": 5
+        },
+        {
+            "Id": 172219,
+            "MemberDescription": "Welch, Andrew 110th",
+            "MemberId": 777,
+            "Sequence": 3,
+            "Type": 5
+        },
+        {
+            "Id": 172220,
+            "MemberDescription": "Golick, Rich 40th",
+            "MemberId": 112,
+            "Sequence": 4,
+            "Type": 5
+        },
+        {
+            "Id": 172221,
+            "MemberDescription": "Petrea, Jesse 166th",
+            "MemberId": 862,
+            "Sequence": 5,
+            "Type": 5
+        },
+        {
+            "Id": 172222,
+            "MemberDescription": "Kirby, Tom 114th",
+            "MemberId": 802,
+            "Sequence": 6,
+            "Type": 5
+        }
+    ],
+    "Caption": "Corporations, partnerships, and associations; multiple-year registrations for certain types of business organizations; provide",
+    "Committees": [
+        {
+            "Code": "SBD",
+            "Id": 181,
+            "Name": "Small Business Development",
+            "Type": 2
+        },
+        {
+            "Code": "ED&T",
+            "Id": 165,
+            "Name": "Economic Development and Tourism",
+            "Type": 3
+        }
+    ],
+    "DocumentType": 4,
+    "Id": 49773,
+    "LatestVersion": {
+        "Description": "HB 87/AP*",
+        "Id": 170630,
+        "LegislationId": 49773,
+        "Url": "http://www.legis.ga.gov/Legislation/20172018/170630.pdf",
+        "Version": 5
+    },
+    "LegislationType": 1,
+    "Number": 87,
+    "Session": {
+        "IsDefault": true,
+        "Id": 25,
+        "Description": "2017-2018 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20172018/"
+    },
+    "Status": {
+        "Code": "HDSG",
+        "Date": "/Date(1493668075000-0400)/",
+        "Description": "House Date Signed by Governor ",
+        "Id": 110,
+        "AmSub": null,
+        "StatusListingId": 236390
+    },
+    "Suffix": "",
+    "Footnotes": "",
+    "Sponsor": {
+        "Id": 181797,
+        "MemberDescription": "Tillery, Blake 19th",
+        "MemberId": 4908,
+        "Sequence": 7,
+        "Type": 3
+    },
+    "StatusHistory": [
+        {
+            "Code": "EFF",
+            "Date": "/Date(1498967999000-0400)/",
+            "Description": "Effective Date",
+            "Id": -2,
+            "AmSub": null,
+            "StatusListingId": 0
+        },
+        {
+            "Code": "Signed Gov",
+            "Date": "/Date(1493697599000-0400)/",
+            "Description": "Act 47",
+            "Id": -1,
+            "AmSub": null,
+            "StatusListingId": 0
+        },
+        {
+            "Code": "HDSG",
+            "Date": "/Date(1493668075000-0400)/",
+            "Description": "House Date Signed by Governor ",
+            "Id": 110,
+            "AmSub": null,
+            "StatusListingId": 236390
+        },
+        {
+            "Code": "HSG",
+            "Date": "/Date(1491423651000-0400)/",
+            "Description": "House Sent to Governor ",
+            "Id": 109,
+            "AmSub": null,
+            "StatusListingId": 236255
+        },
+        {
+            "Code": "HASAS",
+            "Date": "/Date(1490928793000-0400)/",
+            "Description": "House Agreed Senate Amend or Sub",
+            "Id": 57,
+            "AmSub": null,
+            "StatusListingId": 235874
+        },
+        {
+            "Code": "SPA",
+            "Date": "/Date(1490734787000-0400)/",
+            "Description": "Senate Passed/Adopted By Substitute",
+            "Id": 99,
+            "AmSub": "CS",
+            "StatusListingId": 235107
+        },
+        {
+            "Code": "STR",
+            "Date": "/Date(1490734537000-0400)/",
+            "Description": "Senate Third Read",
+            "Id": 11,
+            "AmSub": null,
+            "StatusListingId": 235103
+        },
+        {
+            "Code": "S2R",
+            "Date": "/Date(1489674461000-0400)/",
+            "Description": "Senate Read Second Time",
+            "Id": 10,
+            "AmSub": null,
+            "StatusListingId": 233421
+        },
+        {
+            "Code": "SCFR",
+            "Date": "/Date(1489585764000-0400)/",
+            "Description": "Senate Committee Favorably Reported  By Substitute",
+            "Id": 8,
+            "AmSub": "Sub",
+            "StatusListingId": 233166
+        },
+        {
+            "Code": "SRAR",
+            "Date": "/Date(1488380044000-0500)/",
+            "Description": "Senate Read and Referred",
+            "Id": 3,
+            "AmSub": null,
+            "StatusListingId": 231242
+        },
+        {
+            "Code": "HPA",
+            "Date": "/Date(1488308738000-0500)/",
+            "Description": "House Passed/Adopted",
+            "Id": 100,
+            "AmSub": null,
+            "StatusListingId": 231140
+        },
+        {
+            "Code": "HTR",
+            "Date": "/Date(1488308706000-0500)/",
+            "Description": "House Third Readers",
+            "Id": 35,
+            "AmSub": null,
+            "StatusListingId": 231139
+        },
+        {
+            "Code": "HCFR",
+            "Date": "/Date(1487861947000-0500)/",
+            "Description": "House Committee Favorably Reported",
+            "Id": 39,
+            "AmSub": "",
+            "StatusListingId": 230137
+        },
+        {
+            "Code": "HSR",
+            "Date": "/Date(1485357238000-0500)/",
+            "Description": "House Second Readers",
+            "Id": 34,
+            "AmSub": null,
+            "StatusListingId": 226614
+        },
+        {
+            "Code": "HFR",
+            "Date": "/Date(1485273688000-0500)/",
+            "Description": "House First Readers",
+            "Id": 33,
+            "AmSub": null,
+            "StatusListingId": 226348
+        },
+        {
+            "Code": "HH",
+            "Date": "/Date(1485198228000-0500)/",
+            "Description": "House Hopper",
+            "Id": 40,
+            "AmSub": null,
+            "StatusListingId": 226251
+        }
+    ],
+    "Summary": "A BILL to be entitled an Act to amend Title 14 of the Official Code of Georgia Annotated, relating to corporations, partnerships, and associations, so as to provide for multiple-year registrations for certain types of business organizations; to provide for the adoption of rules and regulations by the Secretary of State as necessary to implement such a multiple-year registration process; to provide for related matters; to repeal conflicting laws; and for other purposes. ",
+    "Versions": [
+        {
+            "Description": "HB 87/AP*",
+            "Id": 170630,
+            "LegislationId": 49773,
+            "Url": "http://www.legis.ga.gov/Legislation/20172018/170630.pdf",
+            "Version": 5
+        },
+        {
+            "Description": "Sen ctee sub LC 36 3382S",
+            "Id": 168439,
+            "LegislationId": 49773,
+            "Url": "http://www.legis.ga.gov/Legislation/20172018/168439.pdf",
+            "Version": 4
+        },
+        {
+            "Description": "LC 36 3107/a",
+            "Id": 163121,
+            "LegislationId": 49773,
+            "Url": "http://www.legis.ga.gov/Legislation/20172018/163121.pdf",
+            "Version": 2
+        }
+    ],
+    "Votes": [
+        {
+            "Branch": 0,
+            "Caption": "PASSAGE",
+            "Date": "/Date(1488307440000-0500)/",
+            "Day": "2/28/2017",
+            "Description": "House Vote #141",
+            "Excused": 6,
+            "Legislation": "HB 87",
+            "Nays": 3,
+            "NotVoting": 4,
+            "Number": 141,
+            "Session": {
+                "IsDefault": true,
+                "Id": 25,
+                "Description": "2017-2018 Regular Session",
+                "Library": "http://www.legis.ga.gov/Legislation/20172018/"
+            },
+            "Time": "1:44 PM",
+            "VoteId": 14945,
+            "Yeas": 167
+        },
+        {
+            "Branch": 1,
+            "Caption": "PASSAGE BY SUBSTITUTE",
+            "Date": "/Date(1490734620000-0400)/",
+            "Day": "3/28/2017",
+            "Description": "Senate Vote #267",
+            "Excused": 1,
+            "Legislation": "HB 87",
+            "Nays": 0,
+            "NotVoting": 2,
+            "Number": 267,
+            "Session": {
+                "IsDefault": true,
+                "Id": 25,
+                "Description": "2017-2018 Regular Session",
+                "Library": "http://www.legis.ga.gov/Legislation/20172018/"
+            },
+            "Time": "4:57 PM",
+            "VoteId": 15337,
+            "Yeas": 52
+        },
+        {
+            "Branch": 0,
+            "Caption": "Agree Sen Sub",
+            "Date": "/Date(1490928540000-0400)/",
+            "Day": "3/30/2017",
+            "Description": "House Vote #418",
+            "Excused": 10,
+            "Legislation": "HB 87",
+            "Nays": 4,
+            "NotVoting": 20,
+            "Number": 418,
+            "Session": {
+                "IsDefault": true,
+                "Id": 25,
+                "Description": "2017-2018 Regular Session",
+                "Library": "http://www.legis.ga.gov/Legislation/20172018/"
+            },
+            "Time": "10:49 PM",
+            "VoteId": 15419,
+            "Yeas": 146
+        }
+    ]
+}

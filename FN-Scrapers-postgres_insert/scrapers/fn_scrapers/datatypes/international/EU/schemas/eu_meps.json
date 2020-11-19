@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "EU MEP schema",
+  "description": "Import schema for EU Members of Parliament",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "last_name",
+      "country"
+    ],
+    "properties": {
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string",
+        "description": "Convert from ALL CAPS to Standard Casing"
+      },
+      "country": {
+        "type": "string"
+      },
+      "date_of_birth": {
+        "type": "string",
+        "format": "date"
+      },
+      "place_of_birth": {
+        "type": "string"
+      },
+      "photograph_download_id": {
+        "type": "integer",
+        "description": "download_id for the photograph"
+      },
+      "eu_party": {
+        "type": "string"
+      },
+      "eu_party_role": {
+        "type": "string"
+      },
+      "national_party": {
+        "type": "string"
+      },
+      "committee_delegation_memberships": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "comm_del_name",
+            "comm_del_role"
+          ],
+          "properties": {
+            "comm_del_name": {
+              "type": "string",
+              "description": "name of the committee/delegation"
+            },
+            "comm_del_role": {
+              "type": "string",
+              "values": [
+                "Member",
+                "Substitute",
+                "Vice-Chair",
+                "Chair"
+              ]
+            }
+          }
+        }
+      },
+      "contact_email": {
+        "type": "string"
+      },
+      "contact_website": {
+        "type": "string"
+      },
+      "contact_facebook": {
+        "type": "string"
+      },
+      "contact_twitter": {
+        "type": "string"
+      },
+      "addresses": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "address_type": {
+              "type": "string"
+            },
+            "address": {
+              "type": "object",
+              "required": [
+                "street",
+                "city"
+              ],
+              "properties": {
+                "building": {
+                  "type": "string"
+                },
+                "office": {
+                  "type": "string"
+                },
+                "street": {
+                  "type": "string"
+                },
+                "postal_code": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                }
+              }
+            },
+            "phone_information": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "phone_type",
+                  "phone_number"
+                ],
+                "properties": {
+                  "phone_type": {
+                    "type": "string",
+                    "values": [
+                      "phone",
+                      "fax"
+                    ]
+                  },
+                  "phone_number": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "source_url": {
+        "type": "string"
+      }
+    }
+  }
+}

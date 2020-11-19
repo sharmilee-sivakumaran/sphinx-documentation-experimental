@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Switzerland legislation schema",
+  "description": "Import schema for Switzerland legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bill_id",
+    "bill_short_id",
+    "source_language",
+    "session",
+    "bill_type",
+    "title"
+  ],
+  "properties": {
+    "bill_id": {
+      "type": "integer",
+      "description": "REQUIRED, unique identifier. comes from 'affair_id'"
+    },
+    "bill_short_id": {
+      "type": "string",
+      "description": "REQUIRED, comes from 'affair_short_id'"
+    },
+    "source_language": {
+      "type": "string",
+      "enum": [
+        "fr",
+        "de",
+        "it"
+      ],
+      "description": "REQUIRED, Language the scraped source came from"
+    },
+    "bill_type": {
+      "type": "string",
+      "description": "REQUIRED, comes from affair_type"
+    },
+    "title": {
+      "type": "string",
+      "description": "REQUIRED"
+    },
+    "introduction_date": {
+      "type": "string",
+      "format": "date",
+      "description": "REQUIRED, comes from 'deposit_date'"
+    },
+    "introduction_council": {
+      "type": "string",
+      "description": "comes from deposit_council"
+    },
+    "session": {
+      "type": "string",
+      "description": "REQUIRED. Comes from 'deposit_session'"
+    },
+    "current_status": {
+      "type": "string",
+      "description": "REQUIRED. Comes from 'status'"
+    },
+    "author": {
+      "type": "object",
+      "description": "information about the primary author",
+      "additionalProperties": false,
+      "properties": {
+        "author_type": {
+          "type": "string"
+        },
+        "author_id": {
+          "type": "integer"
+        },
+        "author_name": {
+          "type": "string"
+        }
+      }
+    },
+    "last_updated_date": {
+      "type": "string",
+      "format": "date",
+      "description": "REQUIRED, from 'updated_date"
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "document_type": {
+            "type": "string"
+          },
+          "document_id": {
+            "type": "integer",
+            "description": "ID of the document, from the document service. May include HTML. may be long"
+          },
+          "download_id": {
+            "type": "integer",
+            "description": "download_id, from the document service"
+          }
+        }
+      }
+    },
+    "source_url": {
+      "type": "string",
+      "description": "Bill page URL. See ticket description for formatting."
+    }
+  }
+}

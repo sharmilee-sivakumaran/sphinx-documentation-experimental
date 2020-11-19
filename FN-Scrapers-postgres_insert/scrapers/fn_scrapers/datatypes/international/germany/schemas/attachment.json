@@ -1,0 +1,24 @@
+{
+      "description": "document-related fields, including document service memebers",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_title",
+        "document_id",
+        "download_id"
+      ],
+      "properties": {
+        "document_title": {
+          "description": "title of the downloaded document",
+          "type": "string"
+        },
+        "document_id": {
+          "description": "document service field",
+          "type": "integer"
+        },
+        "download_id": {
+          "description": "document service field",
+          "type": "integer"
+        }
+      }
+    }

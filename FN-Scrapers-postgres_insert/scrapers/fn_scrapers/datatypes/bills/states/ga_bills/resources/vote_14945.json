@@ -1,0 +1,1292 @@
+{
+    "Branch": 0,
+    "Caption": "PASSAGE",
+    "Date": "/Date(1488307440000-0500)/",
+    "Day": "February 28, 2017",
+    "Description": "House Vote #141 - 2017-2018 Regular Session",
+    "Excused": 6,
+    "Legislation": [
+        {
+            "Description": "HB 87",
+            "LegislationId": 49773,
+            "Library": "http://www.legis.ga.gov/Legislation/20172018/",
+            "SessionId": 25,
+            "VoteId": 14945
+        }
+    ],
+    "Nays": 3,
+    "NotVoting": 4,
+    "Number": 141,
+    "Session": {
+        "IsDefault": true,
+        "Id": 25,
+        "Description": "2017-2018 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20172018/"
+    },
+    "Tag": "hv0141",
+    "Time": "1:44 PM",
+    "VoteId": 14945,
+    "Votes": [
+        {
+            "Member": {
+                "Id": 58,
+                "Name": "ABRAMS, 89TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 806,
+                "Name": "ALEXANDER, 66TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 808,
+                "Name": "BALLINGER, 23RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 809,
+                "Name": "BARR, 103RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 734,
+                "Name": "BATTLES, 15TH"
+            },
+            "MemberVoted": 2
+        },
+        {
+            "Member": {
+                "Id": 4890,
+                "Name": "BAZEMORE, 63RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 63,
+                "Name": "BEASLEY-TEAGUE, 65TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 866,
+                "Name": "BELTON, 112TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 810,
+                "Name": "BENNETT, 94TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 811,
+                "Name": "BENTLEY, 139TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 65,
+                "Name": "BENTON, 31ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 857,
+                "Name": "BESKIN, 54TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 793,
+                "Name": "BEVERLY, 143RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 1878,
+                "Name": "BLACKMON, 146TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4889,
+                "Name": "BODDIE, 62ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4893,
+                "Name": "BONNER, 72ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 812,
+                "Name": "BROADRICK, 4TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 773,
+                "Name": "BROCKWAY, 102ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 69,
+                "Name": "BRUCE, 61ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 71,
+                "Name": "BUCKNER, 137TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4895,
+                "Name": "BURNOUGH, 77TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 73,
+                "Name": "BURNS, 159TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 814,
+                "Name": "CALDWELL, 20TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 813,
+                "Name": "CALDWELL, JR., 131ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4880,
+                "Name": "CANNON, 58TH"
+            },
+            "MemberVoted": 1
+        },
+        {
+            "Member": {
+                "Id": 870,
+                "Name": "CANTRELL, 22ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 795,
+                "Name": "CARSON, 46TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 3877,
+                "Name": "CARTER, 92ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 76,
+                "Name": "CARTER, 175TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 78,
+                "Name": "CASAS, 107TH"
+            },
+            "MemberVoted": 2
+        },
+        {
+            "Member": {
+                "Id": 815,
+                "Name": "CHANDLER, 105TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 867,
+                "Name": "CLARK, 98TH"
+            },
+            "MemberVoted": 3
+        },
+        {
+            "Member": {
+                "Id": 858,
+                "Name": "CLARK, 147TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 84,
+                "Name": "COLEMAN, 97TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4892,
+                "Name": "COLLINS, 68TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 757,
+                "Name": "COOKE, 18TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 756,
+                "Name": "COOMER, 14TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 86,
+                "Name": "COOPER, 43RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 859,
+                "Name": "CORBETT, 174TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 87,
+                "Name": "COX, 108TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 816,
+                "Name": "DEFFENBAUGH, 1ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 92,
+                "Name": "DEMPSEY, 13TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 771,
+                "Name": "DICKERSON, 113TH"
+            },
+            "MemberVoted": 1
+        },
+        {
+            "Member": {
+                "Id": 791,
+                "Name": "DICKEY, 140TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 94,
+                "Name": "DOLLAR, 45TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 817,
+                "Name": "DOUGLAS, 78TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 95,
+                "Name": "DRENNER, 85TH"
+            },
+            "MemberVoted": 2
+        },
+        {
+            "Member": {
+                "Id": 4888,
+                "Name": "DREYER, 59TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4886,
+                "Name": "DUBNIK, 29TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 96,
+                "Name": "DUKES, 154TH"
+            },
+            "MemberVoted": 1
+        },
+        {
+            "Member": {
+                "Id": 797,
+                "Name": "DUNAHOO, 30TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 818,
+                "Name": "DUNCAN, 26TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 864,
+                "Name": "EALUM, 153RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 846,
+                "Name": "EFSTRATION, 104TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 97,
+                "Name": "EHRHART, 36TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 98,
+                "Name": "ENGLAND, 116TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 733,
+                "Name": "EPPS, 144TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 762,
+                "Name": "EVANS, 42ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 101,
+                "Name": "FLEMING, 121ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 107,
+                "Name": "FRAZIER, 126TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 819,
+                "Name": "FRYE, 118TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 109,
+                "Name": "GARDNER, 57TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 820,
+                "Name": "GASAWAY, 28TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4881,
+                "Name": "GILLIARD, 162ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 879,
+                "Name": "GILLIGAN, 24TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 111,
+                "Name": "GLANTON, 75TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 112,
+                "Name": "GOLICK, 40TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 113,
+                "Name": "GORDON, 163RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 821,
+                "Name": "GRAVLEY, 67TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 115,
+                "Name": "GREENE, 151ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4884,
+                "Name": "GURTLER, 8TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4896,
+                "Name": "HANSON, 80TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 724,
+                "Name": "HARDEN, 148TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 776,
+                "Name": "HARRELL, 106TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 781,
+                "Name": "HATCHETT, 150TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 19,
+                "Name": "HAWKINS, 27TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 124,
+                "Name": "HENSON, 86TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4882,
+                "Name": "HILL, 3RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4899,
+                "Name": "HILTON, 95TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 823,
+                "Name": "HITCHENS, 161ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4906,
+                "Name": "HOGAN, 179TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 769,
+                "Name": "HOLCOMB, 81ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 780,
+                "Name": "HOLMES, 129TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 130,
+                "Name": "HOUSTON, 170TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 131,
+                "Name": "HOWARD, 124TH"
+            },
+            "MemberVoted": 2
+        },
+        {
+            "Member": {
+                "Id": 133,
+                "Name": "HUGLEY, 136TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4891,
+                "Name": "JACKSON, 64TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 738,
+                "Name": "JACKSON, 128TH"
+            },
+            "MemberVoted": 2
+        },
+        {
+            "Member": {
+                "Id": 755,
+                "Name": "JASPERSE, 11TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4885,
+                "Name": "JONES, 25TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 142,
+                "Name": "JONES, 47TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 143,
+                "Name": "JONES, 53RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4898,
+                "Name": "JONES, 91ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 861,
+                "Name": "JONES, 167TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 825,
+                "Name": "KELLEY, 16TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 770,
+                "Name": "KENDRICK, 93RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 802,
+                "Name": "KIRBY, 114TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 148,
+                "Name": "KNIGHT, 130TH"
+            },
+            "MemberVoted": 3
+        },
+        {
+            "Member": {
+                "Id": 860,
+                "Name": "LARICCIA, 169TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4900,
+                "Name": "LOPEZ, 99TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4879,
+                "Name": "LOTT, 122ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 826,
+                "Name": "LUMSDEN, 12TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 163,
+                "Name": "MARIN, 96TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 164,
+                "Name": "MARTIN, 49TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4894,
+                "Name": "MATHIAK, 73RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 165,
+                "Name": "MAXWELL, 17TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 167,
+                "Name": "MCCALL, 33RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 845,
+                "Name": "MCCLAIN, 100TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4904,
+                "Name": "MCGOWAN, 138TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 169,
+                "Name": "MEADOWS, 5TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 878,
+                "Name": "METZE, 55TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 172,
+                "Name": "MITCHELL, 88TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 174,
+                "Name": "MORRIS, 156TH"
+            },
+            "MemberVoted": 2
+        },
+        {
+            "Member": {
+                "Id": 175,
+                "Name": "MOSBY, 83RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4903,
+                "Name": "NELSON, 125TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4902,
+                "Name": "NEWTON, 123RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 790,
+                "Name": "NIMMER, 178TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 179,
+                "Name": "NIX, 69TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 181,
+                "Name": "OLIVER, 82ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 794,
+                "Name": "PARIS, 142ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4901,
+                "Name": "PARK, 101ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 183,
+                "Name": "PARRISH, 158TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 184,
+                "Name": "PARSONS, 44TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 185,
+                "Name": "PEAKE, 141ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 862,
+                "Name": "PETREA, 166TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 828,
+                "Name": "PEZOLD, 133RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 1877,
+                "Name": "PIRKLE, 155TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 187,
+                "Name": "POWELL, 32ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 728,
+                "Name": "POWELL, 171ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 877,
+                "Name": "PRICE, 48TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 847,
+                "Name": "PRINCE, 127TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 188,
+                "Name": "PRUETT, 149TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 829,
+                "Name": "QUICK, 117TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 875,
+                "Name": "RAFFENSPERGER, 50TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 874,
+                "Name": "RAKESTRAW, 19TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 189,
+                "Name": "RALSTON, 7TH"
+            },
+            "MemberVoted": 3
+        },
+        {
+            "Member": {
+                "Id": 869,
+                "Name": "REEVES, 34TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 876,
+                "Name": "RHODES, 120TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4883,
+                "Name": "RIDLEY, 6TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 796,
+                "Name": "ROGERS, 10TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 830,
+                "Name": "RUTLEDGE, 109TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 198,
+                "Name": "RYNDERS, 152ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 766,
+                "Name": "SCOTT, 76TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 203,
+                "Name": "SETZLER, 35TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4897,
+                "Name": "SHANNON, 84TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 831,
+                "Name": "SHARPER, 177TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 787,
+                "Name": "SHAW, 176TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4887,
+                "Name": "SILCOX, 52ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 832,
+                "Name": "SMITH, 41ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 212,
+                "Name": "SMITH, 70TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 213,
+                "Name": "SMITH, 134TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 216,
+                "Name": "SMYRE, 135TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 789,
+                "Name": "SPENCER, 180TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 219,
+                "Name": "STEPHENS, 164TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 743,
+                "Name": "STEPHENS, 165TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 220,
+                "Name": "STEPHENSON, 90TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 834,
+                "Name": "STOVALL, 74TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 843,
+                "Name": "STOVER, 71ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 835,
+                "Name": "STRICKLAND, 111TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 783,
+                "Name": "TANKERSLEY, 160TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 836,
+                "Name": "TANNER, 9TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 849,
+                "Name": "TARVIN, 2ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 767,
+                "Name": "TAYLOR, 79TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 786,
+                "Name": "TAYLOR, 173RD"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 761,
+                "Name": "TEASLEY, 37TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 868,
+                "Name": "THOMAS, 39TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 224,
+                "Name": "THOMAS, 56TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 865,
+                "Name": "TRAMMELL, 132ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 842,
+                "Name": "TURNER, 21ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 801,
+                "Name": "WAITES, 60TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 837,
+                "Name": "WATSON, 172ND"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 777,
+                "Name": "WELCH, 110TH"
+            },
+            "MemberVoted": 3
+        },
+        {
+            "Member": {
+                "Id": 863,
+                "Name": "WERKHEISER, 157TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 760,
+                "Name": "WILKERSON, 38TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 229,
+                "Name": "WILLARD, 51ST"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 231,
+                "Name": "WILLIAMS, 87TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 792,
+                "Name": "WILLIAMS, 119TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 4905,
+                "Name": "WILLIAMS, 145TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 230,
+                "Name": "WILLIAMS, 168TH"
+            },
+            "MemberVoted": 0
+        },
+        {
+            "Member": {
+                "Id": 778,
+                "Name": "WILLIAMSON, 115TH"
+            },
+            "MemberVoted": 0
+        }
+    ],
+    "Yeas": 167
+}

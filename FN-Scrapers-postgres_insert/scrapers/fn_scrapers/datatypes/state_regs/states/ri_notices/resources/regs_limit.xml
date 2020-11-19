@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="/rssonate/getFeed/rss.xsl" ?>
+    <rss version="2.0">
+        <channel>
+            <title>
+                <![CDATA[Final Rules & Regs Search]]>
+            </title>
+            <link>
+            <![CDATA[HTTP://rss.sec.state.ri.us/rssonate/getFeed/?feed=getRegsByKeyword&SORT=date&KEYWORD=%25&limit_start=0&ORDER=desc&BOOLSEARCH=0&INCSUPER=0&AGENCY=ALL&limit=10&INCREPEALS=0&INCEXPIRED=0]]>
+            </link>
+            <description>
+                <![CDATA[Final Rules & Regulations search by keyword]]>
+            </description>
+            <webMaster>
+                <![CDATA[publicinfo@sos.ri.gov]]>
+            </webMaster>
+            <pubDate>
+                <![CDATA[Wed, 06 Jun 2018 16:34:37 -0400]]>
+            </pubDate>
+            <item>
+                <title>
+                    <![CDATA[State Wide Permitting Fee (510-RICR-00-00-21) ]]>
+                </title>
+                <link>
+                <![CDATA[http://sos.ri.gov/documents/archives/regdocs/released/pdf/BCSC/8940.pdf]]>
+                </link>
+                <description>
+                    <![CDATA[<B>ERLID Number</B>: 8940
+<BR><B>Agency</B>: Building Code Standards Committee <i></i>
+<BR><B>Type of Filing</B>:Adoption 
+
+<BR><B>Effective date</B>:07/01/2018
+<BR><B>Status</B>: Filed     <BR><A HREF="http://sos.ri.gov/dar_filing/getpdf.php/ERLID8940" target="_blank" >View Filing Form</A> | <A HREF="http://sos.ri.gov/documents/archives/regdocs/released/pdf/BCSC/8940.pdf">View Regulation</A> | <a href="http://sos.ri.gov/rules/index.php?page=details&erlid=8940">View Details</a>
+<BR><BR>
+<BR></p>]]>
+                </description>
+                <author>
+                    <![CDATA[publicinfo@sos.ri.gov]]>
+                </author>
+                <pubDate>
+                    <![CDATA[2018-04-17 09:07:25]]>
+                </pubDate>
+            </item>
+            <item>
+                <title>
+                    <![CDATA[Rhode Island Pretreatment Regulations (250-RICR-150-10-2) ]]>
+                </title>
+                <link>
+                <![CDATA[http://sos.ri.gov/documents/archives/regdocs/released/pdf/DEM/9801.pdf]]>
+                </link>
+                <description>
+                    <![CDATA[<B>ERLID Number</B>: 9801
+<BR><B>Agency</B>: Environmental Management, Department of, <i>Water Resources</i>
+<BR><B>Type of Filing</B>:Amendment 
+
+<BR><B>Effective date</B>:06/25/2018
+<BR><B>Status</B>: Filed  <br>Supersedes  
+ <A HREF="http://sos.ri.gov/rules/index.php?page=details&erlid=959">959</A>  <BR><A HREF="http://sos.ri.gov/dar_filing/getpdf.php/ERLID9801" target="_blank" >View Filing Form</A> | <A HREF="http://sos.ri.gov/documents/archives/regdocs/released/pdf/DEM/9801.pdf">View Regulation</A> | <a href="http://sos.ri.gov/rules/index.php?page=details&erlid=9801">View Details</a>
+<BR><BR>
+<BR></p>]]>
+                </description>
+                <author>
+                    <![CDATA[publicinfo@sos.ri.gov]]>
+                </author>
+                <pubDate>
+                    <![CDATA[2018-06-05 11:01:15]]>
+                </pubDate>
+            </item>
+        </channel>
+    </rss>

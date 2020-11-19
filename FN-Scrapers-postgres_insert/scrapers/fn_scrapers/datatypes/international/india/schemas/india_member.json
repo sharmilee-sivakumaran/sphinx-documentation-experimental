@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "India member introduced legislation sub schema",
+  "description": "Import schema for Indian private member's legislation",
+  "type": "object",
+  "required": ["members"],
+  "properties": {
+    "members": {
+      "type": "array",
+      "items": {
+        "name": {
+          "type": "string"
+        },
+        "member_status": {
+          "type": "string"
+        }
+      }
+    },
+    "referred_to_committee_dates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "format": "date"
+      }
+    }
+  }
+}

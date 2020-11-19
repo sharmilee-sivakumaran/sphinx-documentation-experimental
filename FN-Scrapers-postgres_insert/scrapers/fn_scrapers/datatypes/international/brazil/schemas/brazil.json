@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Brazil Bill Schema",
+  "description": "brazil parliament data import",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "external_id",
+    "proposal_name",
+    "bill_type",
+    "chamber_of_origin"
+  ],
+  "properties": {
+    "external_id": {
+      "type": "integer",
+      "description": "REQUIRED, ID da proposição (Camara) or CodigoMateria (Senado)"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Ano (Camara), or AnoMateria (Senado)"
+    },
+    "proposal_name": {
+      "type": "string",
+      "description": "REQUIRED, Nome da proposição (Camara) or constructed from SiglaSubtipoMateria+NumeroMateria+AnoMateria, removing leading 0s (Senado)"
+    },
+    "submission_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Data de apresentação da proposição (Camara) or DataApresentacao (Senado)"
+    },
+    "proposal_summary": {
+      "type": "string",
+      "description": "txtEmenta (Camara) or EmentaMateria (Senado)"
+    },
+    "author_name": {
+      "type": "string",
+      "description": "txtNomeAutor of autor1 (Camara) or NomeAutor of AutorPrincipal (Senado)"
+    },
+    "last_action_date": {
+      "type": "string",
+      "format": "date",
+      "description": "OPTIONAL, txtDespacho of ultimoDespacho [date only] (Camara) or DataSituacao (Senado)"
+    },
+    "last_action": {
+      "type": "string",
+      "description": "txtDespach of ultimoDespacho (Camara) or DescricaoSituacao (Senado)"
+    },
+    "current_status": {
+      "type": "string",
+      "description": "descricao of situacao (Camara) or DescricaoSituacao (Senado) (duplicated from last_action)"
+    },
+    "documents": {
+      "type": "array",
+      "description": "single document for Camara (INT-9), possibly multiple for Senado (INT-51)",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "Brazil Bill Document Schema",
+        "required": [
+          "document_id",
+          "download_id",
+          "title"
+        ],
+        "properties": {
+          "document_url": {
+            "type": "string",
+            "description": "url for the associated document, forLinkInteiroTeor"
+          },
+          "document_id": {
+            "type": "integer"
+          },
+          "download_id": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "bill_type": {
+      "type": "string",
+      "minLength": 2,
+      "description": "REQUIRED, 2 or 3 letter acronym. MAY NOT BE THE SEARCHED PARAM for Senado"
+    },
+    "chamber_of_origin": {
+      "type": "string",
+      "enum": [
+        "upper",
+        "lower",
+        "joint"
+      ],
+      "description": "derived from the bill_type, see respective tickets"
+    },
+    "bill_page_url": {
+      "type": "string",
+      "description": "constructed link, in the style of 'http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=' + proposalID"
+    },
+    "source_chamber": {
+      "type": "string",
+      "enum": [
+        "lower",
+        "upper"
+      ],
+      "description": "API scraped to get this payload - lower for the Camara API, upper for the Senado API"
+    }
+  }
+}

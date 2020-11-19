@@ -1,0 +1,166 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "EU Legislative Procedure schema",
+  "description": "EU LP Information",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "procedure_code",
+    "title",
+    "procedure_type"
+  ],
+  "properties": {
+    "procedure_code": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "procedure_type": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "lp_file_type": {
+      "type": "string",
+      "description": "use only the most recent type"
+    },
+    "adoption_by_commission": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "adoption_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "leading_person": {
+          "type": "string",
+          "description": "capital-case last name"
+        },
+        "leading_service": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "addressee_for_formal_act": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "addressee_for_information": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "addressee_for_mandatory_consultation": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "addressee_for_optional_consultation": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "celexes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "stages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "title": {
+            "type": "string"
+          },
+          "chamber": {
+            "type": "string",
+            "values": [
+              "European Parliament",
+              "European Council",
+              "European Commission",
+              "Economic and Social Committee",
+              "European Committee of the Regions"
+            ]
+          }
+        }
+      }
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "for the entire legislative procedure"
+    },
+    "adopted_act_celex": {
+      "type": "string"
+    },
+    "legislative_observatory": {
+      "type": "object",
+      "properties": {
+        "key_players": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "committee_name": {
+                "type": "string"
+              },
+              "committee_type": {
+                "type": "string",
+                "values": [
+                  "Primary",
+                  "Opinion"
+                ]
+              },
+              "rapporteur": {
+                "type": "string",
+                "description": "re-order & fix casing from LASTNAME Firstname to Firstname Lastname. Skip shadow rapporteurs"
+              }
+            }
+          }
+        },
+        "council_configuration": {
+          "type": "string"
+        },
+        "meeting_date": {
+          "type": "string",
+          "format": "date",
+          "description": "use standard ISO (YYYY-MM-DD) format"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "for the legislative observatory, specifically"
+        }
+      }
+    }
+  }
+}

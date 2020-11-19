@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Puerto Rico doc schema",
+  "description": "Import schema for Puerto Rican Bills",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bill_id",
+    "session",
+    "source_url",
+    "bill_type"
+  ],
+  "properties": {
+    "bill_id": {
+      "description": "REQUIRED, unique (per session) external identifier (Num. Medida)",
+      "type": "string",
+      "minLength": 1
+    },
+    "government_bill_id": {
+      "description": "government bill id (Num. de Fortaleza)",
+      "type": "string",
+      "minLength": 1
+    },
+    "session": {
+      "description": "REQUIRED, the session (cuatrenio) of the bill",
+      "type": "string",
+      "minLength": 1
+    },
+    "companion_bill_id": {
+      "description": "companion bill id (Equiv)",
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "description": "the title for the puerto rico bill (Titulo)",
+      "type": "string",
+      "minLength": 1
+    },
+    "bill_type": {
+      "type": "string",
+      "description": "Tipo, required",
+      "values": [
+        "Resolution",
+        "Concurrent Resolution",
+        "Joint Resolution",
+        "Reorganization Plan",
+        "Bill"
+      ]
+    },
+    "sponsors": {
+      "description": "authors for the bill (Autores)",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "description": "REQUIRED, name of the sponsor",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "actions": {
+      "description": "list of actions",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "action_text": {
+            "description": "Action taken (for example: 'Se retira 1er Informa')",
+            "type": "string",
+            "minLength": 1
+          },
+          "action_date": {
+            "description": "Date of the associated action",
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "documents": {
+      "description": "list of documents",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "document_id": {
+            "description": "the document id",
+            "type": "integer"
+          },
+          "download_id": {
+            "description": "the download id",
+            "type": "integer"
+          },
+          "document_title": {
+            "description": "Document Title (for example: 'Radicaldo')",
+            "type": "string",
+            "minLength": 1
+          },
+          "document_date": {
+            "description": "Date of the associated document",
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "source_url": {
+      " description": "URL from which the bill information was scraped",
+      "type": "string",
+      "format": "url"
+    }
+  }
+}

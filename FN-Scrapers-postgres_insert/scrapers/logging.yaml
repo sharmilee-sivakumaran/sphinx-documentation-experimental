@@ -1,0 +1,45 @@
+---
+version: 1
+disable_existing_loggers: false
+
+handlers:
+    stdout:
+        class: logging.StreamHandler
+        formatter: standard
+        stream: ext://sys.stdout
+        filters: [scheduled_scraper_filter]
+
+    elk:
+        class: fn_logging.handler.FnLoggingHandler
+
+filters:
+    # This filter prevents message of less than ERROR level from being
+    # logged to STDOUT if the scraper is running as part of a schedule.
+    # If its running some other way, such as from the command line,
+    # then nothing will be filtered out.
+    scheduled_scraper_filter:
+        (): fn_scrapers.internal.log_filter.ScheduledScraperFilter
+        level: ERROR
+
+formatters:
+    standard:
+        format: "%(asctime)s %(levelname)-8s %(name)s: %(message)s"
+
+loggers:
+    "":
+        level: INFO
+        handlers:
+            - stdout
+            - elk
+
+    fn_service:
+        level: WARNING
+
+    fn_rabbit:
+        level: WARNING
+
+    pika:
+        level: WARNING
+
+    boto:
+        level: WARNING

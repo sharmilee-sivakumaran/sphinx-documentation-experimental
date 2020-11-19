@@ -1,0 +1,46 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:2.7.14
+    environment:
+      TZ: "/usr/share/zoneinfo/America/New_York"
+
+    working_directory: ~/FN-Scrapers
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "scrapers/requirements.txt" }}-{{ checksum "scrapers/requirements_mssql.txt" }}-{{ checksum "scrapers/requirements-test.txt" }}
+            - v1-dependencies-
+
+      - run:
+          name: Installing dependencies
+          environment:
+            PKG_VERSION: git
+          command: |
+            mkdir venv && virtualenv venv
+            source venv/bin/activate
+            pip install -U pip wheel setuptools
+            cd scrapers
+            pip install --exists-action=s --no-deps -r requirements.txt
+            pip install --exists-action=s --no-deps -r requirements-test.txt
+            sudo apt-get install freetds-bin freetds-common freetds-dev
+            pip install Cython==0.27.3
+            pip install --exists-action=s --no-deps -r requirements_mssql.txt
+            pip install -e .
+
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "scrapers/requirements.txt" }}-{{ checksum "scrapers/requirements_mssql.txt" }}-{{ checksum "scrapers/requirements-test.txt" }}
+
+      - run:
+          name: Running tests
+          working_directory: ~/FN-Scrapers/scrapers
+          command: |
+            cp sample-config.yaml config.yaml
+            cp sample-ratelimiter-config.json ratelimiter-config.json
+            source ~/FN-Scrapers/venv/bin/activate
+            pytest
+            python -m fn_scrapers scraper list

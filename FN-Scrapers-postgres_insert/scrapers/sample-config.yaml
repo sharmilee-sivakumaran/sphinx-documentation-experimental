@@ -1,0 +1,43 @@
+---
+app:
+    global:
+        # Only worry about setting this up if you plan on running
+        # the scraper scheduler. If you don't, don't worry about this.
+        scraper_db:
+            dbname: scrapers
+            host: SCRAPER_DB_HOST
+            port: 5432
+            username: SCRAPER_DB_USERNAME
+            base64_password: SCRAPER_DB_BASE64_PASSWORD
+
+        doc_service_url: http://fn-document-service-d01:8080
+        doc_service_timeout: 1800
+
+        metadata_url: http://fn-pillar-data-access-d01:8080/locality_metadata
+        metadata_timeout: 300
+
+    scraperutils:
+        file_upload_bucket:
+            s3_endpoint: s3.amazonaws.com
+            s3_bucket: fn-document-service-dev
+        aws:
+            access_key: ACCESS_KEY
+            base64_secret_access_key: BASE64_SECRET_ACCESS_KEY
+        scraperutils:
+            tempdir: /tmp/
+            disable_s3_upload: false
+        thrift:
+            data_access_host: "http://fn-pillar-data-access-d01.dev.fiscalnote.com:8080/locality_metadata"
+            doc_service_host: "http://fn-document-service-d01.dev.fiscalnote.com:8080"
+
+    scrapers:
+        NYBillScraper:
+            api_key: NY_API_KEY
+
+server:
+    options:
+        disable_rmq: true
+
+    logging:
+        default_log_level: info
+        component_name: fnscraper

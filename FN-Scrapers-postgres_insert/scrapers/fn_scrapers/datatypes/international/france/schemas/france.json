@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "France legislation schema",
+  "description": "Import schema for France Bills",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bill_id",
+    "bill_type",
+    "title",
+    "source_url"
+  ],
+  "properties": {
+    "bill_id": {
+      "type": "string"
+    },
+    "bill_type": {
+      "type": "string",
+      "enum": [
+        "Proposition de loi",
+        "Projet de loi"
+      ],
+      "description": "extracted from the first sentence of the description. Skip other types"
+    },
+    "title": {
+      "type": "string",
+      "description": "REQUIRED, 'short_title' on the INT-15 and INT-70"
+    },
+    "introduction_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source_url": {
+      "type": "string",
+      "description": "REQUIRED - link to the bill page"
+    },
+    "session": {
+      "type": "string"
+    },
+    "sponsors": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "description": "Remove honorifics [like 'MM.', 'MMe.', 'M.'",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "documents": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "document_id"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "document_id": {
+            "type": "integer"
+          },
+          "download_id": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "stages": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "chamber_of_origin": {
+      "type": "string",
+      "enum": [
+        "Senat",
+        "Assemblee nationale"
+      ],
+      "description": "chamber of origin of the bill, not necessarily where it was scraped from"
+    },
+    "description": {
+      "type": "string"
+    },
+    "other_chamber_source_url": {
+      "type": "string"
+    },
+    "scrape_source": {
+      "type": "string",
+      "enum": [
+        "Senat",
+        "Assemblee nationale"
+      ],
+      "description": "Source of the scraper - if this is the Senat or Assemblee scraper. Independent of the bill"
+    },
+    "long_title": {
+      "type": "string"
+    }
+  }
+}

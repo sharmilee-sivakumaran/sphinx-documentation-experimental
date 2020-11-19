@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "peru_legislation",
+  "description": "Import of Peruvian Legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "session",
+    "bill_id",
+    "source_url"
+  ],
+  "properties": {
+    "session": {
+      "description": "periodo",
+      "type": "string"
+    },
+    "bill_id": {
+      "description": "numero",
+      "type": "string"
+    },
+    "status": {
+      "description": "estado",
+      "type": "string"
+    },
+    "title": {
+      "description": "Convert Title To Capital Case FROM UPPER CASE",
+      "type": "string"
+    },
+    "legislature": {
+      "description": "legislatura",
+      "type": "string"
+    },
+    "introduction_date": {
+      "description": "fecha de presentacion",
+      "type": "string",
+      "format": "date"
+    },
+    "proponent": {
+      "description": "proponente",
+      "type": "string"
+    },
+    "parliamentary_group": {
+      "description": "grupo parlimentario",
+      "type": "string"
+    },
+    "description": {
+      "description": "sumilla",
+      "type": "string"
+    },
+    "sponsors": {
+      "description": "autores",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "actions": {
+      "descriptions": "seguimiento",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "action",
+          "action_date"
+        ],
+        "properties": {
+          "action": {
+            "type": "string"
+          },
+          "action_date": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "document_id": {
+      "type": "integer"
+    },
+    "download_id": {
+      "type": "integer"
+    },
+    "source_url": {
+      "type": "string"
+    }
+  }
+}

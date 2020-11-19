@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "name": {
+      "description": "REQUIRED, name of sponsor",
+      "type": "string",
+      "minLength": 1
+    },
+    "association": {
+      "description": "REQUIRED, associations of the sponsor (departments, political parties, etc)",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

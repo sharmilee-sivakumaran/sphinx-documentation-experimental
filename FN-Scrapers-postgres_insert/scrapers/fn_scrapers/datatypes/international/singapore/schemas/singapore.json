@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Singapore legislation schema",
+  "description": "Import schema for Singapore legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bill_number"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the bill"
+    },
+    "bill_number": {
+      "type": "string",
+      "description": "REQUIRED, bill number of the bill"
+    },
+    "introduction_date": {
+      "description": "date the bill was introduced",
+      "type": "string",
+      "format": "date"
+    },
+    "date_of_second_reading": {
+      "description": "date the bill was seconded",
+      "type": "string",
+      "format": "date"
+    },
+    "date_of_passage": {
+      "description": "date the bill was passed",
+      "type": "string",
+      "format": "date"
+    },
+    "document_id": {
+      "type": "integer",
+      "description": "ID of the document, from the document service. May include HTML. may be long"
+    },
+    "download_id": {
+      "type": "integer",
+      "description": "download_id, from the document service"
+    }
+  }
+}

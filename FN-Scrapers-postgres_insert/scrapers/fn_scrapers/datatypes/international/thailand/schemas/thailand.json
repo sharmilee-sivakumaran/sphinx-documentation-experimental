@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Thailand_legislation",
+  "description": "Import of Thai Legislation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "sponsor",
+    "bill_id"
+  ],
+  "properties": {
+    "bill_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sponsor": {
+      "type": "string"
+    },
+    "current_status": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL for the bill detail page; skip if only a document"
+    },
+    "documents": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "title": "thailand document schema",
+        "required": [
+          "document_id",
+          "download_id",
+          "document_title"
+        ],
+        "properties": {
+          "document_id": {
+            "type": "integer"
+          },
+          "download_id": {
+            "type": "integer"
+          },
+          "document_title": {
+            "type": "string"
+          },
+          "publication_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Document Date, where applicable"
+          }
+        }
+      }
+    }
+  }
+}

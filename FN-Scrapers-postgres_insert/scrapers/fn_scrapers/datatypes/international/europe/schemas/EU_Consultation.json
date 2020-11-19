@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "EU Commission consultation schema",
+  "description": "EU Commission consultation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "consultation_start_date"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "policy_area": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "consultation_start_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "consultation_end_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "consultation_page_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "department": {
+      "type": "string"
+    },
+    "target_group": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "contact_party": {
+      "type": "string"
+    }
+  }
+}

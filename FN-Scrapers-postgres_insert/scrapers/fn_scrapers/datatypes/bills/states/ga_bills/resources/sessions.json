@@ -1,0 +1,86 @@
+[
+    {
+        "IsDefault": true,
+        "Id": 25,
+        "Description": "2017-2018 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20172018/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 24,
+        "Description": "2015-2016 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20152016/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 23,
+        "Description": "2013-2014 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20132014/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 21,
+        "Description": "2011-2012 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20112012/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 22,
+        "Description": "2011 Special Session",
+        "Library": "http://www.legis.ga.gov/Legislation/2011EX1/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 20,
+        "Description": "2009-2010 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20092010/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 18,
+        "Description": "2007-2008 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20072008/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 14,
+        "Description": "2005-2006 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20052006/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 15,
+        "Description": "2005 Special Session",
+        "Library": "http://www.legis.ga.gov/Legislation/2005EX1/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 13,
+        "Description": "2004 Special Session",
+        "Library": "http://www.legis.ga.gov/Legislation/2004EX1/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 11,
+        "Description": "2003-2004 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20032004/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 1,
+        "Description": "2001-2002 Regular Session",
+        "Library": "http://www.legis.ga.gov/Legislation/20012002/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 6,
+        "Description": "2001 1st Special Session",
+        "Library": "http://www.legis.ga.gov/Legislation/2001EX1/"
+    },
+    {
+        "IsDefault": false,
+        "Id": 7,
+        "Description": "2001 2nd Special Session",
+        "Library": "http://www.legis.ga.gov/Legislation/2001EX2/"
+    }
+]
