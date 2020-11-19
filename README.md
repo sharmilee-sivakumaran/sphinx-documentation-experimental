@@ -11,3 +11,6 @@ Experimental repo for trying out auto doc [it is actually semi-auto] using sphin
 4. After making changes to say, index.rst -> run `make clean` and then `make html`.
 5. Open up the local static page from here -> `build/html/index.html`.
 
+Output so far [not been able to get the documentation to display, could display only the module list]:
+
+![Screenshot](https://fiscalnote.slack.com/archives/DGEHL7X18/p1605817725005400)
